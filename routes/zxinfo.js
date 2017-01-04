@@ -28,6 +28,27 @@ var searchGame = function(query, page_size, offset) {
     });
 }
 
+var getAllGames = function(page_size, offset) {
+    return elasticClient.search({
+        "index": es_index,
+        "type": es_index_type,
+        "body": {
+            "size": page_size,
+            "from": offset * page_size,
+            "query": {
+              "match_all": {}
+            },
+            "sort": [
+                {
+                    "_uid": {
+                        "order": "asc"
+                    }
+                }
+            ]
+        }
+    });
+}
+
 var getGameById = function(gameid) {
     return elasticClient.get({
         "index": es_index,
@@ -182,6 +203,15 @@ router.use(function(req, res, next) {
 router.get('/games/search/:query', function(req, res, next) {
     searchGame(req.params.query, req.query.size, req.query.offset).then(function(result) {
         res.header("X-Total-Count", result.hits.total);
+        res.send(result);
+    });
+});
+
+/**
+    Return all games sorted by gameid (WOSId)
+*/
+router.get('/games', function(req, res, next) {
+    getAllGames(req.query.size, req.query.offset).then(function(result) {
         res.send(result);
     });
 });
