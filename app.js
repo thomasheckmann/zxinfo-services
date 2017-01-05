@@ -18,6 +18,7 @@ if (process.env.NODE_ENV === undefined) {
   process.exit(0);
 }
 
+console.log('running in mode: ' + process.env.NODE_ENV);
 var config = require('./config.json')[process.env.NODE_ENV || 'development'];
 
 // view engine setup
@@ -45,6 +46,18 @@ app.use(function(req, res, next) {
 });
 
 // error handlers
+
+// container error handler
+// will print stacktrace
+if (app.get('env') === 'container') {
+  app.use(function(err, req, res, next) {
+    res.status(err.status || 500);
+    res.render('error', {
+      message: err.message,
+      error: err
+    });
+  });
+}
 
 // development error handler
 // will print stacktrace

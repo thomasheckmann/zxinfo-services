@@ -1,6 +1,6 @@
 {
         "container": {
-                        "es_host"     : "http://escontainer:9200",
+                        "es_host"     : "http://zxinfo-es:9200",
                         "zxinfo_index": "zxinfo_games",
                         "zxinfo_type" : "zxinfo_games",
                         "log"         : "info"
