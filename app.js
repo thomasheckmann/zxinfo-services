@@ -6,7 +6,6 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
-var users = require('./routes/users');
 
 var zxinfo = require('./routes/zxinfo');
 var cors = require('cors');
@@ -15,9 +14,11 @@ var app = express();
 app.use(cors());
 
 if (process.env.NODE_ENV === undefined) {
-  console.log("NODE_ENV not defined, must be 'local' or 'production'");
+  console.log("NODE_ENV not defined, must be 'development' or 'production'");
   process.exit(0);
 }
+
+var config = require('./config.json')[process.env.NODE_ENV || 'development'];
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -34,7 +35,6 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
-app.use('/users', users);
 app.use('/api/zxinfo', zxinfo);
 
 // catch 404 and forward to error handler
@@ -49,6 +49,7 @@ app.use(function(req, res, next) {
 // development error handler
 // will print stacktrace
 if (app.get('env') === 'development') {
+  console.log('running in DEVELOPMENT mode');
   app.use(function(err, req, res, next) {
     res.status(err.status || 500);
     res.render('error', {

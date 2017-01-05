@@ -1,15 +1,16 @@
+var config = require('../config.json')[process.env.NODE_ENV || 'development'];
 var express = require('express');
 var router = express.Router();
 
 var elasticsearch = require('elasticsearch');
 
 var elasticClient = new elasticsearch.Client({
-    host: 'search.kolbeck.dk',
-    log: 'info'
+    host: config.es_host,
+    log: config.log
 });
 
-var es_index = "zxinfo_games";
-var es_index_type = "zxinfo_games";
+var es_index = config.zxinfo_index;
+var es_index_type = config.zxinfo_type;
 
 var searchGame = function(query, page_size, offset) {
     return elasticClient.search({

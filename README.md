@@ -16,7 +16,10 @@ To install perform npm install
 To start the server execute the start.sh script
 
 ````
-> NODE_ENV=local ./start.sh
+> NODE_ENV=development ./start.sh
 ````
 
 And point your browser to http://localhost:3000/api/zxinfo/games/0002259
+
+# Environment configuration
+Check config.json for configuration options.
