@@ -1,4 +1,10 @@
 {
+        "container": {
+                        "es_host"     : "http://escontainer:9200",
+                        "zxinfo_index": "zxinfo_games",
+                        "zxinfo_type" : "zxinfo_games",
+                        "log"         : "info"
+        },
         "development": {
                         "es_host"     : "http://localhost:9200",
                         "zxinfo_index": "zxinfo_games",

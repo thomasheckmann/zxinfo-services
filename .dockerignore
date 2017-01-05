@@ -1,0 +1,8 @@
+.DS_Store
+*/.DS_Store
+.gitignore
+*/.gitignore
+node_modules/*
+*.log
+start.sh
+
