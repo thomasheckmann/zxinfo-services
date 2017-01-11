@@ -12,6 +12,43 @@ var elasticClient = new elasticsearch.Client({
 var es_index = config.zxinfo_index;
 var es_index_type = config.zxinfo_type;
 
+var getLoadingScreens = function(page_size, offset) {
+    return elasticClient.search({
+        "index": es_index,
+        "type": es_index_type,
+        "body": {
+            "size": page_size,
+            "from": offset * page_size,
+              "query": {
+    "bool": {
+      "must": [
+        {
+          "nested": {
+            "path": "additionals",
+            "query": {
+              "bool": {
+                "must": [
+                  { "match": { "additionals.type": "Loading screen" }}
+                ]
+              }
+            }
+          }
+        },{ "match": { "type": "Arcade" }}
+      ]
+    }
+  },
+  "sort": [
+    {
+      "fulltitle": {
+        "order": "asc"
+      }
+    }
+  ]
+
+        }
+    });
+}
+
 var searchGame = function(query, page_size, offset) {
     return elasticClient.search({
         "index": es_index,
@@ -249,6 +286,13 @@ router.get('/publishers/:name/games/:title', function(req, res, next) {
     getGameByPublisherAndName(req.params.name, req.params.title).then(function(result) {
         // TODO: 404 - not found
         res.send(result.hits.hits[0]);
+    });
+});
+
+router.get('/screens/loading', function(req, res, next) {
+    getLoadingScreens(req.query.size, req.query.offset).then(function(result) {
+        // TODO: 404 - not found
+        res.send(result);
     });
 });
 
