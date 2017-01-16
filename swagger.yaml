@@ -1,0 +1,177 @@
+swagger: '2.0'
+info:
+  version: "1.0.1"
+  title: ZXInfo API
+  description: |
+    This is an API for the ZXInfo search engine based on elasticsearch.
+    
+    **History**:
+    
+    v1.0.1:
+    
+    Added /games
+    
+    Added /screens/loading
+    
+  contact:
+    name: ZXInfo API development
+    email: zxinfo_dev@klaptorsk.dk
+    url: http://incubator.kolbeck.dk
+host: incubator.kolbeck.dk
+basePath: /api/zxinfo
+tags:
+- name: "zxgame"
+  description: "Everything about ZX Sinclair Spectrum games"
+  externalDocs:
+    description: "Find out more"
+    url: "http://incubator.kolbeck.dk/sinclairsite"
+schemes:
+  - http
+consumes:
+  - application/json
+produces:
+  - application/json
+parameters:
+  game-id:
+    name: game-id
+    in: path
+    description: The game identifier number
+    type: string
+    required: true
+    
+paths:
+  /games:
+    get:
+      summary: Get all games
+      tags:
+      - "zxgame"
+      description: |
+        Get list of all games in the database sorted by game-id. Optional specify a specific game type.
+      parameters:
+        - name: "types"
+          in: "query"
+          description: "Optional list of game types for server side filtering"
+          required: false
+          type: "string"
+          format: "type1+type2+..."
+      responses:
+        # Response code
+        200:
+          description: |
+            An array of games. Adds *X-Total-Count* to reponse header.
+
+  /games/{game-id}:
+    get:
+      summary: Get game info
+      tags:
+      - "zxgame"
+      description: |
+        Get detailed information about a game. The {game-id} is the same as the {id} used on WOS, e.g. [id=0002259](www.worldofspectrum.org/infoseekid.cgi?id=0002259)
+      parameters:
+        - $ref: '#/parameters/game-id'
+        - name: x-api-key
+          in: header
+          description: API key for access
+          required: false
+          type: string
+      responses:
+        # Response code
+        200:
+          description: JSON document with details
+
+  /games/search/{query-string}:
+    get:
+      summary: Search for games
+      description: |
+        Search the ZXInfo database for {query-string}.
+        Matches {query-string} against the following fields in the database:
+        * fulltitle (double as important then the rest)
+        * alsoknownas
+        * featuretitle
+        * devicename
+        * publisher.name (double as important than the rest)
+        * manufacturer
+      tags:
+      - "zxgame"
+      parameters:
+        - name: query-string
+          in: path
+          description: Specifies the string to search for
+          required: true
+          type: string
+        - name: size
+          in: query
+          description: Specifies the page size for pagination
+          required: false
+          type: integer
+        - name: offset
+          in: query
+          description: Specifies the page offset for pagination
+          required: false
+          type: integer
+      responses:
+        # Response code
+        200:
+          description: |
+            An array of games. Adds *X-Total-Count* to reponse header.
+
+  /publishers/{publisher-name}/games/{game-id}:
+    get:
+      summary: Get game info for publisher
+      description: |
+        Get detailed information about a game for a specific publisher. 
+      tags:
+      - "zxgame"
+      parameters:
+        - $ref: '#/parameters/game-id'
+        - name: publisher-name
+          in: path
+          description: Specifies name of publisher to lookup
+          required: true
+          type: string
+      responses:
+        # Response code
+        200:
+          description: JSON document with details
+
+  /publishers/{publisher-name}/games:
+    get:
+      summary: Search for games by publisher
+      description: |
+        List games by publisher. 
+      tags:
+      - "zxgame"
+      parameters:
+        - name: publisher-name
+          in: path
+          description: Specifies name of publisher to lookup
+          required: true
+          type: string
+        - name: size
+          in: query
+          description: Specifies the page size for pagination
+          required: false
+          type: integer
+        - name: offset
+          in: query
+          description: Specifies the page offset for pagination
+          required: false
+          type: integer
+      responses:
+        # Response code
+        200:
+          description: |
+            An array of games. Adds *X-Total-Count* to reponse header.
+
+  /screens/loading:
+    get:
+      summary: Get all screenshots
+      description: |
+        Get list of screenshots. Experimental, only looks for loading screenshots for Arcade games. 
+      tags:
+      - "zxgame"
+      responses:
+        # Response code
+        200:
+          description: |
+            An array of games. Adds *X-Total-Count* to reponse header.

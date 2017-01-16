@@ -87,6 +87,38 @@ var getAllGames = function(page_size, offset) {
     });
 }
 
+var getAllGamesByTypes = function(gametypes, page_size, offset) {
+    return elasticClient.search({
+        "index": es_index,
+        "type": es_index_type,
+        "body": {
+            "size": page_size,
+            "from": offset * page_size,
+            "query": {
+              "match_all": {}
+            },
+            "filter": {
+                  "bool": {
+                     "should": [
+                        {
+                           "match": {
+                              "type": gametypes
+                           }
+                        }
+                     ]
+                  }
+               },
+            "sort": [
+                {
+                    "fulltitle.raw": {
+                                "order": "asc"
+                             }
+                }
+            ]
+        }
+    });
+}
+
 var getGameById = function(gameid) {
     return elasticClient.get({
         "index": es_index,
@@ -249,9 +281,17 @@ router.get('/games/search/:query', function(req, res, next) {
     Return all games sorted by gameid (WOSId)
 */
 router.get('/games', function(req, res, next) {
-    getAllGames(req.query.size, req.query.offset).then(function(result) {
-        res.send(result);
-    });
+    if(req.query.types !== undefined) {
+        getAllGamesByTypes(req.query.types, req.query.size, req.query.offset).then(function(result) {
+            res.header("X-Total-Count", result.hits.total);
+            res.send(result);
+        });
+    } else {
+        getAllGames(req.query.size, req.query.offset).then(function(result) {
+            res.header("X-Total-Count", result.hits.total);
+            res.send(result);
+        });
+    }
 });
 
 /**
@@ -284,14 +324,13 @@ router.get('/publishers/:name/games', function(req, res, next) {
 */
 router.get('/publishers/:name/games/:title', function(req, res, next) {
     getGameByPublisherAndName(req.params.name, req.params.title).then(function(result) {
-        // TODO: 404 - not found
         res.send(result.hits.hits[0]);
     });
 });
 
 router.get('/screens/loading', function(req, res, next) {
     getLoadingScreens(req.query.size, req.query.offset).then(function(result) {
-        // TODO: 404 - not found
+        res.header("X-Total-Count", result.hits.total);
         res.send(result);
     });
 });
