@@ -21,6 +21,15 @@ To start the server execute the start.sh script
 
 And point your browser to http://localhost:3000/api/zxinfo/games/0002259
 
+## Note on 'nodemon'
+As config file is generated on app startup, use the following for starting nodemon:
+
+For backend development, start the zxinfo-services with:
+
+````
+NODE_ENV=development PORT=8300 nodemon --ignore public/javascripts/config.js
+````
+
 # Environment configuration
 Check config.json for configuration options.
 NOTE the container section (should be used if running containers only)
