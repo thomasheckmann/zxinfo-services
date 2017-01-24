@@ -63,3 +63,8 @@ Copy zx-info-services.tar to server, and then restore on server
 ````
 > docker load --input zx-into-services.tar
 ````
+
+# Changelog
+## 01-2017
+* Added alpine build for Docker
+* Upgraded nodeJS to v7.4.0

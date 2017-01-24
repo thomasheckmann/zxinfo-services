@@ -1,4 +1,4 @@
-FROM node:6.2.2
+FROM node:7.4.0
 
 
 
