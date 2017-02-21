@@ -119,6 +119,38 @@ var getAllGamesByTypes = function(gametypes, page_size, offset) {
     });
 }
 
+var getAllGamesByMachines = function(machinetypes, page_size, offset) {
+    return elasticClient.search({
+        "index": es_index,
+        "type": es_index_type,
+        "body": {
+            "size": page_size,
+            "from": offset * page_size,
+            "query": {
+              "match_all": {}
+            },
+            "filter": {
+                  "bool": {
+                     "should": [
+                        {
+                           "match": {
+                              "machinetype": machinetypes
+                           }
+                        }
+                     ]
+                  }
+               },
+            "sort": [
+                {
+                    "fulltitle.raw": {
+                                "order": "asc"
+                             }
+                }
+            ]
+        }
+    });
+}
+
 var getGameById = function(gameid) {
     return elasticClient.get({
         "index": es_index,
@@ -235,7 +267,7 @@ var getGameByPublisherAndName = function(name, title) {
                 "filtered": {
                     "query": {
                         "match": {
-                            "fulltitle": title
+                            "fulltitle.raw": title
                         }
                     },
                     "filter": {
@@ -283,6 +315,11 @@ router.get('/games/search/:query', function(req, res, next) {
 router.get('/games', function(req, res, next) {
     if(req.query.types !== undefined) {
         getAllGamesByTypes(req.query.types, req.query.size, req.query.offset).then(function(result) {
+            res.header("X-Total-Count", result.hits.total);
+            res.send(result);
+        });
+    } else if (req.query.machines !== undefined) {
+        getAllGamesByMachines(req.query.machines, req.query.size, req.query.offset).then(function(result) {
             res.header("X-Total-Count", result.hits.total);
             res.send(result);
         });
