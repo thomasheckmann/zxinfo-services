@@ -12,48 +12,10 @@ var elasticClient = new elasticsearch.Client({
 var es_index = config.zxinfo_index;
 var es_index_type = config.zxinfo_type;
 
-var getLoadingScreens = function(page_size, offset) {
-    return elasticClient.search({
-        "index": es_index,
-        "type": es_index_type,
-        "body": {
-            "size": page_size,
-            "from": offset * page_size,
-              "query": {
-    "bool": {
-      "must": [
-        {
-          "nested": {
-            "path": "additionals",
-            "query": {
-              "bool": {
-                "must": [
-                  { "match": { "additionals.type": "Loading screen" }}
-                ]
-              }
-            }
-          }
-        },{ "match": { "type": "Arcade" }}
-      ]
-    }
-  },
-  "sort": [
-    {
-      "fulltitle": {
-        "order": "asc"
-      }
-    }
-  ]
-
-        }
-    });
-}
-
-
 /**
 
-    "fields": ["fulltitle^2", "alsoknownas", "featuretitle", "devicename", "publisher.name^2", "manufacturer"]
-
+    search for games
+    matches against: fulltitle, alsoknown as and rereleased as title
 */
 var searchGame = function(query, page_size, offset) {
     return elasticClient.search({
@@ -62,35 +24,32 @@ var searchGame = function(query, page_size, offset) {
         "body": {
             "size": page_size,
             "from": offset * page_size,
-   "query": {
-      "bool": {
-         "should": [
-            {
-               "multi_match": {
-                  "query": query,
-                  "fields": [
-                     "fulltitle",
-                     "alsoknownas"
-                  ]
-               }
-            },
-            {
-               "nested": {
-                  "path": "rereleasedby",
-                  "query": {
-                     "bool": {
-                        "must": {
-                           "match": {
-                              "rereleasedby.as_title": query
-                           }
+            "query": {
+                "bool": {
+                    "should": [{
+                        "multi_match": {
+                            "query": query,
+                            "fields": [
+                                "fulltitle",
+                                "alsoknownas"
+                            ]
                         }
-                     }
-                  }
-               }
+                    }, {
+                        "nested": {
+                            "path": "rereleasedby",
+                            "query": {
+                                "bool": {
+                                    "must": {
+                                        "match": {
+                                            "rereleasedby.as_title": query
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }]
+                }
             }
-         ]
-      }
-   }
         }
     });
 }
@@ -103,15 +62,13 @@ var getAllGames = function(page_size, offset) {
             "size": page_size,
             "from": offset * page_size,
             "query": {
-              "match_all": {}
+                "match_all": {}
             },
-            "sort": [
-                {
-                    "_uid": {
-                        "order": "asc"
-                    }
+            "sort": [{
+                "_uid": {
+                    "order": "asc"
                 }
-            ]
+            }]
         }
     });
 }
@@ -124,26 +81,22 @@ var getAllGamesByTypes = function(gametypes, page_size, offset) {
             "size": page_size,
             "from": offset * page_size,
             "query": {
-              "match_all": {}
+                "match_all": {}
             },
             "filter": {
-                  "bool": {
-                     "should": [
-                        {
-                           "match": {
-                              "type": gametypes
-                           }
+                "bool": {
+                    "should": [{
+                        "match": {
+                            "type": gametypes
                         }
-                     ]
-                  }
-               },
-            "sort": [
-                {
-                    "fulltitle.raw": {
-                                "order": "asc"
-                             }
+                    }]
                 }
-            ]
+            },
+            "sort": [{
+                "fulltitle.raw": {
+                    "order": "asc"
+                }
+            }]
         }
     });
 }
@@ -156,26 +109,22 @@ var getAllGamesByMachines = function(machinetypes, page_size, offset) {
             "size": page_size,
             "from": offset * page_size,
             "query": {
-              "match_all": {}
+                "match_all": {}
             },
             "filter": {
-                  "bool": {
-                     "should": [
-                        {
-                           "match": {
-                              "machinetype": machinetypes
-                           }
+                "bool": {
+                    "should": [{
+                        "match": {
+                            "machinetype": machinetypes
                         }
-                     ]
-                  }
-               },
-            "sort": [
-                {
-                    "fulltitle.raw": {
-                                "order": "asc"
-                             }
+                    }]
                 }
-            ]
+            },
+            "sort": [{
+                "fulltitle.raw": {
+                    "order": "asc"
+                }
+            }]
         }
     });
 }
@@ -267,8 +216,7 @@ var getGamesByPublisher = function(name, page_size, offset) {
                                         }
                                     }
                                 }
-                            }
-                            ]
+                            }]
                         }
                     }
                 }
@@ -331,9 +279,9 @@ router.use(function(req, res, next) {
 /**
     Return a list of games matching :query
     The following fields are queried:
-    * fulltitle (double as important then the rest)
+    * fulltitle
     * alsoknownas
-    * publisher.name (double as important than the rest)
+    * re-released as title
 
 */
 router.get('/games/search/:query', function(req, res, next) {
@@ -347,7 +295,7 @@ router.get('/games/search/:query', function(req, res, next) {
     Return all games sorted by gameid (WOSId)
 */
 router.get('/games', function(req, res, next) {
-    if(req.query.types !== undefined) {
+    if (req.query.types !== undefined) {
         getAllGamesByTypes(req.query.types, req.query.size, req.query.offset).then(function(result) {
             res.header("X-Total-Count", result.hits.total);
             res.send(result);
@@ -396,13 +344,6 @@ router.get('/publishers/:name/games', function(req, res, next) {
 router.get('/publishers/:name/games/:title', function(req, res, next) {
     getGameByPublisherAndName(req.params.name, req.params.title).then(function(result) {
         res.send(result.hits.hits[0]);
-    });
-});
-
-router.get('/screens/loading', function(req, res, next) {
-    getLoadingScreens(req.query.size, req.query.offset).then(function(result) {
-        res.header("X-Total-Count", result.hits.total);
-        res.send(result);
     });
 });
 

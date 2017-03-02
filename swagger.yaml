@@ -90,10 +90,10 @@ paths:
       summary: Search for games
       description: |
         Search the ZXInfo database for {query-string}.
-        Matches {query-string} against the following fields in the database:
-        * fulltitle (double as important then the rest)
+        Matches {query-string} against the following fields in index:
+        * fulltitle
         * alsoknownas
-        * publisher.name (double as important than the rest)
+        * re-released as title
       tags:
       - "zxgame"
       parameters:
@@ -164,19 +164,6 @@ paths:
           description: Specifies the page offset for pagination
           required: false
           type: integer
-      responses:
-        # Response code
-        200:
-          description: |
-            An array of games. Adds *X-Total-Count* to reponse header.
-
-  /screens/loading:
-    get:
-      summary: Get all screenshots
-      description: |
-        Get list of screenshots. Experimental, only looks for loading screenshots for Arcade games. 
-      tags:
-      - "zxgame"
       responses:
         # Response code
         200:
