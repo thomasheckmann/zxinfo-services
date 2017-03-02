@@ -65,6 +65,9 @@ Copy zx-info-services.tar to server, and then restore on server
 ````
 
 # Changelog
+## 03-2017
+* Improved search for ZXDB structure. Search now queries for fulltitle, alsoknownas, re-released title
+
 ## 01-2017
 * Added alpine build for Docker
 * Upgraded nodeJS to v7.4.0
