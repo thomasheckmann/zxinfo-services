@@ -49,6 +49,12 @@ var getLoadingScreens = function(page_size, offset) {
     });
 }
 
+
+/**
+
+    "fields": ["fulltitle^2", "alsoknownas", "featuretitle", "devicename", "publisher.name^2", "manufacturer"]
+
+*/
 var searchGame = function(query, page_size, offset) {
     return elasticClient.search({
         "index": es_index,
@@ -56,12 +62,35 @@ var searchGame = function(query, page_size, offset) {
         "body": {
             "size": page_size,
             "from": offset * page_size,
-            "query": {
-                "multi_match": {
-                    "query": query,
-                    "fields": ["fulltitle^2", "alsoknownas", "featuretitle", "devicename", "publisher.name^2", "manufacturer"]
-                }
+   "query": {
+      "bool": {
+         "should": [
+            {
+               "multi_match": {
+                  "query": query,
+                  "fields": [
+                     "fulltitle",
+                     "alsoknownas"
+                  ]
+               }
+            },
+            {
+               "nested": {
+                  "path": "rereleasedby",
+                  "query": {
+                     "bool": {
+                        "must": {
+                           "match": {
+                              "rereleasedby.as_title": query
+                           }
+                        }
+                     }
+                  }
+               }
             }
+         ]
+      }
+   }
         }
     });
 }
@@ -300,7 +329,12 @@ router.use(function(req, res, next) {
 });
 
 /**
-    Return a list of games matchig :query
+    Return a list of games matching :query
+    The following fields are queried:
+    * fulltitle (double as important then the rest)
+    * alsoknownas
+    * publisher.name (double as important than the rest)
+
 */
 router.get('/games/search/:query', function(req, res, next) {
     searchGame(req.params.query, req.query.size, req.query.offset).then(function(result) {

@@ -46,7 +46,7 @@ paths:
       tags:
       - "zxgame"
       description: |
-        Get list of all games in the database sorted by game-id. Optional specify a specific game type.
+        Get list of all games in the database sorted by game-id. Optional specify a specific game type or machine type.
       parameters:
         - name: "types"
           in: "query"
@@ -54,6 +54,12 @@ paths:
           required: false
           type: "string"
           format: "type1+type2+..."
+        - name: "machines"
+          in: "query"
+          description: "Optional list of machine types for server side filtering"
+          required: false
+          type: "string"
+          format: "machine1+machine2+..."
       responses:
         # Response code
         200:
@@ -87,10 +93,7 @@ paths:
         Matches {query-string} against the following fields in the database:
         * fulltitle (double as important then the rest)
         * alsoknownas
-        * featuretitle
-        * devicename
         * publisher.name (double as important than the rest)
-        * manufacturer
       tags:
       - "zxgame"
       parameters:
@@ -115,7 +118,7 @@ paths:
           description: |
             An array of games. Adds *X-Total-Count* to reponse header.
 
-  /publishers/{publisher-name}/games/{game-id}:
+  /publishers/{publisher-name}/games/{game-title}:
     get:
       summary: Get game info for publisher
       description: |
@@ -123,7 +126,11 @@ paths:
       tags:
       - "zxgame"
       parameters:
-        - $ref: '#/parameters/game-id'
+        - name: game-title
+          in: path
+          description: Specifies title to lookup
+          required: true
+          type: string
         - name: publisher-name
           in: path
           description: Specifies name of publisher to lookup
