@@ -179,19 +179,6 @@ var getGamesByPublisher = function(name, page_size, offset) {
                                 }
                             }, {
                                 "nested": {
-                                    "path": "modifiedby",
-                                    "query": {
-                                        "bool": {
-                                            "must": [{
-                                                "match": {
-                                                    "modifiedby.name.raw": name
-                                                }
-                                            }]
-                                        }
-                                    }
-                                }
-                            }, {
-                                "nested": {
                                     "path": "authors",
                                     "query": {
                                         "bool": {
