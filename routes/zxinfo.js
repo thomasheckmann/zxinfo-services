@@ -254,6 +254,49 @@ var getGameByPublisherAndName = function(name, title) {
     })
 };
 
+
+var getGamesByGroup = function(groupid, groupname, page_size, offset) {
+    return elasticClient.search({
+        "index": es_index,
+        "type": es_index_type,
+        "body": {
+            "size": page_size,
+            "from": offset * page_size,
+            "query": {
+                "bool": {
+                    "must": [{
+                        "nested": {
+                            "path": "features",
+                            "query": {
+                                "bool": {
+                                    "must": {
+                                        "match": {
+                                            "features.id": groupid
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }, {
+                        "nested": {
+                            "path": "features",
+                            "query": {
+                                "bool": {
+                                    "must": {
+                                        "match": {
+                                            "features.name": groupname
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }]
+                }
+            }
+        }
+    });
+}
+
 // middleware to use for all requests
 router.use(function(req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
@@ -331,6 +374,16 @@ router.get('/publishers/:name/games', function(req, res, next) {
 router.get('/publishers/:name/games/:title', function(req, res, next) {
     getGameByPublisherAndName(req.params.name, req.params.title).then(function(result) {
         res.send(result.hits.hits[0]);
+    });
+});
+
+/**
+    Return games with groupid and groupname
+*/
+router.get('/group/:groupid/:groupname/games', function(req, res, next) {
+    getGamesByGroup(req.params.groupid, req.params.groupname,req.query.size, req.query.offset).then(function(result) {
+        res.header("X-Total-Count", result.hits.total);
+        res.send(result);
     });
 });
 

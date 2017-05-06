@@ -67,6 +67,7 @@ Copy zx-info-services.tar to server, and then restore on server
 # Changelog
 ## 04-2017
 * Fixed 'searchByPubliser' after ES mapping cleanup (modifiedby removed from JSON)
+* Added Group navigation (e.g. get games with Currah Speech)
 
 ## 03-2017
 * Improved search for ZXDB structure. Search now queries for fulltitle, alsoknownas, re-released title
