@@ -73,7 +73,21 @@ var getAllGames = function(page_size, offset) {
     });
 }
 
-var getAllGamesByTypes = function(gametypes, page_size, offset) {
+var getAllGamesByTypes = function(gametypes, gamesubtypes, page_size, offset) {
+    var match = [{
+        "match": {
+            "type": gametypes
+        }
+    }];
+
+    if (gamesubtypes !== undefined) {
+        match.push({
+            "match": {
+                "subtype": gamesubtypes
+            }
+        });
+    }
+
     return elasticClient.search({
         "index": es_index,
         "type": es_index_type,
@@ -85,11 +99,7 @@ var getAllGamesByTypes = function(gametypes, page_size, offset) {
             },
             "filter": {
                 "bool": {
-                    "should": [{
-                        "match": {
-                            "type": gametypes
-                        }
-                    }]
+                    "must": [match]
                 }
             },
             "sort": [{
@@ -113,7 +123,7 @@ var getAllGamesByMachines = function(machinetypes, page_size, offset) {
             },
             "filter": {
                 "bool": {
-                    "should": [{
+                    "must": [{
                         "match": {
                             "machinetype": machinetypes
                         }
@@ -326,7 +336,7 @@ router.get('/games/search/:query', function(req, res, next) {
 */
 router.get('/games', function(req, res, next) {
     if (req.query.types !== undefined) {
-        getAllGamesByTypes(req.query.types, req.query.size, req.query.offset).then(function(result) {
+        getAllGamesByTypes(req.query.types, req.query.subtypes, req.query.size, req.query.offset).then(function(result) {
             res.header("X-Total-Count", result.hits.total);
             res.send(result);
         });
@@ -381,7 +391,7 @@ router.get('/publishers/:name/games/:title', function(req, res, next) {
     Return games with groupid and groupname
 */
 router.get('/group/:groupid/:groupname/games', function(req, res, next) {
-    getGamesByGroup(req.params.groupid, req.params.groupname,req.query.size, req.query.offset).then(function(result) {
+    getGamesByGroup(req.params.groupid, req.params.groupname, req.query.size, req.query.offset).then(function(result) {
         res.header("X-Total-Count", result.hits.total);
         res.send(result);
     });

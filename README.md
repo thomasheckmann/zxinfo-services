@@ -65,6 +65,9 @@ Copy zx-info-services.tar to server, and then restore on server
 ````
 
 # Changelog
+## 05-2017
+* Added search by type & subtype (eg. Adventure/Text-Only)
+
 ## 04-2017
 * Fixed 'searchByPubliser' after ES mapping cleanup (modifiedby removed from JSON)
 * Added Group navigation (e.g. get games with Currah Speech)
