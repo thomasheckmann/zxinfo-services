@@ -1,11 +1,17 @@
 swagger: '2.0'
 info:
-  version: "1.0.1"
+  version: "1.1.0"
   title: ZXInfo API
   description: |
-    This is an API for the ZXInfo search engine based on elasticsearch.
+    This is an API for the ZXInfo search engine based on elasticsearch. See web-site at http://sinclair.kolbeck.dk
     
     **History**:
+    
+    v1.1.0: 05-2017
+    
+    Added /group
+
+    Removed /screens/loading
     
     v1.0.1:
     
@@ -40,6 +46,40 @@ parameters:
     required: true
     
 paths:
+
+  /games/search/{query-string}:
+    get:
+      summary: Search for games
+      description: |
+        Search the ZXInfo database for {query-string}.
+        Matches {query-string} against the following fields in index:
+        * fulltitle
+        * alsoknownas
+        * re-released as title
+      tags:
+      - "zxgame"
+      parameters:
+        - name: query-string
+          in: path
+          description: Specifies the string to search for
+          required: true
+          type: string
+        - name: size
+          in: query
+          description: Specifies the page size for pagination
+          required: false
+          type: integer
+        - name: offset
+          in: query
+          description: Specifies the page offset for pagination
+          required: false
+          type: integer
+      responses:
+        # Response code
+        200:
+          description: |
+            An array of games. Adds *X-Total-Count* to reponse header.
+
   /games:
     get:
       summary: Get all games
@@ -75,7 +115,6 @@ paths:
         Get detailed information about a game. The {game-id} is the same as the {id} used on WOS, e.g. [id=0002259](www.worldofspectrum.org/infoseekid.cgi?id=0002259)
       parameters:
         - $ref: '#/parameters/game-id'
-        - name: x-api-key
           in: header
           description: API key for access
           required: false
@@ -85,21 +124,23 @@ paths:
         200:
           description: JSON document with details
 
-  /games/search/{query-string}:
+  /publishers/{publisher-name}/games:
     get:
-      summary: Search for games
+      summary: Search for games by publisher
       description: |
-        Search the ZXInfo database for {query-string}.
-        Matches {query-string} against the following fields in index:
-        * fulltitle
-        * alsoknownas
-        * re-released as title
+        List games by publisher. Matches {publisher-name} against the following fields in index:
+        * publisher.name
+        * rereleasedby.name
+        * authors.author
+        * authors.group
+        
+        Sorts output by year of release, full title
       tags:
       - "zxgame"
       parameters:
-        - name: query-string
+        - name: publisher-name
           in: path
-          description: Specifies the string to search for
+          description: Specifies name of publisher to lookup
           required: true
           type: string
         - name: size
@@ -120,7 +161,7 @@ paths:
 
   /publishers/{publisher-name}/games/{game-title}:
     get:
-      summary: Get game info for publisher
+      summary: Get info for game by publisher
       description: |
         Get detailed information about a game for a specific publisher. 
       tags:
@@ -140,30 +181,25 @@ paths:
         # Response code
         200:
           description: JSON document with details
-
-  /publishers/{publisher-name}/games:
+          
+  /group/{group-type}/{group-name}/games:
     get:
-      summary: Search for games by publisher
+      summary: Get game list for a group
       description: |
-        List games by publisher. 
+        Search games beloning to a specific group.
       tags:
       - "zxgame"
       parameters:
-        - name: publisher-name
+        - name: group-type
           in: path
-          description: Specifies name of publisher to lookup
+          description: Specifies group type (C,F,M,N,S,T,U) - see ZXDB for documentation
           required: true
           type: string
-        - name: size
-          in: query
-          description: Specifies the page size for pagination
-          required: false
-          type: integer
-        - name: offset
-          in: query
-          description: Specifies the page offset for pagination
-          required: false
-          type: integer
+        - name: group-name
+          in: path
+          description: Specifies name of group
+          required: true
+          type: string
       responses:
         # Response code
         200:
