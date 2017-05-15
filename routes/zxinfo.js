@@ -30,9 +30,10 @@ var searchGame = function(query, page_size, offset) {
                         "multi_match": {
                             "query": query,
                             "fields": [
-                                "fulltitle",
+                                "fulltitle^4",
                                 "alsoknownas"
-                            ]
+                            ],
+                            "boost": 4
                         }
                     }, {
                         "nested": {
@@ -90,7 +91,7 @@ var searchGame = function(query, page_size, offset) {
                                 "bool": {
                                     "must": [{
                                         "match": {
-                                            "authors.authors": query
+                                            "authors.authors": {"query": query, "boost": 3},
                                         }
                                     }]
                                 }
