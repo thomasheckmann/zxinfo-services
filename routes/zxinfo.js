@@ -39,17 +39,91 @@ var searchGame = function(query, page_size, offset) {
                             "path": "rereleasedby",
                             "query": {
                                 "bool": {
-                                    "must": {
+                                    "must": [{
                                         "match": {
                                             "rereleasedby.as_title": query
                                         }
+                                    }],
+                                    "must_not": [{
+                                        "match": {
+                                            "seq": 0
+                                        }
+                                    }]
+                                }
+                            }
+                        }
+                    }, {
+                        "nested": {
+                            "path": "publisher",
+                            "query": {
+                                "bool": {
+                                    "must": [{
+                                        "match": {
+                                            "publisher.name": query
+                                        }
+                                    }]
+                                }
+                            }
+                        }
+                    }, {
+                        "nested": {
+                            "path": "rereleasedby",
+                            "query": {
+                                "bool": {
+                                    "must": [{
+                                        "match": {
+                                            "rereleasedby.name": query
+                                        }
+                                    }]
+                                },
+                                "must_not": [{
+                                    "match": {
+                                        "seq": 0
                                     }
+                                }]
+                            }
+                        }
+                    }, {
+                        "nested": {
+                            "path": "authors",
+                            "query": {
+                                "bool": {
+                                    "must": [{
+                                        "match": {
+                                            "authors.authors": query
+                                        }
+                                    }]
+                                }
+                            }
+                        }
+                    }, {
+                        "nested": {
+                            "path": "authors",
+                            "query": {
+                                "bool": {
+                                    "must": [{
+                                        "match": {
+                                            "authors.group": query
+                                        }
+                                    }]
                                 }
                             }
                         }
                     }]
                 }
+            },
+            "highlight": {
+                "fields": {
+                    "fulltitle": {},
+                    "alsoknownas": {},
+                    "rereleasedby.as_title": {},
+                    "publisher.name": {},
+                    "rereleasedby.name": {},
+                    "authors.authors": {},
+                    "authors.group": {}
+                }
             }
+
         }
     });
 }
