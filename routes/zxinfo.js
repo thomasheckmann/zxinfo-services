@@ -91,7 +91,7 @@ var searchGame = function(query, page_size, offset) {
                                 "bool": {
                                     "must": [{
                                         "match": {
-                                            "authors.authors": {"query": query, "boost": 3},
+                                            "authors.authors": {"query": query, "boost": 3}
                                         }
                                     }]
                                 }
