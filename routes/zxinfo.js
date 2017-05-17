@@ -33,6 +33,7 @@ var searchGame = function(query, page_size, offset) {
                                 "fulltitle^4",
                                 "alsoknownas"
                             ],
+                            "type": "phrase_prefix",
                             "boost": 4
                         }
                     }, {
@@ -41,7 +42,7 @@ var searchGame = function(query, page_size, offset) {
                             "query": {
                                 "bool": {
                                     "must": [{
-                                        "match": {
+                                        "match_phrase_prefix": {
                                             "rereleasedby.as_title": query
                                         }
                                     }],
@@ -59,7 +60,7 @@ var searchGame = function(query, page_size, offset) {
                             "query": {
                                 "bool": {
                                     "must": [{
-                                        "match": {
+                                        "match_phrase_prefix": {
                                             "publisher.name": query
                                         }
                                     }]
@@ -72,7 +73,7 @@ var searchGame = function(query, page_size, offset) {
                             "query": {
                                 "bool": {
                                     "must": [{
-                                        "match": {
+                                        "match_phrase_prefix": {
                                             "rereleasedby.name": query
                                         }
                                     }]
@@ -90,8 +91,11 @@ var searchGame = function(query, page_size, offset) {
                             "query": {
                                 "bool": {
                                     "must": [{
-                                        "match": {
-                                            "authors.authors": {"query": query, "boost": 3}
+                                        "match_phrase_prefix": {
+                                            "authors.authors": {
+                                                "query": query,
+                                                "boost": 3
+                                            }
                                         }
                                     }]
                                 }
@@ -103,7 +107,7 @@ var searchGame = function(query, page_size, offset) {
                             "query": {
                                 "bool": {
                                     "must": [{
-                                        "match": {
+                                        "match_phrase_prefix": {
                                             "authors.group": query
                                         }
                                     }]
