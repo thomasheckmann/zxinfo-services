@@ -8,6 +8,8 @@ var bodyParser = require('body-parser');
 var routes = require('./routes/index');
 
 var zxinfo = require('./routes/zxinfo');
+
+var zxsuggest = require('./routes/zxsuggest');
 var cors = require('cors');
 
 var app = express();
@@ -37,6 +39,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/api/zxinfo', zxinfo);
+app.use('/api/zxsuggest', zxsuggest);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
