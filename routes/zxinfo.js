@@ -38,12 +38,12 @@ var searchGame = function(query, page_size, offset) {
                         }
                     }, {
                         "nested": {
-                            "path": "rereleasedby",
+                            "path": "releases",
                             "query": {
                                 "bool": {
                                     "must": [{
                                         "match_phrase_prefix": {
-                                            "rereleasedby.as_title": query
+                                            "releases.as_title": query
                                         }
                                     }],
                                     "must_not": [{
@@ -69,12 +69,12 @@ var searchGame = function(query, page_size, offset) {
                         }
                     }, {
                         "nested": {
-                            "path": "rereleasedby",
+                            "path": "releases",
                             "query": {
                                 "bool": {
                                     "must": [{
                                         "match_phrase_prefix": {
-                                            "rereleasedby.name": query
+                                            "releases.name": query
                                         }
                                     }]
                                 },
@@ -121,9 +121,9 @@ var searchGame = function(query, page_size, offset) {
                 "fields": {
                     "fulltitle": {},
                     "alsoknownas": {},
-                    "rereleasedby.as_title": {},
+                    "releases.as_title": {},
                     "publisher.name": {},
-                    "rereleasedby.name": {},
+                    "releases.name": {},
                     "authors.authors": {},
                     "authors.group": {}
                 }
@@ -255,12 +255,12 @@ var getGamesByPublisher = function(name, page_size, offset) {
                                 }
                             }, {
                                 "nested": {
-                                    "path": "rereleasedby",
+                                    "path": "releases",
                                     "query": {
                                         "bool": {
                                             "must": [{
                                                 "match": {
-                                                    "rereleasedby.name.raw": name
+                                                    "releases.name.raw": name
                                                 }
                                             }]
                                         }
