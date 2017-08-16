@@ -1,18 +1,21 @@
 {
         "container": {
                         "es_host"     : "http://zxinfo-es:9200",
+                        "es_apiVersion": "2.4",
                         "zxinfo_index": "zxinfo_games",
                         "zxinfo_type" : "zxinfo_games",
                         "log"         : "info"
         },
         "development": {
                         "es_host"     : "http://localhost:9200",
+                        "es_apiVersion": "2.4",
                         "zxinfo_index": "zxinfo_games",
                         "zxinfo_type" : "zxinfo_games",
                         "log"         : "debug"
         },
         "production": {
                         "es_host"     : "http://search.kolbeck.dk",
+                        "es_apiVersion": "2.4",
                         "zxinfo_index": "zxinfo_games",
                         "zxinfo_type" : "zxinfo_games",
                         "log"         : "info"

@@ -6,6 +6,7 @@ var elasticsearch = require('elasticsearch');
 
 var elasticClient = new elasticsearch.Client({
     host: config.es_host,
+    apiVersion: config.es_apiVersion,
     log: config.log
 });
 
