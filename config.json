@@ -1,23 +1,19 @@
 {
-        "container": {
-                        "es_host"     : "http://zxinfo-es:9200",
-                        "es_apiVersion": "2.4",
-                        "zxinfo_index": "zxinfo_games",
-                        "zxinfo_type" : "zxinfo_games",
-                        "log"         : "info"
-        },
         "development": {
                         "es_host"     : "http://localhost:9200",
                         "es_apiVersion": "2.4",
                         "zxinfo_index": "zxinfo_games",
                         "zxinfo_type" : "zxinfo_games",
-                        "log"         : "debug"
+                        "log"         : "debug",
+                        "neo4jurl": "bolt://localhost:7687"
+
         },
         "production": {
                         "es_host"     : "http://search.kolbeck.dk",
                         "es_apiVersion": "2.4",
                         "zxinfo_index": "zxinfo_games",
                         "zxinfo_type" : "zxinfo_games",
-                        "log"         : "info"
+                        "log"         : "info",
+                        "neo4jurl": "bolt://zxinfo-neo4j:7687"
         }
 }

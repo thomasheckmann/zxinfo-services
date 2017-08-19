@@ -11,6 +11,7 @@ var zxinfo = require('./routes/zxinfo');
 
 var zxsuggest = require('./routes/zxsuggest');
 var cors = require('cors');
+var neo4j = require('./routes/neo4j');
 
 var app = express();
 app.use(cors());
@@ -40,6 +41,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routes);
 app.use('/api/zxinfo', zxinfo);
 app.use('/api/zxsuggest', zxsuggest);
+app.use('/api/graph', neo4j);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
