@@ -134,36 +134,37 @@ var searchGame = function(query, page_size, offset) {
     });
 }
 
-var getAllGames = function(page_size, offset) {
-    return elasticClient.search({
-        "index": es_index,
-        "type": es_index_type,
-        "body": {
-            "size": page_size,
-            "from": offset * page_size,
-            "query": {
-                "match_all": {}
-            },
-            "sort": [{
-                "_uid": {
-                    "order": "asc"
-                }
-            }]
-        }
-    });
-}
+var getAllGames = function(page_size, offset, filterObject) {
+    var match = [];
 
-var getAllGamesByTypes = function(gametypes, gamesubtypes, page_size, offset) {
-    var match = [{
-        "match": {
-            "type": gametypes
-        }
-    }];
-
-    if (gamesubtypes !== undefined) {
+    if (filterObject.contenttype !== undefined) {
         match.push({
             "match": {
-                "subtype": gamesubtypes
+                "contenttype": filterObject.contenttype
+            }
+        });
+    }
+
+    if (filterObject.machinetype !== undefined) {
+        match.push({
+            "match": {
+                "machinetype": filterObject.machinetype
+            }
+        });
+    }
+
+    if (filterObject.genretype !== undefined) {
+        match.push({
+            "match": {
+                "type": filterObject.genretype
+            }
+        });
+    }
+
+    if (filterObject.genresubtype !== undefined) {
+        match.push({
+            "match": {
+                "subtype": filterObject.genresubtype
             }
         });
     }
@@ -179,35 +180,7 @@ var getAllGamesByTypes = function(gametypes, gamesubtypes, page_size, offset) {
             },
             "filter": {
                 "bool": {
-                    "must": [match]
-                }
-            },
-            "sort": [{
-                "fulltitle.raw": {
-                    "order": "asc"
-                }
-            }]
-        }
-    });
-}
-
-var getAllGamesByMachines = function(machinetypes, page_size, offset) {
-    return elasticClient.search({
-        "index": es_index,
-        "type": es_index_type,
-        "body": {
-            "size": page_size,
-            "from": offset * page_size,
-            "query": {
-                "match_all": {}
-            },
-            "filter": {
-                "bool": {
-                    "must": [{
-                        "match": {
-                            "machinetype": machinetypes
-                        }
-                    }]
+                    "must": match
                 }
             },
             "sort": [{
@@ -415,22 +388,10 @@ router.get('/games/search/:query', function(req, res, next) {
     Return all games sorted by gameid (WOSId)
 */
 router.get('/games', function(req, res, next) {
-    if (req.query.types !== undefined) {
-        getAllGamesByTypes(req.query.types, req.query.subtypes, req.query.size, req.query.offset).then(function(result) {
-            res.header("X-Total-Count", result.hits.total);
-            res.send(result);
-        });
-    } else if (req.query.machines !== undefined) {
-        getAllGamesByMachines(req.query.machines, req.query.size, req.query.offset).then(function(result) {
-            res.header("X-Total-Count", result.hits.total);
-            res.send(result);
-        });
-    } else {
-        getAllGames(req.query.size, req.query.offset).then(function(result) {
-            res.header("X-Total-Count", result.hits.total);
-            res.send(result);
-        });
-    }
+    getAllGames(req.query.size, req.query.offset, req.query).then(function(result) {
+        res.header("X-Total-Count", result.hits.total);
+        res.send(result);
+    });
 });
 
 /**
