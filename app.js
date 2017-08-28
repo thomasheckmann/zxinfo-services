@@ -8,6 +8,7 @@ var bodyParser = require('body-parser');
 var routes = require('./routes/index');
 
 var zxinfo = require('./routes/zxinfo');
+var zxinfov2 = require('./routes/zxinfov2');
 
 var zxsuggest = require('./routes/zxsuggest');
 var cors = require('cors');
@@ -40,6 +41,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/api/zxinfo', zxinfo);
+app.use('/api/zxinfo/v2', zxinfov2);
 app.use('/api/zxsuggest', zxsuggest);
 app.use('/api/graph', neo4j);
 
