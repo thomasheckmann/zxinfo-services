@@ -15,6 +15,107 @@ var elasticClient = new elasticsearch.Client({
 var es_index = config.zxinfo_index;
 var es_index_type = config.zxinfo_type;
 
+var createQueryTem = function(query) {
+    if (query == undefined || query.length == 0) {
+        console.log("empty query, return all");
+        return ({ "match_all": {} });
+    }
+
+    return ({
+        "bool": {
+            "should": [{
+                "multi_match": {
+                    "query": query,
+                    "fields": [
+                        "fulltitle^4",
+                        "alsoknownas"
+                    ],
+                    "type": "phrase_prefix",
+                    "boost": 4
+                }
+            }, {
+                "nested": {
+                    "path": "releases",
+                    "query": {
+                        "bool": {
+                            "must": [{
+                                "match_phrase_prefix": {
+                                    "releases.as_title": query
+                                }
+                            }],
+                            "must_not": [{
+                                "match": {
+                                    "seq": 0
+                                }
+                            }]
+                        }
+                    }
+                }
+            }, {
+                "nested": {
+                    "path": "publisher",
+                    "query": {
+                        "bool": {
+                            "must": [{
+                                "match_phrase_prefix": {
+                                    "publisher.name": query
+                                }
+                            }]
+                        }
+                    }
+                }
+            }, {
+                "nested": {
+                    "path": "releases",
+                    "query": {
+                        "bool": {
+                            "must": [{
+                                "match_phrase_prefix": {
+                                    "releases.name": query
+                                }
+                            }]
+                        },
+                        "must_not": [{
+                            "match": {
+                                "seq": 0
+                            }
+                        }]
+                    }
+                }
+            }, {
+                "nested": {
+                    "path": "authors",
+                    "query": {
+                        "bool": {
+                            "must": [{
+                                "match_phrase_prefix": {
+                                    "authors.authors": {
+                                        "query": query,
+                                        "boost": 3
+                                    }
+                                }
+                            }]
+                        }
+                    }
+                }
+            }, {
+                "nested": {
+                    "path": "authors",
+                    "query": {
+                        "bool": {
+                            "must": [{
+                                "match_phrase_prefix": {
+                                    "authors.group": query
+                                }
+                            }]
+                        }
+                    }
+                }
+            }]
+        }
+    });
+}
+
 var createFilterItems = function(filterName, filterValues) {
     var item_should = {};
 
@@ -97,6 +198,10 @@ var createFilterNestedItems = function(filterName, path, filterValues) {
 
 
 var powerSearch = function(searchObject, page_size, offset) {
+    console.log('powerSearch: ', searchObject.query);
+
+    var query = createQueryTem(searchObject.query);
+
     var filterObjects = {};
 
     var machinetype_should = createFilterItems('machinetype', searchObject.machinetype);
@@ -134,10 +239,7 @@ var powerSearch = function(searchObject, page_size, offset) {
         "body": {
             "size": page_size,
             "from": offset * page_size,
-
-            "query": {
-                "match_all": {}
-            },
+            "query": query,
             // FILTER
             "filter": {
                 "bool": {
@@ -149,6 +251,17 @@ var powerSearch = function(searchObject, page_size, offset) {
                     "order": "asc"
                 }
             }],
+            "highlight": {
+                "fields": {
+                    "fulltitle": {},
+                    "alsoknownas": {},
+                    "releases.as_title": {},
+                    "publisher.name": {},
+                    "releases.name": {},
+                    "authors.authors": {},
+                    "authors.group": {}
+                }
+            },
             "aggregations": {
                 "all_entries": {
                     "global": {},
@@ -156,7 +269,7 @@ var powerSearch = function(searchObject, page_size, offset) {
                         "machinetypes": {
                             "filter": {
                                 "bool": {
-                                    "must": [controls_should, multiplayermode_should, multiplayertype_should, originalpublication_should, availability_should]
+                                    "must": [query, controls_should, multiplayermode_should, multiplayertype_should, originalpublication_should, availability_should]
                                 }
                             },
                             "aggregations": {
@@ -174,7 +287,7 @@ var powerSearch = function(searchObject, page_size, offset) {
                         "controls": {
                             "filter": {
                                 "bool": {
-                                    "must": [machinetype_should, multiplayermode_should, multiplayertype_should, originalpublication_should, availability_should]
+                                    "must": [query, machinetype_should, multiplayermode_should, multiplayertype_should, originalpublication_should, availability_should]
                                 }
                             },
                             "aggregations": {
@@ -199,7 +312,7 @@ var powerSearch = function(searchObject, page_size, offset) {
                         "multiplayermode": {
                             "filter": {
                                 "bool": {
-                                    "must": [machinetype_should, controls_should, multiplayertype_should, availability_should, originalpublication_should]
+                                    "must": [query, machinetype_should, controls_should, multiplayertype_should, availability_should, originalpublication_should]
                                 }
                             },
                             "aggregations": {
@@ -217,7 +330,7 @@ var powerSearch = function(searchObject, page_size, offset) {
                         "multiplayertype": {
                             "filter": {
                                 "bool": {
-                                    "must": [machinetype_should, controls_should, multiplayermode_should, availability_should, originalpublication_should]
+                                    "must": [query, machinetype_should, controls_should, multiplayermode_should, availability_should, originalpublication_should]
                                 }
                             },
                             "aggregations": {
@@ -235,7 +348,7 @@ var powerSearch = function(searchObject, page_size, offset) {
                         "originalpublication": {
                             "filter": {
                                 "bool": {
-                                    "must": [machinetype_should, controls_should, multiplayermode_should, multiplayertype_should, availability_should]
+                                    "must": [query, machinetype_should, controls_should, multiplayermode_should, multiplayertype_should, availability_should]
                                 }
                             },
                             "aggregations": {
@@ -253,7 +366,7 @@ var powerSearch = function(searchObject, page_size, offset) {
                         "availability": {
                             "filter": {
                                 "bool": {
-                                    "must": [machinetype_should, controls_should, multiplayermode_should, multiplayertype_should, originalpublication_should]
+                                    "must": [query, machinetype_should, controls_should, multiplayermode_should, multiplayertype_should, originalpublication_should]
                                 }
                             },
                             "aggregations": {
@@ -272,7 +385,6 @@ var powerSearch = function(searchObject, page_size, offset) {
                     }
                 }
             }
-
         } // end body
     });
 }
