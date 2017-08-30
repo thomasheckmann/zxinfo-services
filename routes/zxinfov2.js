@@ -204,6 +204,15 @@ var powerSearch = function(searchObject, page_size, offset) {
 
     var filterObjects = {};
 
+    var contenttype_should = createFilterItems('contenttype', searchObject.contenttype);
+    filterObjects['contenttype'] = contenttype_should;
+
+    var genretype_should = createFilterItems('type', searchObject.genretype);
+    filterObjects['genretype'] = genretype_should;
+
+    var genresubtype_should = createFilterItems('subtype', searchObject.genresubtype);
+    filterObjects['genresubtype'] = genresubtype_should;
+
     var machinetype_should = createFilterItems('machinetype', searchObject.machinetype);
     filterObjects['machinetype'] = machinetype_should;
 
@@ -269,7 +278,7 @@ var powerSearch = function(searchObject, page_size, offset) {
                         "machinetypes": {
                             "filter": {
                                 "bool": {
-                                    "must": [query, controls_should, multiplayermode_should, multiplayertype_should, originalpublication_should, availability_should]
+                                    "must": [query, contenttype_should, genresubtype_should, controls_should, multiplayermode_should, multiplayertype_should, originalpublication_should, availability_should]
                                 }
                             },
                             "aggregations": {
@@ -287,7 +296,7 @@ var powerSearch = function(searchObject, page_size, offset) {
                         "controls": {
                             "filter": {
                                 "bool": {
-                                    "must": [query, machinetype_should, multiplayermode_should, multiplayertype_should, originalpublication_should, availability_should]
+                                    "must": [query, contenttype_should, genresubtype_should, machinetype_should, multiplayermode_should, multiplayertype_should, originalpublication_should, availability_should]
                                 }
                             },
                             "aggregations": {
@@ -312,7 +321,7 @@ var powerSearch = function(searchObject, page_size, offset) {
                         "multiplayermode": {
                             "filter": {
                                 "bool": {
-                                    "must": [query, machinetype_should, controls_should, multiplayertype_should, availability_should, originalpublication_should]
+                                    "must": [query, contenttype_should, genresubtype_should, machinetype_should, controls_should, multiplayertype_should, availability_should, originalpublication_should]
                                 }
                             },
                             "aggregations": {
@@ -330,7 +339,7 @@ var powerSearch = function(searchObject, page_size, offset) {
                         "multiplayertype": {
                             "filter": {
                                 "bool": {
-                                    "must": [query, machinetype_should, controls_should, multiplayermode_should, availability_should, originalpublication_should]
+                                    "must": [query, contenttype_should, genresubtype_should, machinetype_should, controls_should, multiplayermode_should, availability_should, originalpublication_should]
                                 }
                             },
                             "aggregations": {
@@ -348,7 +357,7 @@ var powerSearch = function(searchObject, page_size, offset) {
                         "originalpublication": {
                             "filter": {
                                 "bool": {
-                                    "must": [query, machinetype_should, controls_should, multiplayermode_should, multiplayertype_should, availability_should]
+                                    "must": [query, contenttype_should, genresubtype_should, machinetype_should, controls_should, multiplayermode_should, multiplayertype_should, availability_should]
                                 }
                             },
                             "aggregations": {
@@ -366,7 +375,7 @@ var powerSearch = function(searchObject, page_size, offset) {
                         "availability": {
                             "filter": {
                                 "bool": {
-                                    "must": [query, machinetype_should, controls_should, multiplayermode_should, multiplayertype_should, originalpublication_should]
+                                    "must": [query, contenttype_should, genresubtype_should, machinetype_should, controls_should, multiplayermode_should, multiplayertype_should, originalpublication_should]
                                 }
                             },
                             "aggregations": {
