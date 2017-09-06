@@ -5,11 +5,12 @@ var express = require('express');
 var router = express.Router();
 
 var elasticsearch = require('elasticsearch');
+var debug = require('debug')('zxinfo-services:apiv2');
 
 var elasticClient = new elasticsearch.Client({
     host: config.es_host,
     apiVersion: config.es_apiVersion,
-    log: config.log
+    log: 'error' //config.log
 });
 
 var es_index = config.zxinfo_index;
@@ -17,7 +18,7 @@ var es_index_type = config.zxinfo_type;
 
 var createQueryTem = function(query) {
     if (query == undefined || query.length == 0) {
-        console.log("empty query, return all");
+        debug("empty query, return all");
         return ({ "match_all": {} });
     }
 
@@ -167,8 +168,7 @@ var createAggregationItem = function() {
 }
 
 var powerSearch = function(searchObject, page_size, offset) {
-    console.log('powerSearch: ', searchObject.query);
-
+    debug('powerSearch()');
     var query = createQueryTem(searchObject.query);
 
     var filterObjects = {};
@@ -376,7 +376,7 @@ router.use(function(req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
     // do logging
-    console.log("user-agent: " + req.headers['user-agent']);
+    // debug("user-agent: " + req.headers['user-agent']);
     next(); // make sure we go to the next routes and don't stop here
 });
 
@@ -385,6 +385,7 @@ router.use(function(req, res, next) {
 
 */
 router.get('/search', function(req, res, next) {
+    debug('==> /search');
     powerSearch(req.query, req.query.size, req.query.offset).then(function(result) {
         res.header("X-Total-Count", result.hits.total);
         res.send(result);
