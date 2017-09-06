@@ -10,7 +10,7 @@ var debug = require('debug')('zxinfo-services:apiv2');
 var elasticClient = new elasticsearch.Client({
     host: config.es_host,
     apiVersion: config.es_apiVersion,
-    log: 'error' //config.log
+    log: config.log
 });
 
 var es_index = config.zxinfo_index;

@@ -4,7 +4,7 @@
                         "es_apiVersion": "2.4",
                         "zxinfo_index": "zxinfo_games",
                         "zxinfo_type" : "zxinfo_games",
-                        "log"         : "debug",
+                        "log"         : "error",
                         "neo4jurl": "bolt://localhost:7687"
 
         },
