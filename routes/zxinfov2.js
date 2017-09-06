@@ -116,7 +116,7 @@ var createQueryTem = function(query) {
     });
 }
 
-var createFilterItems = function(filterName, filterValues) {
+var createFilterItem = function(filterName, filterValues) {
     var item_should = {};
 
     if (filterValues !== undefined && filterValues.length > 0) {
@@ -139,41 +139,7 @@ var createFilterItems = function(filterName, filterValues) {
     return item_should;
 }
 
-
-/**
-    Nested property, eg.
-
-    CONTROL (nested)
-    -----------
-    {
-       "bool": {
-          "should": [
-             {
-                "nested": {
-                   "path": "controls",
-                   "query": {
-                      "bool": {
-                         "should": [
-                            {
-                               "match": {
-                                  "controls.control": "Cursor"
-                               }
-                            },
-                            {
-                               "match": {
-                                  "controls.control": "Kempston"
-                               }
-                            }
-                         ]
-                      }
-                   }
-                }
-             }
-          ]
-       }
-    }
-*/
-var createFilterNestedItems = function(filterName, path, filterValues) {
+var createFilterNestedItem = function(filterName, path, filterValues) {
     var item_should = {};
 
     if (filterValues !== undefined && filterValues.length > 0) {
@@ -196,6 +162,9 @@ var createFilterNestedItems = function(filterName, path, filterValues) {
     return item_should;
 }
 
+var createAggregationItem = function() {
+
+}
 
 var powerSearch = function(searchObject, page_size, offset) {
     console.log('powerSearch: ', searchObject.query);
@@ -204,31 +173,31 @@ var powerSearch = function(searchObject, page_size, offset) {
 
     var filterObjects = {};
 
-    var contenttype_should = createFilterItems('contenttype', searchObject.contenttype);
+    var contenttype_should = createFilterItem('contenttype', searchObject.contenttype);
     filterObjects['contenttype'] = contenttype_should;
 
-    var genretype_should = createFilterItems('type', searchObject.genretype);
+    var genretype_should = createFilterItem('type', searchObject.genretype);
     filterObjects['genretype'] = genretype_should;
 
-    var genresubtype_should = createFilterItems('subtype', searchObject.genresubtype);
+    var genresubtype_should = createFilterItem('subtype', searchObject.genresubtype);
     filterObjects['genresubtype'] = genresubtype_should;
 
-    var machinetype_should = createFilterItems('machinetype', searchObject.machinetype);
+    var machinetype_should = createFilterItem('machinetype', searchObject.machinetype);
     filterObjects['machinetype'] = machinetype_should;
 
-    var controls_should = createFilterNestedItems('controls', 'control', searchObject.control);
+    var controls_should = createFilterNestedItem('controls', 'control', searchObject.control);
     filterObjects['controls'] = controls_should;
 
-    var multiplayermode_should = createFilterItems('multiplayermode', searchObject.multiplayermode);
+    var multiplayermode_should = createFilterItem('multiplayermode', searchObject.multiplayermode);
     filterObjects['multiplayermode'] = multiplayermode_should;
 
-    var multiplayertype_should = createFilterItems('multiplayertype', searchObject.multiplayertype);
+    var multiplayertype_should = createFilterItem('multiplayertype', searchObject.multiplayertype);
     filterObjects['multiplayertype'] = multiplayertype_should;
 
-    var originalpublication_should = createFilterItems('originalpublication', searchObject.originalpublication);
+    var originalpublication_should = createFilterItem('originalpublication', searchObject.originalpublication);
     filterObjects['originalpublication'] = originalpublication_should;
 
-    var availability_should = createFilterItems('availability', searchObject.availability);
+    var availability_should = createFilterItem('availability', searchObject.availability);
     filterObjects['availability'] = availability_should;
 
     // generate array with objects
@@ -241,6 +210,9 @@ var powerSearch = function(searchObject, page_size, offset) {
             filters.push(item);
         }
     }
+
+    // these queries are not part of filtering options
+    var fixed = [query, contenttype_should, genresubtype_should];
 
     return elasticClient.search({
         "index": es_index,
