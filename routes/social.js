@@ -68,12 +68,6 @@ router.use(function(req, res, next) {
     next(); // make sure we go to the next routes and don't stop here
 });
 
-router.get('/', function(req, res, next) {
-	var url = req.protocol + '://' + req.get('host') + req.originalUrl; // points to this endpoint
-
-	res.render('social', { title: 'ZXInfo - The open source ZXDB frontend', og_url: 'xx', og_title: 'xx', content: url });
-});
-
 /**
     Return game with :gameid
 */
@@ -87,5 +81,14 @@ router.get('/details/:gameid', function(req, res, next) {
 		res.render('social', { title: 'ZXInfo - The open source ZXDB frontend', og_url: og_url, og_title: og_title, og_image: og_image, og_description: og_description});
     });
 });
+
+router.get('/*', function(req, res, next) {
+	var url = 'http://zxinfo.dk';
+	var og_title = 'ZXInfo - The open source ZXDB frontend';
+	var og_image = '';
+	var og_description = 'Provides a fantastic desktop and mobile friendly interface to search and browse the ZXDB catalogue for almost all Spectrum software, hardware and books ever released.';
+	res.render('social', { title: 'ZXInfo - The open source ZXDB frontend', og_url: og_url, og_title: og_title, og_image: og_image, og_description: og_description});
+});
+
 
 module.exports = router;
