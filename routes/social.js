@@ -83,7 +83,7 @@ router.get('/details/:gameid', function(req, res, next) {
 });
 
 router.get('/*', function(req, res, next) {
-	var url = 'http://zxinfo.dk';
+	var og_url = 'http://zxinfo.dk';
 	var og_title = 'ZXInfo - The open source ZXDB frontend';
 	var og_image = '';
 	var og_description = 'Provides a fantastic desktop and mobile friendly interface to search and browse the ZXDB catalogue for almost all Spectrum software, hardware and books ever released.';
