@@ -74,7 +74,7 @@ router.use(function(req, res, next) {
 router.get('/details/:gameid', function(req, res, next) {
 
     getGameById(req.params.gameid).then(function(result) {
-    	var og_url = req.protocol + '://' + req.get('host') + req.originalUrl; // points to this endpoint
+    	var og_url = 'http://zxinfo.dk/details/' + req.params.gameid; // req.protocol + '://' + req.get('host') + req.originalUrl; // points to this endpoint
     	var og_title = result._source.fulltitle;
     	var og_image = loadscreen(result._source);
     	var og_description = result._source.machinetype + ', ' + result._source.type + ' - ' + result._source.releases[0].name + '('+result._source.yearofrelease+')';
