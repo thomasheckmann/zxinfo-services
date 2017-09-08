@@ -74,20 +74,25 @@ router.use(function(req, res, next) {
 router.get('/details/:gameid', function(req, res, next) {
 
     getGameById(req.params.gameid).then(function(result) {
-    	var og_url = 'http://zxinfo.dk/details/' + req.params.gameid; // req.protocol + '://' + req.get('host') + req.originalUrl; // points to this endpoint
-    	var og_title = result._source.fulltitle;
-    	var og_image = loadscreen(result._source);
-    	var og_description = result._source.machinetype + ', ' + result._source.type + ' - ' + result._source.releases[0].name + '('+result._source.yearofrelease+')';
-		res.render('social', { title: 'ZXInfo - The open source ZXDB frontend', og_url: og_url, og_title: og_title, og_image: og_image, og_description: og_description});
+        var og_url = 'http://zxinfo.dk/details/' + req.params.gameid; // req.protocol + '://' + req.get('host') + req.originalUrl; // points to this endpoint
+        var og_title = result._source.fulltitle;
+        var og_image = loadscreen(result._source);
+        var og_description;
+        if (result._source.machinetype === null) {
+            og_description = result._source.type + ' - ' + result._source.releases[0].name + '(' + result._source.yearofrelease + ')';
+        } else {
+            og_description = result._source.machinetype + ', ' + result._source.type + ' - ' + result._source.releases[0].name + '(' + result._source.yearofrelease + ')';
+        }
+        res.render('social', { title: 'ZXInfo - The open source ZXDB frontend', og_url: og_url, og_title: og_title, og_image: og_image, og_description: og_description });
     });
 });
 
 router.get('/*', function(req, res, next) {
-	var og_url = 'http://zxinfo.dk';
-	var og_title = 'ZXInfo - The open source ZXDB frontend';
-	var og_image = '';
-	var og_description = 'Provides a fantastic desktop and mobile friendly interface to search and browse the ZXDB catalogue for almost all Spectrum software, hardware and books ever released.';
-	res.render('social', { title: 'ZXInfo - The open source ZXDB frontend', og_url: og_url, og_title: og_title, og_image: og_image, og_description: og_description});
+    var og_url = 'http://zxinfo.dk';
+    var og_title = 'ZXInfo - The open source ZXDB frontend';
+    var og_image = '';
+    var og_description = 'Provides a fantastic desktop and mobile friendly interface to search and browse the ZXDB catalogue for almost all Spectrum software, hardware and books ever released.';
+    res.render('social', { title: 'ZXInfo - The open source ZXDB frontend', og_url: og_url, og_title: og_title, og_image: og_image, og_description: og_description });
 });
 
 
