@@ -9,7 +9,7 @@
 
         },
         "production": {
-                        "es_host"     : "http://search.kolbeck.dk",
+                        "es_host"     : "http://search.zxinfo.dk",
                         "es_apiVersion": "2.4",
                         "zxinfo_index": "zxinfo_games",
                         "zxinfo_type" : "zxinfo_games",
