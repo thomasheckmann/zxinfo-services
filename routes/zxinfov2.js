@@ -1,3 +1,12 @@
+/**
+
+dd.mm.yyyy
+
+Changelog:
+30.11.2017 - author object changed from simple string, to object {name, country, alias} - name & alias is searched
+
+*/
+
 'use strict';
 
 var config = require('../config.json')[process.env.NODE_ENV || 'development'];
@@ -85,12 +94,28 @@ var createQueryTem = function(query) {
                 }
             }, {
                 "nested": {
-                    "path": "authors",
+                    "path": "authors.authors",
                     "query": {
                         "bool": {
                             "must": [{
                                 "match_phrase_prefix": {
-                                    "authors.authors": {
+                                    "authors.authors.name": {
+                                        "query": query,
+                                        "boost": 3
+                                    }
+                                }
+                            }]
+                        }
+                    }
+                }
+            }, {
+                "nested": {
+                    "path": "authors.authors",
+                    "query": {
+                        "bool": {
+                            "must": [{
+                                "match_phrase_prefix": {
+                                    "authors.authors.alias": {
                                         "query": query,
                                         "boost": 3
                                     }
