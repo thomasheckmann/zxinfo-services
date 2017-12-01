@@ -79,12 +79,12 @@ var getGamesByPublisher = function(name, page_size, offset) {
                                 }
                             }, {
                                 "nested": {
-                                    "path": "authors",
+                                    "path": "authors.authors",
                                     "query": {
                                         "bool": {
                                             "must": [{
                                                 "match": {
-                                                    "authors.authors.raw": name
+                                                    "authors.authors.name.raw": name
                                                 }
                                             }]
                                         }

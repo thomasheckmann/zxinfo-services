@@ -264,7 +264,8 @@ var powerSearch = function(searchObject, page_size, offset) {
                     "releases.as_title": {},
                     "publisher.name": {},
                     "releases.name": {},
-                    "authors.authors": {},
+                    "authors.authors.name": {},
+                    "authors.authors.alias": {},
                     "authors.group": {}
                 }
             },
