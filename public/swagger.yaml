@@ -1,114 +1,132 @@
 swagger: '2.0'
 info:
-  version: "1.0.0"
+  version: "1.2.0"
   title: ZXInfo API
-  description: This is an API for the ZXInfo search engine based on elasticsearch.
+  description: |
+    This is an API for the ZXInfo search engine based on elasticsearch. See web-site at http://zxinfo.dk
+    
+    **History**:
+    
+    v1.2.0: August 2017
+    
+    Added a v2 - powersearch
+
   contact:
     name: ZXInfo API development
-    email: zxinfo_dev@klaptorsk.dk
-    url: http://incubator.kolbeck.dk
-host: incubator.kolbeck.dk
+    email: zxinfo_dev@kolbeck.dk
+    url: http://incubator.kolbeck.dk/doc/
+host: api.zxinfo.dk
 basePath: /api/zxinfo
 tags:
 - name: "zxgame"
-  description: "Everything about ZX Sinclair Spectrum games"
+  description: "(Almost) Everything about ZX Sinclair Spectrum games"
   externalDocs:
     description: "Find out more"
-    url: "http://incubator.kolbeck.dk/sinclairsite"
+    url: "http://zxinfo.dk"
 schemes:
   - http
 consumes:
   - application/json
 produces:
   - application/json
-parameters:
-  game-id:
-    name: game-id
-    in: path
-    description: The game identifier number
-    type: string
-    required: true
-    
 paths:
+ 
+  /v2/search:
+    get:
+      tags:
+      - "zxgame"
+      summary: "Find games"
+      description: "Returns a List of games matching input filters"
+      operationId: "searchAndFilter"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "query"
+        in: query
+        description: "something to query for"
+        type: string
+        required: false
+      - name: "contenttype"
+        in: query
+        description: "Filter by contenttype: SOFTWARE, HARDWARE, BOOK"
+        type: string
+        required: false
+      - name: "genretype"
+        in: query
+        description: "Filter by genretype, e.g. 'Arcade Game'"
+        type: string
+        required: false
+      - name: "genresubtype"
+        in: query
+        description: "Filter by genresubtype, e.g. 'Action'"
+        type: string
+        required: false
+      - name: "machinetype"
+        in: query
+        description: "Filter by machinetype, e.g. 'ZX-Spectrum 48K'"
+        type: string
+        required: false
+      - name: "controls"
+        in: query
+        description: "Filter by controls, e.g. 'Kempston'"
+        type: string
+        required: false
+      - name: "multiplayermode"
+        in: query
+        description: "Filter by multiplayermode, e.g. 'Turn based'"
+        type: string
+        required: false
+      - name: "multiplayertype"
+        in: query
+        description: "Filter by multiplayertype, e.g. 'Versus'"
+        type: string
+        required: false
+      - name: "originalpublication"
+        in: query
+        description: "Filter by originalpublication, e.g. 'Type-in'"
+        type: string
+        required: false
+      - name: "availability"
+        in: query
+        description: "Filter by availability, e.g. 'Never released'"
+        type: string
+        required: false
+      responses:
+        # Response code
+        200:
+          description: "successful operation, JSON document with details"
+
   /games/{game-id}:
     get:
-      summary: Get game info
       tags:
       - "zxgame"
-      description: |
-        Get detailed information about a game. The {game-id} is the same as the {id} used on WOS, e.g. [id=0002259](www.worldofspectrum.org/infoseekid.cgi?id=0002259)
+      summary: "Find game by ID"
+      description: "Returns a single game"
+      operationId: "getGameById"
+      produces:
+      - "application/json"
       parameters:
-        - $ref: '#/parameters/game-id'
-        - name: x-api-key
-          in: header
-          description: API key for access
-          required: false
-          type: string
+      - name: "game-id"
+        in: path
+        description: ID of game to return (WoS compatible, e.g. 0002259)
+        type: string
+        required: true
       responses:
         # Response code
         200:
-          description: JSON document with details
+          description: "successful operation, JSON document with details"
 
-  /games/search/{query-string}:
+  /publishers/{publisher-name}/games:
     get:
-      summary: Search for games
+      summary: "Find games by publisher"
       description: |
-        Search the ZXInfo database for {query-string}.
-        Matches {query-string} against the following fields in the database:
-        * fulltitle (double as important then the rest)
-        * alsoknownas
-        * featuretitle
-        * devicename
-        * publisher.name (double as important than the rest)
-        * manufacturer
-      tags:
-      - "zxgame"
-      parameters:
-        - name: query-string
-          in: path
-          description: Specifies the string to search for
-          required: true
-          type: string
-        - name: size
-          in: query
-          description: Specifies the page size for pagination
-          required: false
-          type: integer
-        - name: offset
-          in: query
-          description: Specifies the page offset for pagination
-          required: false
-          type: integer
-      responses:
-        # Response code
-        200:
-          description: |
-            An array of games. Adds *X-Total-Count* to reponse header.
-
-  /publishers/{publisher-name}/games/{game-id}:
-    get:
-      summary: Get game info for publisher
-      description: |
-        Get detailed information about a game for a specific publisher. 
-      tags:
-      - "zxgame"
-      parameters:
-        - $ref: '#/parameters/game-id'
-        - name: publisher-name
-          in: path
-          description: Specifies name of publisher to lookup
-          required: true
-          type: string
-      responses:
-        # Response code
-        200:
-          description: JSON document with details
-
-  /publishers/{publisher-name}/games/:
-    get:
-      summary: Search for games by publisher
-      description: |
-        List games by publisher. 
+        Returns list of games. Matches {publisher-name} against the following fields in index:
+        * publisher.name
+        * rereleasedby.name
+        * authors.author
+        * authors.group
+        
+        Sorts output by year of release, full title
       tags:
       - "zxgame"
       parameters:
@@ -132,3 +150,50 @@ paths:
         200:
           description: |
             An array of games. Adds *X-Total-Count* to reponse header.
+
+  /publishers/{publisher-name}/games/{game-title}:
+    get:
+      summary: Find game by publisher and title
+      description: Returns a single game
+      tags:
+      - "zxgame"
+      parameters:
+        - name: game-title
+          in: path
+          description: Title to query
+          required: true
+          type: string
+        - name: publisher-name
+          in: path
+          description: Publisher or author to query
+          required: true
+          type: string
+      responses:
+        # Response code
+        200:
+          description: "successful operation, JSON document with details"
+          
+  /group/{group-type}/{group-name}/games:
+    get:
+      summary: "Find games by group"
+      description: |
+        Returns list of games for a group.
+      tags:
+      - "zxgame"
+      parameters:
+        - name: group-type
+          in: path
+          description: Specifies group type (C,F,M,N,S,T,U) - see ZXDB for documentation
+          required: true
+          type: string
+        - name: group-name
+          in: path
+          description: Specifies name of group
+          required: true
+          type: string
+      responses:
+        # Response code
+        200:
+          description: |
+            An array of games. Adds *X-Total-Count* to reponse header.
+
