@@ -14,7 +14,6 @@ info:
   contact:
     name: ZXInfo API development
     email: zxinfo_dev@kolbeck.dk
-    url: http://incubator.kolbeck.dk/doc/
 host: api.zxinfo.dk
 basePath: /api/zxinfo
 tags:
