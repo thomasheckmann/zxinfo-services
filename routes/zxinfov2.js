@@ -334,7 +334,7 @@ var powerSearch = function(searchObject, page_size, offset) {
                                         "size": 100,
                                         "field": "machinetype",
                                         "order": {
-                                            "_term": "desc"
+                                            "_key": "desc"
                                         }
                                     }
                                 }
@@ -357,7 +357,7 @@ var powerSearch = function(searchObject, page_size, offset) {
                                                 "size": 100,
                                                 "field": "controls.control",
                                                 "order": {
-                                                    "_term": "asc"
+                                                    "_key": "asc"
                                                 }
                                             }
                                         }
@@ -377,7 +377,7 @@ var powerSearch = function(searchObject, page_size, offset) {
                                         "size": 100,
                                         "field": "multiplayermode",
                                         "order": {
-                                            "_term": "asc"
+                                            "_key": "asc"
                                         }
                                     }
                                 }
@@ -395,7 +395,7 @@ var powerSearch = function(searchObject, page_size, offset) {
                                         "size": 100,
                                         "field": "multiplayertype",
                                         "order": {
-                                            "_term": "asc"
+                                            "_key": "asc"
                                         }
                                     }
                                 }
@@ -413,7 +413,7 @@ var powerSearch = function(searchObject, page_size, offset) {
                                         "size": 100,
                                         "field": "originalpublication",
                                         "order": {
-                                            "_term": "asc"
+                                            "_key": "asc"
                                         }
                                     }
                                 }
@@ -431,7 +431,7 @@ var powerSearch = function(searchObject, page_size, offset) {
                                         "size": 100,
                                         "field": "availability",
                                         "order": {
-                                            "_term": "asc"
+                                            "_key": "asc"
                                         }
                                     }
                                 }
