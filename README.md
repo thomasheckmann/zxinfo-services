@@ -65,6 +65,9 @@ Copy zx-info-services.tar to server, and then restore on server
 ````
 
 # Changelog
+## 01-2018
+* Major update of Elasticsearch from 2.4.x to 6.1.x
+
 ## 05-2017
 * Added search by type & subtype (eg. Adventure/Text-Only)
 

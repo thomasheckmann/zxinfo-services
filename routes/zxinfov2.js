@@ -3,7 +3,13 @@
 dd.mm.yyyy
 
 Changelog:
+17.01.2018 - Elasticsearch upgrade from 2.4.x -> 6.1.x (Lots of API & Query changes)
+           - npm elastisearch upgraded to latest
+           - npm debug opgraded to latest
 30.11.2017 - author object changed from simple string, to object {name, country, alias} - name & alias is searched
+
+To RUN with debug info:
+DEBUG=zxinfo-services:* NODE_ENV=development PORT=8300 nodemon --ignore public/javascripts/config.js
 
 */
 
@@ -19,18 +25,16 @@ var debug = require('debug')('zxinfo-services:apiv2');
 var elasticClient = new elasticsearch.Client({
     host: config.es_host,
     apiVersion: config.es_apiVersion,
-    log: config.log
+    log: config.es_log
 });
 
 var es_index = config.zxinfo_index;
-var es_index_type = config.zxinfo_type;
 
-var createQueryTem = function(query) {
-    if (query == undefined || query.length == 0) {
-        debug("empty query, return all");
-        return ({ "match_all": {} });
-    }
+var queryTerm1 = {
+    "match_all": {}
+};
 
+function queryTerm2(query) {
     return ({
         "bool": {
             "should": [{
@@ -83,13 +87,13 @@ var createQueryTem = function(query) {
                                 "match_phrase_prefix": {
                                     "releases.name": query
                                 }
+                            }],
+                            "must_not": [{
+                                "match": {
+                                    "seq": 0
+                                }
                             }]
-                        },
-                        "must_not": [{
-                            "match": {
-                                "seq": 0
-                            }
-                        }]
+                        }
                     }
                 }
             }, {
@@ -142,6 +146,54 @@ var createQueryTem = function(query) {
     });
 }
 
+
+/**
+var createQueryTerm = function(query) {
+    if (query == undefined || query.length == 0) {
+        debug("empty query, return all");
+        return ({
+            "bool": {
+                "must": queryTerm1
+            }
+        });
+    }
+
+    return ({
+        "bool": {
+            "must": queryTerm2(query)
+        }
+    });
+}
+*/
+
+
+var createQueryTermWithFilters = function(query, filters) {
+    if (query == undefined || query.length == 0) {
+        debug("empty query, return all");
+        return ({
+            "bool": {
+                "must": queryTerm1,
+                "filter": {
+                    "bool": {
+                        "must": filters
+                    }
+                }
+            }
+        });
+    }
+
+    return ({
+        "bool": {
+            "must": queryTerm2(query),
+            "filter": {
+                "bool": {
+                    "must": filters
+                }
+            }
+        }
+    });
+}
+
 var createFilterItem = function(filterName, filterValues) {
     var item_should = {};
 
@@ -188,14 +240,17 @@ var createFilterNestedItem = function(filterName, path, filterValues) {
     return item_should;
 }
 
-var createAggregationItem = function() {
-
-}
+/**
+ * Helper for aggregation - each aggregation should include all filters, except its own
+ */
+function removeFilter(filters, f) {
+    const index = filters.indexOf(f);
+    filters.splice(index, 1);
+    return filters.filter(value => Object.keys(value).length !== 0);;
+};
 
 var powerSearch = function(searchObject, page_size, offset) {
     debug('powerSearch()');
-    var query = createQueryTem(searchObject.query);
-
     var filterObjects = {};
 
     var contenttype_should = createFilterItem('contenttype', searchObject.contenttype);
@@ -236,22 +291,16 @@ var powerSearch = function(searchObject, page_size, offset) {
         }
     }
 
-    // these queries are not part of filtering options
-    var fixed = [query, contenttype_should, genresubtype_should];
+    var query = createQueryTermWithFilters(searchObject.query, filters);
+
+    var aggfilter = [query, contenttype_should, genresubtype_should, machinetype_should, controls_should, multiplayermode_should, multiplayertype_should, originalpublication_should, availability_should];
 
     return elasticClient.search({
         "index": es_index,
-        "type": es_index_type,
         "body": {
             "size": page_size,
             "from": offset * page_size,
             "query": query,
-            // FILTER
-            "filter": {
-                "bool": {
-                    "must": filters
-                }
-            },
             "sort": [{
                 "fulltitle.raw": {
                     "order": "asc"
@@ -276,13 +325,13 @@ var powerSearch = function(searchObject, page_size, offset) {
                         "machinetypes": {
                             "filter": {
                                 "bool": {
-                                    "must": [query, contenttype_should, genresubtype_should, controls_should, multiplayermode_should, multiplayertype_should, originalpublication_should, availability_should]
+                                    "must": removeFilter(aggfilter, machinetype_should)
                                 }
                             },
                             "aggregations": {
                                 "filtered_machinetypes": {
                                     "terms": {
-                                        "size": 0,
+                                        "size": 100,
                                         "field": "machinetype",
                                         "order": {
                                             "_term": "desc"
@@ -294,7 +343,7 @@ var powerSearch = function(searchObject, page_size, offset) {
                         "controls": {
                             "filter": {
                                 "bool": {
-                                    "must": [query, contenttype_should, genresubtype_should, machinetype_should, multiplayermode_should, multiplayertype_should, originalpublication_should, availability_should]
+                                    "must": removeFilter(aggfilter, controls_should)
                                 }
                             },
                             "aggregations": {
@@ -305,7 +354,7 @@ var powerSearch = function(searchObject, page_size, offset) {
                                     "aggregations": {
                                         "filtered_controls": {
                                             "terms": {
-                                                "size": 0,
+                                                "size": 100,
                                                 "field": "controls.control",
                                                 "order": {
                                                     "_term": "asc"
@@ -319,13 +368,13 @@ var powerSearch = function(searchObject, page_size, offset) {
                         "multiplayermode": {
                             "filter": {
                                 "bool": {
-                                    "must": [query, contenttype_should, genresubtype_should, machinetype_should, controls_should, multiplayertype_should, availability_should, originalpublication_should]
+                                    "must": removeFilter(aggfilter, multiplayermode_should)
                                 }
                             },
                             "aggregations": {
                                 "filtered_multiplayermode": {
                                     "terms": {
-                                        "size": 0,
+                                        "size": 100,
                                         "field": "multiplayermode",
                                         "order": {
                                             "_term": "asc"
@@ -337,13 +386,13 @@ var powerSearch = function(searchObject, page_size, offset) {
                         "multiplayertype": {
                             "filter": {
                                 "bool": {
-                                    "must": [query, contenttype_should, genresubtype_should, machinetype_should, controls_should, multiplayermode_should, availability_should, originalpublication_should]
+                                    "must": removeFilter(aggfilter, multiplayertype_should)
                                 }
                             },
                             "aggregations": {
                                 "filtered_multiplayertype": {
                                     "terms": {
-                                        "size": 0,
+                                        "size": 100,
                                         "field": "multiplayertype",
                                         "order": {
                                             "_term": "asc"
@@ -355,13 +404,13 @@ var powerSearch = function(searchObject, page_size, offset) {
                         "originalpublication": {
                             "filter": {
                                 "bool": {
-                                    "must": [query, contenttype_should, genresubtype_should, machinetype_should, controls_should, multiplayermode_should, multiplayertype_should, availability_should]
+                                    "must": removeFilter(aggfilter, originalpublication_should)
                                 }
                             },
                             "aggregations": {
                                 "filtered_originalpublication": {
                                     "terms": {
-                                        "size": 0,
+                                        "size": 100,
                                         "field": "originalpublication",
                                         "order": {
                                             "_term": "asc"
@@ -373,13 +422,13 @@ var powerSearch = function(searchObject, page_size, offset) {
                         "availability": {
                             "filter": {
                                 "bool": {
-                                    "must": [query, contenttype_should, genresubtype_should, machinetype_should, controls_should, multiplayermode_should, multiplayertype_should, originalpublication_should]
+                                    "must": removeFilter(aggfilter, availability_should)
                                 }
                             },
                             "aggregations": {
                                 "filtered_availability": {
                                     "terms": {
-                                        "size": 0,
+                                        "size": 100,
                                         "field": "availability",
                                         "order": {
                                             "_term": "asc"
@@ -395,7 +444,6 @@ var powerSearch = function(searchObject, page_size, offset) {
         } // end body
     });
 }
-
 
 // middleware to use for all requests
 router.use(function(req, res, next) {

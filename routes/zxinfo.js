@@ -8,32 +8,46 @@ var debug = require('debug')('zxinfo-services:apiv1');
 var elasticClient = new elasticsearch.Client({
     host: config.es_host,
     apiVersion: config.es_apiVersion,
-    log: config.log
+    log: config.es_log
 });
 
 var es_index = config.zxinfo_index;
-var es_index_type = config.zxinfo_type;
 
+/**
+ * Test case:
+ *      - pick game from frontpage (or result page)
+ *      - direct link to detail page '/details/0002259'
+ *
+ * Notes:
+ *      - TODO: Invalid ID is not handled in any way
+ */
 var getGameById = function(gameid) {
-    debug('getGameById()');
+    debug('getGameById('+gameid+')');
     return elasticClient.get({
         "index": es_index,
-        "type": es_index_type,
+        "type": es_index,
         "id": gameid
     });
 }
 
-var getGamesByPublisher = function(name, page_size, offset) {
+/**
+ * Test case:
+ *      - click publisher from result page
+ *      - direct link to publisher list '/publisher/ZX-Guaranteed'
+ *
+ * Notes:
+ *      - 
+ */
+ var getGamesByPublisher = function(name, page_size, offset) {
     debug('getGamesByPublisher()');
     return elasticClient.search({
         "index": es_index,
-        "type": es_index_type,
         "body": {
             "size": page_size,
             "from": offset * page_size,
             "query": {
-                "filtered": {
-                    "query": {
+                "bool": {
+                    "must": {
                         "match_all": {}
                     },
                     "filter": {
@@ -94,13 +108,14 @@ var getGamesByPublisher = function(name, page_size, offset) {
                         }
                     }
                 }
-            },
+            }
+            ,
             "sort": [{
                 "yearofrelease": {
                     "order": "asc"
                 }
             }, {
-                "fulltitle": {
+                "fulltitle.raw": {
                     "order": "asc"
                 }
             }]
@@ -108,16 +123,23 @@ var getGamesByPublisher = function(name, page_size, offset) {
     })
 };
 
+/**
+ * Test case:
+ *      - http://localhost:8300/api/zxinfo/publishers/Bug-Byte%20Software%20Ltd/games/Manic%20Miner
+ *      - Manic Miner details -> Series -> Jet Set Willy
+ *
+ * Notes:
+ *      - 
+ */
 var getGameByPublisherAndName = function(name, title) {
     debug('getGameByPublisherAndName()');
     return elasticClient.search({
         "index": es_index,
-        "type": es_index_type,
         "body": {
             "size": 1,
             "query": {
-                "filtered": {
-                    "query": {
+                "bool": {
+                    "must": {
                         "match": {
                             "fulltitle.raw": title
                         }
@@ -125,7 +147,7 @@ var getGameByPublisherAndName = function(name, title) {
                     "filter": {
                         "nested": {
                             "path": "publisher",
-                            "filter": {
+                            "query": {
                                 "bool": {
                                     "must": [{
                                         "term": {
@@ -142,12 +164,17 @@ var getGameByPublisherAndName = function(name, title) {
     })
 };
 
-
-var getGamesByGroup = function(groupid, groupname, page_size, offset) {
+/**
+ * Test case:
+ *      - Manic Miner details -> Features -> Isometric 3D...
+ *
+ * Notes:
+ *      - 
+ */
+ var getGamesByGroup = function(groupid, groupname, page_size, offset) {
     debug('getGamesByGroup()');
     return elasticClient.search({
         "index": es_index,
-        "type": es_index_type,
         "body": {
             "size": page_size,
             "from": offset * page_size,
