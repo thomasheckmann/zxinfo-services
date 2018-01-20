@@ -184,7 +184,7 @@ var createQueryTermWithFilters = function(query, filters) {
 
     return ({
         "bool": {
-            "must": queryTerm2(query),
+            "must": [queryTerm2(query)],
             "filter": {
                 "bool": {
                     "must": filters
@@ -250,7 +250,7 @@ function removeFilter(filters, f) {
 };
 
 var powerSearch = function(searchObject, page_size, offset) {
-    debug('powerSearch()');
+    debug('powerSearch(): ' + JSON.stringify(searchObject));
     var filterObjects = {};
 
     var contenttype_should = createFilterItem('contenttype', searchObject.contenttype);
@@ -280,7 +280,17 @@ var powerSearch = function(searchObject, page_size, offset) {
     var availability_should = createFilterItem('availability', searchObject.availability);
     filterObjects['availability'] = availability_should;
 
-    // generate array with objects
+    var groupandname_must = {};
+    if (searchObject.group !== undefined && searchObject.groupname !== undefined) {
+        var groupBools = [];
+        groupBools.push({ "nested": { "path": "features", "query": { "bool": { "must": { "match": { "features.id": searchObject.group } } } } } });
+        groupBools.push({ "nested": { "path": "features", "query": { "bool": { "must": { "match": { "features.name": searchObject.groupname } } } } } });
+        groupandname_must = { "bool": { "must": groupBools } }; // MUST have both
+        filterObjects['groupandname'] = groupandname_must;
+
+    }
+
+    // generate array with filter objects
     var filters = [];
     var filterNames = Object.keys(filterObjects);
     for (var i = 0; i < filterNames.length; i++) {
@@ -293,7 +303,7 @@ var powerSearch = function(searchObject, page_size, offset) {
 
     var query = createQueryTermWithFilters(searchObject.query, filters);
 
-    var aggfilter = [query, contenttype_should, genresubtype_should, machinetype_should, controls_should, multiplayermode_should, multiplayertype_should, originalpublication_should, availability_should];
+    var aggfilter = [query, contenttype_should, genresubtype_should, machinetype_should, controls_should, multiplayermode_should, multiplayertype_should, originalpublication_should, availability_should], groupandname_must;
 
     return elasticClient.search({
         "index": es_index,
