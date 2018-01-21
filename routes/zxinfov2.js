@@ -283,8 +283,8 @@ var powerSearch = function(searchObject, page_size, offset) {
     var groupandname_must = {};
     if (searchObject.group !== undefined && searchObject.groupname !== undefined) {
         var groupBools = [];
-        groupBools.push({ "nested": { "path": "features", "query": { "bool": { "must": { "match": { "features.id": searchObject.group } } } } } });
-        groupBools.push({ "nested": { "path": "features", "query": { "bool": { "must": { "match": { "features.name": searchObject.groupname } } } } } });
+        groupBools.push({ "nested": { "path": "groups", "query": { "bool": { "must": { "match": { "groups.id": searchObject.group } } } } } });
+        groupBools.push({ "nested": { "path": "groups", "query": { "bool": { "must": { "match": { "groups.name": searchObject.groupname } } } } } });
         groupandname_must = { "bool": { "must": groupBools } }; // MUST have both
         filterObjects['groupandname'] = groupandname_must;
 
