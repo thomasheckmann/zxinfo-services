@@ -280,6 +280,9 @@ var powerSearch = function(searchObject, page_size, offset) {
     var availability_should = createFilterItem('availability', searchObject.availability);
     filterObjects['availability'] = availability_should;
 
+    var type_should = createFilterItem('type', searchObject.type);
+    filterObjects['type'] = type_should;
+
     var groupandname_must = {};
     if (searchObject.group !== undefined && searchObject.groupname !== undefined) {
         var groupBools = [];
@@ -303,7 +306,7 @@ var powerSearch = function(searchObject, page_size, offset) {
 
     var query = createQueryTermWithFilters(searchObject.query, filters);
 
-    var aggfilter = [query, contenttype_should, genresubtype_should, machinetype_should, controls_should, multiplayermode_should, multiplayertype_should, originalpublication_should, availability_should], groupandname_must;
+    var aggfilter = [query, contenttype_should, genresubtype_should, machinetype_should, controls_should, multiplayermode_should, multiplayertype_should, originalpublication_should, availability_should, type_should], groupandname_must;
 
     return elasticClient.search({
         "index": es_index,
@@ -440,6 +443,24 @@ var powerSearch = function(searchObject, page_size, offset) {
                                     "terms": {
                                         "size": 100,
                                         "field": "availability",
+                                        "order": {
+                                            "_key": "asc"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "type": {
+                            "filter": {
+                                "bool": {
+                                    "must": removeFilter(aggfilter, type_should)
+                                }
+                            },
+                            "aggregations": {
+                                "filtered_type": {
+                                    "terms": {
+                                        "size": 100,
+                                        "field": "type",
                                         "order": {
                                             "_key": "asc"
                                         }
