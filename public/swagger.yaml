@@ -1,6 +1,6 @@
 swagger: '2.0'
 info:
-  version: "1.2.0"
+  version: "1.2.1"
   title: ZXInfo API
   description: |
     This is an API for the ZXInfo search engine based on elasticsearch. See web-site at http://zxinfo.dk
@@ -8,9 +8,11 @@ info:
     **History**:
     
     v1.2.0: August 2017
-    
-    Added a v2 - powersearch
+    * Added a v2 - powersearch
 
+    v1.2.1: March 2018
+    * Fixed search
+    
   contact:
     name: ZXInfo API development
     email: zxinfo_dev@kolbeck.dk
@@ -90,6 +92,26 @@ paths:
         description: "Filter by availability, e.g. 'Never released'"
         type: string
         required: false
+      - name: "group"
+        in: query
+        description: "Filter by group. See ZXDB documentation"
+        type: string
+        required: false
+      - name: "groupname"
+        in: query
+        description: "Filter by groupname. See ZXDB documentation"
+        type: string
+        required: false
+      - name: size
+        in: query
+        description: Specifies the page size for pagination
+        required: true
+        type: integer
+      - name: offset
+        in: query
+        description: Specifies the page offset for pagination
+        required: true
+        type: integer
       responses:
         # Response code
         200:
