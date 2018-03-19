@@ -3,28 +3,28 @@
 var config = require('../config.json')[process.env.NODE_ENV || 'development'];
 var express = require('express');
 var router = express.Router();
+
 var elasticsearch = require('elasticsearch');
+var debug = require('debug')('zxinfo-services:social');
 
 var elasticClient = new elasticsearch.Client({
     host: config.es_host,
     apiVersion: config.es_apiVersion,
-    log: config.log
+    log: config.es_log
 });
 
 var es_index = config.zxinfo_index;
-var es_index_type = config.zxinfo_type;
 
-var media_url = 'http://incubator.kolbeck.dk/media';
+var media_url = 'http://zxinfo.dk/media';
 var books_url = 'https://archive.zx-spectrum.org.uk/WoS';
 var hw_url = 'https://archive.zx-spectrum.org.uk';
 
-var debug = require('debug')('zxinfo-services:social');
 
 var getGameById = function(gameid) {
     debug('getGameById()');
     return elasticClient.get({
         "index": es_index,
-        "type": es_index_type,
+        "type": es_index,
         "id": gameid
     });
 }
