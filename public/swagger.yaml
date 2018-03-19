@@ -7,18 +7,18 @@ info:
     
     **History**:
     
-    v1.2.0: August 2017
-    * Added a v2 - powersearch
-
-    v1.2.1: March 2018
-    * Fixed search
-
     v1.2.2: March 2018
     * Fixed required size & offset
     * Added default values for size & offset
     * Added default value for required 'publisher'
     * Added default values for required 'group-type' and 'group-name'
-    
+
+    v1.2.1: March 2018
+    * Fixed search
+
+    v1.2.0: August 2017
+    * Added a v2 - powersearch
+
   contact:
     name: ZXInfo API development
     email: zxinfo_dev@kolbeck.dk
@@ -190,16 +190,18 @@ paths:
       tags:
       - "zxgame"
       parameters:
-        - name: game-title
-          in: path
-          description: Title to query
-          required: true
-          type: string
         - name: publisher-name
           in: path
           description: Publisher or author to query
           required: true
           type: string
+          default: Ultimate Play The Game
+        - name: game-title
+          in: path
+          description: Title to query
+          required: true
+          type: string
+          default: Jetpac
       responses:
         # Response code
         200:
@@ -242,3 +244,4 @@ paths:
         200:
           description: |
             An array of games. Adds *X-Total-Count* to reponse header.
+
