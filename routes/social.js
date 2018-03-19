@@ -79,9 +79,9 @@ router.get('/details/:gameid', function(req, res, next) {
         var og_image = loadscreen(result._source);
         var og_description;
         if (result._source.machinetype === null) {
-            og_description = result._source.type + ' - ' + result._source.releases[0].name + '(' + result._source.yearofrelease + ')';
+            og_description = result._source.type + ' - ' + result._source.releases[0].publisher + '(' + result._source.yearofrelease + ')';
         } else {
-            og_description = result._source.machinetype + ', ' + result._source.type + ' - ' + result._source.releases[0].name + '(' + result._source.yearofrelease + ')';
+            og_description = result._source.machinetype + ', ' + result._source.type + ' - ' + result._source.releases[0].publisher + '(' + result._source.yearofrelease + ')';
         }
         res.render('social', { title: 'ZXInfo - The open source ZXDB frontend', og_url: og_url, og_title: og_title, og_image: og_image, og_description: og_description });
     });
