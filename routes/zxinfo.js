@@ -22,7 +22,7 @@ var es_index = config.zxinfo_index;
  *      - TODO: Invalid ID is not handled in any way
  */
 var getGameById = function(gameid) {
-    debug('getGameById('+gameid+')');
+    debug('getGameById(' + gameid + ')');
     return elasticClient.get({
         "index": es_index,
         "type": es_index,
@@ -38,7 +38,7 @@ var getGameById = function(gameid) {
  * Notes:
  *      - 
  */
- var getGamesByPublisher = function(name, page_size, offset) {
+var getGamesByPublisher = function(name, page_size, offset) {
     debug('getGamesByPublisher()');
     return elasticClient.search({
         "index": es_index,
@@ -108,8 +108,7 @@ var getGameById = function(gameid) {
                         }
                     }
                 }
-            }
-            ,
+            },
             "sort": [{
                 "yearofrelease": {
                     "order": "asc"
@@ -171,7 +170,7 @@ var getGameByPublisherAndName = function(name, title) {
  * Notes:
  *      - 
  */
- var getGamesByGroup = function(groupid, groupname, page_size, offset) {
+var getGamesByGroup = function(groupid, groupname, page_size, offset) {
     debug('getGamesByGroup()');
     return elasticClient.search({
         "index": es_index,
@@ -227,10 +226,18 @@ router.use(function(req, res, next) {
 */
 router.get('/games/:gameid', function(req, res, next) {
     debug('==> /games/:gameid');
+    debug(req.params.gameid + ' ==> length=' + req.params.gameid.length + ', integer=' + Number.isInteger(parseInt(req.params.gameid)));
 
-    getGameById(req.params.gameid).then(function(result) {
-        res.send(result);
-    });
+    if (Number.isInteger(parseInt(req.params.gameid)) && (req.params.gameid.length < 8)) {
+        var id = ('0000000' + req.params.gameid).slice(-7);    
+        getGameById(id).then(function(result) {
+            res.send(result);
+        }, function(reason) {
+            res.status(404).end();
+        });
+    } else {
+        res.status(400).end();
+    }
 });
 
 /**

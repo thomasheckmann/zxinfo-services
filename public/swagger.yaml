@@ -132,13 +132,17 @@ paths:
       parameters:
       - name: "game-id"
         in: path
-        description: ID of game to return (WoS compatible, e.g. 0002259)
+        description: ID of game to return (WoS compatible, e.g. 0002259), left padded with 0's if less than 7 digits.
         type: string
         required: true
       responses:
         # Response code
         200:
-          description: "successful operation, JSON document with details"
+          description: OK
+        400:
+          description: Bad request. Entry ID must be an integer. larger than 0 and max 7 digits.
+        404:
+          description: An entry with the specified ID was not found.
 
   /publishers/{publisher-name}/games:
     get:
