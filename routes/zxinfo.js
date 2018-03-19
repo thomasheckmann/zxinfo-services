@@ -119,7 +119,7 @@ var getGamesByPublisher = function(name, page_size, offset) {
                                         "bool": {
                                             "must": [{
                                                 "match": {
-                                                    "publisher.name.raw": name
+                                                    "publisher.name.keyword": name
                                                 }
                                             }]
                                         }
@@ -132,7 +132,7 @@ var getGamesByPublisher = function(name, page_size, offset) {
                                         "bool": {
                                             "must": [{
                                                 "match": {
-                                                    "releases.name.raw": name
+                                                    "releases.publisher.keyword": name
                                                 }
                                             }]
                                         }
@@ -158,7 +158,7 @@ var getGamesByPublisher = function(name, page_size, offset) {
                                         "bool": {
                                             "must": [{
                                                 "match": {
-                                                    "authors.authors.name.raw": name
+                                                    "authors.authors.name.keyword": name
                                                 }
                                             }]
                                         }
