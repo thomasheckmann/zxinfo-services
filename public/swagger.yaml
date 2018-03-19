@@ -9,9 +9,6 @@ info:
     
     v1.2.2: March 2018
     * Fixed required size & offset
-    * Added default values for size & offset
-    * Added default value for required 'publisher'
-    * Added default values for required 'group-type' and 'group-name'
 
     v1.2.1: March 2018
     * Fixed search
@@ -25,7 +22,7 @@ info:
 host: api.zxinfo.dk
 basePath: /api/zxinfo
 tags:
-- name: "zxgame"
+- name: "zxinfo"
   description: "(Almost) Everything about ZX Sinclair Spectrum games"
   externalDocs:
     description: "Find out more"
@@ -41,7 +38,7 @@ paths:
   /v2/search:
     get:
       tags:
-      - "zxgame"
+      - "zxinfo"
       summary: "Find games"
       description: "Returns a List of games matching input filters"
       operationId: "searchAndFilter"
@@ -113,13 +110,11 @@ paths:
         description: Specifies the page size for pagination
         required: true
         type: integer
-        default: 20
       - name: offset
         in: query
         description: Specifies the page offset for pagination
         required: true
         type: integer
-        default: 0
       responses:
         # Response code
         200:
@@ -128,7 +123,7 @@ paths:
   /games/{game-id}:
     get:
       tags:
-      - "zxgame"
+      - "zxinfo"
       summary: "Find game by ID"
       description: "Returns a single game"
       operationId: "getGameById"
@@ -157,26 +152,23 @@ paths:
         
         Sorts output by year of release, full title
       tags:
-      - "zxgame"
+      - "zxinfo"
       parameters:
         - name: publisher-name
           in: path
           description: Specifies name of publisher to lookup
           required: true
           type: string
-          default: Ultimate Play The Game
         - name: size
           in: query
           description: Specifies the page size for pagination
           required: true
           type: integer
-          default: 20
         - name: offset
           in: query
           description: Specifies the page offset for pagination
           required: true
           type: integer
-          default: 0
       responses:
         # Response code
         200:
@@ -188,20 +180,18 @@ paths:
       summary: Find game by publisher and title
       description: Returns a single game
       tags:
-      - "zxgame"
+      - "zxinfo"
       parameters:
         - name: publisher-name
           in: path
           description: Publisher or author to query
           required: true
           type: string
-          default: Ultimate Play The Game
         - name: game-title
           in: path
           description: Title to query
           required: true
           type: string
-          default: Jetpac
       responses:
         # Response code
         200:
@@ -213,32 +203,28 @@ paths:
       description: |
         Returns list of games for a group.
       tags:
-      - "zxgame"
+      - "zxinfo"
       parameters:
         - name: group-type
           in: path
           description: Specifies group type (C,F,M,N,S,T,U) - see ZXDB for documentation
           required: true
           type: string
-          default: F
         - name: group-name
           in: path
           description: Specifies name of group
           required: true
           type: string
-          default: Isometric 3D Graphics
         - name: size
           in: query
           description: Specifies the page size for pagination
           required: true
           type: integer
-          default: 20
         - name: offset
           in: query
           description: Specifies the page offset for pagination
           required: true
           type: integer
-          default: 0
       responses:
         # Response code
         200:
