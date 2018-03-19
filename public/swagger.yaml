@@ -135,6 +135,11 @@ paths:
         description: ID of game to return (WoS compatible, e.g. 0002259), left padded with 0's if less than 7 digits.
         type: string
         required: true
+      - name: mode
+        in: query
+        description: Specifies if result should be 'compact' or 'full' JSON (defaults to 'compact')
+        required: optional
+        type: string
       responses:
         # Response code
         200:

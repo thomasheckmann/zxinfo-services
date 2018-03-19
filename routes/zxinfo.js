@@ -15,6 +15,64 @@ var elasticClient = new elasticsearch.Client({
 
 var es_index = config.zxinfo_index;
 
+var zxdbResult = function(r, mode) {
+    mode = mode == undefined ? "compact" : mode;
+    debug('mode=' + mode);
+
+    if (mode === 'full') {
+        return r;
+    }
+
+    var source = r._source;
+    delete r._source;
+
+    r._source = {};
+    r._source.fulltitle = source.fulltitle;
+    r._source.yearofrelease = source.yearofrelease;
+    r._source.machinetype = source.machinetype;
+    r._source.numberofplayers = source.numberofplayers;
+    r._source.multiplayermode = source.multiplayermode;
+    r._source.multiplayertype = source.multiplayertype;
+    r._source.type = source.type;
+    r._source.subtype = source.subtype;
+    r._source.isbn = source.isbn;
+    r._source.messagelanguage = source.messagelanguage;
+    r._source.originalprice = source.originalprice;
+    r._source.availability = source.availability;
+    r._source.knownerrors = source.knownerrors;
+    r._source.remarks = source.remarks;
+    r._source.spotcomments = source.spotcomments;
+    r._source.score = source.score;
+    r._source.publisher = source.publisher;
+    r._source.releases = source.releases;
+    r._source.authors = source.authors;
+    r._source.roles = source.roles;
+    r._source.authored = source.authored;
+    r._source.authoring = source.authoring;
+    r._source.controls = source.controls;
+    r._source.series = source.series;
+    r._source.othersystems = source.othersystems;
+    r._source.contents = source.contents;
+    r._source.screens = source.screens;
+    r._source.incompilations = source.incompilations;
+    r._source.booktypeins = source.booktypeins;
+    r._source.additionals = source.additionals;
+    r._source.mod_of = source.mod_of;
+    r._source.modified_by = source.modified_by;
+
+    // remove "empty"
+    for (var property in r._source) {
+        if (r._source.hasOwnProperty(property)) {
+            var value = r._source[property];
+            if (value === undefined || value === null || value.length === 0 ||  (Object.keys(value).length === 0) && value.constructor === Object) {
+                delete r._source[property];
+            }
+        }
+    }
+
+    return r;
+}
+
 /**
  * Test case:
  *      - pick game from frontpage (or result page)
@@ -231,9 +289,9 @@ router.get('/games/:gameid', function(req, res, next) {
     debug(req.params.gameid + ' ==> length=' + req.params.gameid.length + ', integer=' + Number.isInteger(parseInt(req.params.gameid)));
 
     if (Number.isInteger(parseInt(req.params.gameid)) && (req.params.gameid.length < 8)) {
-        var id = ('0000000' + req.params.gameid).slice(-7);    
+        var id = ('0000000' + req.params.gameid).slice(-7);
         getGameById(id).then(function(result) {
-            res.send(result);
+            res.send(zxdbResult(result, req.query.mode));
         }, function(reason) {
             res.status(404).end();
         });
