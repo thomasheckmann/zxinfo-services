@@ -138,7 +138,7 @@ paths:
       - name: mode
         in: query
         description: Specifies if result should be 'compact' or 'full' JSON (defaults to 'compact')
-        required: optional
+        required: false
         type: string
       responses:
         # Response code
