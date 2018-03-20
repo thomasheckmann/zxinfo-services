@@ -30,6 +30,42 @@ var elasticClient = new elasticsearch.Client({
 
 var es_index = config.zxinfo_index;
 
+var zxdbResult = function(r, mode) {
+    mode = mode == undefined ? "compact" : mode;
+    debug('mode=' + mode);
+
+    if (mode === 'full') {
+        return r;
+    }
+    var hitsIn = r.hits.hits;
+    delete r.hits.hits;
+    delete r.aggregations;
+
+    // compact hits
+    var i = 0;
+    var hitsOut = [];
+    for(; i < hitsIn.length; i++) {
+        var item = hitsIn[i];
+        var source = hitsIn[i]._source;
+        delete item._source;
+        delete item.highlight;
+        delete item.sort;
+
+        item.fulltitle = source.fulltitle;
+        item.yearofrelease = source.yearofrelease;
+        item.type = source.type;
+        item.subtype = source.subtype;
+        item.authors = source.authors;
+        item.publisher = source.publisher;
+        item.machinetype = source.machinetype;
+
+        hitsOut.push(item);
+    }
+
+    r.hits.hits = hitsOut;
+    return r;
+}
+
 var queryTerm1 = {
     "match_all": {}
 };
@@ -519,7 +555,7 @@ router.get('/search', function(req, res, next) {
     debug('==> /search');
     powerSearch(req.query, req.query.size, req.query.offset).then(function(result) {
         res.header("X-Total-Count", result.hits.total);
-        res.send(result);
+        res.send(zxdbResult(result, req.query.mode));
     });
 });
 

@@ -50,6 +50,11 @@ paths:
         description: "something to query for"
         type: string
         required: false
+      - name: mode
+        in: query
+        description: Specifies if result should be 'compact' or 'full' JSON (defaults to 'compact')
+        required: false
+        type: string
       - name: "contenttype"
         in: query
         description: "Filter by contenttype: SOFTWARE, HARDWARE, BOOK"
