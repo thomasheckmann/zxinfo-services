@@ -283,14 +283,39 @@ var powerSearch = function(searchObject, page_size, offset) {
     var type_should = createFilterItem('type', searchObject.type);
     filterObjects['type'] = type_should;
 
+    /**
+
+    -- (C)ompetition - Tron256(17819) - competition
+    -- (F)eature - Lunar Jetman(9372) - features
+    -- (M)ajor Clone - Gulpman(2175) - majorclone
+    -- (N)amed - LED Storm(9369) - series
+    -- (T)hemed - Valhalla(7152) - themedgroup
+    -- (U)Unnamed - Alpha-Beth(10966) - unsortedgroup
+
+    */
+
+    var grouptype_id = '';
+
+    if (searchObject.group === 'C') {
+        grouptype_id = 'competition';
+    } else if (searchObject.group === 'F') {
+        grouptype_id = 'features';
+    } else if (searchObject.group === 'M') {
+        grouptype_id = 'majorclone';
+    } else if (searchObject.group === 'N') {
+        grouptype_id = 'series';
+    } else if (searchObject.group === 'T') {
+        grouptype_id = 'themedgroup';
+    } else if (searchObject.group === 'U') {
+        grouptype_id = 'unsortedgroup';
+    }
+
     var groupandname_must = {};
     if (searchObject.group !== undefined && searchObject.groupname !== undefined) {
         var groupBools = [];
-        groupBools.push({ "nested": { "path": "groups", "query": { "bool": { "must": { "match": { "groups.id": searchObject.group } } } } } });
-        groupBools.push({ "nested": { "path": "groups", "query": { "bool": { "must": { "match": { "groups.name": searchObject.groupname } } } } } });
-        groupandname_must = { "bool": { "must": groupBools } }; // MUST have both
+        groupBools.push({ "nested": { "path": grouptype_id, "query": { "bool": { "must": { "match": { [grouptype_id + ".name"]: searchObject.groupname } } } } } });
+        groupandname_must = { "bool": { "must": groupBools } };
         filterObjects['groupandname'] = groupandname_must;
-
     }
 
     // generate array with filter objects
@@ -306,7 +331,8 @@ var powerSearch = function(searchObject, page_size, offset) {
 
     var query = createQueryTermWithFilters(searchObject.query, filters);
 
-    var aggfilter = [query, contenttype_should, genresubtype_should, machinetype_should, controls_should, multiplayermode_should, multiplayertype_should, originalpublication_should, availability_should, type_should], groupandname_must;
+    var aggfilter = [query, contenttype_should, genresubtype_should, machinetype_should, controls_should, multiplayermode_should, multiplayertype_should, originalpublication_should, availability_should, type_should],
+        groupandname_must;
 
     return elasticClient.search({
         "index": es_index,
