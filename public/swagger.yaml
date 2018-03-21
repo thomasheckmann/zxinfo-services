@@ -55,6 +55,11 @@ paths:
         description: Specifies if result should be 'compact' or 'full' JSON (defaults to 'compact')
         required: false
         type: string
+      - name: sort
+        in: query
+        description: Specifies sorting mode. Can be on of title_asc, title_desc, date_asc or date_desc. Defaults to date_desc sorting titles by newest first.
+        required: false
+        type: string
       - name: "contenttype"
         in: query
         description: "Filter by contenttype: SOFTWARE, HARDWARE, BOOK"

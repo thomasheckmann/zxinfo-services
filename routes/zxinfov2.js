@@ -30,6 +30,19 @@ var elasticClient = new elasticsearch.Client({
 
 var es_index = config.zxinfo_index;
 
+var removeEmpty = function(item) {
+    for (var property in item) {
+        if (item.hasOwnProperty(property)) {
+            var value = item[property];
+            if (value === undefined || value === null || value.length === 0 ||  (Object.keys(value).length === 0) && value.constructor === Object) {
+                delete item[property];
+            }
+        }
+    }
+
+    return item;
+}
+
 var zxdbResult = function(r, mode) {
     mode = mode == undefined ? "compact" : mode;
     debug('mode=' + mode);
@@ -44,7 +57,7 @@ var zxdbResult = function(r, mode) {
     // compact hits
     var i = 0;
     var hitsOut = [];
-    for(; i < hitsIn.length; i++) {
+    for (; i < hitsIn.length; i++) {
         var item = hitsIn[i];
         var source = hitsIn[i]._source;
         delete item._source;
@@ -53,14 +66,20 @@ var zxdbResult = function(r, mode) {
 
         item.fulltitle = source.fulltitle;
         item.yearofrelease = source.yearofrelease;
+        item.monthofrelease = source.monthofrelease;
+        item.dayofrelease = source.dayofrelease;
         item.type = source.type;
         item.subtype = source.subtype;
         item.authors = source.authors;
         item.publisher = source.publisher;
         item.machinetype = source.machinetype;
 
+        // remove "empty"
+        item = removeEmpty(item);
+
         hitsOut.push(item);
     }
+
 
     r.hits.hits = hitsOut;
     return r;
@@ -287,6 +306,60 @@ function removeFilter(filters, f) {
 
 var powerSearch = function(searchObject, page_size, offset) {
     debug('powerSearch(): ' + JSON.stringify(searchObject));
+
+    // title_asc, title_desc, date_asc, date_desc
+    var sort_mode = searchObject.sort == undefined ? "date_desc" : searchObject.sort;
+    debug('powerSearch():' + sort_mode);
+
+    var sort_field, sort_order, sort_object;
+    if (sort_mode === 'title_asc') {
+        sort_object = [{
+            "fulltitle.raw": {
+                "order": "asc"
+            }
+        }];
+    } else if (sort_mode === 'title_desc') {
+        sort_object = [{
+            "fulltitle.raw": {
+                "order": "desc"
+            }
+        }];
+    } else if (sort_mode === 'date_asc') {
+        sort_object = [{
+            "yearofrelease": {
+                "order": "asc"
+            }
+        },
+        {
+            "monthofrelease": {
+                "order": "asc"
+            }
+        },
+        {
+            "dayofrelease": {
+                "order": "asc"
+            }
+        }];
+    } else if (sort_mode === 'date_desc') {
+         sort_object = [{
+            "yearofrelease": {
+                "order": "desc"
+            }
+        },
+        {
+            "monthofrelease": {
+                "order": "desc"
+            }
+        },
+        {
+            "dayofrelease": {
+                "order": "desc"
+            }
+        }];
+    }
+
+    debug(JSON.stringify(sort_object));
+
     var filterObjects = {};
 
     var contenttype_should = createFilterItem('contenttype', searchObject.contenttype);
@@ -352,7 +425,8 @@ var powerSearch = function(searchObject, page_size, offset) {
     var groupandname_must = {};
     if (searchObject.group !== undefined && searchObject.groupname !== undefined) {
         var groupBools = [];
-        groupBools.push({ "nested": { "path": grouptype_id, "query": { "bool": { "must": { "match": { [grouptype_id + ".name"]: searchObject.groupname } } } } } });
+        groupBools.push({ "nested": { "path": grouptype_id, "query": { "bool": { "must": { "match": {
+                                [grouptype_id + ".name"]: searchObject.groupname } } } } } });
         groupandname_must = { "bool": { "must": groupBools } };
         filterObjects['groupandname'] = groupandname_must;
     }
@@ -378,11 +452,7 @@ var powerSearch = function(searchObject, page_size, offset) {
             "size": page_size,
             "from": offset * page_size,
             "query": query,
-            "sort": [{
-                "fulltitle.raw": {
-                    "order": "asc"
-                }
-            }],
+            "sort": sort_object,
             "highlight": {
                 "fields": {
                     "fulltitle": {},
@@ -549,7 +619,7 @@ var powerSearch = function(searchObject, page_size, offset) {
                                     }
                                 }
                             }
-                        }                        
+                        }
                         /** insert new AGG here */
                     }
                 }
