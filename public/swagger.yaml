@@ -122,12 +122,12 @@ paths:
         required: false
       - name: size
         in: query
-        description: Specifies the page size for pagination
+        description: Specifies the page size for pagination. If used in combination with offset=random, max value allowed is 10.
         required: true
         type: integer
       - name: offset
         in: query
-        description: Specifies the page offset for pagination
+        description: Specifies the page offset for pagination. If 'random' used in combination with size to fetct random documents.
         required: true
         type: integer
       responses:

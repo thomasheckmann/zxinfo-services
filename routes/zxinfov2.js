@@ -446,12 +446,42 @@ var powerSearch = function(searchObject, page_size, offset) {
 
     var aggfilter = [query, contenttype_should, genresubtype_should, machinetype_should, controls_should, multiplayermode_should, multiplayertype_should, originalpublication_should, availability_should, type_should, language_should];
 
+
+    // random X, if offset=random, size max 10
+    
+    var fromOffset, queryObject;
+
+    if(offset === 'random') {
+        if(page_size > 10) {
+            page_size = 10;
+        }
+        fromOffset = 0;
+        queryObject = {
+            "function_score": {
+                "query" : query,
+                "functions": [{
+                    "random_score": {}
+                }]
+            }
+        };
+
+        sort_object = [{
+            "_score": {
+                "order": "asc"
+            }
+        }];
+    } else {
+        fromOffset = offset * page_size;
+        queryObject = query;
+    }
+
     return elasticClient.search({
         "index": es_index,
         "body": {
+            "track_scores": true,
             "size": page_size,
-            "from": offset * page_size,
-            "query": query,
+            "from": fromOffset,
+            "query": queryObject,
             "sort": sort_object,
             "highlight": {
                 "fields": {
