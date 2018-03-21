@@ -70,6 +70,11 @@ paths:
         description: "Filter by language: English, Spanish, ..."
         type: string
         required: false
+      - name: "year"
+        in: query
+        description: "Filter by year of release"
+        type: string
+        required: false
       - name: "genretype"
         in: query
         description: "Filter by genretype, e.g. 'Arcade Game'"

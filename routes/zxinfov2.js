@@ -395,6 +395,9 @@ var powerSearch = function(searchObject, page_size, offset) {
     var language_should = createFilterItem('messagelanguage', searchObject.language);
     filterObjects['language'] = language_should;
 
+    var year_should = createFilterItem('yearofrelease', searchObject.year);
+    filterObjects['yearofrelease'] = year_should;
+
     /**
 
     -- (C)ompetition - Tron256(17819) - competition
@@ -444,7 +447,7 @@ var powerSearch = function(searchObject, page_size, offset) {
 
     var query = createQueryTermWithFilters(searchObject.query, filters);
 
-    var aggfilter = [query, contenttype_should, genresubtype_should, machinetype_should, controls_should, multiplayermode_should, multiplayertype_should, originalpublication_should, availability_should, type_should, language_should];
+    var aggfilter = [query, contenttype_should, genresubtype_should, machinetype_should, controls_should, multiplayermode_should, multiplayertype_should, originalpublication_should, availability_should, type_should, language_should, year_should];
 
 
     // random X, if offset=random, size max 10
@@ -643,6 +646,24 @@ var powerSearch = function(searchObject, page_size, offset) {
                                     "terms": {
                                         "size": 100,
                                         "field": "messagelanguage",
+                                        "order": {
+                                            "_key": "asc"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "year": {
+                            "filter": {
+                                "bool": {
+                                    "must": removeFilter(aggfilter, year_should)
+                                }
+                            },
+                            "aggregations": {
+                                "filtered_year": {
+                                    "terms": {
+                                        "size": 100,
+                                        "field": "yearofrelease",
                                         "order": {
                                             "_key": "asc"
                                         }
