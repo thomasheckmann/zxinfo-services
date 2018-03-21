@@ -15,7 +15,71 @@ var elasticClient = new elasticsearch.Client({
 
 var es_index = config.zxinfo_index;
 
-var zxdbResult = function(r, mode) {
+var getSortObject = function(sort_mode) {
+    var sort_object;
+
+    if (sort_mode === 'title_asc') {
+        sort_object = [{
+            "fulltitle.raw": {
+                "order": "asc"
+            }
+        }];
+    } else if (sort_mode === 'title_desc') {
+        sort_object = [{
+            "fulltitle.raw": {
+                "order": "desc"
+            }
+        }];
+    } else if (sort_mode === 'date_asc') {
+        sort_object = [{
+            "yearofrelease": {
+                "order": "asc"
+            }
+        },
+        {
+            "monthofrelease": {
+                "order": "asc"
+            }
+        },
+        {
+            "dayofrelease": {
+                "order": "asc"
+            }
+        }];
+    } else if (sort_mode === 'date_desc') {
+         sort_object = [{
+            "yearofrelease": {
+                "order": "desc"
+            }
+        },
+        {
+            "monthofrelease": {
+                "order": "desc"
+            }
+        },
+        {
+            "dayofrelease": {
+                "order": "desc"
+            }
+        }];
+    }
+    return sort_object;
+}
+
+var removeEmpty = function(item) {
+    for (var property in item) {
+        if (item.hasOwnProperty(property)) {
+            var value = item[property];
+            if (value === undefined || value === null || value.length === 0 ||  (Object.keys(value).length === 0) && value.constructor === Object) {
+                delete item[property];
+            }
+        }
+    }
+
+    return item;
+}
+
+var zxdbResultSingle = function(r, mode) {
     mode = mode == undefined ? "compact" : mode;
     debug('mode=' + mode);
 
@@ -62,16 +126,51 @@ var zxdbResult = function(r, mode) {
     r._source.mod_of = source.mod_of;
     r._source.modified_by = source.modified_by;
 
-    // remove "empty"
-    for (var property in r._source) {
-        if (r._source.hasOwnProperty(property)) {
-            var value = r._source[property];
-            if (value === undefined || value === null || value.length === 0 ||  (Object.keys(value).length === 0) && value.constructor === Object) {
-                delete r._source[property];
-            }
-        }
+
+    r._source = removeEmpty(r._source);
+
+    return r;
+}
+
+var zxdbResultList = function(r, mode) {
+    mode = mode == undefined ? "compact" : mode;
+    debug('mode=' + mode);
+
+    if (mode === 'full') {
+        return r;
+    }
+    var hitsIn = r.hits.hits;
+    delete r.hits.hits;
+    delete r.aggregations;
+
+    // compact hits
+    var i = 0;
+    var hitsOut = [];
+    for (; i < hitsIn.length; i++) {
+        var item = hitsIn[i];
+        var source = hitsIn[i]._source;
+        delete item._source;
+        delete item.highlight;
+        delete item.sort;
+
+        item.fulltitle = source.fulltitle;
+        item.yearofrelease = source.yearofrelease;
+        item.monthofrelease = source.monthofrelease;
+        item.dayofrelease = source.dayofrelease;
+        item.type = source.type;
+        item.subtype = source.subtype;
+        item.authors = source.authors;
+        item.publisher = source.publisher;
+        item.machinetype = source.machinetype;
+
+        // remove "empty"
+        item = removeEmpty(item);
+
+        hitsOut.push(item);
     }
 
+
+    r.hits.hits = hitsOut;
     return r;
 }
 
@@ -100,8 +199,12 @@ var getGameById = function(gameid) {
  * Notes:
  *      - 
  */
-var getGamesByPublisher = function(name, page_size, offset) {
+var getGamesByPublisher = function(name, page_size, offset, sort) {
     debug('getGamesByPublisher()');
+
+    var sort_mode = sort == undefined ? "date_desc" : sort;
+    var sort_object = getSortObject(sort_mode);
+
     return elasticClient.search({
         "index": es_index,
         "body": {
@@ -171,15 +274,7 @@ var getGamesByPublisher = function(name, page_size, offset) {
                     }
                 }
             },
-            "sort": [{
-                "yearofrelease": {
-                    "order": "asc"
-                }
-            }, {
-                "fulltitle.raw": {
-                    "order": "asc"
-                }
-            }]
+            "sort": sort_object
         }
     })
 };
@@ -225,55 +320,6 @@ var getGameByPublisherAndName = function(name, title) {
     })
 };
 
-/**
- * Test case:
- *      - Manic Miner details -> Features -> Isometric 3D...
- *
- * Notes:
- *      - 
- */
-var getGamesByGroup = function(groupid, groupname, page_size, offset) {
-    debug('getGamesByGroup()');
-    return elasticClient.search({
-        "index": es_index,
-        "body": {
-            "size": page_size,
-            "from": offset * page_size,
-            "query": {
-                "bool": {
-                    "must": [{
-                        "nested": {
-                            "path": "features",
-                            "query": {
-                                "bool": {
-                                    "must": {
-                                        "match": {
-                                            "features.id": groupid
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }, {
-                        "nested": {
-                            "path": "features",
-                            "query": {
-                                "bool": {
-                                    "must": {
-                                        "match": {
-                                            "features.name": groupname
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }]
-                }
-            }
-        }
-    });
-}
-
 // middleware to use for all requests
 router.use(function(req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
@@ -293,7 +339,7 @@ router.get('/games/:gameid', function(req, res, next) {
     if (Number.isInteger(parseInt(req.params.gameid)) && (req.params.gameid.length < 8)) {
         var id = ('0000000' + req.params.gameid).slice(-7);
         getGameById(id).then(function(result) {
-            res.send(zxdbResult(result, req.query.mode));
+            res.send(zxdbResultSingle(result, req.query.mode));
         }, function(reason) {
             res.status(404).end();
         });
@@ -314,9 +360,9 @@ router.get('/games/:gameid', function(req, res, next) {
 router.get('/publishers/:name/games', function(req, res, next) {
     debug('==> /publishers/:name/games');
 
-    getGamesByPublisher(req.params.name, req.query.size, req.query.offset).then(function(result) {
+    getGamesByPublisher(req.params.name, req.query.size, req.query.offset, req.query.sort).then(function(result) {
         res.header("X-Total-Count", result.hits.total);
-        res.send(result);
+        res.send(zxdbResultList(result, req.query.mode));
     });
 });
 
@@ -327,18 +373,11 @@ router.get('/publishers/:name/games/:title', function(req, res, next) {
     debug('==> /publishers/:name/games/:title');
 
     getGameByPublisherAndName(req.params.name, req.params.title).then(function(result) {
-        res.send(result.hits.hits[0]);
-    });
-});
-
-/**
-    Return games with groupid and groupname
-*/
-router.get('/group/:groupid/:groupname/games', function(req, res, next) {
-    debug('==> /group/:groupid/:groupname/games');
-    getGamesByGroup(req.params.groupid, req.params.groupname, req.query.size, req.query.offset).then(function(result) {
-        res.header("X-Total-Count", result.hits.total);
-        res.send(result);
+        if (result.hits.hits.length === 0) {
+            res.status(404).end();
+        } else {
+            res.send(zxdbResultSingle(result.hits.hits[0], req.query.mode));
+        }
     });
 });
 

@@ -30,6 +30,57 @@ var elasticClient = new elasticsearch.Client({
 
 var es_index = config.zxinfo_index;
 
+var getSortObject = function(sort_mode) {
+    var sort_object;
+
+    if (sort_mode === 'title_asc') {
+        sort_object = [{
+            "fulltitle.raw": {
+                "order": "asc"
+            }
+        }];
+    } else if (sort_mode === 'title_desc') {
+        sort_object = [{
+            "fulltitle.raw": {
+                "order": "desc"
+            }
+        }];
+    } else if (sort_mode === 'date_asc') {
+        sort_object = [{
+            "yearofrelease": {
+                "order": "asc"
+            }
+        },
+        {
+            "monthofrelease": {
+                "order": "asc"
+            }
+        },
+        {
+            "dayofrelease": {
+                "order": "asc"
+            }
+        }];
+    } else if (sort_mode === 'date_desc') {
+         sort_object = [{
+            "yearofrelease": {
+                "order": "desc"
+            }
+        },
+        {
+            "monthofrelease": {
+                "order": "desc"
+            }
+        },
+        {
+            "dayofrelease": {
+                "order": "desc"
+            }
+        }];
+    }
+    return sort_object;
+}
+
 var removeEmpty = function(item) {
     for (var property in item) {
         if (item.hasOwnProperty(property)) {
@@ -309,56 +360,7 @@ var powerSearch = function(searchObject, page_size, offset) {
 
     // title_asc, title_desc, date_asc, date_desc
     var sort_mode = searchObject.sort == undefined ? "date_desc" : searchObject.sort;
-    debug('powerSearch():' + sort_mode);
-
-    var sort_field, sort_order, sort_object;
-    if (sort_mode === 'title_asc') {
-        sort_object = [{
-            "fulltitle.raw": {
-                "order": "asc"
-            }
-        }];
-    } else if (sort_mode === 'title_desc') {
-        sort_object = [{
-            "fulltitle.raw": {
-                "order": "desc"
-            }
-        }];
-    } else if (sort_mode === 'date_asc') {
-        sort_object = [{
-            "yearofrelease": {
-                "order": "asc"
-            }
-        },
-        {
-            "monthofrelease": {
-                "order": "asc"
-            }
-        },
-        {
-            "dayofrelease": {
-                "order": "asc"
-            }
-        }];
-    } else if (sort_mode === 'date_desc') {
-         sort_object = [{
-            "yearofrelease": {
-                "order": "desc"
-            }
-        },
-        {
-            "monthofrelease": {
-                "order": "desc"
-            }
-        },
-        {
-            "dayofrelease": {
-                "order": "desc"
-            }
-        }];
-    }
-
-    debug(JSON.stringify(sort_object));
+    var sort_object = getSortObject(sort_mode);
 
     var filterObjects = {};
 
