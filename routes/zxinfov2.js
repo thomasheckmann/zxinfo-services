@@ -319,6 +319,9 @@ var powerSearch = function(searchObject, page_size, offset) {
     var type_should = createFilterItem('type', searchObject.type);
     filterObjects['type'] = type_should;
 
+    var language_should = createFilterItem('messagelanguage', searchObject.language);
+    filterObjects['language'] = language_should;
+
     /**
 
     -- (C)ompetition - Tron256(17819) - competition
@@ -367,8 +370,7 @@ var powerSearch = function(searchObject, page_size, offset) {
 
     var query = createQueryTermWithFilters(searchObject.query, filters);
 
-    var aggfilter = [query, contenttype_should, genresubtype_should, machinetype_should, controls_should, multiplayermode_should, multiplayertype_should, originalpublication_should, availability_should, type_should],
-        groupandname_must;
+    var aggfilter = [query, contenttype_should, genresubtype_should, machinetype_should, controls_should, multiplayermode_should, multiplayertype_should, originalpublication_should, availability_should, type_should, language_should];
 
     return elasticClient.search({
         "index": es_index,
@@ -529,8 +531,26 @@ var powerSearch = function(searchObject, page_size, offset) {
                                     }
                                 }
                             }
-                        }
-                        /** insert new here */
+                        },
+                        "language": {
+                            "filter": {
+                                "bool": {
+                                    "must": removeFilter(aggfilter, language_should)
+                                }
+                            },
+                            "aggregations": {
+                                "filtered_language": {
+                                    "terms": {
+                                        "size": 100,
+                                        "field": "messagelanguage",
+                                        "order": {
+                                            "_key": "asc"
+                                        }
+                                    }
+                                }
+                            }
+                        }                        
+                        /** insert new AGG here */
                     }
                 }
             }
