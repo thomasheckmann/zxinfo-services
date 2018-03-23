@@ -10,7 +10,7 @@
     },
     "production":
     {
-        "es_host": "http://search.zxinfo.dk",
+        "es_host": "https://search.zxinfo.dk",
         "es_apiVersion": "6.0",
         "es_log": "error",
         "zxinfo_index": "zxinfo_games",
