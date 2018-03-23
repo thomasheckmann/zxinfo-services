@@ -14,7 +14,7 @@ info:
     * Keep in touch: tell us about what you're building and talk to other developers
     * Build cool stuff
     
-    The ZXInfo API is also the backend for the web site http://zxinfo.dk
+    The ZXInfo API is also the backend for the web site https://zxinfo.dk
     
     Remember that the ZXInfo API suite and portal is an evolving project, developed by dedicated people in their spare time. To the extent that it is possible, we will try to limit any modifications which cause backwards incompatible changes to applications.
     
@@ -30,9 +30,9 @@ tags:
   description: "(Almost) Everything about Sinclair-related material including software, hardware, books, magazines, etc."
   externalDocs:
     description: "Find out more"
-    url: "http://zxinfo.dk"
+    url: "https://zxinfo.dk"
 schemes:
-  - http
+  - https
 consumes:
   - application/json
 produces:
