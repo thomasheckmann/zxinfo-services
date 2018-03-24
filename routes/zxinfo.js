@@ -17,57 +17,6 @@ var elasticClient = new elasticsearch.Client({
 
 var es_index = config.zxinfo_index;
 
-var getSortObject = function(sort_mode) {
-    var sort_object;
-
-    if (sort_mode === 'title_asc') {
-        sort_object = [{
-            "fulltitle.raw": {
-                "order": "asc"
-            }
-        }];
-    } else if (sort_mode === 'title_desc') {
-        sort_object = [{
-            "fulltitle.raw": {
-                "order": "desc"
-            }
-        }];
-    } else if (sort_mode === 'date_asc') {
-        sort_object = [{
-            "yearofrelease": {
-                "order": "asc"
-            }
-        },
-        {
-            "monthofrelease": {
-                "order": "asc"
-            }
-        },
-        {
-            "dayofrelease": {
-                "order": "asc"
-            }
-        }];
-    } else if (sort_mode === 'date_desc') {
-         sort_object = [{
-            "yearofrelease": {
-                "order": "desc"
-            }
-        },
-        {
-            "monthofrelease": {
-                "order": "desc"
-            }
-        },
-        {
-            "dayofrelease": {
-                "order": "desc"
-            }
-        }];
-    }
-    return sort_object;
-}
-
 /**
  * Test case:
  *      - pick game from frontpage (or result page)
@@ -97,7 +46,7 @@ var getGamesByPublisher = function(name, page_size, offset, sort) {
     debug('getGamesByPublisher()');
 
     var sort_mode = sort == undefined ? "date_desc" : sort;
-    var sort_object = getSortObject(sort_mode);
+    var sort_object = tools.getSortObject(sort_mode);
 
     return elasticClient.search({
         "index": es_index,
@@ -157,7 +106,7 @@ var getGamesByPublisher = function(name, page_size, offset, sort) {
                                         "bool": {
                                             "must": [{
                                                 "match": {
-                                                    "authors.authors.name.keyword": name
+                                                    "authors.authors.name.raw": name
                                                 }
                                             }]
                                         }

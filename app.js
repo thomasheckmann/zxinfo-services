@@ -43,7 +43,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routes);
 app.use('/api/zxinfo', zxinfo);
 app.use('/api/zxinfo/v2', zxinfov2);
-app.use('/api/zxsuggest', zxsuggest);
+// app.use('/api/zxsuggest', zxsuggest);
 app.use('/api/graph', neo4j);
 app.use('/social', social);
 

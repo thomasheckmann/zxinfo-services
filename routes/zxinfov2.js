@@ -32,57 +32,6 @@ var elasticClient = new elasticsearch.Client({
 
 var es_index = config.zxinfo_index;
 
-var getSortObject = function(sort_mode) {
-    var sort_object;
-
-    if (sort_mode === 'title_asc') {
-        sort_object = [{
-            "fulltitle.raw": {
-                "order": "asc"
-            }
-        }];
-    } else if (sort_mode === 'title_desc') {
-        sort_object = [{
-            "fulltitle.raw": {
-                "order": "desc"
-            }
-        }];
-    } else if (sort_mode === 'date_asc') {
-        sort_object = [{
-            "yearofrelease": {
-                "order": "asc"
-            }
-        },
-        {
-            "monthofrelease": {
-                "order": "asc"
-            }
-        },
-        {
-            "dayofrelease": {
-                "order": "asc"
-            }
-        }];
-    } else if (sort_mode === 'date_desc') {
-         sort_object = [{
-            "yearofrelease": {
-                "order": "desc"
-            }
-        },
-        {
-            "monthofrelease": {
-                "order": "desc"
-            }
-        },
-        {
-            "dayofrelease": {
-                "order": "desc"
-            }
-        }];
-    }
-    return sort_object;
-}
-
 var queryTerm1 = {
     "match_all": {}
 };
@@ -307,7 +256,7 @@ var powerSearch = function(searchObject, page_size, offset) {
 
     // title_asc, title_desc, date_asc, date_desc
     var sort_mode = searchObject.sort == undefined ? "date_desc" : searchObject.sort;
-    var sort_object = getSortObject(sort_mode);
+    var sort_object = tools.getSortObject(sort_mode);
 
     var filterObjects = {};
 
@@ -628,6 +577,64 @@ var powerSearch = function(searchObject, page_size, offset) {
     });
 }
 
+/**
+ *
+ * Variant of getGamesByPublisher, that ONLY looks at author info
+ */
+var getGamesByAuthor = function(name, page_size, offset, sort) {
+    debug('getGamesByAuthor()');
+
+    var sort_mode = sort == undefined ? "date_desc" : sort;
+    var sort_object = tools.getSortObject(sort_mode);
+
+    return elasticClient.search({
+        "index": es_index,
+        "body": {
+            "size": page_size,
+            "from": offset * page_size,
+            "query": {
+                "bool": {
+                    "must": {
+                        "match_all": {}
+                    },
+                    "filter": {
+                        "bool": {
+                            "should": [{
+                                "nested": {
+                                    "path": "authors",
+                                    "query": {
+                                        "bool": {
+                                            "must": [{
+                                                "match": {
+                                                    "authors.group.raw": name
+                                                }
+                                            }]
+                                        }
+                                    }
+                                }
+                            }, {
+                                "nested": {
+                                    "path": "authors.authors",
+                                    "query": {
+                                        "bool": {
+                                            "must": [{
+                                                "match": {
+                                                    "authors.authors.name.raw": name
+                                                }
+                                            }]
+                                        }
+                                    }
+                                }
+                            }]
+                        }
+                    }
+                }
+            },
+            "sort": sort_object
+        }
+    })
+};
+
 // middleware to use for all requests
 router.use(function(req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
@@ -644,6 +651,15 @@ router.use(function(req, res, next) {
 router.get('/search', function(req, res, next) {
     debug('==> /search');
     powerSearch(req.query, req.query.size, req.query.offset).then(function(result) {
+        res.header("X-Total-Count", result.hits.total);
+        res.send(tools.zxdbResultList(result, req.query.mode));
+    });
+});
+
+router.get('/authors/:name/games', function(req, res, next) {
+    debug('==> /authors/:name/games');
+
+    getGamesByAuthor(req.params.name, req.query.size, req.query.offset, req.query.sort).then(function(result) {
         res.header("X-Total-Count", result.hits.total);
         res.send(tools.zxdbResultList(result, req.query.mode));
     });

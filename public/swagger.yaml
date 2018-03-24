@@ -263,3 +263,47 @@ paths:
           description: "successful operation, JSON document with details"
         404:
           description: An entry with specified publisher and title was not found.
+
+  /authors/{author-name}/games:
+    get:
+      summary: "Fetches list of entries filtered by author"
+      description: |
+        Fetches list of entries from a specific author, including:
+        * author.name
+        * authors.group
+        
+      tags:
+      - "zxinfo"
+      parameters:
+        - name: author-name
+          in: path
+          description: Specifies name of author to lookup
+          required: true
+          type: string
+        - name: size
+          in: query
+          description: Specifies the page size for pagination
+          required: true
+          type: integer
+        - name: offset
+          in: query
+          description: Specifies the page offset for pagination
+          required: true
+          type: integer
+        - name: mode
+          in: query
+          description: Specifies if returned JSON should be 'compact' or 'full'
+          required: false
+          default: "compact"
+          type: string
+        - name: sort
+          in: query
+          description: Specifies sorting mode. Can be on of title_asc, title_desc, date_asc or date_desc.
+          required: false
+          default: "date_desc"
+          type: string
+      responses:
+        # Response code
+        200:
+          description: |
+            An array of games. Adds *X-Total-Count* to reponse header.

@@ -2,6 +2,57 @@
 
 var debug = require('debug')('zxinfo-services:utils');
 
+var getSortObject = function(sort_mode) {
+    var sort_object;
+
+    if (sort_mode === 'title_asc') {
+        sort_object = [{
+            "fulltitle.raw": {
+                "order": "asc"
+            }
+        }];
+    } else if (sort_mode === 'title_desc') {
+        sort_object = [{
+            "fulltitle.raw": {
+                "order": "desc"
+            }
+        }];
+    } else if (sort_mode === 'date_asc') {
+        sort_object = [{
+            "yearofrelease": {
+                "order": "asc"
+            }
+        },
+        {
+            "monthofrelease": {
+                "order": "asc"
+            }
+        },
+        {
+            "dayofrelease": {
+                "order": "asc"
+            }
+        }];
+    } else if (sort_mode === 'date_desc') {
+         sort_object = [{
+            "yearofrelease": {
+                "order": "desc"
+            }
+        },
+        {
+            "monthofrelease": {
+                "order": "desc"
+            }
+        },
+        {
+            "dayofrelease": {
+                "order": "desc"
+            }
+        }];
+    }
+    return sort_object;
+}
+
 var removeEmpty = function(item) {
     for (var property in item) {
         if (item.hasOwnProperty(property)) {
@@ -114,5 +165,6 @@ var zxdbResultList = function(r, mode) {
 
 module.exports = {
     zxdbResultList: zxdbResultList,
-    zxdbResultSingle: zxdbResultSingle
+    zxdbResultSingle: zxdbResultSingle,
+    getSortObject: getSortObject
 };
