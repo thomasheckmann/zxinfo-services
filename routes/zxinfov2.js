@@ -15,6 +15,8 @@ DEBUG=zxinfo-services:* NODE_ENV=development PORT=8300 nodemon --ignore public/j
 
 'use strict';
 
+var tools = require('./utils');
+
 var config = require('../config.json')[process.env.NODE_ENV || 'development'];
 var express = require('express');
 var router = express.Router();
@@ -79,61 +81,6 @@ var getSortObject = function(sort_mode) {
         }];
     }
     return sort_object;
-}
-
-var removeEmpty = function(item) {
-    for (var property in item) {
-        if (item.hasOwnProperty(property)) {
-            var value = item[property];
-            if (value === undefined || value === null || value.length === 0 ||  (Object.keys(value).length === 0) && value.constructor === Object) {
-                delete item[property];
-            }
-        }
-    }
-
-    return item;
-}
-
-var zxdbResult = function(r, mode) {
-    mode = mode == undefined ? "compact" : mode;
-    debug('mode=' + mode);
-
-    if (mode === 'full') {
-        return r;
-    }
-    var hitsIn = r.hits.hits;
-    delete r.hits.hits;
-    delete r.aggregations;
-
-    // compact hits
-    var i = 0;
-    var hitsOut = [];
-    for (; i < hitsIn.length; i++) {
-        var item = hitsIn[i];
-        var source = hitsIn[i]._source;
-        delete item._source;
-        delete item.highlight;
-        delete item.sort;
-
-        item.fulltitle = source.fulltitle;
-        item.yearofrelease = source.yearofrelease;
-        item.monthofrelease = source.monthofrelease;
-        item.dayofrelease = source.dayofrelease;
-        item.type = source.type;
-        item.subtype = source.subtype;
-        item.authors = source.authors;
-        item.publisher = source.publisher;
-        item.machinetype = source.machinetype;
-
-        // remove "empty"
-        item = removeEmpty(item);
-
-        hitsOut.push(item);
-    }
-
-
-    r.hits.hits = hitsOut;
-    return r;
 }
 
 var queryTerm1 = {
@@ -698,7 +645,7 @@ router.get('/search', function(req, res, next) {
     debug('==> /search');
     powerSearch(req.query, req.query.size, req.query.offset).then(function(result) {
         res.header("X-Total-Count", result.hits.total);
-        res.send(zxdbResult(result, req.query.mode));
+        res.send(tools.zxdbResultList(result, req.query.mode));
     });
 });
 
