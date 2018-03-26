@@ -255,7 +255,7 @@ var powerSearch = function(searchObject, page_size, offset) {
     debug('powerSearch(): ' + JSON.stringify(searchObject));
 
     // title_asc, title_desc, date_asc, date_desc
-    var sort_mode = searchObject.sort == undefined ? "date_desc" : searchObject.sort;
+    var sort_mode = searchObject.sort == undefined ? "rel_desc" : searchObject.sort;
     var sort_object = tools.getSortObject(sort_mode);
 
     var filterObjects = {};

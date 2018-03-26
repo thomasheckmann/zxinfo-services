@@ -72,9 +72,9 @@ paths:
         type: string
       - name: sort
         in: query
-        description: Specifies sorting mode. Can be on of title_asc, title_desc, date_asc or date_desc.
+        description: Specifies sorting mode. Can be on of title_asc, title_desc, date_asc or date_desc, rel_asc or rel_desc.
         required: false
-        default: "date_desc"
+        default: "rel_desc"
         type: string
       - name: "contenttype"
         in: query

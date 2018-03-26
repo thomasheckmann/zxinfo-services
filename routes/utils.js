@@ -49,6 +49,28 @@ var getSortObject = function(sort_mode) {
                 "order": "desc"
             }
         }];
+    } else if (sort_mode === 'rel_asc') {
+         sort_object = [{
+            "_score": {
+                "order": "asc"
+            }
+        },
+        {
+            "fulltitle.raw": {
+                "order": "asc"
+            }
+        }];
+    } else if (sort_mode === 'rel_desc') {
+         sort_object = [{
+            "_score": {
+                "order": "desc"
+            }
+        },
+        {
+            "fulltitle.raw": {
+                "order": "asc"
+            }
+        }];
     }
     return sort_object;
 }
