@@ -379,6 +379,7 @@ var powerSearch = function(searchObject, page_size, offset) {
     return elasticClient.search({
         "index": es_index,
         "body": {
+            "explain": true,
             "track_scores": true,
             "size": page_size,
             "from": fromOffset,
