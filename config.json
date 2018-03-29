@@ -3,8 +3,9 @@
     {
         "es_host": "http://localhost:9200",
         "es_apiVersion": "6.0",
-        "es_log": "error",
+        "es_log": "debug",
         "zxinfo_index": "zxinfo_games",
+        "zxinfo_magazines_index": "zxinfo_magazines",
         "neo4jurl": "bolt://localhost:7687"
 
     },
@@ -14,6 +15,7 @@
         "es_apiVersion": "6.0",
         "es_log": "error",
         "zxinfo_index": "zxinfo_games",
+        "zxinfo_magazines_index": "zxinfo_magazines",
         "neo4jurl": "bolt://zxinfo-neo4j:7687"
     }
 }

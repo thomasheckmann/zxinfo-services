@@ -1,6 +1,6 @@
 swagger: '2.0'
 info:
-  version: "1.3.0"
+  version: "1.3.1"
   title: ZXInfo API
   description: |
     Welcome to the world's (probaly) greatest Sinclair API!.
@@ -307,3 +307,166 @@ paths:
         200:
           description: |
             An array of games. Adds *X-Total-Count* to reponse header.
+
+  /v2/magazines/:
+    get:
+      tags:
+      - "zxinfo"
+      summary: "Fetches all magazines"
+      description: |
+        This method fetches basic info for all magazines.
+      operationId: "getAllMagazines"
+      produces:
+      - "application/json"
+      parameters:
+        - name: size
+          in: query
+          description: Specifies the page size for pagination
+          required: true
+          type: integer
+        - name: offset
+          in: query
+          description: Specifies the page offset for pagination
+          required: true
+          type: integer
+        - name: sort
+          in: query
+          description: Specifies sorting mode. Can be on of name_asc, name_desc.
+          required: false
+          default: "name_asc"
+          type: string
+      responses:
+        # Response code
+        200:
+          description: |
+            An array of magazines. Adds *X-Total-Count* to reponse header.
+
+  /v2/magazines/{magazine-name}:
+    get:
+      tags:
+      - "zxinfo"
+      summary: "Fetches a single magazine by name"
+      description: |
+        This method fetches a single magazine resource. It is the canonical URI for any entry resource provided by the API. Can be shared on e.g. facebook for a direct link to an entry.
+          Note: Output can be quite big, as it contains everything for a given magazine.
+      operationId: "getMagazineByName"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "magazine-name"
+        in: path
+        description: magazine-name to fetch.
+        type: string
+        required: true
+      responses:
+        # Response code
+        200:
+          description: OK
+        404:
+          description: A magazine with the specified name was not found.
+
+  /v2/magazines/{magazine-name}/issues:
+    get:
+      tags:
+      - "zxinfo"
+      summary: "Fetches basic issue info for single magazine by name"
+      description: |
+        This method fetches all basic issue info for a single magazine.
+      operationId: "getIssuesByMagazineName"
+      produces:
+      - "application/json"
+      parameters:
+        - name: "magazine-name"
+          in: path
+          description: magazine-name to fetch.
+          type: string
+          required: true
+      responses:
+        # Response code
+        200:
+          description: |
+            An array of basic issues info. Adds *X-Total-Count* to reponse header.
+  
+  /v2/magazines/{magazine-name}/issues/{issue-id}:
+    get:
+      tags:
+      - "zxinfo"
+      summary: "Fetches issue info for single magazine by name and issue-id"
+      description: |
+        This method fetches all issue info for a single magazine and issue-id.
+      operationId: "getIssue"
+      produces:
+      - "application/json"
+      parameters:
+        - name: "magazine-name"
+          in: path
+          description: magazine-name to fetch.
+          type: string
+          required: true
+        - name: "issue-id"
+          in: path
+          description: issue-id to fetch.
+          type: string
+          required: true
+      responses:
+        # Response code
+        200:
+          description: OK
+        404:
+          description: A magazine with the specified name and issue-id was not found.
+
+  /v2/magazines/{magazine-name}/issues/{issue-id}/references:
+    get:
+      tags:
+      - "zxinfo"
+      summary: "Fetches references in an issue"
+      description: |
+        This method fetches all references for a single magazine and issue-id.
+      operationId: "getIssueReferences"
+      produces:
+      - "application/json"
+      parameters:
+        - name: "magazine-name"
+          in: path
+          description: magazine-name to fetch.
+          type: string
+          required: true
+        - name: "issue-id"
+          in: path
+          description: issue-id to fetch.
+          type: string
+          required: true
+      responses:
+        # Response code
+        200:
+          description: OK
+        404:
+          description: A magazine with the specified name and issue-id was not found.
+
+  /v2/magazines/{magazine-name}/issues/{issue-id}/files:
+    get:
+      tags:
+      - "zxinfo"
+      summary: "Fetches files for an issue"
+      description: |
+        This method fetches all files for a single magazine and issue-id.
+      operationId: "getIssueFiles"
+      produces:
+      - "application/json"
+      parameters:
+        - name: "magazine-name"
+          in: path
+          description: magazine-name to fetch.
+          type: string
+          required: true
+        - name: "issue-id"
+          in: path
+          description: issue-id to fetch.
+          type: string
+          required: true
+      responses:
+        # Response code
+        200:
+          description: OK
+        404:
+          description: A magazine with the specified name and issue-id was not found.
