@@ -25,9 +25,12 @@ var es_index = config.zxinfo_index;
  * Notes:
  *      - TODO: Invalid ID is not handled in any way
  */
-var getGameById = function(gameid) {
+var getGameById = function(gameid, outputmode) {
     debug('getGameById(' + gameid + ')');
+
     return elasticClient.get({
+        "_source": tools.es_source_item(outputmode),
+        "_source_excludes": "titlesuggest, metadata_author,authorsuggest",
         "index": es_index,
         "type": es_index,
         "id": gameid
@@ -42,13 +45,16 @@ var getGameById = function(gameid) {
  * Notes:
  *      - 
  */
-var getGamesByPublisher = function(name, page_size, offset, sort) {
+var getGamesByPublisher = function(name, page_size, offset, sort, outputmode) {
     debug('getGamesByPublisher()');
 
     var sort_mode = sort == undefined ? "date_desc" : sort;
     var sort_object = tools.getSortObject(sort_mode);
 
     return elasticClient.search({
+        "_source": tools.es_source_list(outputmode),
+        "_source_excludes": "titlesuggest, metadata_author,authorsuggest",
+        "filter_path": "-hits.hits.sort,-hits.hits.highlight,-hits.hits._explanation", 
         "index": es_index,
         "body": {
             "size": page_size,
@@ -130,9 +136,12 @@ var getGamesByPublisher = function(name, page_size, offset, sort) {
  * Notes:
  *      - 
  */
-var getGameByPublisherAndName = function(name, title) {
+var getGameByPublisherAndName = function(name, title, outputmode) {
     debug('getGameByPublisherAndName()');
+
     return elasticClient.search({
+        "_source": tools.es_source_item(outputmode),
+        "_source_excludes": "titlesuggest, metadata_author,authorsuggest",
         "index": es_index,
         "body": {
             "size": 1,
@@ -181,9 +190,10 @@ router.get('/games/:gameid', function(req, res, next) {
 
     if (Number.isInteger(parseInt(req.params.gameid)) && (req.params.gameid.length < 8)) {
         var id = ('0000000' + req.params.gameid).slice(-7);
-        getGameById(id).then(function(result) {
-            res.send(tools.zxdbResultSingle(result, req.query.mode));
+        getGameById(id, req.query.mode).then(function(result) {
+            res.send(result);
         }, function(reason) {
+            debug("FAILED: getGameById, ", reason);
             res.status(404).end();
         });
     } else {
@@ -203,9 +213,9 @@ router.get('/games/:gameid', function(req, res, next) {
 router.get('/publishers/:name/games', function(req, res, next) {
     debug('==> /publishers/:name/games');
 
-    getGamesByPublisher(req.params.name, req.query.size, req.query.offset, req.query.sort).then(function(result) {
+    getGamesByPublisher(req.params.name, req.query.size, req.query.offset, req.query.sort, req.query.mode).then(function(result) {
         res.header("X-Total-Count", result.hits.total);
-        res.send(tools.zxdbResultList(result, req.query.mode));
+        res.send(result);
     });
 });
 
@@ -215,11 +225,11 @@ router.get('/publishers/:name/games', function(req, res, next) {
 router.get('/publishers/:name/games/:title', function(req, res, next) {
     debug('==> /publishers/:name/games/:title');
 
-    getGameByPublisherAndName(req.params.name, req.params.title).then(function(result) {
+    getGameByPublisherAndName(req.params.name, req.params.title, req.query.mode).then(function(result) {
         if (result.hits.hits.length === 0) {
             res.status(404).end();
         } else {
-            res.send(tools.zxdbResultSingle(result.hits.hits[0], req.query.mode));
+            res.send(result.hits.hits[0]);
         }
     });
 });
