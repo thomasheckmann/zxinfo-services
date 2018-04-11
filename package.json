@@ -10,10 +10,10 @@
     "cookie-parser": "~1.4.3",
     "cors": "^2.8.1",
     "express": "~4.13.4",
-    "jade": "~1.11.0",
     "morgan": "~1.7.0",
     "neo4j-driver": "^1.5.2",
     "nodemon": "^1.17.2",
+    "pug": "^2.0.3",
     "serve-favicon": "~2.3.0"
   },
   "devDependencies": {

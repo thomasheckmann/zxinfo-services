@@ -1,4 +1,4 @@
-FROM node:7.4.0-alpine
+FROM node:9.11.1-alpine
 
 # Add git stuff to image
 RUN apk update && apk upgrade && \
@@ -16,6 +16,7 @@ USER app
 
 # Install app dependencies
 COPY package.json /usr/src/app/
+RUN npm config set unsafe-perm true
 RUN npm install
 
 # Bundle app source

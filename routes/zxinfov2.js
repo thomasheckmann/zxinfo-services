@@ -148,27 +148,6 @@ function queryTerm2(query) {
     });
 }
 
-
-/**
-var createQueryTerm = function(query) {
-    if (query == undefined || query.length == 0) {
-        debug("empty query, return all");
-        return ({
-            "bool": {
-                "must": queryTerm1
-            }
-        });
-    }
-
-    return ({
-        "bool": {
-            "must": queryTerm2(query)
-        }
-    });
-}
-*/
-
-
 var createQueryTermWithFilters = function(query, filters) {
     if (query == undefined || query.length == 0) {
         debug("empty query, return all");

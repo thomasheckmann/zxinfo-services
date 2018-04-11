@@ -16,6 +16,8 @@ var cors = require('cors');
 var neo4j = require('./routes/neo4j');
 var social = require('./routes/social');
 
+var appConfig = require('./config.json');
+
 var app = express();
 app.use(cors());
 
@@ -24,12 +26,17 @@ if (process.env.NODE_ENV === undefined) {
   process.exit(0);
 }
 
-console.log('running in mode: ' + process.env.NODE_ENV);
-var config = require('./config.json')[process.env.NODE_ENV || 'development'];
+console.log('# APP START ###################################################');
+console.log('# RUNNING in mode: ' + process.env.NODE_ENV);
+console.log('# nodeJS version: ' + process.version);
+console.log('#');
+console.log('# CONFIG DUMP #################################################');
+console.log(JSON.stringify(appConfig[process.env.NODE_ENV], null, 2));
+console.log('###############################################################');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'jade');
+app.set('view engine', 'pug');
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
