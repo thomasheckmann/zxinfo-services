@@ -201,6 +201,26 @@ var renderLinks = function(r) {
         r
     }
 
+    var magazinerefs = r._source.magrefs;
+
+    var i = 0;
+    for (; (magazinerefs !== undefined && i < magazinerefs.length); i++) {
+        var link_mask = magazinerefs[i].link_mask;
+        if (link_mask != null) {
+            // console.log("BEFORE - ", link_mask);
+            link_mask = replaceMask(link_mask, /{i(\d)+}/i, magazinerefs[i].issueno);
+            link_mask = replaceMask(link_mask, /{v(\d)+}/i, magazinerefs[i].issuevolume);
+            link_mask = replaceMask(link_mask, /{y(\d)+}/i, magazinerefs[i].issueyear);
+            link_mask = replaceMask(link_mask, /{m(\d)+}/i, magazinerefs[i].issuemonth);
+            link_mask = replaceMask(link_mask, /{d(\d)+}/i, magazinerefs[i].issueday);
+            link_mask = replaceMask(link_mask, /{p(\d)+}/i, magazinerefs[i].pageno);
+            magazinerefs[i].path = link_mask;
+            delete magazinerefs[i].link_mask;
+            // console.log("AFTER - ", link_mask);
+        }
+        r
+    }
+
     return r;
 }
 
