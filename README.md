@@ -6,7 +6,7 @@ The application is built using the following:
 * Node.js
 * express
 
-and requires access to an instance of zxinfo-es to run.
+and requires access to an instance of zxinfo-es - Elasticsearch with ZXDB [github](https://github.com/thomasheckmann/zxinfo-es)
 
 
 # Installation
@@ -21,7 +21,7 @@ To start the server execute the start.sh script
 > NODE_ENV=development PORT=8300 ./start.sh
 ````
 
-And point your browser to http://localhost:3000/api/zxinfo/games/0002259
+And point your browser to http://localhost:8300/api/zxinfo/games/0002259
 
 ## Note on 'nodemon'
 As config file is generated on app startup, use the following for starting nodemon:
