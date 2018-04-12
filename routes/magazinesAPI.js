@@ -217,6 +217,9 @@ router.get('/:name/issues', function(req, res, next) {
             res.status(404).end();
         } else {
             var _source = result.hits.hits[0]._source;
+            if(_source.issues === undefined) {
+                _source.issues = [];
+            }
             debug("X-Total-Count", _source.issues.length);
             res.header("X-Total-Count", _source.issues.length);
             res.send(_source);
