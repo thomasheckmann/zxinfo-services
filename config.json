@@ -7,7 +7,6 @@
         "zxinfo_index": "zxinfo_games",
         "zxinfo_magazines_index": "zxinfo_magazines",
         "neo4jurl": "bolt://localhost:7687"
-
     },
     "production":
     {

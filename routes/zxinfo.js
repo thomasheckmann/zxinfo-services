@@ -191,7 +191,7 @@ router.get('/games/:gameid', function(req, res, next) {
     if (Number.isInteger(parseInt(req.params.gameid)) && (req.params.gameid.length < 8)) {
         var id = ('0000000' + req.params.gameid).slice(-7);
         getGameById(id, req.query.mode).then(function(result) {
-            res.send(result);
+            res.send(tools.renderLinks(result));
         }, function(reason) {
             debug("FAILED: getGameById, ", reason);
             res.status(404).end();
@@ -229,7 +229,7 @@ router.get('/publishers/:name/games/:title', function(req, res, next) {
         if (result.hits.hits.length === 0) {
             res.status(404).end();
         } else {
-            res.send(result.hits.hits[0]);
+            res.send(tools.renderLinks(result.hits.hits[0]));
         }
     });
 });
