@@ -80,7 +80,10 @@ router.get('/details/:gameid', function(req, res, next) {
         var og_image_type = 'image/jpeg';
         if(og_image.endsWith('png')) {
             og_image_type = 'image/png';
+        } else if (og_image.endsWith('gif')) {
+            og_image_type = 'image/gif';
         }
+
         var og_description;
         if (result._source.machinetype === null) {
             og_description = result._source.type + ' - ' + result._source.releases[0].publisher + '(' + result._source.yearofrelease + ')';
