@@ -1,10 +1,33 @@
 {
   "name": "zxinfo-services",
   "version": "1.3.1",
-  "private": true,
+  "description": "Backend services for zxinfo-app - using elasticsearch",
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomasheckmann/zxinfo-services.git"
+  },
+  "keywords": [
+    "zx-spectrum",
+    "backend-services",
+    "elasticsearch",
+    "zxdb",
+    "nodejs",
+    "epressjs",
+    "swagger",
+    "api",
+    "neo4j",
+    "graph-database"
+  ],
+  "author": "Thomas Heckmann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomasheckmann/zxinfo-services/issues"
+  },
+  "homepage": "https://github.com/thomasheckmann/zxinfo-services#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
     "cookie-parser": "~1.4.3",
