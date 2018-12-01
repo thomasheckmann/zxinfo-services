@@ -91,11 +91,6 @@ var getMagazines = function(query, page_size, offset, sort) {
                       "match": {
                         "name": query
                       }
-                    },
-                    {
-                      "match_phrase_prefix": {
-                        "name": query
-                      }
                     }
                   ]
                 }
