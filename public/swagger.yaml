@@ -1,6 +1,6 @@
 swagger: '2.0'
 info:
-  version: "1.3.1"
+  version: "1.4.0"
   title: ZXInfo API
   description: |
     Welcome to the world's (probaly) greatest Sinclair API!.
@@ -319,6 +319,44 @@ paths:
       produces:
       - "application/json"
       parameters:
+        - name: size
+          in: query
+          description: Specifies the page size for pagination
+          required: true
+          type: integer
+        - name: offset
+          in: query
+          description: Specifies the page offset for pagination
+          required: true
+          type: integer
+        - name: sort
+          in: query
+          description: Specifies sorting mode. Can be on of name_asc, name_desc.
+          required: false
+          default: "name_asc"
+          type: string
+      responses:
+        # Response code
+        200:
+          description: |
+            An array of magazines. Adds *X-Total-Count* to reponse header.
+
+  /v2/magazines/search/{name}:
+    get:
+      tags:
+      - "zxinfo"
+      summary: "Search for magazines"
+      description: |
+        This method fetches basic info for searched magazines.
+      operationId: "getMagazines"
+      produces:
+      - "application/json"
+      parameters:
+        - name: "name"
+          type: string
+          required: true
+          in: path
+          description: Something to search for
         - name: size
           in: query
           description: Specifies the page size for pagination

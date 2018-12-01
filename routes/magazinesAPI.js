@@ -69,6 +69,43 @@ var getAllMagazines = function(page_size, offset, sort) {
     })
 };
 
+var getMagazines = function(query, page_size, offset, sort) {
+    debug('getMagazines()');
+
+    var sort_mode = sort == undefined ? "date_desc" : sort;
+    var sort_object = getSortObject(sort_mode);
+
+    return elasticClient.search({
+        "index": es_index,
+        "body": {
+            "size": page_size,
+            "from": offset * page_size,
+            "_source": {
+                "includes": ["*"],
+                "excludes": ["issues.*"]
+            },
+              "query": {
+                "bool": {
+                  "should": [
+                    {
+                      "match": {
+                        "name": query
+                      }
+                    },
+                    {
+                      "match_phrase_prefix": {
+                        "name": query
+                      }
+                    }
+                  ]
+                }
+              }
+            ,
+            "sort": sort_object
+        }
+    })
+};
+
 var getMagazineById = function(magazineid) {
     debug('getMagazineById(' + magazineid + ')');
     return elasticClient.get({
@@ -183,6 +220,18 @@ router.get('/', function(req, res, next) {
     debug('==> /magazines/');
 
     getAllMagazines(req.query.size, req.query.offset, req.query.sort).then(function(result) {
+        res.header("X-Total-Count", result.hits.total);
+        res.send(result);
+    });
+});
+
+/**
+    Search for a magazine
+*/
+router.get('/search/:name', function(req, res, next) {
+    debug('==> /magazines/search');
+
+    getMagazines(req.params.name, req.query.size, req.query.offset, req.query.sort).then(function(result) {
         res.header("X-Total-Count", result.hits.total);
         res.send(result);
     });
