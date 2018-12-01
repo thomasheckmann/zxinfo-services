@@ -95,8 +95,6 @@ var getMagazines = function(query, page_size, offset, sort) {
                   ]
                 }
               }
-            ,
-            "sort": sort_object
         }
     })
 };
