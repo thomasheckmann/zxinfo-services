@@ -116,8 +116,8 @@ var getMagazineByName = function(name) {
             "query": {
                 "bool": {
                     "must": [{
-                        "term": {
-                            "name.raw": name
+                        "match": {
+                            "name": name
                         }
                     }]
                 }
@@ -141,8 +141,8 @@ var getIssuesByMagazineName = function(name) {
             "query": {
                 "bool": {
                     "must": [{
-                        "term": {
-                            "name.raw": name
+                        "match": {
+                            "name": name
                         }
                     }]
                 }
@@ -152,7 +152,7 @@ var getIssuesByMagazineName = function(name) {
 };
 
 var getIssue = function(name, issueid) {
-    debug('getIssuesByMagazineName()');
+    debug('getIssue()');
 
     return elasticClient.search({
         "index": es_index,
@@ -165,8 +165,8 @@ var getIssue = function(name, issueid) {
             "query": {
                 "bool": {
                     "must": [{
-                            "term": {
-                                "name.raw": name
+                            "match": {
+                                "name": name
                             }
                         },
                         {
