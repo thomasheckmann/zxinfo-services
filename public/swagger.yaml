@@ -1,6 +1,6 @@
 swagger: '2.0'
 info:
-  version: "1.4.0"
+  version: "1.5.0"
   title: ZXInfo API
   description: |
     Welcome to the world's (probaly) greatest Sinclair API!.
@@ -66,7 +66,7 @@ paths:
         required: false
       - name: mode
         in: query
-        description: Specifies if returned JSON should be 'compact' or 'full'
+        description: Specifies if returned JSON should be 'tiny', 'compact' or 'full'
         required: false
         default: "compact"
         type: string
@@ -175,9 +175,49 @@ paths:
         required: true
       - name: mode
         in: query
-        description: Specifies if returned JSON should be 'compact' or 'full'
+        description: Specifies if returned JSON should be 'tiny', 'compact' or 'full'
         required: false
         default: "compact"
+        type: string
+      responses:
+        # Response code
+        200:
+          description: OK
+        400:
+          description: Bad request. Entry id must be an integer. larger than 0 and max 7 digits.
+        404:
+          description: An entry with the specified ID was not found.
+
+  /games/random/{total}:
+    get:
+      tags:
+      - "zxinfo"
+      summary: "Fetches list of random entries"
+      description: |
+        Fetches a list of random SOFTWARE entries from the categories:
+        * Adventure Game
+        * Arcade Game
+        * Casual Game
+        * Game
+        * Sport Game
+        * Strategy Game
+       
+        All returned items has loading screen.
+        
+      operationId: "getRandomGames"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "total"
+        in: path
+        description: total number of entries to return
+        type: string
+        required: true
+      - name: mode
+        in: query
+        description: Specifies if returned JSON should be 'tiny', 'tiny', 'compact' or 'full'. Defaults to 'tiny'.
+        required: false
+        default: "tiny"
         type: string
       responses:
         # Response code
@@ -218,7 +258,7 @@ paths:
           type: integer
         - name: mode
           in: query
-          description: Specifies if returned JSON should be 'compact' or 'full'
+          description: Specifies if returned JSON should be 'tiny', 'compact' or 'full'
           required: false
           default: "compact"
           type: string
@@ -253,7 +293,7 @@ paths:
           type: string
         - name: mode
           in: query
-          description: Specifies if returned JSON should be 'compact' or 'full'
+          description: Specifies if returned JSON should be 'tiny', 'compact' or 'full'
           required: false
           default: "compact"
           type: string
@@ -292,7 +332,7 @@ paths:
           type: integer
         - name: mode
           in: query
-          description: Specifies if returned JSON should be 'compact' or 'full'
+          description: Specifies if returned JSON should be 'tiny', 'compact' or 'full'
           required: false
           default: "compact"
           type: string

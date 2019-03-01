@@ -172,6 +172,65 @@ var getGameByPublisherAndName = function(name, title, outputmode) {
     })
 };
 
+var getRandomX = function(total, outputmode) {
+    debug('getRandomX()');
+
+    if(outputmode !== 'full' && outputmode !== 'compact') {
+        outputmode = 'tiny';
+    }
+
+    return elasticClient.search({
+            "_source": tools.es_source_item(outputmode),
+            "_source_excludes": "titlesuggest, metadata_author,authorsuggest",
+            "index": es_index,
+            "body":
+            //-- BODY
+            {
+                "size": total,
+                "query": {
+                    "function_score": {
+                        "query": {
+                            "bool": {
+                                "must_not": [],
+                                "must": [
+                                    { "terms": { "type": ["Adventure Game", "Arcade Game", "Casual Game", "Game", "Sport Game", "Strategy Game"] } },
+                                    {
+                                        "match": {
+                                            "contenttype": "SOFTWARE"
+                                        }
+                                    },
+                                    {
+                                        "nested": {
+                                            "path": "screens",
+                                            "query": {
+                                                "bool": {
+                                                    "must": [{
+                                                            "match": {
+                                                                "screens.type": "Loading screen"
+                                                            }
+                                                        },
+                                                        {
+                                                            "match": {
+                                                                "screens.format": "Picture"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "functions": [{
+                            "random_score": {}
+                        }]
+                    }
+                }
+            }
+            })
+}
+
 // middleware to use for all requests
 router.use(function(req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
@@ -199,6 +258,18 @@ router.get('/games/:gameid', function(req, res, next) {
     } else {
         res.status(400).end();
     }
+});
+
+/**
+    Returns a list of random games
+*/
+router.get('/games/random/:total', function(req, res, next) {
+    debug('==> /games/random/:total');
+
+    getRandomX(req.params.total, req.query.mode).then(function(result) {
+        res.header("X-Total-Count", result.hits.total);
+        res.send(result);
+    });
 });
 
 /**

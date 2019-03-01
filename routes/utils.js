@@ -82,6 +82,10 @@ var getSortObject = function(sort_mode) {
 var es_source_item = function(outputmode) {
     if (outputmode == 'full') {
         return ["*"];
+    } else if (outputmode == 'tiny') {
+        return ["fulltitle", "yearofrelease", "machinetype",
+            "type", "subtype", "publisher", "screens", "additionals"
+        ];
     }
 
     var source_includes = [
@@ -164,7 +168,8 @@ var renderLinks = function(r) {
     var magazinereviews = r._source.magazinereview;
 
     var i = 0;
-    for (; (magazinereviews !== undefined && i < magazinereviews.length); i++) {
+    for (;
+        (magazinereviews !== undefined && i < magazinereviews.length); i++) {
         var link_mask = magazinereviews[i].link_mask;
         if (link_mask != null) {
             // console.log("BEFORE - ", link_mask);
@@ -184,7 +189,8 @@ var renderLinks = function(r) {
     var magazineadverts = r._source.adverts;
 
     var i = 0;
-    for (; (magazineadverts !== undefined && i < magazineadverts.length); i++) {
+    for (;
+        (magazineadverts !== undefined && i < magazineadverts.length); i++) {
         var link_mask = magazineadverts[i].link_mask;
         if (link_mask != null) {
             // console.log("BEFORE - ", link_mask);
@@ -204,7 +210,8 @@ var renderLinks = function(r) {
     var magazinerefs = r._source.magrefs;
 
     var i = 0;
-    for (; (magazinerefs !== undefined && i < magazinerefs.length); i++) {
+    for (;
+        (magazinerefs !== undefined && i < magazinerefs.length); i++) {
         var link_mask = magazinerefs[i].link_mask;
         if (link_mask != null) {
             // console.log("BEFORE - ", link_mask);
