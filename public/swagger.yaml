@@ -228,6 +228,40 @@ paths:
         404:
           description: An entry with the specified ID was not found.
 
+  /games/randomwithvideos/{total}:
+    get:
+      tags:
+      - "zxinfo"
+      summary: "Fetches list of random entries with YouTube links"
+      description: |
+        Fetches a list of random SOFTWARE entries with YouTube links.
+       
+        All returned items has loading screen.
+        
+      operationId: "getRandomGames"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "total"
+        in: path
+        description: total number of entries to return
+        type: string
+        required: true
+      - name: mode
+        in: query
+        description: Specifies if returned JSON should be 'tiny', 'tiny', 'compact' or 'full'. Defaults to 'tiny'.
+        required: false
+        default: "tiny"
+        type: string
+      responses:
+        # Response code
+        200:
+          description: OK
+        400:
+          description: Bad request. Entry id must be an integer. larger than 0 and max 7 digits.
+        404:
+          description: An entry with the specified ID was not found.
+
   /publishers/{publisher-name}/games:
     get:
       summary: "Fetches list of entries filtered by publisher"
