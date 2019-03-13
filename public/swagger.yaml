@@ -20,6 +20,14 @@ info:
     
     Most communication will occur on the community forum on https://spectrumcomputing.co.uk/forums/
     
+    **KNOWN CLIENTS using ZXInfo API**
+    If you want to check out how the ZXInfo API is being used, please checkout the following:
+    
+    * Web site https://zxinfo.dk - a full featured web site build using AngularJS and Material design
+    * Android [Zx App](https://play.google.com/store/apps/details?id=com.bricboys.zxapp) - ZX Spectrum stuff search engine
+    * SpeccyBot https://github.com/druellan/speccybot - an interactive chat bot for Telegram that allows searching online for Spectrum related information.
+    * ZXInfoTV [AppleTV](https://github.com/thomasheckmann/zxinfo-tv) - a video focused experiece for your AppleTV
+
   contact:
     name: ZXInfo API development
     email: zxinfo_dev@kolbeck.dk
@@ -238,7 +246,7 @@ paths:
        
         All returned items has loading screen.
         
-      operationId: "getRandomGames"
+      operationId: "getRandomGamesWithVideos"
       produces:
       - "application/json"
       parameters:
