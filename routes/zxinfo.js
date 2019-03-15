@@ -198,7 +198,9 @@ var getRandomX = function(total, outputmode) {
                                         "match": {
                                             "contenttype": "SOFTWARE"
                                         }
-                                    },
+                                    }
+                                ],
+                                "should": [
                                     {
                                         "nested": {
                                             "path": "screens",
@@ -207,6 +209,26 @@ var getRandomX = function(total, outputmode) {
                                                     "must": [{
                                                             "match": {
                                                                 "screens.type": "Loading screen"
+                                                            }
+                                                        },
+                                                        {
+                                                            "match": {
+                                                                "screens.format": "Picture"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "nested": {
+                                            "path": "screens",
+                                            "query": {
+                                                "bool": {
+                                                    "must": [{
+                                                            "match": {
+                                                                "screens.type": "Running screen"
                                                             }
                                                         },
                                                         {
@@ -257,7 +279,9 @@ var getRandomXwithVideos = function(total, outputmode) {
                                         "match": {
                                             "contenttype": "SOFTWARE"
                                         }
-                                    },
+                                    }
+                                ],
+                                "should": [
                                     {
                                         "nested": {
                                             "path": "screens",
@@ -266,6 +290,26 @@ var getRandomXwithVideos = function(total, outputmode) {
                                                     "must": [{
                                                             "match": {
                                                                 "screens.type": "Loading screen"
+                                                            }
+                                                        },
+                                                        {
+                                                            "match": {
+                                                                "screens.format": "Picture"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "nested": {
+                                            "path": "screens",
+                                            "query": {
+                                                "bool": {
+                                                    "must": [{
+                                                            "match": {
+                                                                "screens.type": "Running screen"
                                                             }
                                                         },
                                                         {
