@@ -322,7 +322,7 @@ var getRandomXwithVideos = function(total, outputmode) {
                                             }
                                         }
                                     }
-                                ]
+                                ],"minimum_should_match" : 1,
                             }
                         },
                         "functions": [{
