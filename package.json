@@ -33,6 +33,8 @@
     "cookie-parser": "~1.4.3",
     "cors": "^2.8.5",
     "express": "^4.16.4",
+    "express-http-proxy": "^1.5.1",
+    "flat": "^4.1.0",
     "morgan": "^1.9.1",
     "neo4j-driver": "^1.7.1",
     "pug": "^2.0.3",
