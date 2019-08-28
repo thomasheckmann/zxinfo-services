@@ -59,7 +59,7 @@ app.use('/api/graph', neo4j);
 app.use('/social', social);
 
 var proxy = require('express-http-proxy');
-app.use('/a.proxy', proxy('http://localhost:8300', {
+app.use('/a.proxy', proxy('https://api.zxinfo.dk', {
     userResDecorator: function(proxyRes, proxyResData, userReq, userRes) {
         data = flatten(JSON.parse(proxyResData.toString('utf8')));
 
