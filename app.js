@@ -4,6 +4,7 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var flatten = require('flat')
 
 var routes = require('./routes/index');
 
@@ -15,8 +16,7 @@ var zxsuggest = require('./routes/zxsuggest');
 var cors = require('cors');
 var neo4j = require('./routes/neo4j');
 var social = require('./routes/social');
-
-var flatten = require('flat')
+var proxy = require('express-http-proxy');
 
 var appConfig = require('./config.json');
 
@@ -58,19 +58,31 @@ app.use('/api/zxinfo/v2/magazines', magazinesAPI);
 app.use('/api/graph', neo4j);
 app.use('/social', social);
 
-var proxy = require('express-http-proxy');
-app.use('/a.proxy', proxy('https://api.zxinfo.dk', {
+app.use('/a.proxy', proxy('http://localhost:8300', {
+    //app.use('/a.proxy', proxy('https://api.zxinfo.dk', {
     userResDecorator: function(proxyRes, proxyResData, userReq, userRes) {
         data = flatten(JSON.parse(proxyResData.toString('utf8')));
 
-        // TODO: Handle 404
+        console.log("X: " + userReq.path);
 
+        // TODO: Handle 404
         result = "";
-        for (let [key, value] of Object.entries(data)) {
-            if (key.startsWith('_source.') && value.length > 0) {
-                result += key.replace('_source.', '') + "=" + value + "\n";
-                console.log(`${key}: ${value}` + '(' + value.length + ')');
+        if (userReq.path.startsWith('/api/zxinfo/games/')) {
+            for (let [key, value] of Object.entries(data)) {
+                if (key.startsWith('_source.') && value.length > 0) {
+                    result += key.replace('_source.', '') + "=" + value + "\n";
+                    // console.log(`${key}: ${value}` + '(' + value.length + ')');
+                }
             }
+        } else if (userReq.path.startsWith('/api/zxinfo/v2/search')) {
+            for (let [key, value] of Object.entries(data)) {
+                if (key.startsWith('hits.') && value.length > 0) {
+                    result += key.replace('hits.', '').replace('_source.', '') + "=" + value + "\n";
+                    // console.log(`${key}: ${value}` + '(' + value.length + ')');
+                }
+            }
+        } else {
+            result = userReq.path + "\n" + JSON.stringify(data);
         }
 
         return result;
