@@ -88,7 +88,6 @@ app.use('/a.proxy', proxy('https://api.zxinfo.dk', {
     },
     userResHeaderDecorator(headers, userReq, userRes, proxyReq, proxyRes) {
         headers['content-type'] = 'text/plain;charset=UTF-8';
-        headers['content-encoding'] = '';
 	    return headers;
   	}
 }));
