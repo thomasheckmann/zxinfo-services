@@ -63,20 +63,18 @@ app.use('/a.proxy', proxy('https://api.zxinfo.dk', {
     userResDecorator: function(proxyRes, proxyResData, userReq, userRes) {
         data = flatten(JSON.parse(proxyResData.toString('utf8')));
 
-        console.log("X: " + userReq.path);
-
-        // TODO: Handle 404
+        // TODO: Handle 404 from API
         result = "";
         if (userReq.path.startsWith('/api/zxinfo/games/')) {
+	        console.log("Y: " + proxyResData);
             for (let [key, value] of Object.entries(data)) {
-                if (key.startsWith('_source.') && value.length > 0) {
+                if (key.startsWith('_source.')) {
                     result += key.replace('_source.', '') + "=" + value + "\n";
-                    // console.log(`${key}: ${value}` + '(' + value.length + ')');
                 }
             }
         } else if (userReq.path.startsWith('/api/zxinfo/v2/search')) {
             for (let [key, value] of Object.entries(data)) {
-                if (key.startsWith('hits.') && value.length > 0) {
+                if (key.startsWith('hits.')) {
                     result += key.replace('hits.', '').replace('_source.', '') + "=" + value + "\n";
                     // console.log(`${key}: ${value}` + '(' + value.length + ')');
                 }
