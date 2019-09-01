@@ -66,7 +66,6 @@ app.use('/a.proxy', proxy('https://api.zxinfo.dk', {
         // TODO: Handle 404 from API
         result = "";
         if (userReq.path.startsWith('/api/zxinfo/games/')) {
-	        console.log("Y: " + proxyResData);
             for (let [key, value] of Object.entries(data)) {
                 if (key.startsWith('_source.')) {
                     result += key.replace('_source.', '') + "=" + value + "\n";
