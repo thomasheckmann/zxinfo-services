@@ -82,8 +82,13 @@ app.use('/a.proxy', proxy('https://api.zxinfo.dk', {
             result = userReq.path + "\n" + JSON.stringify(data);
         }
 
+        console.log("OUT: " + proxyRes.headers['content-type']);
         return result;
-    }
+    },
+    userResHeaderDecorator(headers, userReq, userRes, proxyReq, proxyRes) {
+        headers['content-type'] = 'text/plain;charset=UTF-8';
+	    return headers;
+  	}
 }));
 
 // catch 404 and forward to error handler
