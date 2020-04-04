@@ -72,8 +72,8 @@ var getGamesByPublisher = function(name, page_size, offset, sort, outputmode) {
                                     "query": {
                                         "bool": {
                                             "must": [{
-                                                "match": {
-                                                    "publisher.name.keyword": name
+                                                "match_phrase_prefix": {
+                                                    "publisher.name": name
                                                 }
                                             }]
                                         }
@@ -85,8 +85,8 @@ var getGamesByPublisher = function(name, page_size, offset, sort, outputmode) {
                                     "query": {
                                         "bool": {
                                             "must": [{
-                                                "match": {
-                                                    "releases.publisher.keyword": name
+                                                "match_phrase_prefix": {
+                                                    "releases.publisher": name
                                                 }
                                             }]
                                         }
@@ -160,8 +160,8 @@ var getGameByPublisherAndName = function(name, title, outputmode) {
                                     "query": {
                                         "bool": {
                                             "must": [{
-                                                "term": {
-                                            "publisher.name.raw": name
+                                                "match_phrase_prefix": {
+                                            "publisher.name": name
                                         }
                                             }]
                                         }
@@ -173,8 +173,8 @@ var getGameByPublisherAndName = function(name, title, outputmode) {
                                     "query": {
                                         "bool": {
                                             "must": [{
-                                                "match": {
-                                                    "releases.publisher.keyword": name
+                                                "match_phrase_prefix": {
+                                                    "releases.publisher": name
                                                 }
                                             }]
                                         }
