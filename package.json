@@ -29,20 +29,20 @@
   },
   "homepage": "https://github.com/thomasheckmann/zxinfo-services#readme",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "cookie-parser": "~1.4.3",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.4.4",
     "cors": "^2.8.5",
-    "express": "^4.16.4",
-    "express-http-proxy": "^1.5.1",
-    "flat": "^4.1.0",
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.0",
+    "flat": "^5.0.0",
     "morgan": "^1.9.1",
-    "neo4j-driver": "^1.7.1",
-    "pug": "^2.0.3",
+    "neo4j-driver": "^4.0.1",
+    "pug": "^2.0.4",
     "serve-favicon": "^2.5.0"
   },
   "devDependencies": {
-    "nodemon": "^1.18.6",
-    "debug": "^4.1.0",
-    "elasticsearch": "^15.2.0"
+    "nodemon": "^2.0.2",
+    "debug": "^4.1.1",
+    "elasticsearch": "^15.5.0"
   }
 }

@@ -1,4 +1,4 @@
-FROM node:9.11.1-alpine
+FROM node:13.5.0-alpine
 
 # Add git stuff to image
 RUN apk update && apk upgrade && \

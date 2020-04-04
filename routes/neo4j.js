@@ -9,7 +9,7 @@ var express = require('express');
 var router = express.Router();
 var debug = require('debug')('zxinfo-graph:neo4j');
 
-var neo4j = require('neo4j-driver').v1;
+var neo4j = require('neo4j-driver');
 var driver = neo4j.driver(config.neo4jurl, neo4j.auth.basic('', ''));
 
 function processStep(section, level) {
