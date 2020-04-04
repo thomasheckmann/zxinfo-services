@@ -27,6 +27,7 @@ info:
     * Web site https://zxinfo.dk - a full featured web site build using AngularJS and Material design
     * Android [Zx App](https://play.google.com/store/apps/details?id=com.bricboys.zxapp) - ZX Spectrum stuff search engine
     * SpeccyBot https://github.com/druellan/speccybot - an interactive chat bot for Telegram that allows searching online for Spectrum related information.
+    * Emulator [ZEsarUX](https://github.com/chernandezba/zesarux) - ZX Second-Emulator And Released for UniX.
     * ZXInfoTV [AppleTV](https://github.com/thomasheckmann/zxinfo-tv) - a video focused experiece for your AppleTV
 
   contact:
@@ -60,6 +61,7 @@ paths:
           * fulltitle
           * re-released title
           * publisher
+          * re-released publisher
           * author, alias and group
         
         Additional options can be specified to futher narrow down search.

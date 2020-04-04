@@ -81,6 +81,19 @@ function queryTerm2(query) {
                     }
                 }
             }, {
+               "nested": {
+                    "path": "releases",
+                    "query": {
+                        "bool": {
+                            "must": [{
+                                "match_phrase_prefix": {
+                                    "releases.publisher.keyword": query
+                                }
+                            }]
+                        }
+                    }
+                }            	
+            }, {
                 "nested": {
                     "path": "releases",
                     "query": {
