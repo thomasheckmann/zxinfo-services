@@ -149,7 +149,7 @@ var getGameByPublisherAndName = function(name, title, outputmode) {
                 "bool": {
                     "must": {
                         "match": {
-                            "fulltitle.raw": title
+                            "fulltitle": title
                         }
                     },
                     "filter": {
