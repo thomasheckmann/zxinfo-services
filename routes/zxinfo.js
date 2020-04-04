@@ -147,11 +147,16 @@ var getGameByPublisherAndName = function(name, title, outputmode) {
             "size": 1,
             "query": {
                 "bool": {
-                    "must": {
+                    "should": [{
                         "match": {
                             "fulltitle": title
                         }
-                    },
+                    }, {
+                        "match": {
+                            "alsoknownas": title
+                        }
+
+                    }],
                     "filter": {
                         "bool": {
                             "should": [{
