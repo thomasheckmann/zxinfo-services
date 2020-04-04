@@ -153,17 +153,34 @@ var getGameByPublisherAndName = function(name, title, outputmode) {
                         }
                     },
                     "filter": {
-                        "nested": {
-                            "path": "publisher",
-                            "query": {
-                                "bool": {
-                                    "must": [{
-                                        "term": {
+                        "bool": {
+                            "should": [{
+                                "nested": {
+                                    "path": "publisher",
+                                    "query": {
+                                        "bool": {
+                                            "must": [{
+                                                "term": {
                                             "publisher.name.raw": name
                                         }
-                                    }]
+                                            }]
+                                        }
+                                    }
                                 }
-                            }
+                            },{
+                                "nested": {
+                                    "path": "releases",
+                                    "query": {
+                                        "bool": {
+                                            "must": [{
+                                                "match": {
+                                                    "releases.publisher.keyword": name
+                                                }
+                                            }]
+                                        }
+                                    }
+                                }
+                            }]
                         }
                     }
                 }

@@ -322,7 +322,12 @@ paths:
   /publishers/{publisher-name}/games/{game-title}:
     get:
       summary: Fetches entry by publisher with title
-      description: Returns a single game
+      description: |
+        Publisher name is matched against:
+        * publisher.name
+        * releases.publisher.name
+
+        Returns a single game
       tags:
       - "zxinfo"
       parameters:
