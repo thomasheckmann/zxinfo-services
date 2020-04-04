@@ -141,7 +141,7 @@ var es_source_list = function(outputmode) {
         "subtype",
         "authors",
         "publisher",
-        "releases",
+        "releases.publisher",
         "machinetype",
         "availability"
     ];
