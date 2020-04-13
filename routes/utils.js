@@ -2,6 +2,13 @@
 
 var debug = require('debug')('zxinfo-services:utils');
 
+/*
+	Builds ES object for sorting, based on sort_mode.
+	sort_mode:
+		* title_asc or title_desc (sort by title)
+		* date_asc or date_desc   (sort by release date)
+		* rel_asc or rel_desc     (sort by release year)
+*/
 var getSortObject = function(sort_mode) {
     var sort_object;
 
@@ -143,7 +150,8 @@ var es_source_list = function(outputmode) {
         "publisher",
         "releases.publisher",
         "machinetype",
-        "availability"
+        "availability",
+        "screens"
     ];
 
     return source_includes;
