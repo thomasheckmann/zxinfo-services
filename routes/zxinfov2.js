@@ -744,7 +744,7 @@ var getMetaData = function (name) {
  *
  */
 var processMetaData = function (result) {
-  console.log("processMetaData");
+  debug("processMetaData()");
   var metadata = {};
 
   // iterate machinetypes
