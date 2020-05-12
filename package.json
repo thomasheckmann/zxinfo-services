@@ -41,8 +41,9 @@
     "serve-favicon": "^2.5.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.2",
+    "axios": "^0.19.2",
     "debug": "^4.1.1",
-    "elasticsearch": "^15.5.0"
+    "elasticsearch": "^15.5.0",
+    "nodemon": "^2.0.2"
   }
 }

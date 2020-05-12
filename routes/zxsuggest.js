@@ -122,7 +122,7 @@ var getAuthorSuggestions = function (name) {
   return elasticClient.search({
     index: es_index,
     body: {
-      _source: ["metadata_author"],
+      _source: ["metadata_author"], // only return this section
       suggest: {
         text: name,
         authors: {
@@ -138,7 +138,6 @@ var getAuthorSuggestions = function (name) {
 };
 
 var prepareAuthorSuggestions = function (result) {
-  console.log(result);
   var suggestons = [];
 
   function uniq(a, param) {
@@ -161,12 +160,12 @@ var prepareAuthorSuggestions = function (result) {
     var output = text;
     var t = 0;
     for (; t < names.length; t++) {
+      console.log(names[t].name);
       if (names[t].alias.indexOf(text) > -1) {
         output = names[t].name;
       }
     }
     var item = { text: output, type: "AUTHOR" };
-    suggestons.push(item);
     suggestons.push(item);
   }
 

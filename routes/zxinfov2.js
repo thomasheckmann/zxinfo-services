@@ -180,6 +180,11 @@ function queryTerm2(query) {
             },
           },
         },
+        {
+          match: {
+            authorsuggest: query,
+          },
+        },
       ],
     },
   };
@@ -402,7 +407,7 @@ var powerSearch = function (searchObject, page_size, offset, outputmode) {
         query: query,
         functions: [
           {
-            random_score: {},
+            random_score: { seed: Date.now() },
           },
         ],
       },
