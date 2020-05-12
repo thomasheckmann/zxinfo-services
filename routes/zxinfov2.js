@@ -181,7 +181,7 @@ function queryTerm2(query) {
           },
         },
         {
-          match: {
+          match_phrase_prefix: {
             authorsuggest: query,
           },
         },
