@@ -118,7 +118,6 @@ curl -XPOST "https://search.zxinfo.dk/zxinfo_games/_search" -H 'Content-Type: ap
 
 */
 var getAuthorSuggestions = function (name) {
-  console.log("getAuthorSuggestions(): " + name);
   return elasticClient.search({
     index: es_index,
     body: {
@@ -151,16 +150,17 @@ var prepareAuthorSuggestions = function (result) {
       );
     });
   }
-
-  // iterate suggest.authors.options
-  for (var j = 0; j < result.suggest.authors[0].options.length; j++) {
+  // iterate authors
+  var suggestons = [];
+  var j = 0;
+  for (; j < result.suggest.authors[0].options.length; j++) {
     var names = result.suggest.authors[0].options[j]._source.metadata_author;
     var text = result.suggest.authors[0].options[j].text;
 
     var output = text;
     var t = 0;
+
     for (; t < names.length; t++) {
-      console.log(names[t].name);
       if (names[t].alias.indexOf(text) > -1) {
         output = names[t].name;
       }
@@ -168,7 +168,6 @@ var prepareAuthorSuggestions = function (result) {
     var item = { text: output, type: "AUTHOR" };
     suggestons.push(item);
   }
-
   // sort
   suggestons.sort(function (a, b) {
     return a.output - b.output;

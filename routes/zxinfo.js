@@ -222,7 +222,6 @@ var getRandomX = function (total, outputmode) {
   if (outputmode !== "full" && outputmode !== "compact") {
     outputmode = "tiny";
   }
-  console.log("ARGH!");
   return elasticClient.search({
     _source: tools.es_source_item(outputmode),
     _source_excludes: "titlesuggest, metadata_author,authorsuggest",
