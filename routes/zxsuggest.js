@@ -180,6 +180,66 @@ var prepareAuthorSuggestions = function (result) {
   return suggestons;
 };
 
+var getPublisherSuggestions = function (name) {
+  return elasticClient.search({
+    index: es_index,
+    body: {
+      _source: ["metadata_publisher"], // only return this section
+      suggest: {
+        text: name,
+        publishers: {
+          completion: {
+            field: "publishersuggest",
+            skip_duplicates: false,
+            size: 10,
+          },
+        },
+      },
+    },
+  });
+};
+
+var preparePublisherSuggestions = function (result) {
+  var suggestons = [];
+  function uniq(a, param) {
+    return a.filter(function (item, pos, array) {
+      return (
+        array
+          .map(function (mapItem) {
+            return mapItem[param];
+          })
+          .indexOf(item[param]) === pos
+      );
+    });
+  }
+  // iterate publishers
+  var suggestons = [];
+  var j = 0;
+  for (; j < result.suggest.publishers[0].options.length; j++) {
+    var names = result.suggest.publishers[0].options[j]._source.metadata_publisher;
+    var text = result.suggest.publishers[0].options[j].text;
+    var name = text;
+    var labeltype;
+    var t = 0;
+
+    console.log(text);
+    for (; t < names.length; t++) {
+      if (names[t].suggest.indexOf(text) > -1) {
+        name = names[t].name;
+        labeltype = names[t].labeltype == null ? "" : names[t].labeltype;
+      }
+    }
+    var item = { text: name, labeltype: labeltype };
+    suggestons.push(item);
+  }
+  // sort
+  suggestons.sort(function (a, b) {
+    return a.output - b.output;
+  });
+  suggestons = uniq(suggestons, "text");
+
+  return suggestons;
+};
 /*******************************************
  * ROUTES - ENDPOINTS
  *******************************************/
@@ -201,11 +261,20 @@ router.get("/:query", function (req, res, next) {
   });
 });
 
-/* GET title suggestions for names (authors) */
+/* GET suggestions for AUTHOR names */
 router.get("/author/:name", function (req, res, next) {
   var suggestions = null;
   getAuthorSuggestions(req.params.name).then(function (result) {
     res.send(prepareAuthorSuggestions(result));
+    //res.send(result);
+  });
+});
+
+/* GET suggestions for PUBLISHER names */
+router.get("/publisher/:name", function (req, res, next) {
+  var suggestions = null;
+  getPublisherSuggestions(req.params.name).then(function (result) {
+    res.send(preparePublisherSuggestions(result));
     //res.send(result);
   });
 });
