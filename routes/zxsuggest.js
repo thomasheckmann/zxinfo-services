@@ -26,14 +26,14 @@ var getSuggestions = function (query) {
           completion: {
             field: "titlesuggest",
             skip_duplicates: true,
-            size: 4,
+            size: 8,
           },
         },
         authors: {
           completion: {
             field: "authorsuggest",
             skip_duplicates: true,
-            size: 4,
+            size: 8,
           },
         },
       },
@@ -84,8 +84,11 @@ var prepareSuggestions = function (result) {
     var item = { text: output, type: "AUTHOR" };
     aut_suggestions.push(item);
   }
-  // aut_suggestions = removeDuplicates(aut_suggestions, "output");
-  aut_suggestions = uniq(aut_suggestions, "output");
+  // sort
+  suggestons.sort(function (a, b) {
+    return a.output - b.output;
+  });
+  aut_suggestions = uniq(aut_suggestions, "text");
 
   suggestons.push.apply(suggestons, aut_suggestions);
 
@@ -172,7 +175,6 @@ var prepareAuthorSuggestions = function (result) {
   suggestons.sort(function (a, b) {
     return a.output - b.output;
   });
-  // suggestons = removeDuplicates(suggestons, "output");
   suggestons = uniq(suggestons, "text");
 
   return suggestons;
