@@ -99,38 +99,6 @@ var getGamesByPublisher = function (name, page_size, offset, sort, outputmode) {
                     },
                   },
                 },
-                {
-                  nested: {
-                    path: "authors",
-                    query: {
-                      bool: {
-                        must: [
-                          {
-                            match: {
-                              "authors.group.raw": name,
-                            },
-                          },
-                        ],
-                      },
-                    },
-                  },
-                },
-                {
-                  nested: {
-                    path: "authors.authors",
-                    query: {
-                      bool: {
-                        must: [
-                          {
-                            match: {
-                              "authors.authors.name.raw": name,
-                            },
-                          },
-                        ],
-                      },
-                    },
-                  },
-                },
               ],
             },
           },
@@ -386,6 +354,70 @@ var getRandomXwithVideos = function (total, outputmode) {
   });
 };
 
+var getGamesByAuthor = function (name, page_size, offset, sort, outputmode) {
+  debug("getGamesByAuthor()");
+
+  var sort_mode = sort == undefined ? "date_desc" : sort;
+  var sort_object = tools.getSortObject(sort_mode);
+
+  return elasticClient.search({
+    _source: tools.es_source_list(outputmode),
+    _source_excludes: "titlesuggest, metadata_author,authorsuggest",
+    filter_path: "-hits.hits.sort,-hits.hits.highlight,-hits.hits._explanation",
+    index: es_index,
+    body: {
+      size: page_size,
+      from: offset * page_size,
+      query: {
+        bool: {
+          must: {
+            match_all: {},
+          },
+          filter: {
+            bool: {
+              should: [
+                {
+                  nested: {
+                    path: "authors",
+                    query: {
+                      bool: {
+                        must: [
+                          {
+                            match: {
+                              "authors.group.raw": name,
+                            },
+                          },
+                        ],
+                      },
+                    },
+                  },
+                },
+                {
+                  nested: {
+                    path: "authors.authors",
+                    query: {
+                      bool: {
+                        must: [
+                          {
+                            match: {
+                              "authors.authors.name.raw": name,
+                            },
+                          },
+                        ],
+                      },
+                    },
+                  },
+                },
+              ],
+            },
+          },
+        },
+      },
+      sort: sort_object,
+    },
+  });
+};
+
 // middleware to use for all requests
 router.use(function (req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
@@ -474,6 +506,15 @@ router.get("/publishers/:name/games/:title", function (req, res, next) {
     } else {
       res.send(tools.renderLinks(result.hits.hits[0]));
     }
+  });
+});
+
+router.get("/authors/:name/games", function (req, res, next) {
+  debug("==> /authors/:name/games");
+
+  getGamesByAuthor(req.params.name, req.query.size, req.query.offset, req.query.sort, req.query.mode).then(function (result) {
+    res.header("X-Total-Count", result.hits.total);
+    res.send(result);
   });
 });
 

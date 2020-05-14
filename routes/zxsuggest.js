@@ -19,7 +19,7 @@ var getSuggestions = function (query) {
   return elasticClient.search({
     index: es_index,
     body: {
-      _source: ["fulltitle", "contenttype", "metadata_author"],
+      _source: ["fulltitle", "type", "contenttype", "metadata_author", "metadata_publisher"],
       suggest: {
         text: query,
         titles: {
@@ -34,6 +34,13 @@ var getSuggestions = function (query) {
             field: "authorsuggest",
             skip_duplicates: true,
             size: 8,
+          },
+        },
+        publishers: {
+          completion: {
+            field: "publishersuggest",
+            skip_duplicates: false,
+            size: 10,
           },
         },
       },
@@ -61,6 +68,7 @@ var prepareSuggestions = function (result) {
   for (; i < result.suggest.titles[0].options.length; i++) {
     var item = {
       text: result.suggest.titles[0].options[i]._source.fulltitle,
+      labeltype: "",
       type: result.suggest.titles[0].options[i]._source.contenttype,
       entry_id: result.suggest.titles[0].options[i]._id,
     };
@@ -79,18 +87,36 @@ var prepareSuggestions = function (result) {
     for (; t < names.length; t++) {
       if (names[t].alias.indexOf(text) > -1) {
         output = names[t].name;
+        labeltype = names[t].labeltype == null ? "" : names[t].labeltype;
       }
     }
-    var item = { text: output, type: "AUTHOR" };
+    var item = { text: output, labeltype: labeltype, type: "AUTHOR" };
     aut_suggestions.push(item);
   }
-  // sort
-  suggestons.sort(function (a, b) {
-    return a.output - b.output;
-  });
+
+  var pub_suggestions = [];
+  var j = 0;
+  for (; j < result.suggest.publishers[0].options.length; j++) {
+    var names = result.suggest.publishers[0].options[j]._source.metadata_publisher;
+    var text = result.suggest.publishers[0].options[j].text;
+    var name = text;
+    var labeltype;
+    var t = 0;
+
+    for (; t < names.length; t++) {
+      if (names[t].suggest.indexOf(text) > -1) {
+        name = names[t].name;
+        labeltype = names[t].labeltype == null ? "" : names[t].labeltype;
+      }
+    }
+    var item = { text: name, labeltype: labeltype, type: "PUBLISHER" };
+    pub_suggestions.push(item);
+  }
   aut_suggestions = uniq(aut_suggestions, "text");
+  pub_suggestions = uniq(pub_suggestions, "text");
 
   suggestons.push.apply(suggestons, aut_suggestions);
+  suggestons.push.apply(suggestons, pub_suggestions);
 
   // sort
   suggestons.sort(function (a, b) {
@@ -159,6 +185,7 @@ var prepareAuthorSuggestions = function (result) {
   for (; j < result.suggest.authors[0].options.length; j++) {
     var names = result.suggest.authors[0].options[j]._source.metadata_author;
     var text = result.suggest.authors[0].options[j].text;
+    var labeltype;
 
     var output = text;
     var t = 0;
@@ -166,9 +193,10 @@ var prepareAuthorSuggestions = function (result) {
     for (; t < names.length; t++) {
       if (names[t].alias.indexOf(text) > -1) {
         output = names[t].name;
+        labeltype = names[t].labeltype == null ? "" : names[t].labeltype;
       }
     }
-    var item = { text: output, type: "AUTHOR" };
+    var item = { text: output, labeltype: labeltype };
     suggestons.push(item);
   }
   // sort
@@ -222,7 +250,6 @@ var preparePublisherSuggestions = function (result) {
     var labeltype;
     var t = 0;
 
-    console.log(text);
     for (; t < names.length; t++) {
       if (names[t].suggest.indexOf(text) > -1) {
         name = names[t].name;
