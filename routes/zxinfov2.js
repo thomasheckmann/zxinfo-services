@@ -629,74 +629,6 @@ var powerSearch = function (searchObject, page_size, offset, outputmode) {
   });
 };
 
-/**
- *
- * Variant of getGamesByPublisher, that ONLY looks at author info
- */
-var getGamesByAuthor = function (name, page_size, offset, sort, outputmode) {
-  debug("getGamesByAuthor()");
-
-  var sort_mode = sort == undefined ? "date_desc" : sort;
-  var sort_object = tools.getSortObject(sort_mode);
-
-  return elasticClient.search({
-    _source: tools.es_source_list(outputmode),
-    _source_excludes: "titlesuggest, metadata_author,authorsuggest",
-    filter_path: "-hits.hits.sort,-hits.hits.highlight,-hits.hits._explanation",
-    index: es_index,
-    body: {
-      size: page_size,
-      from: offset * page_size,
-      query: {
-        bool: {
-          must: {
-            match_all: {},
-          },
-          filter: {
-            bool: {
-              should: [
-                {
-                  nested: {
-                    path: "authors",
-                    query: {
-                      bool: {
-                        must: [
-                          {
-                            match: {
-                              "authors.group.raw": name,
-                            },
-                          },
-                        ],
-                      },
-                    },
-                  },
-                },
-                {
-                  nested: {
-                    path: "authors.authors",
-                    query: {
-                      bool: {
-                        must: [
-                          {
-                            match: {
-                              "authors.authors.name.raw": name,
-                            },
-                          },
-                        ],
-                      },
-                    },
-                  },
-                },
-              ],
-            },
-          },
-        },
-      },
-      sort: sort_object,
-    },
-  });
-};
-
 var getMetaData = function (name) {
   debug("getMetadata()");
   return elasticClient.search({
@@ -793,22 +725,9 @@ router.use(function (req, res, next) {
   next(); // make sure we go to the next routes and don't stop here
 });
 
-/**
-
-
-*/
 router.get("/search", function (req, res, next) {
   debug("==> /search");
   powerSearch(req.query, req.query.size, req.query.offset, req.query.mode).then(function (result) {
-    res.header("X-Total-Count", result.hits.total);
-    res.send(result);
-  });
-});
-
-router.get("/authors/:name/games", function (req, res, next) {
-  debug("==> /authors/:name/games");
-
-  getGamesByAuthor(req.params.name, req.query.size, req.query.offset, req.query.sort, req.query.mode).then(function (result) {
     res.header("X-Total-Count", result.hits.total);
     res.send(result);
   });

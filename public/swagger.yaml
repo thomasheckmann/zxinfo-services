@@ -281,8 +281,6 @@ paths:
         Fetches list of entries from a specific publisher, including:
         * publisher.name
         * releases.publisher.name
-        * authors.authors.name
-        * authors.group
 
       tags:
         - "zxinfo"
@@ -355,7 +353,7 @@ paths:
         404:
           description: An entry with specified publisher and title was not found.
 
-  /v2/authors/{author-name}/games:
+  /authors/{author-name}/games:
     get:
       summary: "Fetches list of entries filtered by author"
       description: |

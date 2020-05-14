@@ -468,7 +468,7 @@ router.get("/games/random/:total", function (req, res, next) {
     Returns a list of random games with VideoLinks
 */
 router.get("/games/randomwithvideos/:total", function (req, res, next) {
-  debug("==> /games/random/:total");
+  debug("==> /games/randomwithvideos/:total");
 
   getRandomXwithVideos(req.params.total, req.query.mode).then(function (result) {
     res.header("X-Total-Count", result.hits.total);
