@@ -30,7 +30,7 @@ info:
     * Emulator [ZEsarUX](https://github.com/chernandezba/zesarux) - ZX Second-Emulator And Released for UniX.
     * ZXInfoTV [AppleTV](https://github.com/thomasheckmann/zxinfo-tv) - a video focused experiece for your AppleTV
 
-    **ZXDB update 29.04.2020**
+    **ZXDB update 15.05.2020**
 
   contact:
     name: ZXInfo API development
@@ -627,9 +627,55 @@ paths:
       summary: "Returns list of suggestions"
       description: |
         Fetches a list of suggestions for input term:
-        Generates suggestions for titles and authors.
+        Generates suggestions for titles, publishers and authors.
 
       operationId: "getSuggestions"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "term"
+          in: path
+          description: input for suggestions
+          type: string
+          required: true
+      responses:
+        # Response code
+        200:
+          description: OK
+
+  /suggest/author/{term}:
+    get:
+      tags:
+        - "zxinfo"
+      summary: "Returns list of suggestions"
+      description: |
+        Fetches a list of suggestions for input term:
+        Generates suggestions for authors.
+
+      operationId: "getSuggestionsAuthor"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "term"
+          in: path
+          description: input for suggestions
+          type: string
+          required: true
+      responses:
+        # Response code
+        200:
+          description: OK
+
+  /suggest/publisher/{term}:
+    get:
+      tags:
+        - "zxinfo"
+      summary: "Returns list of suggestions"
+      description: |
+        Fetches a list of suggestions for input term:
+        Generates suggestions for publishers.
+
+      operationId: "getSuggestionsPublisher"
       produces:
         - "application/json"
       parameters:
