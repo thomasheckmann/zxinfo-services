@@ -71,9 +71,9 @@ router.use(function (req, res, next) {
 router.get("/details/:gameid", function (req, res, next) {
   getGameById(req.params.gameid).then(function (result) {
     var og_url = "https://zxinfo.dk/details/" + req.params.gameid; // req.protocol + '://' + req.get('host') + req.originalUrl; // points to this endpoint
-    og_url = `https://zxinfo.dk/social/m?url=${og_url}`;
     var og_title = result._source.fulltitle;
     var og_image = loadscreen(result._source);
+    og_image = `https://zxinfo.dk/social/m?url=${og_url}`;
     var og_image_type = "image/jpeg";
     if (og_image.endsWith("png")) {
       og_image_type = "image/png";
@@ -114,17 +114,6 @@ async function convert(req) {
 
   image.contain(256, 256, Jimp.HORIZONTAL_ALIGN_CENTER | Jimp.VERTICAL_ALIGN_MIDDLE);
   return image.getBufferAsync(Jimp.AUTO);
-  /*****
-		Jimp.read(req.query.url)
-      .then((image) => {
-        console.log("resize()");
-        image.contain(256, 256, Jimp.HORIZONTAL_ALIGN_CENTER | Jimp.VERTICAL_ALIGN_MIDDLE);
-        return image.getBufferAsync(Jimp.AUTO);
-      })
-      .catch((err) => {
-        console.log("error: " + err);
-        // Handle an exception.
-      }); */
 }
 
 router.get("/m", async (req, res) => {
