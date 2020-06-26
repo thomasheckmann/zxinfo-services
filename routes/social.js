@@ -73,7 +73,7 @@ router.get("/details/:gameid", function (req, res, next) {
     var og_url = "https://zxinfo.dk/details/" + req.params.gameid; // req.protocol + '://' + req.get('host') + req.originalUrl; // points to this endpoint
     var og_title = result._source.fulltitle;
     var og_image = loadscreen(result._source);
-    og_image = `https://zxinfo.dk/social/m?url=${og_url}`;
+    og_image = `https://zxinfo.dk/social/m?url=${og_image}`;
     var og_image_type = "image/jpeg";
     if (og_image.endsWith("png")) {
       og_image_type = "image/png";
