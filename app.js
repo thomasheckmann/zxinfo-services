@@ -60,6 +60,16 @@ app.use("/api/zxinfo/suggest", zxsuggest);
 app.use("/api/zxinfo/graph", neo4j);
 app.use("/social", social);
 
+
+/*
+ultra compact mode for devices with limited capabilities:
+
+ONLY supports /search/ and /games/ (details) for now - might extend support for other endpoints in the future...
+
+http://a.zxinfo.dk/api/zxinfo/v2/search?query=fandom&mode=compact&sort=rel_desc&size=100&offset=0&contenttype=SOFTWARE&availability=Available
+http://a.zxinfo.dk/api/zxinfo/games/0031497?mode=compact
+
+*/
 //app.use('/a.proxy', proxy('http://localhost:8300', {
 app.use(
   "/a.proxy",

@@ -71,6 +71,7 @@ router.use(function (req, res, next) {
 router.get("/details/:gameid", function (req, res, next) {
   getGameById(req.params.gameid).then(function (result) {
     var og_url = "https://zxinfo.dk/details/" + req.params.gameid; // req.protocol + '://' + req.get('host') + req.originalUrl; // points to this endpoint
+    og_url = `https://zxinfo.dk/social/m?url=${og_url}`;
     var og_title = result._source.fulltitle;
     var og_image = loadscreen(result._source);
     var og_image_type = "image/jpeg";
@@ -106,6 +107,36 @@ router.get("/details/:gameid", function (req, res, next) {
   });
 });
 
+const Jimp = require("jimp");
+
+async function convert(req) {
+  const image = await Jimp.read(req.query.url);
+
+  image.contain(256, 256, Jimp.HORIZONTAL_ALIGN_CENTER | Jimp.VERTICAL_ALIGN_MIDDLE);
+  return image.getBufferAsync(Jimp.AUTO);
+  /*****
+		Jimp.read(req.query.url)
+      .then((image) => {
+        console.log("resize()");
+        image.contain(256, 256, Jimp.HORIZONTAL_ALIGN_CENTER | Jimp.VERTICAL_ALIGN_MIDDLE);
+        return image.getBufferAsync(Jimp.AUTO);
+      })
+      .catch((err) => {
+        console.log("error: " + err);
+        // Handle an exception.
+      }); */
+}
+
+router.get("/m", async (req, res) => {
+  // TODO: handle correct content-type
+  res.set("Content-Type", "image/jpeg");
+  const buffer = await convert(req);
+  res.status(200).send(new Buffer(buffer));
+});
+
+/*
+	CATCH ALL
+*/
 router.get("/*", function (req, res, next) {
   var og_url = "https://zxinfo.dk";
   var og_title = "ZXInfo - The open source ZXDB frontend";

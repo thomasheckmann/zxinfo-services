@@ -35,6 +35,7 @@
     "express": "^4.17.1",
     "express-http-proxy": "^1.6.0",
     "flat": "^5.0.0",
+    "jimp": "^0.13.0",
     "morgan": "^1.9.1",
     "neo4j-driver": "^4.0.1",
     "pug": "^2.0.4",
