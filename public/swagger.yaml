@@ -24,13 +24,14 @@ info:
 
     If you want to check out how the ZXInfo API is being used, please checkout the following:
 
-    * Web site https://zxinfo.dk - a full featured web site build using AngularJS and Material design
+    * Web site https://zxinfo.dk - a modern full featured web site build using Vue.js and Vuetify.
+    * WoSC https://worldofspectrum.net - WoSC (WOS Classic) is the spiritual successor to the legendary World Of Spectrum site.
     * Android [Zx App](https://play.google.com/store/apps/details?id=com.bricboys.zxapp) - ZX Spectrum stuff search engine
     * SpeccyBot https://github.com/druellan/speccybot - an interactive chat bot for Telegram that allows searching online for Spectrum related information.
     * Emulator [ZEsarUX](https://github.com/chernandezba/zesarux) - ZX Second-Emulator And Released for UniX.
     * ZXInfoTV [AppleTV](https://github.com/thomasheckmann/zxinfo-tv) - a video focused experiece for your AppleTV
 
-    **ZXDB update 29.06.2020**
+    **ZXDB update 14.07.2020**
 
   contact:
     name: ZXInfo API development

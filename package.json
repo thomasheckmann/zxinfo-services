@@ -45,6 +45,6 @@
     "axios": "^0.19.2",
     "debug": "^4.1.1",
     "elasticsearch": "^15.5.0",
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.4"
   }
 }

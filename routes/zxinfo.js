@@ -418,6 +418,73 @@ var getGamesByAuthor = function (name, page_size, offset, sort, outputmode) {
   });
 };
 
+var getGamesByAuthorAndTitle = function (name, title, outputmode) {
+  debug("getGamesByAuthorAndTitle()");
+
+  return elasticClient.search({
+    _source: tools.es_source_item(outputmode),
+    _source_excludes: "titlesuggest, metadata_author,authorsuggest",
+    index: es_index,
+    body: {
+      size: 1,
+      query: {
+        bool: {
+          should: [
+            {
+              match: {
+                fulltitle: title,
+              },
+            },
+            {
+              match: {
+                alsoknownas: title,
+              },
+            },
+          ],
+          filter: {
+            bool: {
+              should: [
+                {
+                  nested: {
+                    path: "authors",
+                    query: {
+                      bool: {
+                        must: [
+                          {
+                            match: {
+                              "authors.group.raw": name,
+                            },
+                          },
+                        ],
+                      },
+                    },
+                  },
+                },
+                {
+                  nested: {
+                    path: "authors.authors",
+                    query: {
+                      bool: {
+                        must: [
+                          {
+                            match: {
+                              "authors.authors.name.raw": name,
+                            },
+                          },
+                        ],
+                      },
+                    },
+                  },
+                },
+              ],
+            },
+          },
+        },
+      },
+    },
+  });
+};
+
 // middleware to use for all requests
 router.use(function (req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
@@ -515,6 +582,18 @@ router.get("/authors/:name/games", function (req, res, next) {
   getGamesByAuthor(req.params.name, req.query.size, req.query.offset, req.query.sort, req.query.mode).then(function (result) {
     res.header("X-Total-Count", result.hits.total);
     res.send(result);
+  });
+});
+
+router.get("/authors/:name/games/:title", function (req, res, next) {
+  debug("==> /authors/:name/games:title");
+
+  getGamesByAuthorAndTitle(req.params.name, req.params.title, req.query.mode).then(function (result) {
+    if (result.hits.hits.length === 0) {
+      res.status(404).end();
+    } else {
+      res.send(tools.renderLinks(result.hits.hits[0]));
+    }
   });
 });
 
