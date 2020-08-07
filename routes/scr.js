@@ -38,6 +38,7 @@ router.use(function (req, res, next) {
 router.post("/upload", upload.single("file"), (req, res) => {
   debug("==> /upload - " + JSON.stringify(req.file));
 
+  console.log("UPLOAD: " + __dirname);
   // load BMP
   Jimp.read(req.file.path, (err, image) => {
     if (err) throw err;
