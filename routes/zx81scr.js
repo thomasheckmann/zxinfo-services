@@ -83,7 +83,7 @@ function scr2txt(filename, image, offsetx, offsety) {
     fs.writeFileSync("./uploads/" + name + ".scr", new Buffer.from(dfile));
     image.write("./uploads/" + name + ".png");
   } catch (e) {
-    console.log(e);
+    console.error(e);
   }
 
   return { valid };
