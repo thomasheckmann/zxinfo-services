@@ -9,6 +9,7 @@ var flatten = require("flat");
 var routes = require("./routes/index");
 
 var zxinfo = require("./routes/zxinfo");
+var scr = require("./routes/scr");
 var zxinfov2 = require("./routes/zxinfov2");
 var magazinesAPI = require("./routes/magazinesAPI");
 
@@ -54,12 +55,12 @@ app.use(express.static(path.join(__dirname, "public")));
 
 app.use("/", routes);
 app.use("/api/zxinfo", zxinfo);
+app.use("/api/zxinfo/scr", scr);
 app.use("/api/zxinfo/v2", zxinfov2);
 app.use("/api/zxinfo/v2/magazines", magazinesAPI);
 app.use("/api/zxinfo/suggest", zxsuggest);
 app.use("/api/zxinfo/graph", neo4j);
 app.use("/social", social);
-
 
 /*
 ultra compact mode for devices with limited capabilities:
