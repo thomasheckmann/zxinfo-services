@@ -24,7 +24,7 @@ const fileFilter = (req, file, cb) => {
   cb(null, true);
 };
 
-const upload = multer({ dest: "./uploads", fileFilter, limits: { fileSize: 1000000 } });
+const upload = multer({ dest: "./public/uploads", fileFilter, limits: { fileSize: 1000000 } });
 
 // middleware to use for all requests
 router.use(function (req, res, next) {
