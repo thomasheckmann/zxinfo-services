@@ -77,10 +77,14 @@ function scr2txt(filename, image, offsetx, offsety) {
 
   if (!valid) console.log("################ NOT ZX81 ONLY ###############");
   var name = filename.split(".").slice(0, -1).join(".");
-  fs.writeFileSync("./uploads/" + name + ".a81", new Buffer(output_zx81));
-  fs.writeFileSync("./uploads/" + name + ".txt", new Buffer(textline_utc));
-  fs.writeFileSync("./uploads/" + name + ".scr", new Buffer.from(dfile));
-  image.write("./uploads/" + name + ".png");
+  try {
+    fs.writeFileSync("./uploads/" + name + ".a81", new Buffer.from(output_zx81));
+    fs.writeFileSync("./uploads/" + name + ".txt", new Buffer.from(textline_utc));
+    fs.writeFileSync("./uploads/" + name + ".scr", new Buffer.from(dfile));
+    image.write("./uploads/" + name + ".png");
+  } catch (e) {
+    console.log(e);
+  }
 
   return { valid };
 }
