@@ -1,5 +1,5 @@
 /**
-
+NODE_ENV=development PORT=8300 DEBUG=zxinfo-services:scr.* nodemon --ignore public/javascripts/config.js
 */
 
 "use strict";
