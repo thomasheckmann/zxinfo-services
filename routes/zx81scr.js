@@ -19,12 +19,25 @@ function calculateDisplayFile(y) {
   return hiByte * 256 + loByte;
 }
 
+/**
+ * Converts BMP to SCR, A81, TXT & PNG
+ *
+ * @param {*} filename
+ * @param {*} image
+ * @param {*} offsetx
+ * @param {*} offsety
+ *
+ * Returns Base64 of PNG
+ */
 function scr2txt(filename, image, offsetx, offsety) {
+  let cleanimage = new Jimp(320, 240, Jimp.cssColorToHex("#cdcdcd"), (err, image) => {
+    if (err) throw err;
+  });
+
   var valid = true; // BMP only contains ZX81 characters...
   var dfile = new Array(6912);
 
   var output_zx81 = [];
-  var textline_html = "";
   var textline_utc = "";
   for (var y = 0; y < 24; y++) {
     for (var x = 0; x < 32; x++) {
@@ -40,6 +53,7 @@ function scr2txt(filename, image, offsetx, offsety) {
             scr_byte = (scr_byte << 1) & 254;
           } else {
             scr_byte = (scr_byte << 1) | 1;
+            cleanimage.setPixelColor(Jimp.cssColorToHex("#000000"), 32 + x * 8 + dx, 24 + y * 8 + dy);
           }
         }
         var dfile_y = calculateDisplayFile(posY + dy - offsety);
@@ -55,10 +69,8 @@ function scr2txt(filename, image, offsetx, offsety) {
 
       var chr = lookup == undefined ? "?" : lookup.chr;
       var utc = lookup == undefined ? 0x003f : lookup.utc;
-      var html = lookup == undefined ? "?" : lookup.html;
 
       output_zx81.push(chr);
-      textline_html += html;
 
       if (chr < 128) {
         textline_utc += "\x1b[7m" + String.fromCharCode(utc) + "\x1b[0m";
@@ -66,7 +78,6 @@ function scr2txt(filename, image, offsetx, offsety) {
         textline_utc += String.fromCharCode(utc);
       }
     }
-    textline_html += "\n";
     textline_utc += "\n";
   }
 
@@ -81,12 +92,12 @@ function scr2txt(filename, image, offsetx, offsety) {
     fs.writeFileSync("./uploads/" + name + ".a81", new Buffer.from(output_zx81));
     fs.writeFileSync("./uploads/" + name + ".txt", new Buffer.from(textline_utc));
     fs.writeFileSync("./uploads/" + name + ".scr", new Buffer.from(dfile));
-    image.write("./uploads/" + name + ".png");
+    cleanimage.write("./uploads/" + name + ".png");
   } catch (e) {
     console.error(e);
   }
 
-  return { valid };
+  return cleanimage;
 }
 
 module.exports = {

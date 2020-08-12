@@ -1,5 +1,9 @@
 /**
 NODE_ENV=development PORT=8300 DEBUG=zxinfo-services:scr.* nodemon --ignore public/javascripts/config.js
+
+https://blog.bitsrc.io/uploading-files-and-images-with-vue-and-express-2018ca0eecd0
+https://bezkoder.com/vue-axios-file-upload/
+
 */
 
 "use strict";
@@ -42,15 +46,15 @@ router.post("/upload", upload.single("file"), (req, res) => {
   Jimp.read(req.file.path, (err, image) => {
     if (err) throw err;
 
+    debug("[FILE] " + req.file);
     if (image.bitmap.width > 320) {
       image.resize(320, 240);
     }
 
-    image.getBase64(Jimp.MIME_PNG, (error, img) => {
+    var imagePNG = zx81.scr2txt(req.file.originalname, image, 32, 24);
+    imagePNG.getBase64(Jimp.MIME_PNG, (error, img) => {
       if (error) throw error;
       else {
-        var screens = zx81.scr2txt(req.file.originalname, image, 32, 24);
-
         res.json({
           image: { base64: img, img_width: image.bitmap.width, img_height: image.bitmap.height },
           file: req.file,
@@ -60,13 +64,21 @@ router.post("/upload", upload.single("file"), (req, res) => {
   });
 });
 
-router.post("/upload2", function (req, res, next) {
-  res.send("X");
-});
-
 router.get("/files/:name", function (req, res, next) {
   debug("==> /files - " + req.params.name);
   const file = `./uploads/${req.params.name}`;
   res.download(file); // Set disposition and send it.
 });
+
+router.use(function (err, req, res, next) {
+  if (err.code === "INCORRECT_FILETYPE") {
+    res.status(422).json({ error: "Wrong filetype" });
+    return;
+  }
+  if (err.code === "LIMIT_FILE_SIZE") {
+    res.status(422).json({ error: "Allowed file size is 1000KB" });
+    return;
+  }
+});
+
 module.exports = router;

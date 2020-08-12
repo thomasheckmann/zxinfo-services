@@ -133,6 +133,7 @@ if (app.get("env") === "container") {
 // will print stacktrace
 if (app.get("env") === "development") {
   app.use(function (err, req, res, next) {
+    console.log("YYYY");
     res.status(err.status || 500);
     res.render("error", {
       message: err.message,
