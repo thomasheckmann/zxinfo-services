@@ -19,8 +19,10 @@ const Jimp = require("jimp");
 const zx81 = require("./zx81scr");
 
 const fileFilter = (req, file, cb) => {
-  const allowedTypes = ["image/bmp"];
-  if (!allowedTypes.includes(file.mimetype)) {
+  const allowedTypes = ["bmp", "scr"];
+  var extension = file.originalname.substring(file.originalname.lastIndexOf(".") + 1).toLowerCase();
+
+  if (!allowedTypes.includes(extension)) {
     const error = new Error("Incorrect file");
     error.code = "INCORRECT_FILETYPE";
     return cb(error, false);
@@ -42,26 +44,43 @@ router.use(function (req, res, next) {
 router.post("/upload", upload.single("file"), (req, res) => {
   debug("==> /upload - " + JSON.stringify(req.file));
 
-  // load BMP
-  Jimp.read(req.file.path, (err, image) => {
-    if (err) throw err;
+  var name = req.file.originalname.split(".").slice(0, -1).join(".");
+  if (req.file.originalname.toLowerCase().endsWith(".bmp")) {
+    // load BMP
+    Jimp.read(req.file.path, (err, image) => {
+      if (err) throw err;
 
-    debug("[FILE] " + req.file);
-    if (image.bitmap.width > 320) {
-      image.resize(320, 240);
-    }
-
-    var imagePNG = zx81.scr2txt(req.file.originalname, image, 32, 24);
-    imagePNG.getBase64(Jimp.MIME_PNG, (error, img) => {
-      if (error) throw error;
-      else {
-        res.json({
-          image: { base64: img, img_width: image.bitmap.width, img_height: image.bitmap.height },
-          file: req.file,
-        });
+      debug("[FILE] " + req.file);
+      if (image.bitmap.width > 320) {
+        image.resize(320, 240);
       }
+
+      var r = zx81.convertBMP(req.file.originalname, image, 32, 24);
+      var imagePNG = r.png;
+      imagePNG.getBase64(Jimp.MIME_PNG, (error, img) => {
+        if (error) throw error;
+        else {
+          res.json({
+            output: {
+              png: {
+                base64: img,
+                height: image.bitmap.height,
+                width: image.bitmap.width,
+                filename: name + ".png",
+              },
+              ovr: { filename: name + "_ovr.png" },
+              a81: { filename: name + ".a81" },
+              scr: { filename: name + ".scr" },
+              txt: { filename: name + ".txt", data: r.txt },
+            },
+            file: req.file,
+          });
+        }
+      });
     });
-  });
+  } else if (req.file.originalname.toLowerCase().endsWith(".scr")) {
+    zx81.convertSCR(req.file, 32, 24);
+  }
 });
 
 router.get("/files/:name", function (req, res, next) {

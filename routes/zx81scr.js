@@ -29,9 +29,32 @@ function calculateDisplayFile(y) {
  *
  * Returns Base64 of PNG
  */
-function scr2txt(filename, image, offsetx, offsety) {
+function convertBMP(filename, image, offsetx, offsety) {
+  /* GENERATE CLEAN PNG OF INPUT */
   let cleanimage = new Jimp(320, 240, Jimp.cssColorToHex("#cdcdcd"), (err, image) => {
     if (err) throw err;
+  });
+  for (var x = 0; x < 320; x++) {
+    for (var y = 0; y < 240; y++) {
+      var color = Jimp.intToRGBA(image.getPixelColor(x, y));
+      if (color.r > 127 && color.g > 127 && color.b > 127) {
+        cleanimage.setPixelColor(Jimp.cssColorToHex("#cdcdcd"), x, y);
+        // high contrast = white
+      } else {
+        cleanimage.setPixelColor(Jimp.cssColorToHex("#000000"), x, y);
+      }
+    }
+  }
+
+  /* GENERATE PNG SHOWING OVERLAY */
+  let overlay = new Jimp(256, 192, Jimp.cssColorToHex("#ff0000"), (err, image) => {
+    if (err) throw err;
+  });
+
+  overlay = cleanimage.clone().composite(overlay, 32, 24, {
+    mode: Jimp.BLEND_MULTIPLY,
+    opacitySource: 0.5,
+    opacityDest: 0.9,
   });
 
   var valid = true; // BMP only contains ZX81 characters...
@@ -53,7 +76,7 @@ function scr2txt(filename, image, offsetx, offsety) {
             scr_byte = (scr_byte << 1) & 254;
           } else {
             scr_byte = (scr_byte << 1) | 1;
-            cleanimage.setPixelColor(Jimp.cssColorToHex("#000000"), 32 + x * 8 + dx, 24 + y * 8 + dy);
+            //cleanimage.setPixelColor(Jimp.cssColorToHex("#000000"), 32 + x * 8 + dx, 24 + y * 8 + dy);
           }
         }
         var dfile_y = calculateDisplayFile(posY + dy - offsety);
@@ -73,14 +96,14 @@ function scr2txt(filename, image, offsetx, offsety) {
       output_zx81.push(chr);
 
       if (chr < 128) {
-        textline_utc += "\x1b[7m" + String.fromCharCode(utc) + "\x1b[0m";
+        textline_utc += "\x1b[38;5;0m\x1b[48;5;7m" + String.fromCharCode(utc);
       } else {
-        textline_utc += String.fromCharCode(utc);
+        textline_utc += "\x1b[38;5;7m\x1b[48;5;0m" + String.fromCharCode(utc);
       }
     }
     textline_utc += "\n";
   }
-
+  textline_utc += "\x1b[0m";
   const blackwhiteattr = 56;
   for (var i = 0; i < 768; i++) {
     dfile[6144 + i] = blackwhiteattr;
@@ -93,13 +116,19 @@ function scr2txt(filename, image, offsetx, offsety) {
     fs.writeFileSync("./uploads/" + name + ".txt", new Buffer.from(textline_utc));
     fs.writeFileSync("./uploads/" + name + ".scr", new Buffer.from(dfile));
     cleanimage.write("./uploads/" + name + ".png");
+    overlay.write("./uploads/" + name + "_ovr.png");
   } catch (e) {
     console.error(e);
   }
 
-  return cleanimage;
+  return { png: cleanimage, ovr: overlay, txt: textline_utc };
+  // return cleanimage;
 }
 
+function convertSCR(file, offsetx, offsety) {
+  console.log("[CONVERTSCR]");
+}
 module.exports = {
-  scr2txt: scr2txt,
+  convertBMP: convertBMP,
+  convertSCR: convertSCR,
 };
