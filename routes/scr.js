@@ -19,7 +19,7 @@ const Jimp = require("jimp");
 const zx81 = require("./zx81scr");
 
 const fileFilter = (req, file, cb) => {
-  const allowedTypes = ["bmp", "a81", "scr"];
+  const allowedTypes = ["bmp", "s81", "scr"];
   var extension = file.originalname.substring(file.originalname.lastIndexOf(".") + 1).toLowerCase();
 
   if (!allowedTypes.includes(extension)) {
@@ -69,7 +69,7 @@ router.post("/upload", upload.single("file"), (req, res) => {
                 filename: name + ".png",
               },
               ovr: { filename: name + "_ovr.png" },
-              a81: { filename: name + ".a81" },
+              s81: { filename: name + ".s81" },
               scr: { filename: name + ".scr" },
               txt: { filename: name + ".txt", data: r.txt },
             },
@@ -78,8 +78,8 @@ router.post("/upload", upload.single("file"), (req, res) => {
         }
       });
     });
-  } else if (req.file.originalname.toLowerCase().endsWith(".a81")) {
-    var r = zx81.convertA81(req.file, 32, 24);
+  } else if (req.file.originalname.toLowerCase().endsWith(".s81")) {
+    var r = zx81.convertS81(req.file, 32, 24);
     var imagePNG = r.png;
     imagePNG.getBase64(Jimp.MIME_PNG, (error, img) => {
       if (error) throw error;
@@ -93,7 +93,7 @@ router.post("/upload", upload.single("file"), (req, res) => {
               filename: name + ".png",
             },
             ovr: { filename: name + "_ovr.png" },
-            a81: { filename: name + ".a81" },
+            s81: { filename: name + ".s81" },
             scr: { filename: name + ".scr" },
             txt: { filename: name + ".txt", data: r.txt },
           },
@@ -116,7 +116,7 @@ router.post("/upload", upload.single("file"), (req, res) => {
               filename: name + ".png",
             },
             ovr: { filename: name + "_ovr.png" },
-            a81: { filename: name + ".a81" },
+            s81: { filename: name + ".s81" },
             scr: { filename: name + ".scr" },
             txt: { filename: name + ".txt", data: r.txt },
           },

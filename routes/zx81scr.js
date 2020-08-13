@@ -20,7 +20,7 @@ function calculateDisplayFile(y) {
 }
 
 /**
- * Converts BMP to SCR, A81, TXT & PNG
+ * Converts BMP to SCR, s81, TXT & PNG
  *
  * @param {*} filename
  * @param {*} image
@@ -112,7 +112,7 @@ function convertBMP(filename, image, offsetx, offsety) {
   if (!valid) console.log("################ NOT ZX81 ONLY ###############");
   var name = filename.split(".").slice(0, -1).join(".");
   try {
-    fs.writeFileSync("./uploads/" + name + ".a81", new Buffer.from(output_zx81));
+    fs.writeFileSync("./uploads/" + name + ".s81", new Buffer.from(output_zx81));
     fs.writeFileSync("./uploads/" + name + ".txt", new Buffer.from(textline_utc));
     fs.writeFileSync("./uploads/" + name + ".scr", new Buffer.from(dfile));
     cleanimage.write("./uploads/" + name + ".png");
@@ -155,8 +155,8 @@ function convertSCR(file, offsetx, offsety) {
   return convertBMP(file.originalname, image, 32, 24);
 }
 
-function convertA81(file, offsetx, offsety) {
-  console.log("[CONVERTSA81]");
+function convertS81(file, offsetx, offsety) {
+  console.log("[CONVERTSS81]");
   var filename_base = file.originalname.split(".").slice(0, -1).join(".");
   var scrData = fs.readFileSync(file.path);
 
@@ -198,5 +198,5 @@ function convertA81(file, offsetx, offsety) {
 module.exports = {
   convertBMP: convertBMP,
   convertSCR: convertSCR,
-  convertA81: convertA81,
+  convertS81: convertS81,
 };
