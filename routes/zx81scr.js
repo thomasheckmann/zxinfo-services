@@ -126,9 +126,77 @@ function convertBMP(filename, image, offsetx, offsety) {
 }
 
 function convertSCR(file, offsetx, offsety) {
-  console.log("[CONVERTSCR]");
+  var filename_base = file.originalname.split(".").slice(0, -1).join(".");
+  var scrData = fs.readFileSync(file.path);
+
+  let image = new Jimp(320, 240, Jimp.cssColorToHex("#cdcdcd"), (err, image) => {
+    if (err) throw err;
+  });
+
+  for (var y = 0; y < 192; y++) {
+    for (var x = 0; x < 32; x++) {
+      try {
+        var dfile_y = calculateDisplayFile(y);
+        var data = scrData[dfile_y + x];
+        for (var dx = 0; dx < 8; dx++) {
+          var bit = data & 128;
+          if (bit > 0) {
+            image.setPixelColor(Jimp.cssColorToHex("#000000"), 32 + x * 8 + dx, 24 + y);
+          } else {
+            image.setPixelColor(Jimp.cssColorToHex("#cdcdcd"), 32 + x * 8 + dx, 24 + y);
+          }
+          data = (data << 1) & 255;
+        }
+      } catch (e) {
+        console.log(e);
+      }
+    }
+  }
+  return convertBMP(file.originalname, image, 32, 24);
 }
+
+function convertA81(file, offsetx, offsety) {
+  console.log("[CONVERTSA81]");
+  var filename_base = file.originalname.split(".").slice(0, -1).join(".");
+  var scrData = fs.readFileSync(file.path);
+
+  function getByValueChr(map, searchValue) {
+    for (let [key, value] of map.entries()) {
+      if (value.chr === searchValue) return key;
+    }
+  }
+
+  let image = new Jimp(320, 240, Jimp.cssColorToHex("#cdcdcd"), (err, image) => {
+    if (err) throw err;
+  });
+
+  for (var y = 0; y < 24; y++) {
+    for (var x = 0; x < 32; x++) {
+      var idx = y * 32 + x;
+      var data = scrData[idx];
+      var chr = getByValueChr(zx81.charmap, data);
+      var bit_index = 0;
+      for (var dy = 0; dy < 8; dy++) {
+        for (var dx = 0; dx < 8; dx++) {
+          var bit = chr.charAt(bit_index);
+          var xpos = 32 + x * 8 + dx;
+          var ypos = 24 + y * 8 + dy;
+          if (bit === "1") {
+            image.setPixelColor(Jimp.cssColorToHex("#000000"), xpos, ypos);
+          } else {
+            image.setPixelColor(Jimp.cssColorToHex("#cdcdcd"), xpos, ypos);
+          }
+          bit_index++;
+        }
+      }
+    }
+  }
+
+  return convertBMP(file.originalname, image, 32, 24);
+}
+
 module.exports = {
   convertBMP: convertBMP,
   convertSCR: convertSCR,
+  convertA81: convertA81,
 };

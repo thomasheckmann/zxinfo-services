@@ -19,7 +19,7 @@ const Jimp = require("jimp");
 const zx81 = require("./zx81scr");
 
 const fileFilter = (req, file, cb) => {
-  const allowedTypes = ["bmp", "scr"];
+  const allowedTypes = ["bmp", "a81", "scr"];
   var extension = file.originalname.substring(file.originalname.lastIndexOf(".") + 1).toLowerCase();
 
   if (!allowedTypes.includes(extension)) {
@@ -78,8 +78,52 @@ router.post("/upload", upload.single("file"), (req, res) => {
         }
       });
     });
+  } else if (req.file.originalname.toLowerCase().endsWith(".a81")) {
+    var r = zx81.convertA81(req.file, 32, 24);
+    var imagePNG = r.png;
+    imagePNG.getBase64(Jimp.MIME_PNG, (error, img) => {
+      if (error) throw error;
+      else {
+        res.json({
+          output: {
+            png: {
+              base64: img,
+              height: imagePNG.bitmap.height,
+              width: imagePNG.bitmap.width,
+              filename: name + ".png",
+            },
+            ovr: { filename: name + "_ovr.png" },
+            a81: { filename: name + ".a81" },
+            scr: { filename: name + ".scr" },
+            txt: { filename: name + ".txt", data: r.txt },
+          },
+          file: req.file,
+        });
+      }
+    });
   } else if (req.file.originalname.toLowerCase().endsWith(".scr")) {
-    zx81.convertSCR(req.file, 32, 24);
+    var r = zx81.convertSCR(req.file, 32, 24);
+    var imagePNG = r.png;
+    imagePNG.getBase64(Jimp.MIME_PNG, (error, img) => {
+      if (error) throw error;
+      else {
+        res.json({
+          output: {
+            png: {
+              base64: img,
+              height: imagePNG.bitmap.height,
+              width: imagePNG.bitmap.width,
+              filename: name + ".png",
+            },
+            ovr: { filename: name + "_ovr.png" },
+            a81: { filename: name + ".a81" },
+            scr: { filename: name + ".scr" },
+            txt: { filename: name + ".txt", data: r.txt },
+          },
+          file: req.file,
+        });
+      }
+    });
   }
 });
 
