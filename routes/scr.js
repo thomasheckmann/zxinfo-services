@@ -50,8 +50,10 @@ router.post("/upload", upload.single("file"), (req, res) => {
     Jimp.read(req.file.path, (err, image) => {
       if (err) throw err;
 
-      debug("[FILE] " + req.file);
-      if (image.bitmap.width > 320) {
+      debug(`[BMP] - size WxH: ${image.bitmap.width}x${image.bitmap.height}`);
+
+      // largest known
+      if (image.bitmap.width > 413) {
         image.resize(320, 240);
       }
 

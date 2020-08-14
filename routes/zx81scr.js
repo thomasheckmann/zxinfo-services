@@ -4,6 +4,8 @@ const zx81 = require("./zx81tables");
 const Jimp = require("jimp");
 const fs = require("fs");
 
+var debug = require("debug")("zxinfo-services:scr");
+
 /**
 	y = 0-191
 
@@ -30,12 +32,40 @@ function calculateDisplayFile(y) {
  * Returns Base64 of PNG
  */
 function convertBMP(filename, image, offsetx, offsety) {
+  /**
+   *
+   * Handle different sizes.
+   * EightyOne is known to produce the following sizes:
+   *	* No Border:		256x192 pixels
+   *	* Small Border:		264x200 pixels
+   *	* Standard Border:	320x240 pixels
+   *	* Large border:		400x300 pixels
+   *	* Full frame:		413x312 pixels
+   *
+   * SZ81 is known to produce 320x240 or scaled (From sz18 manual: ALT-R Cycle between 960x720, 640x480 and 320x240)
+   *
+   */
+
+  var calulated_offset_x = 0;
+  var calulated_offset_y = 0;
+  debug(`[BMP] - size WxH: ${image.bitmap.width}x${image.bitmap.height}`);
+
+  if (image.bitmap.width < 440 && image.bitmap.height < 330) {
+    calulated_offset_x = (image.bitmap.width - 256) / 2;
+    calulated_offset_y = (image.bitmap.height - 192) / 2;
+    debug(`[BMP] Calculating offset = (${calulated_offset_x},${calulated_offset_y})`);
+  }
+
+  // When to override with parameters?
+  offsetx = calulated_offset_x;
+  offsety = calulated_offset_y;
+
   /* GENERATE CLEAN PNG OF INPUT */
-  let cleanimage = new Jimp(320, 240, Jimp.cssColorToHex("#cdcdcd"), (err, image) => {
+  let cleanimage = new Jimp(image.bitmap.width, image.bitmap.height, Jimp.cssColorToHex("#cdcdcd"), (err, image) => {
     if (err) throw err;
   });
-  for (var x = 0; x < 320; x++) {
-    for (var y = 0; y < 240; y++) {
+  for (var x = 0; x < image.bitmap.width; x++) {
+    for (var y = 0; y < image.bitmap.height; y++) {
       var color = Jimp.intToRGBA(image.getPixelColor(x, y));
       if (color.r > 127 && color.g > 127 && color.b > 127) {
         cleanimage.setPixelColor(Jimp.cssColorToHex("#cdcdcd"), x, y);
@@ -51,7 +81,7 @@ function convertBMP(filename, image, offsetx, offsety) {
     if (err) throw err;
   });
 
-  overlay = cleanimage.clone().composite(overlay, 32, 24, {
+  overlay = image.clone().composite(overlay, offsetx, offsety, {
     mode: Jimp.BLEND_MULTIPLY,
     opacitySource: 0.5,
     opacityDest: 0.9,
