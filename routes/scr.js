@@ -44,6 +44,11 @@ router.use(function (req, res, next) {
 router.post("/upload", upload.single("file"), (req, res) => {
   debug("==> /upload - " + JSON.stringify(req.file));
 
+  const offsetx = parseInt(req.query.ox);
+  const offsety = parseInt(req.query.oy);
+
+  debug(`[upload] - offsetx = ${offsetx}, offsety = ${offsety}`);
+
   var name = req.file.originalname.split(".").slice(0, -1).join(".");
   if (req.file.originalname.toLowerCase().endsWith(".bmp")) {
     // load BMP
@@ -57,7 +62,7 @@ router.post("/upload", upload.single("file"), (req, res) => {
         image.resize(320, 240);
       }
 
-      var r = zx81.convertBMP(req.file.originalname, image, 32, 24);
+      var r = zx81.convertBMP(req.file.originalname, image, offsetx, offsety);
       var imagePNG = r.png;
       imagePNG.getBase64(Jimp.MIME_PNG, (error, img) => {
         if (error) throw error;
@@ -74,6 +79,8 @@ router.post("/upload", upload.single("file"), (req, res) => {
               s81: { filename: name + ".s81" },
               scr: { filename: name + ".scr" },
               txt: { filename: name + ".txt", data: r.txt },
+              used_offsetx: r.used_offsetx,
+              used_offsety: r.used_offsety,
             },
             file: req.file,
           });
@@ -81,7 +88,7 @@ router.post("/upload", upload.single("file"), (req, res) => {
       });
     });
   } else if (req.file.originalname.toLowerCase().endsWith(".s81")) {
-    var r = zx81.convertS81(req.file, 32, 24);
+    var r = zx81.convertS81(req.file, offsetx, offsety);
     var imagePNG = r.png;
     imagePNG.getBase64(Jimp.MIME_PNG, (error, img) => {
       if (error) throw error;
@@ -98,13 +105,15 @@ router.post("/upload", upload.single("file"), (req, res) => {
             s81: { filename: name + ".s81" },
             scr: { filename: name + ".scr" },
             txt: { filename: name + ".txt", data: r.txt },
+            used_offsetx: r.used_offsetx,
+            used_offsety: r.used_offsety,
           },
           file: req.file,
         });
       }
     });
   } else if (req.file.originalname.toLowerCase().endsWith(".scr")) {
-    var r = zx81.convertSCR(req.file, 32, 24);
+    var r = zx81.convertSCR(req.file, offsetx, offsety);
     var imagePNG = r.png;
     imagePNG.getBase64(Jimp.MIME_PNG, (error, img) => {
       if (error) throw error;
@@ -121,6 +130,8 @@ router.post("/upload", upload.single("file"), (req, res) => {
             s81: { filename: name + ".s81" },
             scr: { filename: name + ".scr" },
             txt: { filename: name + ".txt", data: r.txt },
+            used_offsetx: r.used_offsetx,
+            used_offsety: r.used_offsety,
           },
           file: req.file,
         });

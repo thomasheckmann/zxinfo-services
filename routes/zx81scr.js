@@ -49,16 +49,25 @@ function convertBMP(filename, image, offsetx, offsety) {
   var calulated_offset_x = 0;
   var calulated_offset_y = 0;
   debug(`[BMP] - size WxH: ${image.bitmap.width}x${image.bitmap.height}`);
+  debug(`[BMP] Provided offset = (${offsetx},${offsety})`);
 
   if (image.bitmap.width < 440 && image.bitmap.height < 330) {
-    calulated_offset_x = (image.bitmap.width - 256) / 2;
-    calulated_offset_y = (image.bitmap.height - 192) / 2;
+    calulated_offset_x = Math.round((image.bitmap.width - 256) / 2);
+    calulated_offset_y = Math.round((image.bitmap.height - 192) / 2);
     debug(`[BMP] Calculating offset = (${calulated_offset_x},${calulated_offset_y})`);
   }
 
-  // When to override with parameters?
-  offsetx = calulated_offset_x;
-  offsety = calulated_offset_y;
+  // If user provided are different from calculated, use user provided
+  if (offsetx < 0) {
+    offsetx = calulated_offset_x;
+    debug(`[BMP] Using calculated offsetx`);
+  }
+  if (offsety < 0) {
+    offsety = calulated_offset_y;
+    debug(`[BMP] Using calculated offsety`);
+  }
+
+  debug(`[BMP] Using offset = (${offsetx},${offsety})`);
 
   /* GENERATE CLEAN PNG OF INPUT */
   let cleanimage = new Jimp(image.bitmap.width, image.bitmap.height, Jimp.cssColorToHex("#cdcdcd"), (err, image) => {
@@ -151,7 +160,7 @@ function convertBMP(filename, image, offsetx, offsety) {
     console.error(e);
   }
 
-  return { png: cleanimage, ovr: overlay, txt: textline_utc };
+  return { png: cleanimage, ovr: overlay, txt: textline_utc, used_offsetx: offsetx, used_offsety: offsety };
   // return cleanimage;
 }
 
@@ -159,7 +168,7 @@ function convertSCR(file, offsetx, offsety) {
   var filename_base = file.originalname.split(".").slice(0, -1).join(".");
   var scrData = fs.readFileSync(file.path);
 
-  let image = new Jimp(320, 240, Jimp.cssColorToHex("#cdcdcd"), (err, image) => {
+  let image = new Jimp(256, 192, Jimp.cssColorToHex("#cdcdcd"), (err, image) => {
     if (err) throw err;
   });
 
@@ -171,9 +180,9 @@ function convertSCR(file, offsetx, offsety) {
         for (var dx = 0; dx < 8; dx++) {
           var bit = data & 128;
           if (bit > 0) {
-            image.setPixelColor(Jimp.cssColorToHex("#000000"), 32 + x * 8 + dx, 24 + y);
+            image.setPixelColor(Jimp.cssColorToHex("#000000"), x * 8 + dx, y);
           } else {
-            image.setPixelColor(Jimp.cssColorToHex("#cdcdcd"), 32 + x * 8 + dx, 24 + y);
+            image.setPixelColor(Jimp.cssColorToHex("#cdcdcd"), x * 8 + dx, y);
           }
           data = (data << 1) & 255;
         }
@@ -182,7 +191,7 @@ function convertSCR(file, offsetx, offsety) {
       }
     }
   }
-  return convertBMP(file.originalname, image, 32, 24);
+  return convertBMP(file.originalname, image, 0, 0);
 }
 
 function convertS81(file, offsetx, offsety) {
@@ -196,7 +205,7 @@ function convertS81(file, offsetx, offsety) {
     }
   }
 
-  let image = new Jimp(320, 240, Jimp.cssColorToHex("#cdcdcd"), (err, image) => {
+  let image = new Jimp(256, 192, Jimp.cssColorToHex("#cdcdcd"), (err, image) => {
     if (err) throw err;
   });
 
@@ -209,8 +218,8 @@ function convertS81(file, offsetx, offsety) {
       for (var dy = 0; dy < 8; dy++) {
         for (var dx = 0; dx < 8; dx++) {
           var bit = chr.charAt(bit_index);
-          var xpos = 32 + x * 8 + dx;
-          var ypos = 24 + y * 8 + dy;
+          var xpos = x * 8 + dx;
+          var ypos = y * 8 + dy;
           if (bit === "1") {
             image.setPixelColor(Jimp.cssColorToHex("#000000"), xpos, ypos);
           } else {
@@ -222,7 +231,7 @@ function convertS81(file, offsetx, offsety) {
     }
   }
 
-  return convertBMP(file.originalname, image, 32, 24);
+  return convertBMP(file.originalname, image, 0, 0);
 }
 
 module.exports = {
