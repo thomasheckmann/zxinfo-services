@@ -130,14 +130,15 @@ function convertBMP(filename, image, offsetx, offsety) {
       valid &= lookup !== undefined;
 
       var chr = lookup == undefined ? "?" : lookup.chr;
+      var chrs = lookup == undefined ? "?" : lookup.character;
       var utc = lookup == undefined ? 0x003f : lookup.utc;
 
       output_zx81.push(chr);
 
       if (chr < 128) {
-        textline_utc += "\x1b[38;5;0m\x1b[48;5;7m" + String.fromCharCode(utc);
+        textline_utc += "\x1b[38;5;0m\x1b[48;5;7m" + chrs;
       } else {
-        textline_utc += "\x1b[38;5;7m\x1b[48;5;0m" + String.fromCharCode(utc);
+        textline_utc += "\x1b[38;5;7m\x1b[48;5;0m" + chrs;
       }
     }
     textline_utc += "\n";

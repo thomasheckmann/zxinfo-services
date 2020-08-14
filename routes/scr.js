@@ -19,7 +19,7 @@ const Jimp = require("jimp");
 const zx81 = require("./zx81scr");
 
 const fileFilter = (req, file, cb) => {
-  const allowedTypes = ["bmp", "s81", "scr"];
+  const allowedTypes = ["bmp", "png", "s81", "scr"];
   var extension = file.originalname.substring(file.originalname.lastIndexOf(".") + 1).toLowerCase();
 
   if (!allowedTypes.includes(extension)) {
@@ -50,7 +50,7 @@ router.post("/upload", upload.single("file"), (req, res) => {
   debug(`[upload] - offsetx = ${offsetx}, offsety = ${offsety}`);
 
   var name = req.file.originalname.split(".").slice(0, -1).join(".");
-  if (req.file.originalname.toLowerCase().endsWith(".bmp")) {
+  if (req.file.originalname.toLowerCase().endsWith(".bmp") || req.file.originalname.toLowerCase().endsWith(".png")) {
     // load BMP
     Jimp.read(req.file.path, (err, image) => {
       if (err) throw err;
