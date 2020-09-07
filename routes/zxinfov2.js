@@ -39,15 +39,25 @@ var queryTerm1 = {
 function queryTerm2(query) {
   return {
     bool: {
-      should: [
+      must: [
         {
           multi_match: {
             query: query,
-            fields: ["fulltitle^4", "alsoknownas"],
-            type: "phrase_prefix",
-            boost: 4,
+            fields: ["fulltitle^4", "alsoknownas^3"],
+            fuzziness: "AUTO",
           },
         },
+      ],
+      must_not: [
+        {
+          exists: {
+            field: "mod_of",
+            boost: 2,
+          },
+        },
+      ],
+
+      should: [
         {
           nested: {
             path: "releases",
