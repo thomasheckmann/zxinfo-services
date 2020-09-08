@@ -43,8 +43,7 @@ function queryTerm2(query) {
         {
           multi_match: {
             query: query,
-            fields: ["fulltitle^4", "alsoknownas^3"],
-            fuzziness: "AUTO",
+            fields: ["fulltitle^4", "alsoknownas^3", "authorsuggest"],
           },
         },
       ],
@@ -52,11 +51,10 @@ function queryTerm2(query) {
         {
           exists: {
             field: "mod_of",
-            boost: 2,
+            boost: 1,
           },
         },
       ],
-
       should: [
         {
           nested: {
@@ -188,11 +186,6 @@ function queryTerm2(query) {
                 ],
               },
             },
-          },
-        },
-        {
-          match_phrase_prefix: {
-            authorsuggest: query,
           },
         },
       ],
