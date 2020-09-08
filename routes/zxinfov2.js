@@ -43,7 +43,8 @@ function queryTerm2(query) {
         {
           multi_match: {
             query: query,
-            fields: ["fulltitle^4", "alsoknownas^3", "authorsuggest"],
+            fields: ["fulltitle^4", "alsoknownas^3"],
+            fuzziness: "AUTO",
           },
         },
       ],
@@ -56,6 +57,11 @@ function queryTerm2(query) {
         },
       ],
       should: [
+        {
+          match: {
+            authorsuggest: query,
+          },
+        },
         {
           nested: {
             path: "releases",
