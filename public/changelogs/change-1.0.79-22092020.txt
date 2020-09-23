@@ -1,0 +1,523 @@
+0000047 (La Abadia del Crimen) - AUTHORS
+0000137 (Alcatraz Harry) - FEATURES
+0000161 (Aliens) - ADDITIONALS
+0000163 (Aliens (US Version)) - ADDITIONALS
+0000238 (The Arcadian) - ADDITIONALS
+0000301 (Astronut) - ADDITIONALS
+0000312 (Atom Ant) - MAGREFS
+0000387 (La Ballade du Lutin) - ADDITIONALS
+0000477 (BC's Quest for Tires) - ADDITIONALS
+0000544 (The Biz) - ADDITIONALS
+0000685 (Braxx Bluff) - ADVERTS
+0000865 (Centi-Bug) - RELEASES
+0001015 (Color Lines) - AUTHORS
+0001155 (Crime Busters) - LICENSED
+0001220 (Daley Thompson's Olympic Challenge) - LICENSED
+0001295 (Death Star Interceptor) - ADDITIONALS
+0001321 (Defender of the Crown) - FEATURES
+0001323 (Defenders of the Earth) - MAGAZINEREVIEW
+0001323 (Defenders of the Earth) - MAGREFS
+0001383 (Devils of the Deep) - ADVERTS
+0001425 (Dominator) - ADDITIONALS
+0001458 (Double Dragon II: The Revenge) - FEATURES
+0001497 (Dragon's Lair) - ADDITIONALS
+0001498 (Dragon's Lair II: Escape from Singe's Castle) - ADDITIONALS
+0001601 (Elite) - MAGREFS
+0001823 (Football Manager) - ADVERTS
+0001858 (Fred) - FEATURES
+0001878 (Frodo) - AUTHORS
+0001878 (Frodo) - PUBLISHER
+0001878 (Frodo) - RELEASES
+0002092 (Golf) - ADDITIONALS
+0002424 (Hysteria) - ADDITIONALS
+0002502 (International Karate) - ADDITIONALS
+0002503 (IK+) - ADDITIONALS
+0002518 (International Speedway) - MAGREFS
+0002589 (Jet Set Willy) - ADDITIONALS
+0002595 (Jet Set Willy II) - ADDITIONALS
+0002827 (Last Ninja 2) - ADDITIONALS
+0002829 (Last Ninja Remix) - ADDITIONALS
+0002882 (Lightforce) - FULLTITLE
+0002912 (Lode Runner) - ADDITIONALS
+0002918 (Lojix) - ADDITIONALS
+0002935 (Lost) - ADDITIONALS
+0003012 (Manic Miner) - ADDITIONALS
+0003012 (Manic Miner) - MAGAZINEREVIEW
+0003100 (Maziacs) - FEATURES
+0003203 (Millimon) - LICENSED
+0003206 (Millipede) - LICENSED
+0003316 (Ms. Pac-Man) - SERIES
+0003354 (Myth: History in the Making) - ADDITIONALS
+0003486 (Octipede) - LICENSED
+0003516 (Ometron) - ADDITIONALS
+0003539 (The Oracle's Cave) - FEATURES
+0003548 (Orion) - ADDITIONALS
+0003619 (Paratroopers) - YOUTUBE LINKS
+0003649 (Penetrator) - RELEASES
+0003714 (Pimania) - ADVERTS
+0003837 (Poradce) - AUTHORS
+0003943 (Push Off) - ADDITIONALS
+0004144 (Rider) - ADDITIONALS
+0004179 (RoboCop) - ADDITIONALS
+0004185 (Robon) - LICENSED
+0004353 (Savage) - RELEASES
+0004353 (Savage) - REMARKS
+0004453 (Sheepwalk) - ADDITIONALS
+0004659 (Space Command) - ADDITIONALS
+0004824 (Star Paws) - ADDITIONALS
+0005248 (Thrusta) - ADDITIONALS
+0005286 (Time-Gate) - RELEASES
+0005384 (Transylvanian Tower) - ADVERTS
+0005411 (Tribble Trubble) - ADDITIONALS
+0005479 (Tusker) - ADDITIONALS
+0005484 (Twin World) - MAGREFS
+0005488 (Twister) - ADDITIONALS
+0005507 (Ulises) - MAGREFS
+0005552 (Vendetta) - ADDITIONALS
+0005585 (Virgin Atlantic Challenge) - ADDITIONALS
+0005595 (Viz - The Computer Game) - MAGREFS
+0005602 (Volcano) - MAGREFS
+0005632 (War Zone) - MAGREFS
+0005635 (The Warlock of Firetop Mountain) - FEATURES
+0005664 (West Bank) - MAGREFS
+0005783 (Xecutor) - MAGREFS
+0005804 (X-Out) - MAGREFS
+0005813 (Yakzee) - MAGREFS
+0005832 (Yomp) - ADDITIONALS
+0005971 (The Atlas Assignment) - ADDITIONALS
+0006236 (Dusk over Elfinton) - PUBLISHER
+0006236 (Dusk over Elfinton) - RELEASES
+0006403 (The Growing Pains of Adrian Mole) - ADDITIONALS
+0006452 (The House on the Tor) - MAGREFS
+0006527 (Kentilla) - ADVERTS
+0006527 (Kentilla) - REMARKS
+0006527 (Kentilla) - SERIES
+0006664 (McKensie) - ADDITIONALS
+0006857 (The Quill Adventure System) - AUTHORING
+0007157 (Velnor's Lair) - SERIES
+0007383 (Ecstasy Mega Demo) - AUTHORS
+0007918 (The Artist) - MAGREFS
+0008380 (Macro for Construction and Animation) - MAGREFS
+0009124 (Learn to Read 2) - SERIES
+0009126 (Learn to Read 4) - SERIES
+0009219 (Computer Christmas Card) - ADDITIONALS
+0009363 (Kamikaze) - LICENSED
+0010597 (Mines of Moriez) - FEATURES
+0010891 (The Patch) - SERIES
+0011201 (The Adventures of Brian the Bold + Survival) - SERIES
+0011455 (4th Dimension) - MAGREFS
+0011461 (6-Pak Vol 2) - COMPILATION CONTENT
+0011567 (The CD Games Pack) - ADDITIONALS
+0011584 (Christmas Collection) - COMPILATION CONTENT
+0011761 (Grasp) - MAGREFS
+0011843 (Learning with Leeper) - ADDITIONALS
+0011906 (Millypede) - LICENSED
+0012259 (ZX Tool Kit) - MAGREFS
+0012262 (Antteroo + Prelude) - SERIES
+0012382 (SpecDrum - Electro Kit) - ADDITIONALS
+0012455 (Joystick Thunder) - COMPILATION CONTENT
+0012722 (Techno 2) - AUTHORS
+0012782 (Color Lines) - AUTHORS
+0012782 (Color Lines) - PUBLISHER
+0012782 (Color Lines) - RELEASES
+0012897 (Klademiner) - AUTHORS
+0013020 (The Puzzle) - AUTHORS
+0013020 (The Puzzle) - PUBLISHER
+0013020 (The Puzzle) - RELEASES
+0013041 (Sea Battle) - PUBLISHER
+0013041 (Sea Battle) - RELEASES
+0013405 (Quarterback) - ADDITIONALS
+0013536 (Crash issue 84: Presents 20) - COMPILATION CONTENT
+0013738 (Sinclair User issue 118: Great Eight 7) - COMPILATION CONTENT
+0013993 (Dungeon Dare + Classroom Chaos) - SERIES
+0014612 (3D Monster Maze) - FEATURES
+0016989 (Millipede) - LICENSED
+0017313 (Towering Inferno) - ADDITIONALS
+0017313 (Towering Inferno) - FULLTITLE
+0017313 (Towering Inferno) - RELEASES
+0017386 (Escape from Devils Island + Barchou) - SERIES
+0018315 (KyberTorba) - AUTHORS
+0019378 (Millipede) - LICENSED
+0019896 (Whirlwind) - ADDITIONALS
+0019896 (Whirlwind) - RELEASES
+0020133 (What Now?) - REMARKS
+0020207 (Giant Millipede) - LICENSED
+0021061 (Sea Quest Part 1 - Sea Wolf) - AUTHORS
+0021061 (Sea Quest Part 1 - Sea Wolf) - PUBLISHER
+0021061 (Sea Quest Part 1 - Sea Wolf) - RELEASES
+0021072 (Shit Game) - AUTHORS
+0021072 (Shit Game) - PUBLISHER
+0021072 (Shit Game) - RELEASES
+0021185 (Invasion) - AUTHORS
+0021203 (Land of Myths) - AUTHORS
+0021305 (Data Squeezer) - AUTHORS
+0021381 (Unrecognized Formatting Object) - AUTHORS
+0021403 (ZX IBM) - PUBLISHER
+0021403 (ZX IBM) - RELEASES
+0021405 (ZX WinWord) - AUTHORS
+0021468 (Next Copy) - PUBLISHER
+0021468 (Next Copy) - RELEASES
+0021506 (Gallows) - AUTHORS
+0021506 (Gallows) - PUBLISHER
+0021506 (Gallows) - RELEASES
+0021562 (La Pugly Ugly - The Journey Longest) - AUTHORS
+0021610 (The Dragonstar Trilogy) - ADDITIONALS
+0021618 (Mazogs) - FEATURES
+0021723 (F Commander) - RELEASES
+0021815 (Notebook) - AUTHORS
+0021815 (Notebook) - PUBLISHER
+0021815 (Notebook) - RELEASES
+0022695 (Kick Off Collection) - ADDITIONALS
+0023403 (Treinador de Futebol) - AUTHORS
+0023478 (W*H*B) - AUTHORS
+0023810 (Tyger! Tyger!) - MAGREFS
+0023874 (Jeu de Dames) - ADDITIONALS
+0025070 (The Stick) - AUTHORS
+0025138 (Rpg) - FEATURES
+0027548 (Towering Inferno) - ADDITIONALS
+0027548 (Towering Inferno) - RELEASES
+0027625 (VideoTime) - SERIES
+0028175 (Knights & Demons DX) - FEATURES
+0028421 (Zork 2 - The Wizard of Frobozz (ZxZvm)) - SERIES
+0028462 (CSSCGC Crap Games Competition 2004) - COMPILATION CONTENT
+0028471 (CSSCGC Crap Games Competition 2013) - COMPILATION CONTENT
+0029074 (Mazogs) - FEATURES
+0030137 (Zombi Terror) - FEATURES
+0030306 (Sam Mallard: The Case of the Missing Swan) - FEATURES
+0030387 (Zombi Terror) - FEATURES
+0030403 (Spectrum Mazogs) - FEATURES
+0030443 (The Adventures of Jane Jelly: The Treasure of Zedin) - AUTHORS
+0030449 (The Adventures of Jane Jelly 2: The Treasure of Hotmarmalade) - AUTHORS
+0031391 (Yes Dear) - TYPE/GENRE
+0031965 (Rebound) - YOUTUBE LINKS
+0032035 (Mazogs) - FEATURES
+0032098 (Xelda 1: Quest for the Golden Apple) - AUTHORS
+0032178 (Knight Hero) - AUTHORS
+0032205 (Pink Pills - Manic Moritz and the Meds) - AUTHORS
+0032227 (Mike, The Guitar) - AUTHORS
+0032228 (The Adventures of Jane Jelly 3: The Egg Diamond) - AUTHORS
+0032308 (Knights) - AUTHORS
+0033428 (Mazogs) - FEATURES
+0033429 (Mazogs) - FEATURES
+0034294 (Tea-Leaf Ted) - AUTHORS
+0034310 (Quahappy) - AUTHORS
+0034353 (Chimp-I-On) - AUTHORS
+0034450 (Astronaut Labyrinth) - AUTHORS
+0034616 (Super Moritz) - AUTHORS
+0034618 (Varina) - AUTHORS
+0034633 (Log Cabin Dizzy) - AUTHORS
+0034667 (Mike the Guitar - The Shooter) - AUTHORS
+0034673 (Laetitia) - AUTHORS
+0034679 (Droid Buster) - AUTHORS
+0034680 (Moritz Strikes Back) - AUTHORS
+0034694 (Chase The Ace) - RELEASES
+0034697 (Computalk) - RELEASES
+0034698 (Dog Walk) - RELEASES
+0034702 (Pangolin) - RELEASES
+0034708 (Space 1999) - RELEASES
+0034722 (Moritz to the Moon) - AUTHORS
+0034732 (Artillery) - ADDITIONALS
+0034732 (Artillery) - RELEASES
+0035108 (Super Mario Bros 128K) - REMARKS
+0035113 (Nixy and the Seeds of Doom) - AUTHORS
+0035144 (Desert Island SCREEN$) - AUTHORS
+0035146 (Joe Blob) - AUTHORS
+0035153 (The Hair-Raising Adventures of Mr. Hair) - AUTHORS
+0035153 (The Hair-Raising Adventures of Mr. Hair) - FULLTITLE
+0035290 (Load 'n' Run issue 35) - COMPILATION CONTENT
+0035343 (Pedro Pomez) - ADDITIONALS
+0035533 (Zedník má žízeň) - ADDITIONALS
+0035533 (Zedník má žízeň) - RELEASES
+0035534 (Lovec Hugo) - ADDITIONALS
+0035534 (Lovec Hugo) - RELEASES
+0035535 (Master Mind) - ADDITIONALS
+0035535 (Master Mind) - RELEASES
+0035536 (Pexeso) - ADDITIONALS
+0035536 (Pexeso) - RELEASES
+0035537 (Policeman) - ADDITIONALS
+0035537 (Policeman) - RELEASES
+0035538 (Poklad Atlantidy) - ADDITIONALS
+0035538 (Poklad Atlantidy) - RELEASES
+0035772 (Pi-Dentity) - AUTHORS
+0036061 (Rat-A-Tat) - AUTHORS
+0036252 (Road Trippin') - RELATED LINKS
+0036252 (Road Trippin') - WEB LINKS
+0036253 (Amazônia (2020)) - AUTHORS
+0036376 (Last Train to Tranz-Central) - RELATED LINKS
+0036376 (Last Train to Tranz-Central) - WEB LINKS
+0036389 (AtomiCat) - RELATED LINKS
+0036389 (AtomiCat) - WEB LINKS
+0036391 (El Mandarino) - ADDITIONALS
+0036395 (Puta Mili) - RELATED LINKS
+0036395 (Puta Mili) - WEB LINKS
+0036401 (Tops II and Cardigans) - SERIES
+0036402 (Spielesammlung) - ADDITIONALS
+0036403 (SAGA Sprites und Graphic Animator) - ADDITIONALS
+0036416 (Jerry's Endless Travels: Save Erick) - ADDITIONALS
+0036417 (LASERBIRDS) - AUTHORS
+0036418 (A Cursed Skull) - ADDITIONALS
+0036419 (Crap Dice 3) - ADDITIONALS
+0036419 (Crap Dice 3) - RELEASES
+0036420 (Por 1000 Dólares) - ADDITIONALS
+0036420 (Por 1000 Dólares) - RELEASES
+0036421 (El Dia Que Lo Entiendas Se Acaba El Mundo) - ADDITIONALS
+0036422 (Proyecto Vampiro) - ADDITIONALS
+0036423 (SubBlitz) - ADDITIONALS
+0036423 (SubBlitz) - RELEASES
+0036424 (Gestão Comercial) - ADDITIONALS
+0036424 (Gestão Comercial) - RELEASES
+0036425 (Gestão de Stocks) - ADDITIONALS
+0036425 (Gestão de Stocks) - RELEASES
+0036426 (Flappy Clive) - ADDITIONALS
+0036426 (Flappy Clive) - RELEASES
+0036427 (Gestão Doméstica) - ADDITIONALS
+0036427 (Gestão Doméstica) - RELEASES
+0036438 (Spikie Goes Skiing) - ADDITIONALS
+0036438 (Spikie Goes Skiing) - RELEASES
+0036439: NEW ENTRY(Desdobramento do Totoloto)
+0036440: NEW ENTRY(Galaxy of Error)
+0036441: NEW ENTRY(The Hollow Earth Hypothesis)
+0036442: NEW ENTRY(BaSoko)
+0036443: NEW ENTRY(Next Shift)
+1001062 (ZX-Spectrum Vega) - COMPILATION CONTENT
+
+---------------------------------------------------------------
+CHANGE SUMMARY - total entries updated: 230
+---------------------------------------------------------------
+
+Updated entries:
+
+[ '0000047', 'La Abadia del Crimen' ]
+[ '0000137', 'Alcatraz Harry' ]
+[ '0000161', 'Aliens' ]
+[ '0000163', 'Aliens (US Version)' ]
+[ '0000238', 'The Arcadian' ]
+[ '0000301', 'Astronut' ]
+[ '0000312', 'Atom Ant' ]
+[ '0000387', 'La Ballade du Lutin' ]
+[ '0000477', "BC's Quest for Tires" ]
+[ '0000544', 'The Biz' ]
+[ '0000685', 'Braxx Bluff' ]
+[ '0000865', 'Centi-Bug' ]
+[ '0001015', 'Color Lines' ]
+[ '0001155', 'Crime Busters' ]
+[ '0001220', "Daley Thompson's Olympic Challenge" ]
+[ '0001295', 'Death Star Interceptor' ]
+[ '0001321', 'Defender of the Crown' ]
+[ '0001323', 'Defenders of the Earth' ]
+[ '0001383', 'Devils of the Deep' ]
+[ '0001425', 'Dominator' ]
+[ '0001458', 'Double Dragon II: The Revenge' ]
+[ '0001497', "Dragon's Lair" ]
+[ '0001498', "Dragon's Lair II: Escape from Singe's Castle" ]
+[ '0001601', 'Elite' ]
+[ '0001823', 'Football Manager' ]
+[ '0001858', 'Fred' ]
+[ '0001878', 'Frodo' ]
+[ '0002092', 'Golf' ]
+[ '0002424', 'Hysteria' ]
+[ '0002502', 'International Karate' ]
+[ '0002503', 'IK+' ]
+[ '0002518', 'International Speedway' ]
+[ '0002589', 'Jet Set Willy' ]
+[ '0002595', 'Jet Set Willy II' ]
+[ '0002827', 'Last Ninja 2' ]
+[ '0002829', 'Last Ninja Remix' ]
+[ '0002882', 'Lightforce' ]
+[ '0002912', 'Lode Runner' ]
+[ '0002918', 'Lojix' ]
+[ '0002935', 'Lost' ]
+[ '0003012', 'Manic Miner' ]
+[ '0003100', 'Maziacs' ]
+[ '0003203', 'Millimon' ]
+[ '0003206', 'Millipede' ]
+[ '0003316', 'Ms. Pac-Man' ]
+[ '0003354', 'Myth: History in the Making' ]
+[ '0003486', 'Octipede' ]
+[ '0003516', 'Ometron' ]
+[ '0003539', "The Oracle's Cave" ]
+[ '0003548', 'Orion' ]
+[ '0003619', 'Paratroopers' ]
+[ '0003649', 'Penetrator' ]
+[ '0003714', 'Pimania' ]
+[ '0003837', 'Poradce' ]
+[ '0003943', 'Push Off' ]
+[ '0004144', 'Rider' ]
+[ '0004179', 'RoboCop' ]
+[ '0004185', 'Robon' ]
+[ '0004353', 'Savage' ]
+[ '0004453', 'Sheepwalk' ]
+[ '0004659', 'Space Command' ]
+[ '0004824', 'Star Paws' ]
+[ '0005248', 'Thrusta' ]
+[ '0005286', 'Time-Gate' ]
+[ '0005384', 'Transylvanian Tower' ]
+[ '0005411', 'Tribble Trubble' ]
+[ '0005479', 'Tusker' ]
+[ '0005484', 'Twin World' ]
+[ '0005488', 'Twister' ]
+[ '0005507', 'Ulises' ]
+[ '0005552', 'Vendetta' ]
+[ '0005585', 'Virgin Atlantic Challenge' ]
+[ '0005595', 'Viz - The Computer Game' ]
+[ '0005602', 'Volcano' ]
+[ '0005632', 'War Zone' ]
+[ '0005635', 'The Warlock of Firetop Mountain' ]
+[ '0005664', 'West Bank' ]
+[ '0005783', 'Xecutor' ]
+[ '0005804', 'X-Out' ]
+[ '0005813', 'Yakzee' ]
+[ '0005832', 'Yomp' ]
+[ '0005971', 'The Atlas Assignment' ]
+[ '0006236', 'Dusk over Elfinton' ]
+[ '0006403', 'The Growing Pains of Adrian Mole' ]
+[ '0006452', 'The House on the Tor' ]
+[ '0006527', 'Kentilla' ]
+[ '0006664', 'McKensie' ]
+[ '0006857', 'The Quill Adventure System' ]
+[ '0007157', "Velnor's Lair" ]
+[ '0007383', 'Ecstasy Mega Demo' ]
+[ '0007918', 'The Artist' ]
+[ '0008380', 'Macro for Construction and Animation' ]
+[ '0009124', 'Learn to Read 2' ]
+[ '0009126', 'Learn to Read 4' ]
+[ '0009219', 'Computer Christmas Card' ]
+[ '0009363', 'Kamikaze' ]
+[ '0010597', 'Mines of Moriez' ]
+[ '0010891', 'The Patch' ]
+[ '0011201', 'The Adventures of Brian the Bold + Survival' ]
+[ '0011455', '4th Dimension' ]
+[ '0011461', '6-Pak Vol 2' ]
+[ '0011567', 'The CD Games Pack' ]
+[ '0011584', 'Christmas Collection' ]
+[ '0011761', 'Grasp' ]
+[ '0011843', 'Learning with Leeper' ]
+[ '0011906', 'Millypede' ]
+[ '0012259', 'ZX Tool Kit' ]
+[ '0012262', 'Antteroo + Prelude' ]
+[ '0012382', 'SpecDrum - Electro Kit' ]
+[ '0012455', 'Joystick Thunder' ]
+[ '0012722', 'Techno 2' ]
+[ '0012782', 'Color Lines' ]
+[ '0012897', 'Klademiner' ]
+[ '0013020', 'The Puzzle' ]
+[ '0013041', 'Sea Battle' ]
+[ '0013405', 'Quarterback' ]
+[ '0013536', 'Crash issue 84: Presents 20' ]
+[ '0013738', 'Sinclair User issue 118: Great Eight 7' ]
+[ '0013993', 'Dungeon Dare + Classroom Chaos' ]
+[ '0014612', '3D Monster Maze' ]
+[ '0016989', 'Millipede' ]
+[ '0017313', 'Towering Inferno' ]
+[ '0017386', 'Escape from Devils Island + Barchou' ]
+[ '0018315', 'KyberTorba' ]
+[ '0019378', 'Millipede' ]
+[ '0019896', 'Whirlwind' ]
+[ '0020133', 'What Now?' ]
+[ '0020207', 'Giant Millipede' ]
+[ '0021061', 'Sea Quest Part 1 - Sea Wolf' ]
+[ '0021072', 'Shit Game' ]
+[ '0021185', 'Invasion' ]
+[ '0021203', 'Land of Myths' ]
+[ '0021305', 'Data Squeezer' ]
+[ '0021381', 'Unrecognized Formatting Object' ]
+[ '0021403', 'ZX IBM' ]
+[ '0021405', 'ZX WinWord' ]
+[ '0021468', 'Next Copy' ]
+[ '0021506', 'Gallows' ]
+[ '0021562', 'La Pugly Ugly - The Journey Longest' ]
+[ '0021610', 'The Dragonstar Trilogy' ]
+[ '0021618', 'Mazogs' ]
+[ '0021723', 'F Commander' ]
+[ '0021815', 'Notebook' ]
+[ '0022695', 'Kick Off Collection' ]
+[ '0023403', 'Treinador de Futebol' ]
+[ '0023478', 'W*H*B' ]
+[ '0023810', 'Tyger! Tyger!' ]
+[ '0023874', 'Jeu de Dames' ]
+[ '0025070', 'The Stick' ]
+[ '0025138', 'Rpg' ]
+[ '0027548', 'Towering Inferno' ]
+[ '0027625', 'VideoTime' ]
+[ '0028175', 'Knights & Demons DX' ]
+[ '0028421', 'Zork 2 - The Wizard of Frobozz (ZxZvm)' ]
+[ '0028462', 'CSSCGC Crap Games Competition 2004' ]
+[ '0028471', 'CSSCGC Crap Games Competition 2013' ]
+[ '0029074', 'Mazogs' ]
+[ '0030137', 'Zombi Terror' ]
+[ '0030306', 'Sam Mallard: The Case of the Missing Swan' ]
+[ '0030387', 'Zombi Terror' ]
+[ '0030403', 'Spectrum Mazogs' ]
+[ '0030443', 'The Adventures of Jane Jelly: The Treasure of Zedin' ]
+[
+  '0030449',
+  'The Adventures of Jane Jelly 2: The Treasure of Hotmarmalade'
+]
+[ '0031391', 'Yes Dear' ]
+[ '0031965', 'Rebound' ]
+[ '0032035', 'Mazogs' ]
+[ '0032098', 'Xelda 1: Quest for the Golden Apple' ]
+[ '0032178', 'Knight Hero' ]
+[ '0032205', 'Pink Pills - Manic Moritz and the Meds' ]
+[ '0032227', 'Mike, The Guitar' ]
+[ '0032228', 'The Adventures of Jane Jelly 3: The Egg Diamond' ]
+[ '0032308', 'Knights' ]
+[ '0033428', 'Mazogs' ]
+[ '0033429', 'Mazogs' ]
+[ '0034294', 'Tea-Leaf Ted' ]
+[ '0034310', 'Quahappy' ]
+[ '0034353', 'Chimp-I-On' ]
+[ '0034450', 'Astronaut Labyrinth' ]
+[ '0034616', 'Super Moritz' ]
+[ '0034618', 'Varina' ]
+[ '0034633', 'Log Cabin Dizzy' ]
+[ '0034667', 'Mike the Guitar - The Shooter' ]
+[ '0034673', 'Laetitia' ]
+[ '0034679', 'Droid Buster' ]
+[ '0034680', 'Moritz Strikes Back' ]
+[ '0034694', 'Chase The Ace' ]
+[ '0034697', 'Computalk' ]
+[ '0034698', 'Dog Walk' ]
+[ '0034702', 'Pangolin' ]
+[ '0034708', 'Space 1999' ]
+[ '0034722', 'Moritz to the Moon' ]
+[ '0034732', 'Artillery' ]
+[ '0035108', 'Super Mario Bros 128K' ]
+[ '0035113', 'Nixy and the Seeds of Doom' ]
+[ '0035144', 'Desert Island SCREEN$' ]
+[ '0035146', 'Joe Blob' ]
+[ '0035153', 'The Hair-Raising Adventures of Mr. Hair' ]
+[ '0035290', "Load 'n' Run issue 35" ]
+[ '0035343', 'Pedro Pomez' ]
+[ '0035533', 'Zedník má žízeň' ]
+[ '0035534', 'Lovec Hugo' ]
+[ '0035535', 'Master Mind' ]
+[ '0035536', 'Pexeso' ]
+[ '0035537', 'Policeman' ]
+[ '0035538', 'Poklad Atlantidy' ]
+[ '0035772', 'Pi-Dentity' ]
+[ '0036061', 'Rat-A-Tat' ]
+[ '0036252', "Road Trippin'" ]
+[ '0036253', 'Amazônia (2020)' ]
+[ '0036376', 'Last Train to Tranz-Central' ]
+[ '0036389', 'AtomiCat' ]
+[ '0036391', 'El Mandarino' ]
+[ '0036395', 'Puta Mili' ]
+[ '0036401', 'Tops II and Cardigans' ]
+[ '0036402', 'Spielesammlung' ]
+[ '0036403', 'SAGA Sprites und Graphic Animator' ]
+[ '0036416', "Jerry's Endless Travels: Save Erick" ]
+[ '0036417', 'LASERBIRDS' ]
+[ '0036418', 'A Cursed Skull' ]
+[ '0036419', 'Crap Dice 3' ]
+[ '0036420', 'Por 1000 Dólares' ]
+[ '0036421', 'El Dia Que Lo Entiendas Se Acaba El Mundo' ]
+[ '0036422', 'Proyecto Vampiro' ]
+[ '0036423', 'SubBlitz' ]
+[ '0036424', 'Gestão Comercial' ]
+[ '0036425', 'Gestão de Stocks' ]
+[ '0036426', 'Flappy Clive' ]
+[ '0036427', 'Gestão Doméstica' ]
+[ '0036438', 'Spikie Goes Skiing' ]
+[ '1001062', 'ZX-Spectrum Vega' ]
+===============================================================

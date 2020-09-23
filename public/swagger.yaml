@@ -31,7 +31,10 @@ info:
     * Emulator [ZEsarUX](https://github.com/chernandezba/zesarux) - ZX Second-Emulator And Released for UniX.
     * ZXInfoTV [AppleTV](https://github.com/thomasheckmann/zxinfo-tv) - a video focused experiece for your AppleTV
 
-    **ZXDB update 11.08.2020**
+    **ZXDB update 22.09.2020**
+
+    changelog:
+    * [1.0.79](https://api.zxinfo.dk/changelogs/change-1.0.79-22092020.txt)
 
   contact:
     name: ZXInfo API development
