@@ -1,0 +1,1501 @@
+0000033 (3DC) - AUTHORS
+0000033 (3DC) - PUBLISHER
+0000033 (3DC) - RELEASES
+0000056 (ACE) - RELEASES
+0000059 (ACE 2: The Ultimate Head to Head Conflict) - RELEASES
+0000107 (Agent Orange) - AUTHORS
+0000128 (Airwolf II) - PUBLISHER
+0000128 (Airwolf II) - RELEASES
+0000147 (Alien Curse) - ADDITIONALS
+0000172 (Alpine Games) - RELEASES
+0000186 (Amoto's Puf) - PUBLISHER
+0000186 (Amoto's Puf) - RELEASES
+0000312 (Atom Ant) - MAGREFS
+0000326 (Attack of the Killer Tomatoes) - AUTHORS
+0000460 (Battle on Hoth) - RELEASES
+0000461 (Battle Ships) - PUBLISHER
+0000461 (Battle Ships) - RELEASES
+0000472 (Batty) - PUBLISHER
+0000472 (Batty) - RELEASES
+0000560 (Blade Alley) - RELEASES
+0000606 (Bobby Bearing) - FEATURES
+0000614 (Boilerhouse) - AUTHORS
+0000617 (Bomb Jack) - RELEASES
+0000718 (Bruce Lee) - RELEASES
+0000746 (Buggy Boy) - ADDITIONALS
+0000771 (Butch - Hard Guy) - RELEASES
+0000787 (Caesar the Cat) - AUTHORS
+0000798 (Canyon Warrior) - AUTHORS
+0000829 (Casanova) - RELEASES
+0000860 (Caverns of Kontonia) - RELEASES
+0000882 (The Champ) - PUBLISHER
+0000882 (The Champ) - RELEASES
+0000912 (Chequered Flag) - RELEASES
+0000934 (Chinese Patience) - RELEASES
+0000958 (Chuckie Egg) - RELEASES
+0000959 (Chuckie Egg 2) - RELEASES
+0001002 (Codename MAT) - RELEASES
+0001018 (Colossus Chess 4) - RELEASES
+0001175 (Crusader) - PUBLISHER
+0001175 (Crusader) - RELEASES
+0001179 (Crystal Castles) - AUTHORS
+0001220 (Daley Thompson's Olympic Challenge) - LICENSED
+0001303 (Deathchase) - RELEASES
+0001363 (Destiny Mission) - AUTHORS
+0001383 (Devils of the Deep) - ADVERTS
+0001553 (Dynamite Dan II) - RELEASES
+0001584 (Eights) - RELEASES
+0001661 (Eureka!) - AUTHORS
+0001672 (Evaristo el Punky) - PUBLISHER
+0001672 (Evaristo el Punky) - RELEASES
+0001700 (Eye) - AUTHORS
+0001738 (Fearless Frank) - PUBLISHER
+0001738 (Fearless Frank) - RELEASES
+0001754 (Fighter Pilot) - RELEASES
+0001797 (Flight Simulation) - RELEASES
+0001831 (Football Manager: World Cup Edition) - ADDITIONALS
+0001834 (Footballer of the Year 2) - RELEASES
+0001870 (Freez'Bees) - RELEASES
+0001874 (Friday the 13th) - RELEASES
+0001908 (Full Throttle) - RELEASES
+0001970 (Games Designer) - RELEASES
+0002021 (Ghaza's Super Soldier) - PUBLISHER
+0002021 (Ghaza's Super Soldier) - RELEASES
+0002050 (Gladiator) - RELEASES
+0002130 (Great Gurianos) - PUBLISHER
+0002130 (Great Gurianos) - RELEASES
+0002139 (Gremlins 2: La Nueva Generación) - RELEASES
+0002241 (Harrier Attack!) - RELEASES
+0002274 (Heavy on the Magick) - FEATURES
+0002295 (Herbert's Dummy Run) - ADVERTS
+0002411 (Hypa Raid) - RELEASES
+0002440 (The Ice Temple) - RELEASES
+0002464 (Impossible Mission II) - AUTHORS
+0002580 (Jasper!) - RELEASES
+0002617 (Jock and the Time Rings) - RELEASES
+0002623 (Joe Blade II) - FEATURES
+0002635 (Johnny Reb) - RELEASES
+0002678 (Kat Trap) - RELEASES
+0002801 (Labyrinthion) - RELEASES
+0002841 (League Challenge) - RELEASES
+0002882 (Lightforce) - RELEASES
+0002908 (Loco) - RELEASES
+0002915 (Lode Runner (New game set)) - REMARKS
+0002932 (Lorna) - RELEASES
+0002945 (Luna Atac) - RELEASES
+0002966 (Mad Mix 2) - LICENSED
+0002966 (Mad Mix 2) - RELEASES
+0002982 (Magic Johnson's Basketball) - AUTHORS
+0003206 (Millipede) - LICENSED
+0003268 (Moon Strike) - FEATURES
+0003277 (Moonlight Madness) - RELEASES
+0003318 (Muggins the Spaceman) - ADDITIONALS
+0003332 (Mushroom Alley) - LICENSED
+0003395 (The Neverending Story II) - PUBLISHER
+0003395 (The Neverending Story II) - RELEASES
+0003408 (Nicotine Nightmare) - RELEASES
+0003420 (Night Gunner) - RELEASES
+0003420 (Night Gunner) - REMARKS
+0003442 (The Ninja Warriors) - AUTHORS
+0003460 (North & South) - AUTHORS
+0003462 (Nosferatu the Vampyre) - RELEASES
+0003483 (Octagon) - RELEASES
+0003486 (Octipede) - LICENSED
+0003507 (Olympiad '86) - RELEASES
+0003541 (Orbix the Terrorball) - RELEASES
+0003583 (Pac-Mania) - LICENSED
+0003668 (Peter Pack Rat) - AUTHORS
+0003712 (Podraz na Indiana Jonese) - AUTHORS
+0003712 (Podraz na Indiana Jonese) - PUBLISHER
+0003712 (Podraz na Indiana Jonese) - RELEASES
+0003714 (Pimania) - ADVERTS
+0003727 (Pioneer) - RELEASES
+0003729 (Pipe Mania) - REMARKS
+0003777 (Pneumatic Hammers) - AUTHORS
+0003824 (Pool) - RELEASES
+0003830 (Popeye) - RELEASES
+0003886 (Pro Golf) - RELEASES
+0003919 (Psycho Hopper) - AUTHORS
+0003973 (Quazer) - ADDITIONALS
+0004008 (R.A.M.) - RELEASES
+0004040 (Rattler) - RELEASES
+0004043 (Raw Recruit) - AUTHORS
+0004110 (Rescue) - AUTHORS
+0004117 (Revenge of the C5) - RELEASES
+0004122 (Reversi) - AUTHORS
+0004168 (Road Toad) - ADDITIONALS
+0004187 (Robot Scape) - RELEASES
+0004192 (Robot Rumpus) - RELEASES
+0004225 (Rogue Trooper) - RELEASES
+0004304 (Sai Combat) - RELEASES
+0004340 (Sarlmoor) - RELEASES
+0004359 (Sceptre of Bagdad) - RELEASES
+0004381 (Scuba Dive) - RELEASES
+0004386 (Sea Battles) - RELEASES
+0004391 (Sector 90) - AUTHORS
+0004394 (Self Destruct) - RELEASES
+0004457 (Shinobi) - AUTHORS
+0004460 (Shockway Rider) - RELEASES
+0004517 (Sinbad) - RELEASES
+0004549 (Skool Daze) - RELEASES
+0004559 (Sky Runner) - RELEASES
+0004763 (Spitfire 40) - RELEASES
+0004782 (Sputnik) - RELEASES
+0004800 (St. Crippens) - MAGREFS
+0004873 (Starquake) - RELEASES
+0004880 (3D Starstrike) - RELEASES
+0004881 (Starstrike II) - RELEASES
+0004896 (Steve Davis Snooker) - RELEASES
+0004948 (Strike Force Cobra) - RELEASES
+0004996 (Super Brat) - RELEASES
+0005069 (Superman: The Game) - RELEASES
+0005083 (Survivors) - RELEASES
+0005109 (Table Football) - RELEASES
+0005136 (3D Tank Duel) - RELEASES
+0005147 (Tarantulas) - ADDITIONALS
+0005147 (Tarantulas) - AUTHORS
+0005147 (Tarantulas) - FULLTITLE
+0005147 (Tarantulas) - PUBLISHER
+0005147 (Tarantulas) - RELEASES
+0005160 (Technician Ted) - FEATURES
+0005198 (Terror of the Deep) - RELEASES
+0005212 (Tetris) - AUTHORS
+0005236 (The Thinker) - RELEASES
+0005290 (Timezone) - RELEASES
+0005302 (T.L.L.) - RELEASES
+0005384 (Transylvanian Tower) - ADVERTS
+0005387 (Trap) - RELEASES
+0005388 (The Trap Door) - FEATURES
+0005388 (The Trap Door) - RELEASES
+0005436 (TT Racer) - RELEASES
+0005484 (Twin World) - MAGREFS
+0005534 (Vagan Attack) - RELEASES
+0005548 (Vectron) - FEATURES
+0005582 (Winnie-the-Pooh) - AUTHORS
+0005595 (Viz - The Computer Game) - MAGREFS
+0005602 (Volcano) - MAGREFS
+0005632 (War Zone) - MAGREFS
+0005664 (West Bank) - MAGREFS
+0005673 (Who Dares Wins II) - RELEASES
+0005717 (Wolfan) - MAGREFS
+0005783 (Xecutor) - MAGREFS
+0005790 (Xenon) - AUTHORS
+0005804 (X-Out) - MAGREFS
+0005868 (Zona 0) - RELEASES
+0005892 (Zythum) - RELEASES
+0005923 (Adventure Quest) - RELEASES
+0005923 (Adventure Quest) - REMARKS
+0005923 (Adventure Quest) - SERIES
+0006036 (Bored of the Rings) - ADDITIONALS
+0006097 (Colossal Adventure) - RELEASES
+0006097 (Colossal Adventure) - REMARKS
+0006097 (Colossal Adventure) - SERIES
+0006107 (La Corona) - PUBLISHER
+0006107 (La Corona) - RELEASES
+0006227 (Dungeon Adventure) - SERIES
+0006244 (Elfindor) - PUBLISHER
+0006244 (Elfindor) - RELEASES
+0006463 (The Illustrator) - SERIES
+0006635 (Das Magische) - REMARKS
+0006825 (Professional Adventure Writer) - AUTHORING
+0006825 (Professional Adventure Writer) - SERIES
+0006857 (The Quill Adventure System) - AUTHORING
+0006857 (The Quill Adventure System) - SERIES
+0007152 (Valhalla) - RELEASES
+0007235 (Agony Megademo) - AUTHORS
+0007292 (Bright Demo) - PUBLISHER
+0007292 (Bright Demo) - RELEASES
+0007324 (Cockshow Demo) - PUBLISHER
+0007324 (Cockshow Demo) - RELEASES
+0007433 (Ghostbusters) - PUBLISHER
+0007433 (Ghostbusters) - RELEASES
+0007445 (The Great Music Collection) - AUTHORS
+0007497 (Just For Fun) - AUTHORS
+0007497 (Just For Fun) - PUBLISHER
+0007497 (Just For Fun) - RELEASES
+0007499 (First Demo) - AUTHORS
+0007500 (Second Demo) - AUTHORS
+0007502 (Fourth Demo) - AUTHORS
+0007503 (5th Music Demo) - AUTHORS
+0007504 (6th Music Demo) - AUTHORS
+0007505 (Money) - AUTHORS
+0007516 (Light and Sound Volume 10) - PUBLISHER
+0007516 (Light and Sound Volume 10) - RELEASES
+0007517 (Light and Sound Volume 2) - PUBLISHER
+0007517 (Light and Sound Volume 2) - RELEASES
+0007518 (Light and Sound Volume 3) - PUBLISHER
+0007518 (Light and Sound Volume 3) - RELEASES
+0007519 (Light and Sound Volume 4) - PUBLISHER
+0007519 (Light and Sound Volume 4) - RELEASES
+0007529 (The Logic V) - AUTHORS
+0007533 (The Lords Demo) - AUTHORS
+0007533 (The Lords Demo) - PUBLISHER
+0007533 (The Lords Demo) - RELEASES
+0007534 (The Lords Demo 2) - AUTHORS
+0007534 (The Lords Demo 2) - PUBLISHER
+0007534 (The Lords Demo 2) - RELEASES
+0007536 (LSD Megademo) - AUTHORS
+0007538 (The Lyra II Megademo) - AUTHORS
+0007583 (Mr. Vain) - AUTHORS
+0007638 (Pancake) - AUTHORS
+0007729 (3D Show) - AUTHORS
+0007750 (Sound Demo 01) - PUBLISHER
+0007750 (Sound Demo 01) - RELEASES
+0007751 (Sound Demo 02) - PUBLISHER
+0007751 (Sound Demo 02) - RELEASES
+0007752 (Sound Demo 03) - PUBLISHER
+0007752 (Sound Demo 03) - RELEASES
+0007753 (Sound Demo 04) - PUBLISHER
+0007753 (Sound Demo 04) - RELEASES
+0007754 (Sound Demo 05) - PUBLISHER
+0007754 (Sound Demo 05) - RELEASES
+0007755 (Sound Demo 06) - PUBLISHER
+0007755 (Sound Demo 06) - RELEASES
+0007756 (Sound Demo 07) - PUBLISHER
+0007756 (Sound Demo 07) - RELEASES
+0007757 (Sound Demo 08) - PUBLISHER
+0007757 (Sound Demo 08) - RELEASES
+0007758 (Sound Demo 09) - PUBLISHER
+0007758 (Sound Demo 09) - RELEASES
+0007759 (Sound Demo 10) - PUBLISHER
+0007759 (Sound Demo 10) - RELEASES
+0007764 (Soundtracker Music Demo) - AUTHORS
+0007833 (VGA Demo volume 3) - PUBLISHER
+0007833 (VGA Demo volume 3) - RELEASES
+0007834 (VGA Demo volume 4) - PUBLISHER
+0007834 (VGA Demo volume 4) - RELEASES
+0007837 (Vidi Party Show) - AUTHORS
+0007847 (Wicked) - PUBLISHER
+0007847 (Wicked) - RELEASES
+0007918 (The Artist) - MAGREFS
+0007953 (Basicode-3) - ADDITIONALS
+0008311 (The Key) - PUBLISHER
+0008311 (The Key) - RELEASES
+0008380 (Macro for Construction and Animation) - MAGREFS
+0008708 (Soundtracker Song Compiler) - AUTHORS
+0008856 (Tasword Two) - RELEASES
+0009123 (Learn to Read 1) - SERIES
+0009124 (Learn to Read 2) - SERIES
+0009207 (Young Learners 1) - ADDITIONALS
+0009297 (1942) - RELEASES
+0009325 (Commando) - ADDITIONALS
+0009325 (Commando) - RELEASES
+0009351 (Ghost 'n Goblins) - RELEASES
+0009709 (Enigma) - REMARKS
+0010308 (Tilt) - PUBLISHER
+0010308 (Tilt) - RELEASES
+0010568 (Khazzad-Dum) - RELEASES
+0010891 (The Patch) - SERIES
+0011001 (Learn to Read 5) - SERIES
+0011114 (The Press) - SERIES
+0011197 (6-Pak) - PUBLISHER
+0011197 (6-Pak) - RELEASES
+0011201 (The Adventures of Brian the Bold + Survival) - SERIES
+0011211 (Best of Elite Vol 1) - PUBLISHER
+0011211 (Best of Elite Vol 1) - RELEASES
+0011212 (Best of Elite Vol 2) - PUBLISHER
+0011212 (Best of Elite Vol 2) - RELEASES
+0011286 (4 in 1) - PUBLISHER
+0011286 (4 in 1) - RELEASES
+0011287 (Trio) - PUBLISHER
+0011287 (Trio) - RELEASES
+0011293 (Jewels of Darkness) - COMPILATION CONTENT
+0011388 (Tus Juegos 2) - COMPILATION CONTENT
+0011436 (Young Learners 2) - MAGREFS
+0011461 (6-Pak Vol 2) - PUBLISHER
+0011461 (6-Pak Vol 2) - RELEASES
+0011478 (Angle) - ADDITIONALS
+0011496 (Astronomy) - REMARKS
+0011596 (The Code Machine) - COMPILATION CONTENT
+0011654 (The Dietician) - PUBLISHER
+0011654 (The Dietician) - RELEASES
+0011674 (Election Trail) - PUBLISHER
+0011674 (Election Trail) - RELEASES
+0011679 (The Elite Collection) - PUBLISHER
+0011679 (The Elite Collection) - RELEASES
+0011697 (Fame Quest) - PUBLISHER
+0011697 (Fame Quest) - RELEASES
+0011761 (Grasp) - MAGREFS
+0011825 (Keyfile) - PUBLISHER
+0011825 (Keyfile) - RELEASES
+0011865 (MacMan and the Great Escape) - SERIES
+0011906 (Millypede) - LICENSED
+0012083 (Solar Jetman) - AUTHORS
+0012090 (Soundtracker) - AUTHORS
+0012186 (Top 10 Collection) - PUBLISHER
+0012186 (Top 10 Collection) - RELEASES
+0012194 (Treble Chance) - REMARKS
+0012213 (Videomaster) - RELEASES
+0012259 (ZX Tool Kit) - MAGREFS
+0012262 (Antteroo + Prelude) - SERIES
+0012268 (Curse of Shaleth + Desperado) - SERIES
+0012270 (Father of Darkness + Murder) - SERIES
+0012328 (4 Aces) - AUTHORS
+0012372 (Start to Program) - PUBLISHER
+0012372 (Start to Program) - RELEASES
+0012375 (Plus 80 Finance Manager) - ADDITIONALS
+0012471 (Sex Vixens from Space) - PUBLISHER
+0012471 (Sex Vixens from Space) - RELEASES
+0012674 (Kock) - PUBLISHER
+0012674 (Kock) - RELEASES
+0012712 (Softland 1) - PUBLISHER
+0012712 (Softland 1) - RELEASES
+0012713 (Softland 2) - PUBLISHER
+0012713 (Softland 2) - RELEASES
+0012754 (Battle City) - PUBLISHER
+0012754 (Battle City) - RELEASES
+0012777 (Cobble 2) - REMARKS
+0012789 (Crime Santa Clause) - SERIES
+0012859 (Gravity Wars) - PUBLISHER
+0012859 (Gravity Wars) - RELEASES
+0012990 (Pasyance) - REMARKS
+0013871 (Navex) - PUBLISHER
+0013871 (Navex) - RELEASES
+0013912 (The Philosopher's Stone + The Greatest Show on Earth) - SERIES
+0013990 (Bomber + Fruit Machine) - ADDITIONALS
+0013993 (Dungeon Dare + Classroom Chaos) - SERIES
+0014016 (Family Tree) - PUBLISHER
+0014016 (Family Tree) - RELEASES
+0014100 (Outlet issue 013) - COMPILATION CONTENT
+0014101 (Outlet issue 014) - COMPILATION CONTENT
+0014102 (Outlet issue 015) - COMPILATION CONTENT
+0014108 (Outlet issue 021) - COMPILATION CONTENT
+0014624 (Ship) - RELEASES
+0014685 (Games Compendium) - COMPILATION CONTENT
+0015034 (Rescate) - REMARKS
+0015323 (Video Basic issue 01) - RELEASES
+0015324 (Video Basic issue 02) - RELEASES
+0015325 (Video Basic issue 03) - RELEASES
+0015326 (Video Basic issue 04) - RELEASES
+0015327 (Video Basic issue 05) - RELEASES
+0015328 (Video Basic issue 06) - RELEASES
+0015329 (Video Basic issue 07) - RELEASES
+0015330 (Video Basic issue 08) - RELEASES
+0015331 (Video Basic issue 09) - RELEASES
+0015332 (Video Basic issue 10) - RELEASES
+0015333 (Video Basic issue 11) - RELEASES
+0015334 (Video Basic issue 12) - RELEASES
+0015335 (Video Basic issue 13) - RELEASES
+0015336 (Video Basic issue 14) - RELEASES
+0015337 (Video Basic issue 15) - RELEASES
+0015338 (Video Basic issue 16) - RELEASES
+0015339 (Video Basic issue 17) - RELEASES
+0015340 (Video Basic issue 18) - RELEASES
+0015341 (Video Basic issue 19) - RELEASES
+0015342 (Video Basic issue 20) - RELEASES
+0015404 (RUN Casete N. 01) - PUBLISHER
+0015404 (RUN Casete N. 01) - RELEASES
+0015405 (RUN Casete N. 02) - PUBLISHER
+0015405 (RUN Casete N. 02) - RELEASES
+0015406 (RUN Casete N. 03) - PUBLISHER
+0015406 (RUN Casete N. 03) - RELEASES
+0015407 (RUN Casete N. 04) - COMPILATION CONTENT
+0015407 (RUN Casete N. 04) - PUBLISHER
+0015407 (RUN Casete N. 04) - RELEASES
+0015408 (RUN Casete N. 05) - PUBLISHER
+0015408 (RUN Casete N. 05) - RELEASES
+0015409 (RUN Casete N. 06) - PUBLISHER
+0015409 (RUN Casete N. 06) - RELEASES
+0015410 (RUN Casete N. 07) - PUBLISHER
+0015410 (RUN Casete N. 07) - RELEASES
+0015411 (RUN Casete N. 08) - PUBLISHER
+0015411 (RUN Casete N. 08) - RELEASES
+0015412 (RUN Casete N. 09) - PUBLISHER
+0015412 (RUN Casete N. 09) - RELEASES
+0015413 (RUN Casete N. 10) - PUBLISHER
+0015413 (RUN Casete N. 10) - RELEASES
+0015414 (RUN Casete N. 11) - PUBLISHER
+0015414 (RUN Casete N. 11) - RELEASES
+0015415 (RUN Casete N. 12) - PUBLISHER
+0015415 (RUN Casete N. 12) - RELEASES
+0015416 (RUN Casete N. 13) - PUBLISHER
+0015416 (RUN Casete N. 13) - RELEASES
+0015554 (Using Your Computer III) - REMARKS
+0015561 (The Hack Pack) - PUBLISHER
+0015561 (The Hack Pack) - RELEASES
+0015840 (Zhor, el Rey de Oidumas) - AUTHORS
+0015841 (Federico Jones) - AUTHORS
+0015842 (El Examen) - AUTHORS
+0015844 (La Aventura Brutal) - AUTHORS
+0015860 (Paranoia) - PUBLISHER
+0015860 (Paranoia) - RELEASES
+0015920 (Crash) - REMARKS
+0016989 (Millipede) - LICENSED
+0017175 (Acid Killer) - AUTHORS
+0017287 (Games Pack) - PUBLISHER
+0017287 (Games Pack) - RELEASES
+0017386 (Escape from Devils Island + Barchou) - SERIES
+0017573 (Cannon Bubble) - AUTHORS
+0017639 (Classic Pattern Writer) - SERIES
+0017640 (Fashion Tops and Batwing) - SERIES
+0017879 (Catastrophes) - AUTHORS
+0018228 (Hundido!) - PUBLISHER
+0018228 (Hundido!) - RELEASES
+0018229 (Funciones 3D) - PUBLISHER
+0018229 (Funciones 3D) - RELEASES
+0018230 (Cangurin) - PUBLISHER
+0018230 (Cangurin) - RELEASES
+0018231 (Saturno Jet) - PUBLISHER
+0018231 (Saturno Jet) - RELEASES
+0018232 (Adivinador) - PUBLISHER
+0018232 (Adivinador) - RELEASES
+0018233 (Tele-Sketch) - PUBLISHER
+0018233 (Tele-Sketch) - RELEASES
+0018235 (Modulo Lunar) - PUBLISHER
+0018235 (Modulo Lunar) - RELEASES
+0018236 (Progresiones Aritmeticas) - PUBLISHER
+0018236 (Progresiones Aritmeticas) - RELEASES
+0018237 (La Bomba) - PUBLISHER
+0018237 (La Bomba) - RELEASES
+0018238 (Master Cubos) - PUBLISHER
+0018238 (Master Cubos) - RELEASES
+0018240 (Bingo!) - PUBLISHER
+0018240 (Bingo!) - RELEASES
+0018241 (Aranas!) - ADDITIONALS
+0018241 (Aranas!) - AUTHORS
+0018241 (Aranas!) - FULLTITLE
+0018241 (Aranas!) - PUBLISHER
+0018241 (Aranas!) - RELEASES
+0018242 (Acorazado) - PUBLISHER
+0018242 (Acorazado) - RELEASES
+0018243 (Simon) - PUBLISHER
+0018243 (Simon) - RELEASES
+0018244 (El Cubo Magico) - PUBLISHER
+0018244 (El Cubo Magico) - RELEASES
+0018245 (Index) - PUBLISHER
+0018245 (Index) - RELEASES
+0018246 (Black Jack) - PUBLISHER
+0018246 (Black Jack) - RELEASES
+0018247 (Caracteres Gigantes) - PUBLISHER
+0018247 (Caracteres Gigantes) - RELEASES
+0018248 (Biorritmos) - PUBLISHER
+0018248 (Biorritmos) - RELEASES
+0018249 (Puzzle) - AUTHORS
+0018250 (El Trueno Azul) - PUBLISHER
+0018250 (El Trueno Azul) - RELEASES
+0018251 (El Profesor) - PUBLISHER
+0018251 (El Profesor) - RELEASES
+0018252 (Quebradero) - PUBLISHER
+0018252 (Quebradero) - RELEASES
+0018253 (Motos de Luz) - PUBLISHER
+0018253 (Motos de Luz) - RELEASES
+0018255 (Turbo) - PUBLISHER
+0018255 (Turbo) - RELEASES
+0018256 (El Elefante) - PUBLISHER
+0018256 (El Elefante) - RELEASES
+0018258 (Damas Chinas) - PUBLISHER
+0018258 (Damas Chinas) - RELEASES
+0018259 (La Presa) - PUBLISHER
+0018259 (La Presa) - RELEASES
+0018261 (Longevidad) - PUBLISHER
+0018261 (Longevidad) - RELEASES
+0018262 (Gusy) - PUBLISHER
+0018262 (Gusy) - RELEASES
+0018263 (Hunter) - PUBLISHER
+0018263 (Hunter) - RELEASES
+0018265 (Evasion) - PUBLISHER
+0018265 (Evasion) - RELEASES
+0018266 (Posters) - PUBLISHER
+0018266 (Posters) - RELEASES
+0018267 (Magnet) - PUBLISHER
+0018267 (Magnet) - RELEASES
+0018268 (Trigonometria) - PUBLISHER
+0018268 (Trigonometria) - RELEASES
+0018269 (Imprenta) - PUBLISHER
+0018269 (Imprenta) - RELEASES
+0018270 (Salto de Caballo) - PUBLISHER
+0018270 (Salto de Caballo) - RELEASES
+0018272 (Tankes) - PUBLISHER
+0018272 (Tankes) - RELEASES
+0018273 (Morse) - PUBLISHER
+0018273 (Morse) - RELEASES
+0018274 (Tragaperras) - PUBLISHER
+0018274 (Tragaperras) - RELEASES
+0018275 (Radar) - PUBLISHER
+0018275 (Radar) - RELEASES
+0018276 (Paleta) - PUBLISHER
+0018276 (Paleta) - RELEASES
+0018277 (Calimocho) - PUBLISHER
+0018277 (Calimocho) - RELEASES
+0018278 (Tira Pared) - PUBLISHER
+0018278 (Tira Pared) - RELEASES
+0018279 (Emboscada) - PUBLISHER
+0018279 (Emboscada) - RELEASES
+0018789 (Bubble Bobble Music Demo) - PUBLISHER
+0018789 (Bubble Bobble Music Demo) - RELEASES
+0018790 (Light and Sound Volume 1) - PUBLISHER
+0018790 (Light and Sound Volume 1) - RELEASES
+0018791 (Light and Sound Volume 5) - PUBLISHER
+0018791 (Light and Sound Volume 5) - RELEASES
+0018792 (Light and Sound Volume 6) - PUBLISHER
+0018792 (Light and Sound Volume 6) - RELEASES
+0018793 (Light and Sound Volume 7) - PUBLISHER
+0018793 (Light and Sound Volume 7) - RELEASES
+0018794 (Light and Sound Volume 8) - PUBLISHER
+0018794 (Light and Sound Volume 8) - RELEASES
+0019052 (The Renegade Levels) - AUTHORS
+0019052 (The Renegade Levels) - PUBLISHER
+0019052 (The Renegade Levels) - RELEASES
+0019053 (Slapfight Demo) - AUTHORS
+0019053 (Slapfight Demo) - PUBLISHER
+0019053 (Slapfight Demo) - RELEASES
+0019054 (VGA Demo volume 1) - PUBLISHER
+0019054 (VGA Demo volume 1) - RELEASES
+0019055 (VGA Demo volume 2) - PUBLISHER
+0019055 (VGA Demo volume 2) - RELEASES
+0019078 (Nautilus) - REMARKS
+0019092 (Meteor Storm) - PUBLISHER
+0019092 (Meteor Storm) - RELEASES
+0019093 (Alien Invaders) - PUBLISHER
+0019093 (Alien Invaders) - RELEASES
+0019094 (Bananas) - PUBLISHER
+0019094 (Bananas) - RELEASES
+0019095 (Spider's Web) - PUBLISHER
+0019095 (Spider's Web) - RELEASES
+0019096 (Target Practice) - PUBLISHER
+0019096 (Target Practice) - RELEASES
+0019097 (Fortune Teller) - PUBLISHER
+0019097 (Fortune Teller) - RELEASES
+0019098 (Grand Slalom) - PUBLISHER
+0019098 (Grand Slalom) - RELEASES
+0019099 (Laser Locksmith) - PUBLISHER
+0019099 (Laser Locksmith) - RELEASES
+0019100 (Blockbuster) - PUBLISHER
+0019100 (Blockbuster) - RELEASES
+0019101 (Mu-Torere) - PUBLISHER
+0019101 (Mu-Torere) - RELEASES
+0019102 (Cops and Robbers) - PUBLISHER
+0019102 (Cops and Robbers) - RELEASES
+0019103 (Sorcerer's Steps) - PUBLISHER
+0019103 (Sorcerer's Steps) - RELEASES
+0019104 (Parcel Drop) - PUBLISHER
+0019104 (Parcel Drop) - RELEASES
+0019105 (Forgery) - PUBLISHER
+0019105 (Forgery) - RELEASES
+0019244 (20 Character Set Fonts) - PUBLISHER
+0019244 (20 Character Set Fonts) - RELEASES
+0019245 (64 Character Print) - PUBLISHER
+0019245 (64 Character Print) - RELEASES
+0019246 (Code Compressor) - PUBLISHER
+0019246 (Code Compressor) - RELEASES
+0019247 (Double Height Print) - PUBLISHER
+0019247 (Double Height Print) - RELEASES
+0019248 (Drum Beat Simulator) - PUBLISHER
+0019248 (Drum Beat Simulator) - RELEASES
+0019249 (Games Aid) - PUBLISHER
+0019249 (Games Aid) - RELEASES
+0019250 (Games Designer) - PUBLISHER
+0019250 (Games Designer) - RELEASES
+0019251 (Hypertron) - PUBLISHER
+0019251 (Hypertron) - RELEASES
+0019252 (Interrupt Sound Effects) - PUBLISHER
+0019252 (Interrupt Sound Effects) - RELEASES
+0019253 (Message Scroller) - PUBLISHER
+0019253 (Message Scroller) - RELEASES
+0019254 (Pokes Galore) - PUBLISHER
+0019254 (Pokes Galore) - RELEASES
+0019255 (Program Protection Toolkit) - PUBLISHER
+0019255 (Program Protection Toolkit) - RELEASES
+0019256 (Proportional Character Set) - PUBLISHER
+0019256 (Proportional Character Set) - RELEASES
+0019257 (Speech Synthesis) - PUBLISHER
+0019257 (Speech Synthesis) - RELEASES
+0019258 (Speedy Load/Save) - PUBLISHER
+0019258 (Speedy Load/Save) - RELEASES
+0019362 (Family Pack) - PUBLISHER
+0019362 (Family Pack) - RELEASES
+0019650 (AM-Azon) - PUBLISHER
+0019650 (AM-Azon) - RELEASES
+0019651 (AM-Edizon) - PUBLISHER
+0019651 (AM-Edizon) - RELEASES
+0019652 (AM-ZXconv) - PUBLISHER
+0019652 (AM-ZXconv) - RELEASES
+0019653 (AM-ZXedit) - PUBLISHER
+0019653 (AM-ZXedit) - RELEASES
+0019654 (AM-ZXfile) - PUBLISHER
+0019654 (AM-ZXfile) - RELEASES
+0019655 (AM-ZXmon) - PUBLISHER
+0019655 (AM-ZXmon) - RELEASES
+0019656 (AM-ZXSP) - PUBLISHER
+0019656 (AM-ZXSP) - RELEASES
+0019743 (Autokopy 2b) - ADDITIONALS
+0019906 (Crash) - ADDITIONALS
+0020094 (Electronic Holograms) - REMARKS
+0020207 (Giant Millipede) - LICENSED
+0020945 (La Aventura Interminable) - PUBLISHER
+0020945 (La Aventura Interminable) - RELEASES
+0020954 (El Hacedor de Suenos) - PUBLISHER
+0020954 (El Hacedor de Suenos) - RELEASES
+0021079 (Logics) - AUTHORS
+0021108 (Kill Pokemon) - AUTHORS
+0021139 (Little Ghost) - AUTHORS
+0021267 (Lottery) - AUTHORS
+0021291 (ALASM) - AUTHORS
+0021451 (X-JPEG Player) - AUTHORS
+0021507 (Escape from Colditz) - PUBLISHER
+0021507 (Escape from Colditz) - RELEASES
+0021508 (Flogging a Dead Horse) - PUBLISHER
+0021508 (Flogging a Dead Horse) - RELEASES
+0021509 (Formula 2) - PUBLISHER
+0021509 (Formula 2) - RELEASES
+0021510 (Mothership) - PUBLISHER
+0021510 (Mothership) - RELEASES
+0021511 (Nuclear City Bomber) - PUBLISHER
+0021511 (Nuclear City Bomber) - RELEASES
+0021511 (Nuclear City Bomber) - REMARKS
+0021512 (The Rat) - PUBLISHER
+0021512 (The Rat) - RELEASES
+0021513 (Videodrome) - PUBLISHER
+0021513 (Videodrome) - RELEASES
+0021514 (Wipeout) - PUBLISHER
+0021514 (Wipeout) - RELEASES
+0021515 (Your Attention Please) - PUBLISHER
+0021515 (Your Attention Please) - RELEASES
+0021623 (Nipik 2) - AUTHORS
+0021624 (Nipik 1) - AUTHORS
+0021775 (X-Tracker) - PUBLISHER
+0021775 (X-Tracker) - RELEASES
+0021840 (Removal Deluxe) - FEATURES
+0023259 (Living on Video) - AUTHORS
+0023741 (The Pools Program) - ADDITIONALS
+0023791 (Copy Cass(ette)) - PUBLISHER
+0023791 (Copy Cass(ette)) - RELEASES
+0023810 (Tyger! Tyger!) - MAGREFS
+0023830 (Superchess) - RELEASES
+0024024 (Tus Juegos Single 2D) - COMPILATION CONTENT
+0024376 (Dungeons) - REMARKS
+0024960 (The Open - Augusta) - ADDITIONALS
+0025029 (Demon's Dream) - ADDITIONALS
+0025029 (Demon's Dream) - AUTHORS
+0025029 (Demon's Dream) - RELEASES
+0025029 (Demon's Dream) - REMARKS
+0025055 (Nelo & Quqo and the Last Butifarreisson) - AUTHORS
+0025127 (Videostop) - PUBLISHER
+0025127 (Videostop) - RELEASES
+0025313 (Interrupt Sound Effects + Character Set Collection) - COMPILATION CONTENT
+0025313 (Interrupt Sound Effects + Character Set Collection) - PUBLISHER
+0025313 (Interrupt Sound Effects + Character Set Collection) - RELEASES
+0025997 (Warlock) - FEATURES
+0026010 (Star Chess) - RELEASES
+0026272 (La Perla) - AUTHORS
+0026284 (Castelbasic) - AUTHORS
+0026298 (Cinque Doni Sotto L'Albero) - AUTHORS
+0026389 (Operazione Ladro) - AUTHORS
+0027256 (Autokopy 2a) - ADDITIONALS
+0027945 (Dziurak - Go to Hole!) - AUTHORS
+0027945 (Dziurak - Go to Hole!) - PUBLISHER
+0027945 (Dziurak - Go to Hole!) - RELEASES
+0027959 (El Barquero) - AUTHORS
+0027960 (Gus) - AUTHORS
+0027966 (Carlos Michelis) - AUTHORS
+0028015 (Diosa de Cozumel [2]) - FULLTITLE
+0028347 (Pipe Mania) - REMARKS
+0028471 (CSSCGC Crap Games Competition 2013) - COMPILATION CONTENT
+0029133 (Night Gunner) - AUTHORS
+0029703 (Nanodemo) - AUTHORS
+0029703 (Nanodemo) - PUBLISHER
+0029703 (Nanodemo) - RELEASES
+0030037 (Krunel) - AUTHORS
+0030038 (Elixir Vitae) - AUTHORS
+0030291 (Ship Fix) - ADDITIONALS
+0031906 (1K hires gamepack) - YOUTUBE LINKS
+0031980 (U-Bend) - YOUTUBE LINKS
+0032229 (Astrosmash! ZX) - PUBLISHER
+0032229 (Astrosmash! ZX) - RELEASES
+0032417 (Sorcerer - Interlogic Fantasy (ZxZvm)) - SERIES
+0034313 (Rubicon) - AUTHORS
+0034364 (Prospector) - PUBLISHER
+0034364 (Prospector) - RELEASES
+0034419 (Night Stalker ZX) - PUBLISHER
+0034419 (Night Stalker ZX) - RELEASES
+0034528 (Mage - The Enchanted Crystals) - YOUTUBE LINKS
+0034618 (Varina) - AUTHORS
+0034685 (TIKI TACA) - AUTHORS
+0034750 (ERZAC) - AUTHORS
+0034918 (Back to the Past) - AUTHORS
+0034934 (High Color) - AUTHORS
+0034956 (ProTracker 2) - AUTHORS
+0035128 (Bubblegum Bros.) - ADDITIONALS
+0035129 (DeltaStar - Earth Defense) - ADDITIONALS
+0035130 (Dungeonette) - ADDITIONALS
+0035131 (Dweebs Drop) - ADDITIONALS
+0035133 (Farmer Sam's Dog Day) - ADDITIONALS
+0035134 (Foreign Cabinet) - ADDITIONALS
+0035135 (Montana Mike) - ADDITIONALS
+0035136 (Nextoid!) - AUTHORS
+0035138 (Q*Bee) - ADDITIONALS
+0035156 (Space Monsters meet THE HARDY) - RELEASES
+0035245 (Crowley World Tour) - ADDITIONALS
+0035281 (Load 'n' Run issue 26) - COMPILATION CONTENT
+0035286 (Load 'n' Run issue 31) - COMPILATION CONTENT
+0035288 (Load 'n' Run issue 33) - COMPILATION CONTENT
+0035294 (Load 'n' Run issue 39) - COMPILATION CONTENT
+0035297 (Load 'n' Run issue 42) - COMPILATION CONTENT
+0035298 (Load 'n' Run issue 43) - COMPILATION CONTENT
+0035299 (Load 'n' Run issue 44) - COMPILATION CONTENT
+0035300 (Load 'n' Run issue 45) - COMPILATION CONTENT
+0035301 (Load 'n' Run issue 46) - COMPILATION CONTENT
+0035302 (Load 'n' Run issue 47) - COMPILATION CONTENT
+0035303 (Load 'n' Run issue 48) - COMPILATION CONTENT
+0035304 (Load 'n' Run issue 49) - COMPILATION CONTENT
+0035305 (Load 'n' Run issue 50) - COMPILATION CONTENT
+0035489 (Podraz 5) - AUTHORS
+0035489 (Podraz 5) - PUBLISHER
+0035489 (Podraz 5) - RELEASES
+0036066 (Cocoa and the Time Machine) - RELEASES
+0036094 (Apostle) - ADDITIONALS
+0036118 (Maths Test) - ADDITIONALS
+0036142 (Rite of the Druid) - ADDITIONALS
+0036148 (Dawn of the Soviet Ladybirds) - ADDITIONALS
+0036292 (Return to Holy Tower) - ADDITIONALS
+0036377 (Z80 Analyst) - ADDITIONALS
+0036400 (Skirts Volume 1) - SERIES
+0036401 (Tops II and Cardigans) - SERIES
+1000168 (Ferguson MA20 RGB Interface) - PUBLISHER
+1000168 (Ferguson MA20 RGB Interface) - RELEASES
+1000293 (One Finger Mk.II) - PUBLISHER
+1000293 (One Finger Mk.II) - RELEASES
+1000531 (Seikosha GP-50S) - PUBLISHER
+1000531 (Seikosha GP-50S) - RELEASES
+1000631 (Ferguson 3T31 Program Data Recorder) - PUBLISHER
+1000631 (Ferguson 3T31 Program Data Recorder) - RELEASES
+1000668 (Ferguson MC01 TX 14" Colour TV/Computer Monitor) - PUBLISHER
+1000668 (Ferguson MC01 TX 14" Colour TV/Computer Monitor) - RELEASES
+1000669 (Ferguson MC02 TX 14" Colour TV/Computer Monitor) - PUBLISHER
+1000669 (Ferguson MC02 TX 14" Colour TV/Computer Monitor) - RELEASES
+1000670 (Ferguson MC03 TX 14" Colour TV/Computer Monitor) - PUBLISHER
+1000670 (Ferguson MC03 TX 14" Colour TV/Computer Monitor) - RELEASES
+1000671 (Ferguson MC04 TX 14" Colour TV/Computer Monitor) - PUBLISHER
+1000671 (Ferguson MC04 TX 14" Colour TV/Computer Monitor) - RELEASES
+1000672 (Ferguson MC05 TX 14" Colour TV/Computer Monitor) - PUBLISHER
+1000672 (Ferguson MC05 TX 14" Colour TV/Computer Monitor) - RELEASES
+1000701 (Seikosha GP-100A) - PUBLISHER
+1000701 (Seikosha GP-100A) - RELEASES
+1000702 (Seikosha Printers) - PUBLISHER
+1000702 (Seikosha Printers) - RELEASES
+1000796 (Ferguson 3T27 Cassette Recorder) - PUBLISHER
+1000796 (Ferguson 3T27 Cassette Recorder) - RELEASES
+1000944 (Spectranet) - PUBLISHER
+1000944 (Spectranet) - RELEASES
+1001062 (ZX-Spectrum Vega) - COMPILATION CONTENT
+2000007 (26 BASIC Programs for Your Micro) - RELEASES
+2000016 (49 Explosive Games for the ZX Spectrum) - RELEASES
+2000017 (60 Games and Applications for the ZX Spectrum) - RELEASES
+2000097 (Creating Adventure Programs on Your Computer) - RELEASES
+2000098 (Creating Adventure Programs on Your ZX Spectrum) - RELEASES
+2000122 (Educational Uses of the ZX Spectrum) - RELEASES
+2000130 (Exploring Artificial Intelligence on Your Spectrum+ and Spectrum) - RELEASES
+2000146 (Games for Your ZX Spectrum) - RELEASES
+2000168 (Graphic Adventures for the Spectrum 48K) - RELEASES
+2000292 (Programming the Z80) - RELEASES
+2000294 (Programming Your ZX Spectrum) - RELEASES
+2000361 (Spectrum Machine Code Made Easy Volume 1) - RELEASES
+2000369 (The Spectrum Programmer) - RELEASES
+2000439 (The ZX Spectrum Explored) - RELEASES
+2000443 (ZX Spectrum User's Handbook) - RELEASES
+2000455 (The ZX81/TS1000 Home Computer Book) - PUBLISHER
+2000455 (The ZX81/TS1000 Home Computer Book) - RELEASES
+2000458 (Spectrum Machine Code Made Easy Volume 2) - RELEASES
+2000465 (Beginners BASIC for the Spectrum) - RELEASES
+2000505 (Turbocharge Your ZX Spectrum) - RELEASES
+2000537 (Start to Program) - PUBLISHER
+2000537 (Start to Program) - RELEASES
+2000551 (Pascal auf dem ZX Spectrum) - PUBLISHER
+2000551 (Pascal auf dem ZX Spectrum) - RELEASES
+2000586 (Mise en Oeuvre du 68000) - RELEASES
+2000608 (Introduction to PASCAL Including UCSD PASCAL) - RELEASES
+2000613 (Your First Computer) - RELEASES
+2000614 (Your Timex 1000 and ZX81) - RELEASES
+2000619 (The Timex/Sinclair 1000 BASIC Handbook) - RELEASES
+2000622 (Z80 Applications) - RELEASES
+2000624 (ZX81 Kochbuch) - PUBLISHER
+2000624 (ZX81 Kochbuch) - RELEASES
+2000662 (Klartext fur den ZX81) - PUBLISHER
+2000662 (Klartext fur den ZX81) - RELEASES
+2000669 (ZX-81-Kochbuch 2) - PUBLISHER
+2000669 (ZX-81-Kochbuch 2) - RELEASES
+2000755 (Z80 Assembly Language Programming) - PUBLISHER
+2000755 (Z80 Assembly Language Programming) - RELEASES
+2000756 (Z80 Assembly Language Subroutines) - PUBLISHER
+2000756 (Z80 Assembly Language Subroutines) - RELEASES
+2000769 (Your First BASIC Program) - RELEASES
+2000782 (From Chips to Systems) - RELEASES
+2000833 (Spectrum BASIC-Abenteuer Band 1: Der Fremde Planet) - PUBLISHER
+2000833 (Spectrum BASIC-Abenteuer Band 1: Der Fremde Planet) - RELEASES
+2000856 (Z80 Programming for Logic Design) - PUBLISHER
+2000856 (Z80 Programming for Logic Design) - RELEASES
+2000893 (Pocket Mikrocomputer Lexikon) - PUBLISHER
+2000893 (Pocket Mikrocomputer Lexikon) - RELEASES
+2000896 (Understanding C) - RELEASES
+2000897 (Erfolgreich Programmieren mit C) - PUBLISHER
+2000897 (Erfolgreich Programmieren mit C) - RELEASES
+2000899 (Maitrisez Votre ZX81) - RELEASES
+2000901 (The RS232 Solution) - RELEASES
+2000959 (Introduction to Word Processing) - RELEASES
+2000968 (The International Microcomputer Dictionary) - RELEASES
+2000983 (Le BASIC par la Pratique) - PUBLISHER
+2000983 (Le BASIC par la Pratique) - RELEASES
+2000988 (Computer Games) - PUBLISHER
+2000988 (Computer Games) - RELEASES
+2000989 (Computer Programming) - PUBLISHER
+2000989 (Computer Programming) - RELEASES
+2001022 (Computer Crazy) - RELEASES
+2001032 (Le BASIC pour l'Entreprise) - PUBLISHER
+2001032 (Le BASIC pour l'Entreprise) - RELEASES
+2001037 (Fifty Pascal Programs) - RELEASES
+2001038 (68000 Assembly Language Programming) - PUBLISHER
+2001038 (68000 Assembly Language Programming) - RELEASES
+2001060 (Crunchers: 21 Simple Games for the Timex/Sinclair 1000 2K) - PUBLISHER
+2001060 (Crunchers: 21 Simple Games for the Timex/Sinclair 1000 2K) - RELEASES
+2001087 (Discover FORTH: Learning and Programming the FORTH Language) - PUBLISHER
+2001087 (Discover FORTH: Learning and Programming the FORTH Language) - RELEASES
+2001109 (Spectrum Jeux d'Action) - PUBLISHER
+2001109 (Spectrum Jeux d'Action) - RELEASES
+2001125 (Alff's Verruckte Computerwelt) - PUBLISHER
+2001125 (Alff's Verruckte Computerwelt) - RELEASES
+2001156 (Practical Basic Programs) - PUBLISHER
+2001156 (Practical Basic Programs) - RELEASES
+2001163 (Some Common BASIC Programs) - PUBLISHER
+2001163 (Some Common BASIC Programs) - RELEASES
+2001336 (Aprenda Electricidade com o Seu Computador) - PUBLISHER
+2001336 (Aprenda Electricidade com o Seu Computador) - RELEASES
+2001343 (Spectral ROM Decoded) - PUBLISHER
+2001343 (Spectral ROM Decoded) - RELEASES
+2001388 (Build Your Own Z80 Computer) - PUBLISHER
+2001388 (Build Your Own Z80 Computer) - RELEASES
+2001417 (Z80 Assembler para o ZX Spectrum) - PUBLISHER
+2001417 (Z80 Assembler para o ZX Spectrum) - RELEASES
+2001423 (The Programmer's CP/M Handbook) - PUBLISHER
+2001423 (The Programmer's CP/M Handbook) - RELEASES
+2001447 (BASIC: A Hands-on Method) - PUBLISHER
+2001447 (BASIC: A Hands-on Method) - RELEASES
+2001449 (The BASIC Book) - PUBLISHER
+2001449 (The BASIC Book) - RELEASES
+2001468 (Osborne CP/M User Guide) - PUBLISHER
+2001468 (Osborne CP/M User Guide) - RELEASES
+
+---------------------------------------------------------------
+CHANGE SUMMARY - total entries updated: 609
+---------------------------------------------------------------
+
+Updated entries:
+
+[ '0000033', '3DC' ]
+[ '0000056', 'ACE' ]
+[ '0000059', 'ACE 2: The Ultimate Head to Head Conflict' ]
+[ '0000107', 'Agent Orange' ]
+[ '0000128', 'Airwolf II' ]
+[ '0000147', 'Alien Curse' ]
+[ '0000172', 'Alpine Games' ]
+[ '0000186', "Amoto's Puf" ]
+[ '0000312', 'Atom Ant' ]
+[ '0000326', 'Attack of the Killer Tomatoes' ]
+[ '0000460', 'Battle on Hoth' ]
+[ '0000461', 'Battle Ships' ]
+[ '0000472', 'Batty' ]
+[ '0000560', 'Blade Alley' ]
+[ '0000606', 'Bobby Bearing' ]
+[ '0000614', 'Boilerhouse' ]
+[ '0000617', 'Bomb Jack' ]
+[ '0000718', 'Bruce Lee' ]
+[ '0000746', 'Buggy Boy' ]
+[ '0000771', 'Butch - Hard Guy' ]
+[ '0000787', 'Caesar the Cat' ]
+[ '0000798', 'Canyon Warrior' ]
+[ '0000829', 'Casanova' ]
+[ '0000860', 'Caverns of Kontonia' ]
+[ '0000882', 'The Champ' ]
+[ '0000912', 'Chequered Flag' ]
+[ '0000934', 'Chinese Patience' ]
+[ '0000958', 'Chuckie Egg' ]
+[ '0000959', 'Chuckie Egg 2' ]
+[ '0001002', 'Codename MAT' ]
+[ '0001018', 'Colossus Chess 4' ]
+[ '0001175', 'Crusader' ]
+[ '0001179', 'Crystal Castles' ]
+[ '0001220', "Daley Thompson's Olympic Challenge" ]
+[ '0001303', 'Deathchase' ]
+[ '0001363', 'Destiny Mission' ]
+[ '0001383', 'Devils of the Deep' ]
+[ '0001553', 'Dynamite Dan II' ]
+[ '0001584', 'Eights' ]
+[ '0001661', 'Eureka!' ]
+[ '0001672', 'Evaristo el Punky' ]
+[ '0001700', 'Eye' ]
+[ '0001738', 'Fearless Frank' ]
+[ '0001754', 'Fighter Pilot' ]
+[ '0001797', 'Flight Simulation' ]
+[ '0001831', 'Football Manager: World Cup Edition' ]
+[ '0001834', 'Footballer of the Year 2' ]
+[ '0001870', "Freez'Bees" ]
+[ '0001874', 'Friday the 13th' ]
+[ '0001908', 'Full Throttle' ]
+[ '0001970', 'Games Designer' ]
+[ '0002021', "Ghaza's Super Soldier" ]
+[ '0002050', 'Gladiator' ]
+[ '0002130', 'Great Gurianos' ]
+[ '0002139', 'Gremlins 2: La Nueva Generación' ]
+[ '0002241', 'Harrier Attack!' ]
+[ '0002274', 'Heavy on the Magick' ]
+[ '0002295', "Herbert's Dummy Run" ]
+[ '0002411', 'Hypa Raid' ]
+[ '0002440', 'The Ice Temple' ]
+[ '0002464', 'Impossible Mission II' ]
+[ '0002580', 'Jasper!' ]
+[ '0002617', 'Jock and the Time Rings' ]
+[ '0002623', 'Joe Blade II' ]
+[ '0002635', 'Johnny Reb' ]
+[ '0002678', 'Kat Trap' ]
+[ '0002801', 'Labyrinthion' ]
+[ '0002841', 'League Challenge' ]
+[ '0002882', 'Lightforce' ]
+[ '0002908', 'Loco' ]
+[ '0002915', 'Lode Runner (New game set)' ]
+[ '0002932', 'Lorna' ]
+[ '0002945', 'Luna Atac' ]
+[ '0002966', 'Mad Mix 2' ]
+[ '0002982', "Magic Johnson's Basketball" ]
+[ '0003206', 'Millipede' ]
+[ '0003268', 'Moon Strike' ]
+[ '0003277', 'Moonlight Madness' ]
+[ '0003318', 'Muggins the Spaceman' ]
+[ '0003332', 'Mushroom Alley' ]
+[ '0003395', 'The Neverending Story II' ]
+[ '0003408', 'Nicotine Nightmare' ]
+[ '0003420', 'Night Gunner' ]
+[ '0003442', 'The Ninja Warriors' ]
+[ '0003460', 'North & South' ]
+[ '0003462', 'Nosferatu the Vampyre' ]
+[ '0003483', 'Octagon' ]
+[ '0003486', 'Octipede' ]
+[ '0003507', "Olympiad '86" ]
+[ '0003541', 'Orbix the Terrorball' ]
+[ '0003583', 'Pac-Mania' ]
+[ '0003668', 'Peter Pack Rat' ]
+[ '0003712', 'Podraz na Indiana Jonese' ]
+[ '0003714', 'Pimania' ]
+[ '0003727', 'Pioneer' ]
+[ '0003729', 'Pipe Mania' ]
+[ '0003777', 'Pneumatic Hammers' ]
+[ '0003824', 'Pool' ]
+[ '0003830', 'Popeye' ]
+[ '0003886', 'Pro Golf' ]
+[ '0003919', 'Psycho Hopper' ]
+[ '0003973', 'Quazer' ]
+[ '0004008', 'R.A.M.' ]
+[ '0004040', 'Rattler' ]
+[ '0004043', 'Raw Recruit' ]
+[ '0004110', 'Rescue' ]
+[ '0004117', 'Revenge of the C5' ]
+[ '0004122', 'Reversi' ]
+[ '0004168', 'Road Toad' ]
+[ '0004187', 'Robot Scape' ]
+[ '0004192', 'Robot Rumpus' ]
+[ '0004225', 'Rogue Trooper' ]
+[ '0004304', 'Sai Combat' ]
+[ '0004340', 'Sarlmoor' ]
+[ '0004359', 'Sceptre of Bagdad' ]
+[ '0004381', 'Scuba Dive' ]
+[ '0004386', 'Sea Battles' ]
+[ '0004391', 'Sector 90' ]
+[ '0004394', 'Self Destruct' ]
+[ '0004457', 'Shinobi' ]
+[ '0004460', 'Shockway Rider' ]
+[ '0004517', 'Sinbad' ]
+[ '0004549', 'Skool Daze' ]
+[ '0004559', 'Sky Runner' ]
+[ '0004763', 'Spitfire 40' ]
+[ '0004782', 'Sputnik' ]
+[ '0004800', 'St. Crippens' ]
+[ '0004873', 'Starquake' ]
+[ '0004880', '3D Starstrike' ]
+[ '0004881', 'Starstrike II' ]
+[ '0004896', 'Steve Davis Snooker' ]
+[ '0004948', 'Strike Force Cobra' ]
+[ '0004996', 'Super Brat' ]
+[ '0005069', 'Superman: The Game' ]
+[ '0005083', 'Survivors' ]
+[ '0005109', 'Table Football' ]
+[ '0005136', '3D Tank Duel' ]
+[ '0005147', 'Tarantulas' ]
+[ '0005160', 'Technician Ted' ]
+[ '0005198', 'Terror of the Deep' ]
+[ '0005212', 'Tetris' ]
+[ '0005236', 'The Thinker' ]
+[ '0005290', 'Timezone' ]
+[ '0005302', 'T.L.L.' ]
+[ '0005384', 'Transylvanian Tower' ]
+[ '0005387', 'Trap' ]
+[ '0005388', 'The Trap Door' ]
+[ '0005436', 'TT Racer' ]
+[ '0005484', 'Twin World' ]
+[ '0005534', 'Vagan Attack' ]
+[ '0005548', 'Vectron' ]
+[ '0005582', 'Winnie-the-Pooh' ]
+[ '0005595', 'Viz - The Computer Game' ]
+[ '0005602', 'Volcano' ]
+[ '0005632', 'War Zone' ]
+[ '0005664', 'West Bank' ]
+[ '0005673', 'Who Dares Wins II' ]
+[ '0005717', 'Wolfan' ]
+[ '0005783', 'Xecutor' ]
+[ '0005790', 'Xenon' ]
+[ '0005804', 'X-Out' ]
+[ '0005868', 'Zona 0' ]
+[ '0005892', 'Zythum' ]
+[ '0005923', 'Adventure Quest' ]
+[ '0006036', 'Bored of the Rings' ]
+[ '0006097', 'Colossal Adventure' ]
+[ '0006107', 'La Corona' ]
+[ '0006227', 'Dungeon Adventure' ]
+[ '0006244', 'Elfindor' ]
+[ '0006463', 'The Illustrator' ]
+[ '0006635', 'Das Magische' ]
+[ '0006825', 'Professional Adventure Writer' ]
+[ '0006857', 'The Quill Adventure System' ]
+[ '0007152', 'Valhalla' ]
+[ '0007235', 'Agony Megademo' ]
+[ '0007292', 'Bright Demo' ]
+[ '0007324', 'Cockshow Demo' ]
+[ '0007433', 'Ghostbusters' ]
+[ '0007445', 'The Great Music Collection' ]
+[ '0007497', 'Just For Fun' ]
+[ '0007499', 'First Demo' ]
+[ '0007500', 'Second Demo' ]
+[ '0007502', 'Fourth Demo' ]
+[ '0007503', '5th Music Demo' ]
+[ '0007504', '6th Music Demo' ]
+[ '0007505', 'Money' ]
+[ '0007516', 'Light and Sound Volume 10' ]
+[ '0007517', 'Light and Sound Volume 2' ]
+[ '0007518', 'Light and Sound Volume 3' ]
+[ '0007519', 'Light and Sound Volume 4' ]
+[ '0007529', 'The Logic V' ]
+[ '0007533', 'The Lords Demo' ]
+[ '0007534', 'The Lords Demo 2' ]
+[ '0007536', 'LSD Megademo' ]
+[ '0007538', 'The Lyra II Megademo' ]
+[ '0007583', 'Mr. Vain' ]
+[ '0007638', 'Pancake' ]
+[ '0007729', '3D Show' ]
+[ '0007750', 'Sound Demo 01' ]
+[ '0007751', 'Sound Demo 02' ]
+[ '0007752', 'Sound Demo 03' ]
+[ '0007753', 'Sound Demo 04' ]
+[ '0007754', 'Sound Demo 05' ]
+[ '0007755', 'Sound Demo 06' ]
+[ '0007756', 'Sound Demo 07' ]
+[ '0007757', 'Sound Demo 08' ]
+[ '0007758', 'Sound Demo 09' ]
+[ '0007759', 'Sound Demo 10' ]
+[ '0007764', 'Soundtracker Music Demo' ]
+[ '0007833', 'VGA Demo volume 3' ]
+[ '0007834', 'VGA Demo volume 4' ]
+[ '0007837', 'Vidi Party Show' ]
+[ '0007847', 'Wicked' ]
+[ '0007918', 'The Artist' ]
+[ '0007953', 'Basicode-3' ]
+[ '0008311', 'The Key' ]
+[ '0008380', 'Macro for Construction and Animation' ]
+[ '0008708', 'Soundtracker Song Compiler' ]
+[ '0008856', 'Tasword Two' ]
+[ '0009123', 'Learn to Read 1' ]
+[ '0009124', 'Learn to Read 2' ]
+[ '0009207', 'Young Learners 1' ]
+[ '0009297', '1942' ]
+[ '0009325', 'Commando' ]
+[ '0009351', "Ghost 'n Goblins" ]
+[ '0009709', 'Enigma' ]
+[ '0010308', 'Tilt' ]
+[ '0010568', 'Khazzad-Dum' ]
+[ '0010891', 'The Patch' ]
+[ '0011001', 'Learn to Read 5' ]
+[ '0011114', 'The Press' ]
+[ '0011197', '6-Pak' ]
+[ '0011201', 'The Adventures of Brian the Bold + Survival' ]
+[ '0011211', 'Best of Elite Vol 1' ]
+[ '0011212', 'Best of Elite Vol 2' ]
+[ '0011286', '4 in 1' ]
+[ '0011287', 'Trio' ]
+[ '0011293', 'Jewels of Darkness' ]
+[ '0011388', 'Tus Juegos 2' ]
+[ '0011436', 'Young Learners 2' ]
+[ '0011461', '6-Pak Vol 2' ]
+[ '0011478', 'Angle' ]
+[ '0011496', 'Astronomy' ]
+[ '0011596', 'The Code Machine' ]
+[ '0011654', 'The Dietician' ]
+[ '0011674', 'Election Trail' ]
+[ '0011679', 'The Elite Collection' ]
+[ '0011697', 'Fame Quest' ]
+[ '0011761', 'Grasp' ]
+[ '0011825', 'Keyfile' ]
+[ '0011865', 'MacMan and the Great Escape' ]
+[ '0011906', 'Millypede' ]
+[ '0012083', 'Solar Jetman' ]
+[ '0012090', 'Soundtracker' ]
+[ '0012186', 'Top 10 Collection' ]
+[ '0012194', 'Treble Chance' ]
+[ '0012213', 'Videomaster' ]
+[ '0012259', 'ZX Tool Kit' ]
+[ '0012262', 'Antteroo + Prelude' ]
+[ '0012268', 'Curse of Shaleth + Desperado' ]
+[ '0012270', 'Father of Darkness + Murder' ]
+[ '0012328', '4 Aces' ]
+[ '0012372', 'Start to Program' ]
+[ '0012375', 'Plus 80 Finance Manager' ]
+[ '0012471', 'Sex Vixens from Space' ]
+[ '0012674', 'Kock' ]
+[ '0012712', 'Softland 1' ]
+[ '0012713', 'Softland 2' ]
+[ '0012754', 'Battle City' ]
+[ '0012777', 'Cobble 2' ]
+[ '0012789', 'Crime Santa Clause' ]
+[ '0012859', 'Gravity Wars' ]
+[ '0012990', 'Pasyance' ]
+[ '0013871', 'Navex' ]
+[ '0013912', "The Philosopher's Stone + The Greatest Show on Earth" ]
+[ '0013990', 'Bomber + Fruit Machine' ]
+[ '0013993', 'Dungeon Dare + Classroom Chaos' ]
+[ '0014016', 'Family Tree' ]
+[ '0014100', 'Outlet issue 013' ]
+[ '0014101', 'Outlet issue 014' ]
+[ '0014102', 'Outlet issue 015' ]
+[ '0014108', 'Outlet issue 021' ]
+[ '0014624', 'Ship' ]
+[ '0014685', 'Games Compendium' ]
+[ '0015034', 'Rescate' ]
+[ '0015323', 'Video Basic issue 01' ]
+[ '0015324', 'Video Basic issue 02' ]
+[ '0015325', 'Video Basic issue 03' ]
+[ '0015326', 'Video Basic issue 04' ]
+[ '0015327', 'Video Basic issue 05' ]
+[ '0015328', 'Video Basic issue 06' ]
+[ '0015329', 'Video Basic issue 07' ]
+[ '0015330', 'Video Basic issue 08' ]
+[ '0015331', 'Video Basic issue 09' ]
+[ '0015332', 'Video Basic issue 10' ]
+[ '0015333', 'Video Basic issue 11' ]
+[ '0015334', 'Video Basic issue 12' ]
+[ '0015335', 'Video Basic issue 13' ]
+[ '0015336', 'Video Basic issue 14' ]
+[ '0015337', 'Video Basic issue 15' ]
+[ '0015338', 'Video Basic issue 16' ]
+[ '0015339', 'Video Basic issue 17' ]
+[ '0015340', 'Video Basic issue 18' ]
+[ '0015341', 'Video Basic issue 19' ]
+[ '0015342', 'Video Basic issue 20' ]
+[ '0015404', 'RUN Casete N. 01' ]
+[ '0015405', 'RUN Casete N. 02' ]
+[ '0015406', 'RUN Casete N. 03' ]
+[ '0015407', 'RUN Casete N. 04' ]
+[ '0015408', 'RUN Casete N. 05' ]
+[ '0015409', 'RUN Casete N. 06' ]
+[ '0015410', 'RUN Casete N. 07' ]
+[ '0015411', 'RUN Casete N. 08' ]
+[ '0015412', 'RUN Casete N. 09' ]
+[ '0015413', 'RUN Casete N. 10' ]
+[ '0015414', 'RUN Casete N. 11' ]
+[ '0015415', 'RUN Casete N. 12' ]
+[ '0015416', 'RUN Casete N. 13' ]
+[ '0015554', 'Using Your Computer III' ]
+[ '0015561', 'The Hack Pack' ]
+[ '0015840', 'Zhor, el Rey de Oidumas' ]
+[ '0015841', 'Federico Jones' ]
+[ '0015842', 'El Examen' ]
+[ '0015844', 'La Aventura Brutal' ]
+[ '0015860', 'Paranoia' ]
+[ '0015920', 'Crash' ]
+[ '0016989', 'Millipede' ]
+[ '0017175', 'Acid Killer' ]
+[ '0017287', 'Games Pack' ]
+[ '0017386', 'Escape from Devils Island + Barchou' ]
+[ '0017573', 'Cannon Bubble' ]
+[ '0017639', 'Classic Pattern Writer' ]
+[ '0017640', 'Fashion Tops and Batwing' ]
+[ '0017879', 'Catastrophes' ]
+[ '0018228', 'Hundido!' ]
+[ '0018229', 'Funciones 3D' ]
+[ '0018230', 'Cangurin' ]
+[ '0018231', 'Saturno Jet' ]
+[ '0018232', 'Adivinador' ]
+[ '0018233', 'Tele-Sketch' ]
+[ '0018235', 'Modulo Lunar' ]
+[ '0018236', 'Progresiones Aritmeticas' ]
+[ '0018237', 'La Bomba' ]
+[ '0018238', 'Master Cubos' ]
+[ '0018240', 'Bingo!' ]
+[ '0018241', 'Aranas!' ]
+[ '0018242', 'Acorazado' ]
+[ '0018243', 'Simon' ]
+[ '0018244', 'El Cubo Magico' ]
+[ '0018245', 'Index' ]
+[ '0018246', 'Black Jack' ]
+[ '0018247', 'Caracteres Gigantes' ]
+[ '0018248', 'Biorritmos' ]
+[ '0018249', 'Puzzle' ]
+[ '0018250', 'El Trueno Azul' ]
+[ '0018251', 'El Profesor' ]
+[ '0018252', 'Quebradero' ]
+[ '0018253', 'Motos de Luz' ]
+[ '0018255', 'Turbo' ]
+[ '0018256', 'El Elefante' ]
+[ '0018258', 'Damas Chinas' ]
+[ '0018259', 'La Presa' ]
+[ '0018261', 'Longevidad' ]
+[ '0018262', 'Gusy' ]
+[ '0018263', 'Hunter' ]
+[ '0018265', 'Evasion' ]
+[ '0018266', 'Posters' ]
+[ '0018267', 'Magnet' ]
+[ '0018268', 'Trigonometria' ]
+[ '0018269', 'Imprenta' ]
+[ '0018270', 'Salto de Caballo' ]
+[ '0018272', 'Tankes' ]
+[ '0018273', 'Morse' ]
+[ '0018274', 'Tragaperras' ]
+[ '0018275', 'Radar' ]
+[ '0018276', 'Paleta' ]
+[ '0018277', 'Calimocho' ]
+[ '0018278', 'Tira Pared' ]
+[ '0018279', 'Emboscada' ]
+[ '0018789', 'Bubble Bobble Music Demo' ]
+[ '0018790', 'Light and Sound Volume 1' ]
+[ '0018791', 'Light and Sound Volume 5' ]
+[ '0018792', 'Light and Sound Volume 6' ]
+[ '0018793', 'Light and Sound Volume 7' ]
+[ '0018794', 'Light and Sound Volume 8' ]
+[ '0019052', 'The Renegade Levels' ]
+[ '0019053', 'Slapfight Demo' ]
+[ '0019054', 'VGA Demo volume 1' ]
+[ '0019055', 'VGA Demo volume 2' ]
+[ '0019078', 'Nautilus' ]
+[ '0019092', 'Meteor Storm' ]
+[ '0019093', 'Alien Invaders' ]
+[ '0019094', 'Bananas' ]
+[ '0019095', "Spider's Web" ]
+[ '0019096', 'Target Practice' ]
+[ '0019097', 'Fortune Teller' ]
+[ '0019098', 'Grand Slalom' ]
+[ '0019099', 'Laser Locksmith' ]
+[ '0019100', 'Blockbuster' ]
+[ '0019101', 'Mu-Torere' ]
+[ '0019102', 'Cops and Robbers' ]
+[ '0019103', "Sorcerer's Steps" ]
+[ '0019104', 'Parcel Drop' ]
+[ '0019105', 'Forgery' ]
+[ '0019244', '20 Character Set Fonts' ]
+[ '0019245', '64 Character Print' ]
+[ '0019246', 'Code Compressor' ]
+[ '0019247', 'Double Height Print' ]
+[ '0019248', 'Drum Beat Simulator' ]
+[ '0019249', 'Games Aid' ]
+[ '0019250', 'Games Designer' ]
+[ '0019251', 'Hypertron' ]
+[ '0019252', 'Interrupt Sound Effects' ]
+[ '0019253', 'Message Scroller' ]
+[ '0019254', 'Pokes Galore' ]
+[ '0019255', 'Program Protection Toolkit' ]
+[ '0019256', 'Proportional Character Set' ]
+[ '0019257', 'Speech Synthesis' ]
+[ '0019258', 'Speedy Load/Save' ]
+[ '0019362', 'Family Pack' ]
+[ '0019650', 'AM-Azon' ]
+[ '0019651', 'AM-Edizon' ]
+[ '0019652', 'AM-ZXconv' ]
+[ '0019653', 'AM-ZXedit' ]
+[ '0019654', 'AM-ZXfile' ]
+[ '0019655', 'AM-ZXmon' ]
+[ '0019656', 'AM-ZXSP' ]
+[ '0019743', 'Autokopy 2b' ]
+[ '0019906', 'Crash' ]
+[ '0020094', 'Electronic Holograms' ]
+[ '0020207', 'Giant Millipede' ]
+[ '0020945', 'La Aventura Interminable' ]
+[ '0020954', 'El Hacedor de Suenos' ]
+[ '0021079', 'Logics' ]
+[ '0021108', 'Kill Pokemon' ]
+[ '0021139', 'Little Ghost' ]
+[ '0021267', 'Lottery' ]
+[ '0021291', 'ALASM' ]
+[ '0021451', 'X-JPEG Player' ]
+[ '0021507', 'Escape from Colditz' ]
+[ '0021508', 'Flogging a Dead Horse' ]
+[ '0021509', 'Formula 2' ]
+[ '0021510', 'Mothership' ]
+[ '0021511', 'Nuclear City Bomber' ]
+[ '0021512', 'The Rat' ]
+[ '0021513', 'Videodrome' ]
+[ '0021514', 'Wipeout' ]
+[ '0021515', 'Your Attention Please' ]
+[ '0021623', 'Nipik 2' ]
+[ '0021624', 'Nipik 1' ]
+[ '0021775', 'X-Tracker' ]
+[ '0021840', 'Removal Deluxe' ]
+[ '0023259', 'Living on Video' ]
+[ '0023741', 'The Pools Program' ]
+[ '0023791', 'Copy Cass(ette)' ]
+[ '0023810', 'Tyger! Tyger!' ]
+[ '0023830', 'Superchess' ]
+[ '0024024', 'Tus Juegos Single 2D' ]
+[ '0024376', 'Dungeons' ]
+[ '0024960', 'The Open - Augusta' ]
+[ '0025029', "Demon's Dream" ]
+[ '0025055', 'Nelo & Quqo and the Last Butifarreisson' ]
+[ '0025127', 'Videostop' ]
+[ '0025313', 'Interrupt Sound Effects + Character Set Collection' ]
+[ '0025997', 'Warlock' ]
+[ '0026010', 'Star Chess' ]
+[ '0026272', 'La Perla' ]
+[ '0026284', 'Castelbasic' ]
+[ '0026298', "Cinque Doni Sotto L'Albero" ]
+[ '0026389', 'Operazione Ladro' ]
+[ '0027256', 'Autokopy 2a' ]
+[ '0027945', 'Dziurak - Go to Hole!' ]
+[ '0027959', 'El Barquero' ]
+[ '0027960', 'Gus' ]
+[ '0027966', 'Carlos Michelis' ]
+[ '0028015', 'Diosa de Cozumel [2]' ]
+[ '0028347', 'Pipe Mania' ]
+[ '0028471', 'CSSCGC Crap Games Competition 2013' ]
+[ '0029133', 'Night Gunner' ]
+[ '0029703', 'Nanodemo' ]
+[ '0030037', 'Krunel' ]
+[ '0030038', 'Elixir Vitae' ]
+[ '0030291', 'Ship Fix' ]
+[ '0031906', '1K hires gamepack' ]
+[ '0031980', 'U-Bend' ]
+[ '0032229', 'Astrosmash! ZX' ]
+[ '0032417', 'Sorcerer - Interlogic Fantasy (ZxZvm)' ]
+[ '0034313', 'Rubicon' ]
+[ '0034364', 'Prospector' ]
+[ '0034419', 'Night Stalker ZX' ]
+[ '0034528', 'Mage - The Enchanted Crystals' ]
+[ '0034618', 'Varina' ]
+[ '0034685', 'TIKI TACA' ]
+[ '0034750', 'ERZAC' ]
+[ '0034918', 'Back to the Past' ]
+[ '0034934', 'High Color' ]
+[ '0034956', 'ProTracker 2' ]
+[ '0035128', 'Bubblegum Bros.' ]
+[ '0035129', 'DeltaStar - Earth Defense' ]
+[ '0035130', 'Dungeonette' ]
+[ '0035131', 'Dweebs Drop' ]
+[ '0035133', "Farmer Sam's Dog Day" ]
+[ '0035134', 'Foreign Cabinet' ]
+[ '0035135', 'Montana Mike' ]
+[ '0035136', 'Nextoid!' ]
+[ '0035138', 'Q*Bee' ]
+[ '0035156', 'Space Monsters meet THE HARDY' ]
+[ '0035245', 'Crowley World Tour' ]
+[ '0035281', "Load 'n' Run issue 26" ]
+[ '0035286', "Load 'n' Run issue 31" ]
+[ '0035288', "Load 'n' Run issue 33" ]
+[ '0035294', "Load 'n' Run issue 39" ]
+[ '0035297', "Load 'n' Run issue 42" ]
+[ '0035298', "Load 'n' Run issue 43" ]
+[ '0035299', "Load 'n' Run issue 44" ]
+[ '0035300', "Load 'n' Run issue 45" ]
+[ '0035301', "Load 'n' Run issue 46" ]
+[ '0035302', "Load 'n' Run issue 47" ]
+[ '0035303', "Load 'n' Run issue 48" ]
+[ '0035304', "Load 'n' Run issue 49" ]
+[ '0035305', "Load 'n' Run issue 50" ]
+[ '0035489', 'Podraz 5' ]
+[ '0036066', 'Cocoa and the Time Machine' ]
+[ '0036094', 'Apostle' ]
+[ '0036118', 'Maths Test' ]
+[ '0036142', 'Rite of the Druid' ]
+[ '0036148', 'Dawn of the Soviet Ladybirds' ]
+[ '0036292', 'Return to Holy Tower' ]
+[ '0036377', 'Z80 Analyst' ]
+[ '0036400', 'Skirts Volume 1' ]
+[ '0036401', 'Tops II and Cardigans' ]
+[ '1000168', 'Ferguson MA20 RGB Interface' ]
+[ '1000293', 'One Finger Mk.II' ]
+[ '1000531', 'Seikosha GP-50S' ]
+[ '1000631', 'Ferguson 3T31 Program Data Recorder' ]
+[ '1000668', 'Ferguson MC01 TX 14" Colour TV/Computer Monitor' ]
+[ '1000669', 'Ferguson MC02 TX 14" Colour TV/Computer Monitor' ]
+[ '1000670', 'Ferguson MC03 TX 14" Colour TV/Computer Monitor' ]
+[ '1000671', 'Ferguson MC04 TX 14" Colour TV/Computer Monitor' ]
+[ '1000672', 'Ferguson MC05 TX 14" Colour TV/Computer Monitor' ]
+[ '1000701', 'Seikosha GP-100A' ]
+[ '1000702', 'Seikosha Printers' ]
+[ '1000796', 'Ferguson 3T27 Cassette Recorder' ]
+[ '1000944', 'Spectranet' ]
+[ '1001062', 'ZX-Spectrum Vega' ]
+[ '2000007', '26 BASIC Programs for Your Micro' ]
+[ '2000016', '49 Explosive Games for the ZX Spectrum' ]
+[ '2000017', '60 Games and Applications for the ZX Spectrum' ]
+[ '2000097', 'Creating Adventure Programs on Your Computer' ]
+[ '2000098', 'Creating Adventure Programs on Your ZX Spectrum' ]
+[ '2000122', 'Educational Uses of the ZX Spectrum' ]
+[
+  '2000130',
+  'Exploring Artificial Intelligence on Your Spectrum+ and Spectrum'
+]
+[ '2000146', 'Games for Your ZX Spectrum' ]
+[ '2000168', 'Graphic Adventures for the Spectrum 48K' ]
+[ '2000292', 'Programming the Z80' ]
+[ '2000294', 'Programming Your ZX Spectrum' ]
+[ '2000361', 'Spectrum Machine Code Made Easy Volume 1' ]
+[ '2000369', 'The Spectrum Programmer' ]
+[ '2000439', 'The ZX Spectrum Explored' ]
+[ '2000443', "ZX Spectrum User's Handbook" ]
+[ '2000455', 'The ZX81/TS1000 Home Computer Book' ]
+[ '2000458', 'Spectrum Machine Code Made Easy Volume 2' ]
+[ '2000465', 'Beginners BASIC for the Spectrum' ]
+[ '2000505', 'Turbocharge Your ZX Spectrum' ]
+[ '2000537', 'Start to Program' ]
+[ '2000551', 'Pascal auf dem ZX Spectrum' ]
+[ '2000586', 'Mise en Oeuvre du 68000' ]
+[ '2000608', 'Introduction to PASCAL Including UCSD PASCAL' ]
+[ '2000613', 'Your First Computer' ]
+[ '2000614', 'Your Timex 1000 and ZX81' ]
+[ '2000619', 'The Timex/Sinclair 1000 BASIC Handbook' ]
+[ '2000622', 'Z80 Applications' ]
+[ '2000624', 'ZX81 Kochbuch' ]
+[ '2000662', 'Klartext fur den ZX81' ]
+[ '2000669', 'ZX-81-Kochbuch 2' ]
+[ '2000755', 'Z80 Assembly Language Programming' ]
+[ '2000756', 'Z80 Assembly Language Subroutines' ]
+[ '2000769', 'Your First BASIC Program' ]
+[ '2000782', 'From Chips to Systems' ]
+[ '2000833', 'Spectrum BASIC-Abenteuer Band 1: Der Fremde Planet' ]
+[ '2000856', 'Z80 Programming for Logic Design' ]
+[ '2000893', 'Pocket Mikrocomputer Lexikon' ]
+[ '2000896', 'Understanding C' ]
+[ '2000897', 'Erfolgreich Programmieren mit C' ]
+[ '2000899', 'Maitrisez Votre ZX81' ]
+[ '2000901', 'The RS232 Solution' ]
+[ '2000959', 'Introduction to Word Processing' ]
+[ '2000968', 'The International Microcomputer Dictionary' ]
+[ '2000983', 'Le BASIC par la Pratique' ]
+[ '2000988', 'Computer Games' ]
+[ '2000989', 'Computer Programming' ]
+[ '2001022', 'Computer Crazy' ]
+[ '2001032', "Le BASIC pour l'Entreprise" ]
+[ '2001037', 'Fifty Pascal Programs' ]
+[ '2001038', '68000 Assembly Language Programming' ]
+[
+  '2001060',
+  'Crunchers: 21 Simple Games for the Timex/Sinclair 1000 2K'
+]
+[
+  '2001087',
+  'Discover FORTH: Learning and Programming the FORTH Language'
+]
+[ '2001109', "Spectrum Jeux d'Action" ]
+[ '2001125', "Alff's Verruckte Computerwelt" ]
+[ '2001156', 'Practical Basic Programs' ]
+[ '2001163', 'Some Common BASIC Programs' ]
+[ '2001336', 'Aprenda Electricidade com o Seu Computador' ]
+[ '2001343', 'Spectral ROM Decoded' ]
+[ '2001388', 'Build Your Own Z80 Computer' ]
+[ '2001417', 'Z80 Assembler para o ZX Spectrum' ]
+[ '2001423', "The Programmer's CP/M Handbook" ]
+[ '2001447', 'BASIC: A Hands-on Method' ]
+[ '2001449', 'The BASIC Book' ]
+[ '2001468', 'Osborne CP/M User Guide' ]
+===============================================================
