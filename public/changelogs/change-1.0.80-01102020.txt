@@ -4,25 +4,33 @@
 0000056 (ACE) - RELEASES
 0000059 (ACE 2: The Ultimate Head to Head Conflict) - RELEASES
 0000107 (Agent Orange) - AUTHORS
+0000128 (Airwolf II) - COMPILATION REFERENCE
 0000128 (Airwolf II) - PUBLISHER
 0000128 (Airwolf II) - RELEASES
 0000147 (Alien Curse) - ADDITIONALS
 0000172 (Alpine Games) - RELEASES
 0000186 (Amoto's Puf) - PUBLISHER
 0000186 (Amoto's Puf) - RELEASES
+0000187 (Anarchy) - COMPILATION REFERENCE
+0000305 (ATF) - COMPILATION REFERENCE
 0000312 (Atom Ant) - MAGREFS
 0000326 (Attack of the Killer Tomatoes) - AUTHORS
+0000383 (Ball Breaker) - COMPILATION REFERENCE
+0000407 (Barbarian: The Ultimate Warrior) - COMPILATION REFERENCE
 0000460 (Battle on Hoth) - RELEASES
+0000461 (Battle Ships) - COMPILATION REFERENCE
 0000461 (Battle Ships) - PUBLISHER
 0000461 (Battle Ships) - RELEASES
 0000472 (Batty) - PUBLISHER
 0000472 (Batty) - RELEASES
 0000560 (Blade Alley) - RELEASES
 0000606 (Bobby Bearing) - FEATURES
+0000611 (Bobsleigh) - COMPILATION REFERENCE
 0000614 (Boilerhouse) - AUTHORS
 0000617 (Bomb Jack) - RELEASES
 0000718 (Bruce Lee) - RELEASES
 0000746 (Buggy Boy) - ADDITIONALS
+0000771 (Butch - Hard Guy) - COMPILATION REFERENCE
 0000771 (Butch - Hard Guy) - RELEASES
 0000787 (Caesar the Cat) - AUTHORS
 0000798 (Canyon Warrior) - AUTHORS
@@ -34,48 +42,70 @@
 0000934 (Chinese Patience) - RELEASES
 0000958 (Chuckie Egg) - RELEASES
 0000959 (Chuckie Egg 2) - RELEASES
+0000982 (Classic Muncher) - COMPILATION REFERENCE
 0001002 (Codename MAT) - RELEASES
+0001010 (Collision Course) - COMPILATION REFERENCE
 0001018 (Colossus Chess 4) - RELEASES
+0001062 (Convoy Raider) - COMPILATION REFERENCE
 0001175 (Crusader) - PUBLISHER
 0001175 (Crusader) - RELEASES
 0001179 (Crystal Castles) - AUTHORS
+0001196 (Cybernoid) - COMPILATION REFERENCE
 0001220 (Daley Thompson's Olympic Challenge) - LICENSED
 0001303 (Deathchase) - RELEASES
+0001309 (Deep Strike) - COMPILATION REFERENCE
+0001327 (Deflektor) - COMPILATION REFERENCE
 0001363 (Destiny Mission) - AUTHORS
 0001383 (Devils of the Deep) - ADVERTS
+0001421 (Dogfight: 2187) - COMPILATION REFERENCE
+0001513 (Draughts Genius) - COMPILATION REFERENCE
 0001553 (Dynamite Dan II) - RELEASES
 0001584 (Eights) - RELEASES
 0001661 (Eureka!) - AUTHORS
 0001672 (Evaristo el Punky) - PUBLISHER
 0001672 (Evaristo el Punky) - RELEASES
+0001686 (Exolon) - COMPILATION REFERENCE
 0001700 (Eye) - AUTHORS
+0001734 (Fast 'n' Furious) - COMPILATION REFERENCE
 0001738 (Fearless Frank) - PUBLISHER
 0001738 (Fearless Frank) - RELEASES
 0001754 (Fighter Pilot) - RELEASES
+0001782 (FireTrap) - COMPILATION REFERENCE
 0001797 (Flight Simulation) - RELEASES
+0001813 (Flying Shark) - COMPILATION REFERENCE
 0001831 (Football Manager: World Cup Edition) - ADDITIONALS
 0001834 (Footballer of the Year 2) - RELEASES
+0001842 (The Forest of Doom) - THEMED GROUP INFO
 0001870 (Freez'Bees) - RELEASES
 0001874 (Friday the 13th) - RELEASES
 0001908 (Full Throttle) - RELEASES
 0001970 (Games Designer) - RELEASES
+0001977 (Garfield - Big, Fat, Hairy Deal) - COMPILATION REFERENCE
 0002021 (Ghaza's Super Soldier) - PUBLISHER
 0002021 (Ghaza's Super Soldier) - RELEASES
 0002050 (Gladiator) - RELEASES
 0002130 (Great Gurianos) - PUBLISHER
 0002130 (Great Gurianos) - RELEASES
 0002139 (Gremlins 2: La Nueva Generación) - RELEASES
+0002143 (Greyfell) - COMPILATION REFERENCE
 0002241 (Harrier Attack!) - RELEASES
 0002274 (Heavy on the Magick) - FEATURES
 0002295 (Herbert's Dummy Run) - ADVERTS
+0002408 (Hydrofool) - COMPILATION REFERENCE
 0002411 (Hypa Raid) - RELEASES
+0002424 (Hysteria) - COMPILATION REFERENCE
 0002440 (The Ice Temple) - RELEASES
+0002453 (Impact) - COMPILATION REFERENCE
+0002456 (Implosion) - COMPILATION REFERENCE
 0002464 (Impossible Mission II) - AUTHORS
+0002566 (Jack the Nipper II: In Coconut Capers) - COMPILATION REFERENCE
+0002567 (Jackal) - COMPILATION REFERENCE
 0002580 (Jasper!) - RELEASES
 0002617 (Jock and the Time Rings) - RELEASES
 0002623 (Joe Blade II) - FEATURES
 0002635 (Johnny Reb) - RELEASES
 0002678 (Kat Trap) - RELEASES
+0002768 (Krakout) - COMPILATION REFERENCE
 0002801 (Labyrinthion) - RELEASES
 0002841 (League Challenge) - RELEASES
 0002882 (Lightforce) - RELEASES
@@ -85,85 +115,120 @@
 0002945 (Luna Atac) - RELEASES
 0002966 (Mad Mix 2) - LICENSED
 0002966 (Mad Mix 2) - RELEASES
+0002976 (Mag Max) - COMPILATION REFERENCE
 0002982 (Magic Johnson's Basketball) - AUTHORS
+0003070 (Match Day II) - COMPILATION REFERENCE
+0003103 (Mean Streak) - COMPILATION REFERENCE
+0003182 (Micronaut One) - COMPILATION REFERENCE
 0003206 (Millipede) - LICENSED
 0003268 (Moon Strike) - FEATURES
 0003277 (Moonlight Madness) - RELEASES
 0003318 (Muggins the Spaceman) - ADDITIONALS
 0003332 (Mushroom Alley) - LICENSED
+0003377 (Nebulus) - COMPILATION REFERENCE
 0003395 (The Neverending Story II) - PUBLISHER
 0003395 (The Neverending Story II) - RELEASES
 0003408 (Nicotine Nightmare) - RELEASES
+0003410 (Nigel Mansell's Grand Prix) - COMPILATION REFERENCE
 0003420 (Night Gunner) - RELEASES
 0003420 (Night Gunner) - REMARKS
+0003435 (Ninja Hamster) - COMPILATION REFERENCE
 0003442 (The Ninja Warriors) - AUTHORS
 0003460 (North & South) - AUTHORS
 0003462 (Nosferatu the Vampyre) - RELEASES
 0003483 (Octagon) - RELEASES
 0003486 (Octipede) - LICENSED
+0003488 (Odd Ball) - COMPILATION REFERENCE
 0003507 (Olympiad '86) - RELEASES
 0003541 (Orbix the Terrorball) - RELEASES
+0003574 (Invader Cube) - COMPILATION REFERENCE
 0003583 (Pac-Mania) - LICENSED
 0003668 (Peter Pack Rat) - AUTHORS
+0003676 (Phantis) - COMPILATION REFERENCE
+0003693 (P.H.M. Pegasus) - COMPILATION REFERENCE
 0003712 (Podraz na Indiana Jonese) - AUTHORS
 0003712 (Podraz na Indiana Jonese) - PUBLISHER
 0003712 (Podraz na Indiana Jonese) - RELEASES
 0003714 (Pimania) - ADVERTS
+0003722 (Ping Pong) - COMPILATION REFERENCE
 0003727 (Pioneer) - RELEASES
 0003729 (Pipe Mania) - REMARKS
+0003734 (Pi-R Squared) - COMPILATION REFERENCE
+0003769 (The Plot) - COMPILATION REFERENCE
 0003777 (Pneumatic Hammers) - AUTHORS
 0003824 (Pool) - RELEASES
 0003830 (Popeye) - RELEASES
 0003886 (Pro Golf) - RELEASES
+0003898 (Prohibition) - COMPILATION REFERENCE
 0003919 (Psycho Hopper) - AUTHORS
 0003973 (Quazer) - ADDITIONALS
 0004008 (R.A.M.) - RELEASES
+0004017 (Rampage) - COMPILATION REFERENCE
 0004040 (Rattler) - RELEASES
 0004043 (Raw Recruit) - AUTHORS
+0004087 (Target: Renegade) - COMPILATION REFERENCE
 0004110 (Rescue) - AUTHORS
 0004117 (Revenge of the C5) - RELEASES
 0004122 (Reversi) - AUTHORS
+0004145 (Riding the Rapids) - COMPILATION REFERENCE
 0004168 (Road Toad) - ADDITIONALS
+0004170 (Roadwars) - COMPILATION REFERENCE
 0004187 (Robot Scape) - RELEASES
 0004192 (Robot Rumpus) - RELEASES
 0004225 (Rogue Trooper) - RELEASES
+0004284 (Rygar) - COMPILATION REFERENCE
 0004304 (Sai Combat) - RELEASES
 0004340 (Sarlmoor) - RELEASES
 0004359 (Sceptre of Bagdad) - RELEASES
+0004365 (Scooby-Doo) - COMPILATION REFERENCE
 0004381 (Scuba Dive) - RELEASES
 0004386 (Sea Battles) - RELEASES
 0004391 (Sector 90) - AUTHORS
+0004391 (Sector 90) - COMPILATION REFERENCE
 0004394 (Self Destruct) - RELEASES
 0004457 (Shinobi) - AUTHORS
 0004460 (Shockway Rider) - RELEASES
+0004494 (Sidewize) - COMPILATION REFERENCE
 0004517 (Sinbad) - RELEASES
 0004549 (Skool Daze) - RELEASES
 0004559 (Sky Runner) - RELEASES
+0004564 (Slap Fight) - COMPILATION REFERENCE
+0004619 (Soft & Cuddly) - COMPILATION REFERENCE
 0004763 (Spitfire 40) - RELEASES
 0004782 (Sputnik) - RELEASES
 0004800 (St. Crippens) - MAGREFS
+0004826 (Star Pilot) - COMPILATION REFERENCE
 0004873 (Starquake) - RELEASES
 0004880 (3D Starstrike) - RELEASES
 0004881 (Starstrike II) - RELEASES
 0004896 (Steve Davis Snooker) - RELEASES
 0004948 (Strike Force Cobra) - RELEASES
 0004996 (Super Brat) - RELEASES
+0005019 (Super Hang-On) - COMPILATION REFERENCE
 0005069 (Superman: The Game) - RELEASES
 0005083 (Survivors) - RELEASES
 0005109 (Table Football) - RELEASES
 0005136 (3D Tank Duel) - RELEASES
-0005147 (Tarantulas) - ADDITIONALS
-0005147 (Tarantulas) - AUTHORS
-0005147 (Tarantulas) - FULLTITLE
-0005147 (Tarantulas) - PUBLISHER
-0005147 (Tarantulas) - RELEASES
+0005147 (Arácnidos) - ADDITIONALS
+0005147 (Arácnidos) - AUTHORS
+0005147 (Arácnidos) - COMPILATION REFERENCE
+0005147 (Arácnidos) - FULLTITLE [Tarantulas -> Arácnidos]
+0005147 (Arácnidos) - PUBLISHER
+0005147 (Arácnidos) - RELEASES
+0005147 (Arácnidos) - MOD OF
 0005160 (Technician Ted) - FEATURES
 0005198 (Terror of the Deep) - RELEASES
 0005212 (Tetris) - AUTHORS
+0005212 (Tetris) - COMPILATION REFERENCE
+0005232 (Thing Bounces Back) - COMPILATION REFERENCE
 0005236 (The Thinker) - RELEASES
+0005259 (Thundercats) - COMPILATION REFERENCE
+0005263 (Thunderceptor) - COMPILATION REFERENCE
+0005276 (Time Flight) - COMPILATION REFERENCE
 0005290 (Timezone) - RELEASES
 0005302 (T.L.L.) - RELEASES
 0005384 (Transylvanian Tower) - ADVERTS
+0005385 (Trantor: The Last Stormtrooper) - COMPILATION REFERENCE
 0005387 (Trap) - RELEASES
 0005388 (The Trap Door) - FEATURES
 0005388 (The Trap Door) - RELEASES
@@ -175,13 +240,19 @@
 0005595 (Viz - The Computer Game) - MAGREFS
 0005602 (Volcano) - MAGREFS
 0005632 (War Zone) - MAGREFS
+0005635 (The Warlock of Firetop Mountain) - THEMED GROUP INFO
 0005664 (West Bank) - MAGREFS
 0005673 (Who Dares Wins II) - RELEASES
+0005681 (Wibstars) - COMPILATION REFERENCE
 0005717 (Wolfan) - MAGREFS
+0005749 (World Series Basketball) - COMPILATION REFERENCE
+0005773 (Xanthius) - COMPILATION REFERENCE
+0005783 (Xecutor) - COMPILATION REFERENCE
 0005783 (Xecutor) - MAGREFS
 0005790 (Xenon) - AUTHORS
 0005804 (X-Out) - MAGREFS
 0005868 (Zona 0) - RELEASES
+0005890 (Zynaps) - COMPILATION REFERENCE
 0005892 (Zythum) - RELEASES
 0005923 (Adventure Quest) - RELEASES
 0005923 (Adventure Quest) - REMARKS
@@ -190,6 +261,7 @@
 0006097 (Colossal Adventure) - RELEASES
 0006097 (Colossal Adventure) - REMARKS
 0006097 (Colossal Adventure) - SERIES
+0006097 (Colossal Adventure) - MACHINETYPE [ZX-Spectrum 48K -> ZX-Spectrum 16K/48K]
 0006107 (La Corona) - PUBLISHER
 0006107 (La Corona) - RELEASES
 0006227 (Dungeon Adventure) - SERIES
@@ -201,6 +273,9 @@
 0006825 (Professional Adventure Writer) - SERIES
 0006857 (The Quill Adventure System) - AUTHORING
 0006857 (The Quill Adventure System) - SERIES
+0006872 (Rebel Planet) - THEMED GROUP INFO
+0006941 (Seas of Blood) - THEMED GROUP INFO
+0007078 (Temple of Terror) - THEMED GROUP INFO
 0007152 (Valhalla) - RELEASES
 0007235 (Agony Megademo) - AUTHORS
 0007292 (Bright Demo) - PUBLISHER
@@ -267,20 +342,32 @@
 0007837 (Vidi Party Show) - AUTHORS
 0007847 (Wicked) - PUBLISHER
 0007847 (Wicked) - RELEASES
+0007906 (Animator1) - COMPILATION REFERENCE
 0007918 (The Artist) - MAGREFS
 0007953 (Basicode-3) - ADDITIONALS
+0008249 (HiSoft BASIC) - COMPILATION REFERENCE
 0008311 (The Key) - PUBLISHER
 0008311 (The Key) - RELEASES
 0008380 (Macro for Construction and Animation) - MAGREFS
 0008708 (Soundtracker Song Compiler) - AUTHORS
+0008732 (Spectre-Mac-Mon) - MACHINETYPE [ZX-Spectrum 16K -> ZX-Spectrum 16K/48K]
+0008750 (Spectrum Monitor) - MACHINETYPE [ZX-Spectrum 16K -> ZX-Spectrum 16K/48K]
+0008856 (Tasword Two) - COMPILATION REFERENCE
 0008856 (Tasword Two) - RELEASES
 0009123 (Learn to Read 1) - SERIES
 0009124 (Learn to Read 2) - SERIES
 0009207 (Young Learners 1) - ADDITIONALS
 0009297 (1942) - RELEASES
+0009306 (ATV Simulator) - COMPILATION REFERENCE
+0009313 (BMX Simulator) - COMPILATION REFERENCE
+0009316 (Brainache) - COMPILATION REFERENCE
+0009318 (Bubbler) - COMPILATION REFERENCE
 0009325 (Commando) - ADDITIONALS
 0009325 (Commando) - RELEASES
+0009350 (Ghost Hunters) - COMPILATION REFERENCE
 0009351 (Ghost 'n Goblins) - RELEASES
+0009353 (Grand Prix Simulator) - COMPILATION REFERENCE
+0009438 (Terra Cognita) - COMPILATION REFERENCE
 0009709 (Enigma) - REMARKS
 0010308 (Tilt) - PUBLISHER
 0010308 (Tilt) - RELEASES
@@ -306,6 +393,7 @@
 0011461 (6-Pak Vol 2) - RELEASES
 0011478 (Angle) - ADDITIONALS
 0011496 (Astronomy) - REMARKS
+0011586 (The Citadel of Chaos) - THEMED GROUP INFO
 0011596 (The Code Machine) - COMPILATION CONTENT
 0011654 (The Dietician) - PUBLISHER
 0011654 (The Dietician) - RELEASES
@@ -322,6 +410,7 @@
 0011906 (Millypede) - LICENSED
 0012083 (Solar Jetman) - AUTHORS
 0012090 (Soundtracker) - AUTHORS
+0012154 (Sword of the Samurai) - THEMED GROUP INFO
 0012186 (Top 10 Collection) - PUBLISHER
 0012186 (Top 10 Collection) - RELEASES
 0012194 (Treble Chance) - REMARKS
@@ -451,11 +540,13 @@
 0018238 (Master Cubos) - RELEASES
 0018240 (Bingo!) - PUBLISHER
 0018240 (Bingo!) - RELEASES
-0018241 (Aranas!) - ADDITIONALS
-0018241 (Aranas!) - AUTHORS
-0018241 (Aranas!) - FULLTITLE
-0018241 (Aranas!) - PUBLISHER
-0018241 (Aranas!) - RELEASES
+0018241 (Tarántulas) - ADDITIONALS
+0018241 (Tarántulas) - AUTHORS
+0018241 (Tarántulas) - COMPILATION REFERENCE
+0018241 (Tarántulas) - FULLTITLE [Aranas! -> Tarántulas]
+0018241 (Tarántulas) - PUBLISHER
+0018241 (Tarántulas) - RELEASES
+0018241 (Tarántulas) - MODIFIED BY
 0018242 (Acorazado) - PUBLISHER
 0018242 (Acorazado) - RELEASES
 0018243 (Simon) - PUBLISHER
@@ -572,6 +663,7 @@
 0019104 (Parcel Drop) - RELEASES
 0019105 (Forgery) - PUBLISHER
 0019105 (Forgery) - RELEASES
+0019244 (20 Character Set Fonts) - COMPILATION REFERENCE
 0019244 (20 Character Set Fonts) - PUBLISHER
 0019244 (20 Character Set Fonts) - RELEASES
 0019245 (64 Character Print) - PUBLISHER
@@ -588,6 +680,7 @@
 0019250 (Games Designer) - RELEASES
 0019251 (Hypertron) - PUBLISHER
 0019251 (Hypertron) - RELEASES
+0019252 (Interrupt Sound Effects) - COMPILATION REFERENCE
 0019252 (Interrupt Sound Effects) - PUBLISHER
 0019252 (Interrupt Sound Effects) - RELEASES
 0019253 (Message Scroller) - PUBLISHER
@@ -681,22 +774,78 @@
 0026284 (Castelbasic) - AUTHORS
 0026298 (Cinque Doni Sotto L'Albero) - AUTHORS
 0026389 (Operazione Ladro) - AUTHORS
+0026484 (Excalibur) - COMPILATION REFERENCE
+0026485 (Ultima Chance) - COMPILATION REFERENCE
+0026486 (La Foresta Dimenticata dal Tempo) - COMPILATION REFERENCE
+0026487 (Totocalcio) - COMPILATION REFERENCE
+0026488 (Spacelord) - COMPILATION REFERENCE
+0026489 (Tempi Moderni '87) - COMPILATION REFERENCE
+0026490 (Beta Base) - COMPILATION REFERENCE
+0026491 (Down Up) - COMPILATION REFERENCE
+0026492 (Inferi) - COMPILATION REFERENCE
+0026493 (The Damned Castle) - COMPILATION REFERENCE
+0026494 (La Voce) - COMPILATION REFERENCE
+0026495 (Superbase) - COMPILATION REFERENCE
+0026496 (Tristar) - COMPILATION REFERENCE
+0026497 (Goblins) - COMPILATION REFERENCE
+0026498 (3D Plus) - COMPILATION REFERENCE
+0026499 (Terminal Modem) - COMPILATION REFERENCE
+0026501 (Hic Game) - COMPILATION REFERENCE
+0026502 (Deus) - COMPILATION REFERENCE
+0026503 (Caterpillar) - COMPILATION REFERENCE
+0026504 (Arrowmac 2) - COMPILATION REFERENCE
+0026505 (Pop Corn) - COMPILATION REFERENCE
+0026506 (Bronx) - COMPILATION REFERENCE
+0026507 (Mac Art) - COMPILATION REFERENCE
+0026508 (Major BASIC + 64 Print) - COMPILATION REFERENCE
+0026509 (Explorer) - COMPILATION REFERENCE
+0026510 (Middle Age) - COMPILATION REFERENCE
+0026511 (Othello 3D) - COMPILATION REFERENCE
+0026512 (Colorload) - COMPILATION REFERENCE
+0026513 (Micronauts) - COMPILATION REFERENCE
+0026514 (Luna Park) - COMPILATION REFERENCE
+0026515 (3D Movie) - COMPILATION REFERENCE
+0026516 (Master Copy) - COMPILATION REFERENCE
+0026517 (Paladini [2]) - COMPILATION REFERENCE
 0027256 (Autokopy 2a) - ADDITIONALS
+0027849 (Inviato Speciale) - COMPILATION REFERENCE
+0027850 (LM Collection) - COMPILATION REFERENCE
+0027851 (Star Trek 5) - COMPILATION REFERENCE
+0027852 (Elettrokit) - COMPILATION REFERENCE
+0027853 (La Casa) - COMPILATION REFERENCE
+0027854 (Tic Tac) - COMPILATION REFERENCE
+0027855 (Compactor) - COMPILATION REFERENCE
+0027856 (Casino Monique) - COMPILATION REFERENCE
+0027857 (Paperino e la Partita) - COMPILATION REFERENCE
+0027858 (Archivio Programmi) - COMPILATION REFERENCE
+0027859 (Lista Software) - COMPILATION REFERENCE
+0027860 (New Beep) - COMPILATION REFERENCE
+0027861 (Mike's Strike) - COMPILATION REFERENCE
+0027862 (Exodus 2001) - COMPILATION REFERENCE
+0027863 (Alien [2]) - COMPILATION REFERENCE
+0027864 (New Commands) - COMPILATION REFERENCE
+0027865 (The Lost Sword) - COMPILATION REFERENCE
+0027866 (Disas 80) - COMPILATION REFERENCE
+0027867 (Il Tempio Maledetto) - COMPILATION REFERENCE
+0027868 (Mega Assembler) - COMPILATION REFERENCE
+0027869 (2D Plus) - COMPILATION REFERENCE
 0027945 (Dziurak - Go to Hole!) - AUTHORS
 0027945 (Dziurak - Go to Hole!) - PUBLISHER
 0027945 (Dziurak - Go to Hole!) - RELEASES
 0027959 (El Barquero) - AUTHORS
 0027960 (Gus) - AUTHORS
 0027966 (Carlos Michelis) - AUTHORS
-0028015 (Diosa de Cozumel [2]) - FULLTITLE
+0028015 (Diosa de Cozumel) - FULLTITLE [Diosa de Cozumel [2] -> Diosa de Cozumel]
 0028347 (Pipe Mania) - REMARKS
 0028471 (CSSCGC Crap Games Competition 2013) - COMPILATION CONTENT
+0029074 (Mazogs) - MODIFIED BY
 0029133 (Night Gunner) - AUTHORS
 0029703 (Nanodemo) - AUTHORS
 0029703 (Nanodemo) - PUBLISHER
 0029703 (Nanodemo) - RELEASES
 0030037 (Krunel) - AUTHORS
 0030038 (Elixir Vitae) - AUTHORS
+0030232 (Bathyscaphe) - CONTRIBUTORS
 0030291 (Ship Fix) - ADDITIONALS
 0031906 (1K hires gamepack) - YOUTUBE LINKS
 0031980 (U-Bend) - YOUTUBE LINKS
@@ -725,6 +874,9 @@
 0035136 (Nextoid!) - AUTHORS
 0035138 (Q*Bee) - ADDITIONALS
 0035156 (Space Monsters meet THE HARDY) - RELEASES
+0035171 (Little Mouse Adventure) - AUTHORED
+0035227 (War Stars) - MOD OF
+0035234 (Galaxia 20) - MOD OF
 0035245 (Crowley World Tour) - ADDITIONALS
 0035281 (Load 'n' Run issue 26) - COMPILATION CONTENT
 0035286 (Load 'n' Run issue 31) - COMPILATION CONTENT
@@ -875,7 +1027,7 @@
 2001468 (Osborne CP/M User Guide) - RELEASES
 
 ---------------------------------------------------------------
-CHANGE SUMMARY - total entries updated: 609
+CHANGE SUMMARY - total entries updated: 747
 ---------------------------------------------------------------
 
 Updated entries:
@@ -888,13 +1040,18 @@ Updated entries:
 [ '0000147', 'Alien Curse' ]
 [ '0000172', 'Alpine Games' ]
 [ '0000186', "Amoto's Puf" ]
+[ '0000187', 'Anarchy' ]
+[ '0000305', 'ATF' ]
 [ '0000312', 'Atom Ant' ]
 [ '0000326', 'Attack of the Killer Tomatoes' ]
+[ '0000383', 'Ball Breaker' ]
+[ '0000407', 'Barbarian: The Ultimate Warrior' ]
 [ '0000460', 'Battle on Hoth' ]
 [ '0000461', 'Battle Ships' ]
 [ '0000472', 'Batty' ]
 [ '0000560', 'Blade Alley' ]
 [ '0000606', 'Bobby Bearing' ]
+[ '0000611', 'Bobsleigh' ]
 [ '0000614', 'Boilerhouse' ]
 [ '0000617', 'Bomb Jack' ]
 [ '0000718', 'Bruce Lee' ]
@@ -909,43 +1066,65 @@ Updated entries:
 [ '0000934', 'Chinese Patience' ]
 [ '0000958', 'Chuckie Egg' ]
 [ '0000959', 'Chuckie Egg 2' ]
+[ '0000982', 'Classic Muncher' ]
 [ '0001002', 'Codename MAT' ]
+[ '0001010', 'Collision Course' ]
 [ '0001018', 'Colossus Chess 4' ]
+[ '0001062', 'Convoy Raider' ]
 [ '0001175', 'Crusader' ]
 [ '0001179', 'Crystal Castles' ]
+[ '0001196', 'Cybernoid' ]
 [ '0001220', "Daley Thompson's Olympic Challenge" ]
 [ '0001303', 'Deathchase' ]
+[ '0001309', 'Deep Strike' ]
+[ '0001327', 'Deflektor' ]
 [ '0001363', 'Destiny Mission' ]
 [ '0001383', 'Devils of the Deep' ]
+[ '0001421', 'Dogfight: 2187' ]
+[ '0001513', 'Draughts Genius' ]
 [ '0001553', 'Dynamite Dan II' ]
 [ '0001584', 'Eights' ]
 [ '0001661', 'Eureka!' ]
 [ '0001672', 'Evaristo el Punky' ]
+[ '0001686', 'Exolon' ]
 [ '0001700', 'Eye' ]
+[ '0001734', "Fast 'n' Furious" ]
 [ '0001738', 'Fearless Frank' ]
 [ '0001754', 'Fighter Pilot' ]
+[ '0001782', 'FireTrap' ]
 [ '0001797', 'Flight Simulation' ]
+[ '0001813', 'Flying Shark' ]
 [ '0001831', 'Football Manager: World Cup Edition' ]
 [ '0001834', 'Footballer of the Year 2' ]
+[ '0001842', 'The Forest of Doom' ]
 [ '0001870', "Freez'Bees" ]
 [ '0001874', 'Friday the 13th' ]
 [ '0001908', 'Full Throttle' ]
 [ '0001970', 'Games Designer' ]
+[ '0001977', 'Garfield - Big, Fat, Hairy Deal' ]
 [ '0002021', "Ghaza's Super Soldier" ]
 [ '0002050', 'Gladiator' ]
 [ '0002130', 'Great Gurianos' ]
 [ '0002139', 'Gremlins 2: La Nueva Generación' ]
+[ '0002143', 'Greyfell' ]
 [ '0002241', 'Harrier Attack!' ]
 [ '0002274', 'Heavy on the Magick' ]
 [ '0002295', "Herbert's Dummy Run" ]
+[ '0002408', 'Hydrofool' ]
 [ '0002411', 'Hypa Raid' ]
+[ '0002424', 'Hysteria' ]
 [ '0002440', 'The Ice Temple' ]
+[ '0002453', 'Impact' ]
+[ '0002456', 'Implosion' ]
 [ '0002464', 'Impossible Mission II' ]
+[ '0002566', 'Jack the Nipper II: In Coconut Capers' ]
+[ '0002567', 'Jackal' ]
 [ '0002580', 'Jasper!' ]
 [ '0002617', 'Jock and the Time Rings' ]
 [ '0002623', 'Joe Blade II' ]
 [ '0002635', 'Johnny Reb' ]
 [ '0002678', 'Kat Trap' ]
+[ '0002768', 'Krakout' ]
 [ '0002801', 'Labyrinthion' ]
 [ '0002841', 'League Challenge' ]
 [ '0002882', 'Lightforce' ]
@@ -954,77 +1133,108 @@ Updated entries:
 [ '0002932', 'Lorna' ]
 [ '0002945', 'Luna Atac' ]
 [ '0002966', 'Mad Mix 2' ]
+[ '0002976', 'Mag Max' ]
 [ '0002982', "Magic Johnson's Basketball" ]
+[ '0003070', 'Match Day II' ]
+[ '0003103', 'Mean Streak' ]
+[ '0003182', 'Micronaut One' ]
 [ '0003206', 'Millipede' ]
 [ '0003268', 'Moon Strike' ]
 [ '0003277', 'Moonlight Madness' ]
 [ '0003318', 'Muggins the Spaceman' ]
 [ '0003332', 'Mushroom Alley' ]
+[ '0003377', 'Nebulus' ]
 [ '0003395', 'The Neverending Story II' ]
 [ '0003408', 'Nicotine Nightmare' ]
+[ '0003410', "Nigel Mansell's Grand Prix" ]
 [ '0003420', 'Night Gunner' ]
+[ '0003435', 'Ninja Hamster' ]
 [ '0003442', 'The Ninja Warriors' ]
 [ '0003460', 'North & South' ]
 [ '0003462', 'Nosferatu the Vampyre' ]
 [ '0003483', 'Octagon' ]
 [ '0003486', 'Octipede' ]
+[ '0003488', 'Odd Ball' ]
 [ '0003507', "Olympiad '86" ]
 [ '0003541', 'Orbix the Terrorball' ]
+[ '0003574', 'Invader Cube' ]
 [ '0003583', 'Pac-Mania' ]
 [ '0003668', 'Peter Pack Rat' ]
+[ '0003676', 'Phantis' ]
+[ '0003693', 'P.H.M. Pegasus' ]
 [ '0003712', 'Podraz na Indiana Jonese' ]
 [ '0003714', 'Pimania' ]
+[ '0003722', 'Ping Pong' ]
 [ '0003727', 'Pioneer' ]
 [ '0003729', 'Pipe Mania' ]
+[ '0003734', 'Pi-R Squared' ]
+[ '0003769', 'The Plot' ]
 [ '0003777', 'Pneumatic Hammers' ]
 [ '0003824', 'Pool' ]
 [ '0003830', 'Popeye' ]
 [ '0003886', 'Pro Golf' ]
+[ '0003898', 'Prohibition' ]
 [ '0003919', 'Psycho Hopper' ]
 [ '0003973', 'Quazer' ]
 [ '0004008', 'R.A.M.' ]
+[ '0004017', 'Rampage' ]
 [ '0004040', 'Rattler' ]
 [ '0004043', 'Raw Recruit' ]
+[ '0004087', 'Target: Renegade' ]
 [ '0004110', 'Rescue' ]
 [ '0004117', 'Revenge of the C5' ]
 [ '0004122', 'Reversi' ]
+[ '0004145', 'Riding the Rapids' ]
 [ '0004168', 'Road Toad' ]
+[ '0004170', 'Roadwars' ]
 [ '0004187', 'Robot Scape' ]
 [ '0004192', 'Robot Rumpus' ]
 [ '0004225', 'Rogue Trooper' ]
+[ '0004284', 'Rygar' ]
 [ '0004304', 'Sai Combat' ]
 [ '0004340', 'Sarlmoor' ]
 [ '0004359', 'Sceptre of Bagdad' ]
+[ '0004365', 'Scooby-Doo' ]
 [ '0004381', 'Scuba Dive' ]
 [ '0004386', 'Sea Battles' ]
 [ '0004391', 'Sector 90' ]
 [ '0004394', 'Self Destruct' ]
 [ '0004457', 'Shinobi' ]
 [ '0004460', 'Shockway Rider' ]
+[ '0004494', 'Sidewize' ]
 [ '0004517', 'Sinbad' ]
 [ '0004549', 'Skool Daze' ]
 [ '0004559', 'Sky Runner' ]
+[ '0004564', 'Slap Fight' ]
+[ '0004619', 'Soft & Cuddly' ]
 [ '0004763', 'Spitfire 40' ]
 [ '0004782', 'Sputnik' ]
 [ '0004800', 'St. Crippens' ]
+[ '0004826', 'Star Pilot' ]
 [ '0004873', 'Starquake' ]
 [ '0004880', '3D Starstrike' ]
 [ '0004881', 'Starstrike II' ]
 [ '0004896', 'Steve Davis Snooker' ]
 [ '0004948', 'Strike Force Cobra' ]
 [ '0004996', 'Super Brat' ]
+[ '0005019', 'Super Hang-On' ]
 [ '0005069', 'Superman: The Game' ]
 [ '0005083', 'Survivors' ]
 [ '0005109', 'Table Football' ]
 [ '0005136', '3D Tank Duel' ]
-[ '0005147', 'Tarantulas' ]
+[ '0005147', 'Arácnidos' ]
 [ '0005160', 'Technician Ted' ]
 [ '0005198', 'Terror of the Deep' ]
 [ '0005212', 'Tetris' ]
+[ '0005232', 'Thing Bounces Back' ]
 [ '0005236', 'The Thinker' ]
+[ '0005259', 'Thundercats' ]
+[ '0005263', 'Thunderceptor' ]
+[ '0005276', 'Time Flight' ]
 [ '0005290', 'Timezone' ]
 [ '0005302', 'T.L.L.' ]
 [ '0005384', 'Transylvanian Tower' ]
+[ '0005385', 'Trantor: The Last Stormtrooper' ]
 [ '0005387', 'Trap' ]
 [ '0005388', 'The Trap Door' ]
 [ '0005436', 'TT Racer' ]
@@ -1035,13 +1245,18 @@ Updated entries:
 [ '0005595', 'Viz - The Computer Game' ]
 [ '0005602', 'Volcano' ]
 [ '0005632', 'War Zone' ]
+[ '0005635', 'The Warlock of Firetop Mountain' ]
 [ '0005664', 'West Bank' ]
 [ '0005673', 'Who Dares Wins II' ]
+[ '0005681', 'Wibstars' ]
 [ '0005717', 'Wolfan' ]
+[ '0005749', 'World Series Basketball' ]
+[ '0005773', 'Xanthius' ]
 [ '0005783', 'Xecutor' ]
 [ '0005790', 'Xenon' ]
 [ '0005804', 'X-Out' ]
 [ '0005868', 'Zona 0' ]
+[ '0005890', 'Zynaps' ]
 [ '0005892', 'Zythum' ]
 [ '0005923', 'Adventure Quest' ]
 [ '0006036', 'Bored of the Rings' ]
@@ -1053,6 +1268,9 @@ Updated entries:
 [ '0006635', 'Das Magische' ]
 [ '0006825', 'Professional Adventure Writer' ]
 [ '0006857', 'The Quill Adventure System' ]
+[ '0006872', 'Rebel Planet' ]
+[ '0006941', 'Seas of Blood' ]
+[ '0007078', 'Temple of Terror' ]
 [ '0007152', 'Valhalla' ]
 [ '0007235', 'Agony Megademo' ]
 [ '0007292', 'Bright Demo' ]
@@ -1093,18 +1311,29 @@ Updated entries:
 [ '0007834', 'VGA Demo volume 4' ]
 [ '0007837', 'Vidi Party Show' ]
 [ '0007847', 'Wicked' ]
+[ '0007906', 'Animator1' ]
 [ '0007918', 'The Artist' ]
 [ '0007953', 'Basicode-3' ]
+[ '0008249', 'HiSoft BASIC' ]
 [ '0008311', 'The Key' ]
 [ '0008380', 'Macro for Construction and Animation' ]
 [ '0008708', 'Soundtracker Song Compiler' ]
+[ '0008732', 'Spectre-Mac-Mon' ]
+[ '0008750', 'Spectrum Monitor' ]
 [ '0008856', 'Tasword Two' ]
 [ '0009123', 'Learn to Read 1' ]
 [ '0009124', 'Learn to Read 2' ]
 [ '0009207', 'Young Learners 1' ]
 [ '0009297', '1942' ]
+[ '0009306', 'ATV Simulator' ]
+[ '0009313', 'BMX Simulator' ]
+[ '0009316', 'Brainache' ]
+[ '0009318', 'Bubbler' ]
 [ '0009325', 'Commando' ]
+[ '0009350', 'Ghost Hunters' ]
 [ '0009351', "Ghost 'n Goblins" ]
+[ '0009353', 'Grand Prix Simulator' ]
+[ '0009438', 'Terra Cognita' ]
 [ '0009709', 'Enigma' ]
 [ '0010308', 'Tilt' ]
 [ '0010568', 'Khazzad-Dum' ]
@@ -1123,6 +1352,7 @@ Updated entries:
 [ '0011461', '6-Pak Vol 2' ]
 [ '0011478', 'Angle' ]
 [ '0011496', 'Astronomy' ]
+[ '0011586', 'The Citadel of Chaos' ]
 [ '0011596', 'The Code Machine' ]
 [ '0011654', 'The Dietician' ]
 [ '0011674', 'Election Trail' ]
@@ -1134,6 +1364,7 @@ Updated entries:
 [ '0011906', 'Millypede' ]
 [ '0012083', 'Solar Jetman' ]
 [ '0012090', 'Soundtracker' ]
+[ '0012154', 'Sword of the Samurai' ]
 [ '0012186', 'Top 10 Collection' ]
 [ '0012194', 'Treble Chance' ]
 [ '0012213', 'Videomaster' ]
@@ -1225,7 +1456,7 @@ Updated entries:
 [ '0018237', 'La Bomba' ]
 [ '0018238', 'Master Cubos' ]
 [ '0018240', 'Bingo!' ]
-[ '0018241', 'Aranas!' ]
+[ '0018241', 'Tarántulas' ]
 [ '0018242', 'Acorazado' ]
 [ '0018243', 'Simon' ]
 [ '0018244', 'El Cubo Magico' ]
@@ -1350,18 +1581,74 @@ Updated entries:
 [ '0026284', 'Castelbasic' ]
 [ '0026298', "Cinque Doni Sotto L'Albero" ]
 [ '0026389', 'Operazione Ladro' ]
+[ '0026484', 'Excalibur' ]
+[ '0026485', 'Ultima Chance' ]
+[ '0026486', 'La Foresta Dimenticata dal Tempo' ]
+[ '0026487', 'Totocalcio' ]
+[ '0026488', 'Spacelord' ]
+[ '0026489', "Tempi Moderni '87" ]
+[ '0026490', 'Beta Base' ]
+[ '0026491', 'Down Up' ]
+[ '0026492', 'Inferi' ]
+[ '0026493', 'The Damned Castle' ]
+[ '0026494', 'La Voce' ]
+[ '0026495', 'Superbase' ]
+[ '0026496', 'Tristar' ]
+[ '0026497', 'Goblins' ]
+[ '0026498', '3D Plus' ]
+[ '0026499', 'Terminal Modem' ]
+[ '0026501', 'Hic Game' ]
+[ '0026502', 'Deus' ]
+[ '0026503', 'Caterpillar' ]
+[ '0026504', 'Arrowmac 2' ]
+[ '0026505', 'Pop Corn' ]
+[ '0026506', 'Bronx' ]
+[ '0026507', 'Mac Art' ]
+[ '0026508', 'Major BASIC + 64 Print' ]
+[ '0026509', 'Explorer' ]
+[ '0026510', 'Middle Age' ]
+[ '0026511', 'Othello 3D' ]
+[ '0026512', 'Colorload' ]
+[ '0026513', 'Micronauts' ]
+[ '0026514', 'Luna Park' ]
+[ '0026515', '3D Movie' ]
+[ '0026516', 'Master Copy' ]
+[ '0026517', 'Paladini [2]' ]
 [ '0027256', 'Autokopy 2a' ]
+[ '0027849', 'Inviato Speciale' ]
+[ '0027850', 'LM Collection' ]
+[ '0027851', 'Star Trek 5' ]
+[ '0027852', 'Elettrokit' ]
+[ '0027853', 'La Casa' ]
+[ '0027854', 'Tic Tac' ]
+[ '0027855', 'Compactor' ]
+[ '0027856', 'Casino Monique' ]
+[ '0027857', 'Paperino e la Partita' ]
+[ '0027858', 'Archivio Programmi' ]
+[ '0027859', 'Lista Software' ]
+[ '0027860', 'New Beep' ]
+[ '0027861', "Mike's Strike" ]
+[ '0027862', 'Exodus 2001' ]
+[ '0027863', 'Alien [2]' ]
+[ '0027864', 'New Commands' ]
+[ '0027865', 'The Lost Sword' ]
+[ '0027866', 'Disas 80' ]
+[ '0027867', 'Il Tempio Maledetto' ]
+[ '0027868', 'Mega Assembler' ]
+[ '0027869', '2D Plus' ]
 [ '0027945', 'Dziurak - Go to Hole!' ]
 [ '0027959', 'El Barquero' ]
 [ '0027960', 'Gus' ]
 [ '0027966', 'Carlos Michelis' ]
-[ '0028015', 'Diosa de Cozumel [2]' ]
+[ '0028015', 'Diosa de Cozumel' ]
 [ '0028347', 'Pipe Mania' ]
 [ '0028471', 'CSSCGC Crap Games Competition 2013' ]
+[ '0029074', 'Mazogs' ]
 [ '0029133', 'Night Gunner' ]
 [ '0029703', 'Nanodemo' ]
 [ '0030037', 'Krunel' ]
 [ '0030038', 'Elixir Vitae' ]
+[ '0030232', 'Bathyscaphe' ]
 [ '0030291', 'Ship Fix' ]
 [ '0031906', '1K hires gamepack' ]
 [ '0031980', 'U-Bend' ]
@@ -1387,6 +1674,9 @@ Updated entries:
 [ '0035136', 'Nextoid!' ]
 [ '0035138', 'Q*Bee' ]
 [ '0035156', 'Space Monsters meet THE HARDY' ]
+[ '0035171', 'Little Mouse Adventure' ]
+[ '0035227', 'War Stars' ]
+[ '0035234', 'Galaxia 20' ]
 [ '0035245', 'Crowley World Tour' ]
 [ '0035281', "Load 'n' Run issue 26" ]
 [ '0035286', "Load 'n' Run issue 31" ]
