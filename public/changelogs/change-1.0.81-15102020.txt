@@ -1,0 +1,3712 @@
+0000004 (Live and Let Die) - COMPILATION REFERENCE
+0000010 (100 Kilometri) - REMARKS
+0000040 (7 Card Stud) - COMPILATION REFERENCE
+0000040 (7 Card Stud) - REMARKS
+0000056 (ACE) - COMPILATION REFERENCE
+0000077 (Action Force II) - AUTHORS
+0000077 (Action Force II) - COMPILATION REFERENCE
+0000101 (After the War) - MODIFIED BY
+0000105 (Afteroids) - COMPILATION REFERENCE
+0000127 (Airwolf) - COMPILATION REFERENCE
+0000127 (Airwolf) - RELEASES
+0000149 (Alien Evolution) - COMPILATION REFERENCE
+0000157 (Alien Syndrome) - COMPILATION REFERENCE
+0000237 (Arcadia) - COMPILATION REFERENCE
+0000248 (Arena) - AUTHORS
+0000258 (Arkanoid - Revenge of Doh) - COMPILATION REFERENCE
+0000263 (Arkos) - COMPILATION REFERENCE
+0000282 (Artura) - COMPILATION REFERENCE
+0000282 (Artura) - RELEASES
+0000295 (Astro Marine Corps) - FEATURES
+0000295 (Astro Marine Corps) - REMARKS
+0000312 (Atom Ant) - MAGREFS
+0000370 (Backgammon) - RELEASES
+0000385 (Ballbreaker II) - COMPILATION REFERENCE
+0000426 (Barry McGuigan World Championship Boxing) - SERIES
+0000429 (Baseball) - REMARKS
+0000458 (Battle of the Planets) - COMPILATION REFERENCE
+0000479 (Beach Buggy Simulator) - COMPILATION REFERENCE
+0000481 (Beach-Head) - COMPILATION REFERENCE
+0000481 (Beach-Head) - REMARKS
+0000483 (Beach-Head II) - COMPILATION REFERENCE
+0000490 (Bear a Grudge) - COMPILATION REFERENCE
+0000510 (Bestial Warrior) - COMPILATION REFERENCE
+0000512 (Beyond the Ice Palace) - COMPILATION REFERENCE
+0000534 (Bingo) - REMARKS
+0000555 (Black Beard) - COMPILATION REFERENCE
+0000560 (Blade Alley) - ADDITIONALS
+0000572 (Blob the Cop) - COMPILATION REFERENCE
+0000632 (Bonkers) - COMPILATION REFERENCE
+0000639 (Boulder Dash) - SERIES
+0000642 (Boulder Dash II: Rockford's Riot) - AUTHORS
+0000642 (Boulder Dash II: Rockford's Riot) - PUBLISHER
+0000642 (Boulder Dash II: Rockford's Riot) - RELEASES
+0000642 (Boulder Dash II: Rockford's Riot) - SERIES
+0000642 (Boulder Dash II: Rockford's Riot) - ORIGINALPUBLICATION [Standard -> As part of a compilation]
+0000644 (Boulder Dash III) - ADDITIONALS
+0000644 (Boulder Dash III) - AUTHORS
+0000644 (Boulder Dash III) - PUBLISHER
+0000644 (Boulder Dash III) - RELEASES
+0000644 (Boulder Dash III) - REMARKS
+0000644 (Boulder Dash III) - SERIES
+0000650 (Boulder Dash Construction Kit) - SERIES
+0000676 (Brainstorm) - COMPILATION CONTENT
+0000676 (Brainstorm) - COMPILATION REFERENCE
+0000676 (Brainstorm) - REMARKS
+0000677 (Brainstorm) - ADDITIONALS
+0000682 (Brat Attack) - COMPILATION REFERENCE
+0000685 (Braxx Bluff) - ADVERTS
+0000739 (Bugaboo the Flea) - COMPILATION REFERENCE
+0000746 (Buggy Boy) - COMPILATION REFERENCE
+0000776 (By Fair Means...or Foul) - ADDITIONALS
+0000831 (Casey Jones) - ADDITIONALS
+0000850 (Cauldron) - MODIFIED BY
+0000876 (Chain Reaction) - COMPILATION REFERENCE
+0000884 (Championship Baseball) - SERIES
+0000889 (Championship Soccer) - ADDITIONALS
+0000890 (Championship Sprint) - COMPILATION REFERENCE
+0000922 (The Chessmaster 2000) - ADDITIONALS
+0000926 (Chicago's 30) - COMPILATION REFERENCE
+0000947 (Chopper Mission) - FEATURES
+0000954 (Chubby Gristle) - COMPILATION REFERENCE
+0000982 (Classic Muncher) - ADDITIONALS
+0001013 (Colony) - REMARKS
+0001048 (Confuzion) - COMPILATION REFERENCE
+0001053 (Con-Quest) - COMPILATION REFERENCE
+0001059 (Contract Bridge) - ADDITIONALS
+0001067 (CORE) - ADDITIONALS
+0001121 (Crazy Cars) - COMPILATION REFERENCE
+0001139 (Crete 1941) - ADDITIONALS
+0001155 (Crime Busters) - COMPILATION CONTENT
+0001155 (Crime Busters) - COMPILATION REFERENCE
+0001155 (Crime Busters) - REMARKS
+0001168 (Crosswize) - COMPILATION REFERENCE
+0001188 (Curro Jimenez) - MODIFIED BY
+0001199 (Cybernoid II: The Revenge) - COMPILATION REFERENCE
+0001206 (Cyclone) - COMPILATION REFERENCE
+0001220 (Daley Thompson's Olympic Challenge) - COMPILATION REFERENCE
+0001220 (Daley Thompson's Olympic Challenge) - LICENSED
+0001227 (Dallas) - ADDITIONALS
+0001229 (The Dam Busters) - COMPILATION REFERENCE
+0001235 (Dan Dare: Pilot of the Future) - SERIES
+0001238 (Dan Dare II: Mekon's Revenge) - AUTHORS
+0001238 (Dan Dare II: Mekon's Revenge) - COMPILATION REFERENCE
+0001238 (Dan Dare II: Mekon's Revenge) - MAGREFS
+0001238 (Dan Dare II: Mekon's Revenge) - SERIES
+0001241 (Dan Dare III: The Escape) - REMARKS
+0001241 (Dan Dare III: The Escape) - SERIES
+0001273 (A Day in the Life of Arnold) - COMPILATION REFERENCE
+0001283 (Dead or Alive) - COMPILATION CONTENT
+0001283 (Dead or Alive) - COMPILATION REFERENCE
+0001283 (Dead or Alive) - REMARKS
+0001287 (Death Before Dishonour) - COMPILATION REFERENCE
+0001346 (Demon's Revenge) - COMPILATION REFERENCE
+0001355 (Desert Hawk) - COMPILATION REFERENCE
+0001383 (Devils of the Deep) - ADVERTS
+0001403 (Disposable Heroes) - COMPILATION REFERENCE
+0001406 (Dizzy Dice) - COMPILATION REFERENCE
+0001410 (D.N.A. Warrior) - COMPILATION REFERENCE
+0001412 (Do Not Pass Go) - ADDITIONALS
+0001425 (Dominator) - COMPILATION REFERENCE
+0001484 (Draconus) - COMPILATION REFERENCE
+0001518 (Dream Warrior) - COMPILATION REFERENCE
+0001565 (Earthlight) - COMPILATION REFERENCE
+0001641 (Erik: Phantom of the Opera) - COMPILATION REFERENCE
+0001694 (Express Raider) - COMPILATION REFERENCE
+0001722 (Fall Guy) - RELEASES
+0001723 (The Fall of Rome) - AUTHORS
+0001732 (Farmer Horace) - COMPILATION REFERENCE
+0001732 (Farmer Horace) - REMARKS
+0001739 (Fernandez Must Die) - COMPILATION REFERENCE
+0001749 (The Fifth Quadrant) - ADDITIONALS
+0001765 (Fire and Forget) - COMPILATION REFERENCE
+0001770 (Firebirds) - COMPILATION REFERENCE
+0001772 (Firefly) - COMPILATION REFERENCE
+0001787 (Fisherman's Friend) - COMPILATION REFERENCE
+0001796 (Flight Path 737) - ADDITIONALS
+0001827 (Football Manager 2) - COMPILATION REFERENCE
+0001870 (Freez'Bees) - COMPILATION REFERENCE
+0001877 (Frightmare) - COMPILATION REFERENCE
+0001892 (Frontline) - COMPILATION REFERENCE
+0001908 (Full Throttle) - COMPILATION REFERENCE
+0001969 (The Games - Winter Edition) - COMPILATION REFERENCE
+0001998 (GBA Championship Basketball) - SERIES
+0002016 (Gerry the Germ) - ADDITIONALS
+0002018 (GFL Championship Football) - SERIES
+0002038 (G.I. Hero) - COMPILATION REFERENCE
+0002099 (Goody) - COMPILATION REFERENCE
+0002099 (Goody) - MODIFIED BY
+0002196 (Gyroscope) - COMPILATION REFERENCE
+0002206 (Halaga) - COMPILATION REFERENCE
+0002223 (Hamte Damte) - COMPILATION REFERENCE
+0002273 (Heavy Metal) - COMPILATION CONTENT
+0002273 (Heavy Metal) - COMPILATION REFERENCE
+0002273 (Heavy Metal) - REMARKS
+0002295 (Herbert's Dummy Run) - ADVERTS
+0002339 (Holiday in Sumaria) - COMPILATION REFERENCE
+0002349 (Hopping Mad) - COMPILATION REFERENCE
+0002357 (Hotshot) - COMPILATION REFERENCE
+0002382 (Humpty Dumpty) - COMPILATION CONTENT
+0002382 (Humpty Dumpty) - COMPILATION REFERENCE
+0002382 (Humpty Dumpty) - REMARKS
+0002383 (Hunchback) - ADDITIONALS
+0002388 (Hundra) - COMPILATION REFERENCE
+0002399 (Hustler) - ADDITIONALS
+0002413 (Hyper Active) - COMPILATION REFERENCE
+0002431 (I Ball II) - COMPILATION REFERENCE
+0002440 (The Ice Temple) - ADDITIONALS
+0002464 (Impossible Mission II) - COMPILATION REFERENCE
+0002477 (Indoor Soccer) - COMPILATION REFERENCE
+0002566 (Jack the Nipper II: In Coconut Capers) - AUTHORS
+0002583 (Jawz) - ADDITIONALS
+0002585 (Jerico 2) - COMPILATION CONTENT
+0002585 (Jerico 2) - COMPILATION REFERENCE
+0002585 (Jerico 2) - REMARKS
+0002623 (Joe Blade II) - COMPILATION REFERENCE
+0002633 (Jogger) - ADDITIONALS
+0002658 (Jumping Jack) - COMPILATION REFERENCE
+0002665 (Just Imagine) - COMPILATION CONTENT
+0002665 (Just Imagine) - COMPILATION REFERENCE
+0002665 (Just Imagine) - REMARKS
+0002678 (Kat Trap) - REMARKS
+0002768 (Krakout) - AUTHORS
+0002827 (Last Ninja 2) - COMPILATION REFERENCE
+0002833 (Lazer Tag) - COMPILATION REFERENCE
+0002844 (Learn Chess) - ADDITIONALS
+0002847 (Lee Enfield Space Ace) - COMPILATION REFERENCE
+0002858 (King Leonard) - ADDITIONALS
+0002882 (Lightforce) - COMPILATION REFERENCE
+0002965 (Mad Mix Game) - COMPILATION REFERENCE
+0002997 (De Malle Muur) - RELEASES
+0003030 (Marauder) - COMPILATION REFERENCE
+0003045 (MASK III: VENOM Strikes Back) - COMPILATION REFERENCE
+0003131 (Merlin) - COMPILATION REFERENCE
+0003141 (Metal Army) - COMPILATION REFERENCE
+0003156 (Metropolis) - COMPILATION REFERENCE
+0003166 (Michel Futbol Master) - COMPILATION CONTENT
+0003166 (Michel Futbol Master) - COMPILATION REFERENCE
+0003166 (Michel Futbol Master) - REMARKS
+0003168 (Michel Super Skills) - COMPILATION REFERENCE
+0003168 (Michel Super Skills) - REMARKS
+0003170 (Mickey Mouse) - COMPILATION REFERENCE
+0003203 (Millimon) - LICENSED
+0003206 (Millipede) - LICENSED
+0003277 (Moonlight Madness) - ADDITIONALS
+0003277 (Moonlight Madness) - COMPILATION REFERENCE
+0003299 (Mountie Mick's Death Ride) - COMPILATION REFERENCE
+0003300 (Movie) - COMPILATION REFERENCE
+0003316 (Ms. Pac-Man) - LICENSED
+0003351 (Mystic Tower) - COMPILATION REFERENCE
+0003351 (Mystic Tower) - REMARKS
+0003391 (Nether Earth) - COMPILATION REFERENCE
+0003393 (Netherworld) - COMPILATION REFERENCE
+0003415 (Night Breed) - FEATURES
+0003420 (Night Gunner) - REMARKS
+0003423 (Night Raider) - COMPILATION REFERENCE
+0003428 (Nightmare Rally) - COMPILATION REFERENCE
+0003430 (Nihilist) - COMPILATION REFERENCE
+0003439 (Ninja Scooter Simulator) - COMPILATION REFERENCE
+0003447 (Nodes of Yesod) - COMPILATION REFERENCE
+0003485 (Octan) - COMPILATION REFERENCE
+0003530 (Operation Hormuz) - COMPILATION REFERENCE
+0003534 (Operation Wolf) - COMPILATION REFERENCE
+0003567 (Out Run Europa) - MODIFIED BY
+0003569 (Overlander) - COMPILATION REFERENCE
+0003577 (Pac-Land) - MODIFIED BY
+0003583 (Pac-Mania) - COMPILATION REFERENCE
+0003600 (Panzadrome) - COMPILATION REFERENCE
+0003667 (Peter Beardsley's International Football) - COMPILATION REFERENCE
+0003676 (Phantis) - COMPILATION REFERENCE
+0003725 (Pink Panther) - COMPILATION REFERENCE
+0003740 (Piso Zero) - ADDITIONALS
+0003759 (Platoon) - COMPILATION REFERENCE
+0003780 (Pocker) - ORIGINALPUBLICATION [On magazine covertape -> Type-in]
+0003784 (El Poder Oscuro) - COMPILATION REFERENCE
+0003824 (Pool) - COMPILATION REFERENCE
+0003855 (Power Pyramids) - COMPILATION REFERENCE
+0003920 (Psycho Pigs U.X.B.) - COMPILATION REFERENCE
+0003925 (Psytron) - COMPILATION CONTENT
+0003925 (Psytron) - COMPILATION REFERENCE
+0003925 (Psytron) - REMARKS
+0003946 (Puzzler) - COMPILATION REFERENCE
+0003946 (Puzzler) - REMARKS
+0004017 (Rampage) - RELEASES
+0004017 (Rampage) - MONTH OF RELEASE
+0004051 (Realm of Impossibility) - RELEASES
+0004076 (Red Scorpion) - ADDITIONALS
+0004087 (Target: Renegade) - AUTHORS
+0004087 (Target: Renegade) - COMPILATION REFERENCE
+0004087 (Target: Renegade) - MODIFIED BY
+0004090 (Renegade III) - MODIFIED BY
+0004100 (Rescate Atlantida) - FEATURES
+0004100 (Rescate Atlantida) - REMARKS
+0004122 (Reversi) - COMPILATION REFERENCE
+0004125 (Revolution) - COMPILATION REFERENCE
+0004157 (Road Blasters) - COMPILATION REFERENCE
+0004177 (Robin of the Wood) - COMPILATION REFERENCE
+0004179 (RoboCop) - COMPILATION REFERENCE
+0004179 (RoboCop) - FEATURES
+0004190 (Robot Messiah) - COMPILATION REFERENCE
+0004214 (Rockford) - COMPILATION CONTENT
+0004214 (Rockford) - COMPILATION REFERENCE
+0004214 (Rockford) - REMARKS
+0004215 (Rockman) - COMPILATION REFERENCE
+0004222 (Rod-Land) - MODIFIED BY
+0004234 (Rolling Thunder) - COMPILATION REFERENCE
+0004256 (R-Type) - FEATURES
+0004269 (Run Baby Run) - PUBLISHER
+0004269 (Run Baby Run) - RELEASES
+0004313 (Salamander) - COMPILATION REFERENCE
+0004320 (Samantha Fox Strip Poker) - COMPILATION CONTENT
+0004320 (Samantha Fox Strip Poker) - COMPILATION REFERENCE
+0004320 (Samantha Fox Strip Poker) - REMARKS
+0004326 (Samurai Warrior) - COMPILATION REFERENCE
+0004329 (Santa) - COMPILATION CONTENT
+0004329 (Santa) - COMPILATION REFERENCE
+0004329 (Santa) - REMARKS
+0004333 (Sanxion) - COMPILATION REFERENCE
+0004357 (Scalextric) - AUTHORS
+0004384 (S.D.I.) - COMPILATION REFERENCE
+0004415 (Sexy Black Jack) - REMARKS
+0004463 (The Shoe People) - COMPILATION CONTENT
+0004463 (The Shoe People) - COMPILATION REFERENCE
+0004463 (The Shoe People) - REMARKS
+0004497 (Settemmezzo) - REMARKS
+0004524 (Sirwood) - ADDITIONALS
+0004530 (Skate Crazy) - COMPILATION REFERENCE
+0004541 (Skateboard Kidz) - COMPILATION REFERENCE
+0004557 (Sky Ranger) - COMPILATION REFERENCE
+0004560 (Skyfox) - RELEASES
+0004560 (Skyfox) - REMARKS
+0004560 (Skyfox) - MONTH OF RELEASE
+0004609 (The Snowman) - COMPILATION REFERENCE
+0004634 (Soldier of Light) - COMPILATION REFERENCE
+0004659 (Space Command) - COMPILATION REFERENCE
+0004659 (Space Command) - REMARKS
+0004699 (Speccy Simon) - COMPILATION REFERENCE
+0004758 (Lo Spione) - REMARKS
+0004784 (Spy Hunter) - COMPILATION REFERENCE
+0004792 (Spyship SOS) - ADDITIONALS
+0004792 (Spyship SOS) - RELEASES
+0004810 (Star Base) - PUBLISHER
+0004810 (Star Base) - RELEASES
+0004858 (Starfighters) - REMARKS
+0004873 (Starquake) - ADDITIONALS
+0004922 (Stormlord) - COMPILATION REFERENCE
+0004954 (Strip Black-Jack) - REMARKS
+0004960 (Strip Poker II Plus) - COMPILATION REFERENCE
+0004961 (Strip-Dice) - REMARKS
+0005007 (Superchess 3) - ADDITIONALS
+0005007 (Superchess 3) - RELEASES
+0005031 (Super Tot 13) - REMARKS
+0005044 (Supersports) - COMPILATION REFERENCE
+0005128 (Tanium) - COMPILATION REFERENCE
+0005152 (Task Force) - FEATURES
+0005160 (Technician Ted) - COMPILATION REFERENCE
+0005179 (Tempest) - COMPILATION REFERENCE
+0005185 (Ten Pin Challenge) - COMPILATION REFERENCE
+0005195 (Terramex) - COMPILATION REFERENCE
+0005202 (Terrorpods) - COMPILATION REFERENCE
+0005226 (Them) - KNOWN ERRORS
+0005259 (Thundercats) - REMARKS
+0005322 (Tomcat) - COMPILATION REFERENCE
+0005348 (Tour de Force) - COMPILATION REFERENCE
+0005384 (Transylvanian Tower) - ADVERTS
+0005440 (Tubaruba) - AUTHORS
+0005448 (Tujad) - AUTHORS
+0005472 (Turrican) - FEATURES
+0005476 (Turrican II) - FEATURES
+0005507 (Ulises) - MAGREFS
+0005560 (Vice Versa) - COMPILATION REFERENCE
+0005587 (Virus) - COMPILATION REFERENCE
+0005595 (Viz - The Computer Game) - MAGREFS
+0005599 (Spectrum Voice Chess) - ADDITIONALS
+0005602 (Volcano) - MAGREFS
+0005632 (War Zone) - MAGREFS
+0005640 (Waterloo) - AUTHORS
+0005640 (Waterloo) - CONTRIBUTORS
+0005644 (Fist II: The Legend Continues) - REMARKS
+0005648 (WEC Le Mans) - COMPILATION REFERENCE
+0005653 (Thing!) - COMPILATION REFERENCE
+0005664 (West Bank) - MAGREFS
+0005667 (Western Girl) - ADDITIONALS
+0005671 (Where Time Stood Still) - REMARKS
+0005675 (Who Killed Cock Robin?) - COMPILATION REFERENCE
+0005675 (Who Killed Cock Robin?) - REMARKS
+0005687 (William Wobbler) - RELEASES
+0005709 (Wizard's Lair) - ADDITIONALS
+0005719 (Wonder Boy) - FEATURES
+0005719 (Wonder Boy) - REMARKS
+0005727 (World Class Darts) - ADDITIONALS
+0005783 (Xecutor) - MAGREFS
+0005790 (Xenon) - COMPILATION REFERENCE
+0005798 (X-Maze) - COMPILATION REFERENCE
+0005798 (X-Maze) - REMARKS
+0005804 (X-Out) - MAGREFS
+0005813 (Yakzee) - MAGREFS
+0005846 (Zaxxon) - COMPILATION REFERENCE
+0005963 (Arnold the Adventurer) - COMPILATION REFERENCE
+0005989 (The Balrog and the Cat) - COMPILATION CONTENT
+0005989 (The Balrog and the Cat) - COMPILATION REFERENCE
+0005989 (The Balrog and the Cat) - REMARKS
+0005998 (Behind Closed Doors) - COMPILATION REFERENCE
+0005998 (Behind Closed Doors) - REMARKS
+0005999 (Behind Closed Doors 2: The Sequel) - COMPILATION CONTENT
+0005999 (Behind Closed Doors 2: The Sequel) - COMPILATION REFERENCE
+0005999 (Behind Closed Doors 2: The Sequel) - REMARKS
+0006008 (The Big Sleaze) - COMPILATION CONTENT
+0006008 (The Big Sleaze) - COMPILATION REFERENCE
+0006008 (The Big Sleaze) - REMARKS
+0006012 (The Black Tower) - AUTHORS
+0006012 (The Black Tower) - RELEASES
+0006023 (The Boggit) - COMPILATION CONTENT
+0006023 (The Boggit) - COMPILATION REFERENCE
+0006023 (The Boggit) - REMARKS
+0006036 (Bored of the Rings) - COMPILATION CONTENT
+0006036 (Bored of the Rings) - COMPILATION REFERENCE
+0006036 (Bored of the Rings) - REMARKS
+0006138 (The Damned Forest) - AUTHORS
+0006138 (The Damned Forest) - RELEASES
+0006189 (Dodgy Geezers) - AUTHORS
+0006239 (Earthshock) - ADDITIONALS
+0006327 (The Fourth Protocol) - AUTHORS
+0006327 (The Fourth Protocol) - REMARKS
+0006337 (From Out of a Dark Night Sky) - COMPILATION CONTENT
+0006337 (From Out of a Dark Night Sky) - COMPILATION REFERENCE
+0006337 (From Out of a Dark Night Sky) - REMARKS
+0006344 (Galaxias) - ADDITIONALS
+0006361 (Goblin Gazette issue 1) - COMPILATION REFERENCE
+0006361 (Goblin Gazette issue 1) - REMARKS
+0006362 (Goblin Gazette issue 2) - COMPILATION REFERENCE
+0006362 (Goblin Gazette issue 2) - REMARKS
+0006440 (The Hobbit) - KNOWN ERRORS
+0006459 (I Dare You) - COMPILATION CONTENT
+0006459 (I Dare You) - COMPILATION REFERENCE
+0006459 (I Dare You) - REMARKS
+0006460 (Ice Station Zero) - COMPILATION CONTENT
+0006460 (Ice Station Zero) - COMPILATION REFERENCE
+0006460 (Ice Station Zero) - REMARKS
+0006575 (Legend) - REMARKS
+0006604 (The Lords of Midnight) - COMPILATION CONTENT
+0006604 (The Lords of Midnight) - COMPILATION REFERENCE
+0006604 (The Lords of Midnight) - REMARKS
+0006635 (Das Magische) - AUTHORS
+0006635 (Das Magische) - PUBLISHER
+0006635 (Das Magische) - RELEASES
+0006715 (Mugsy) - COMPILATION REFERENCE
+0006716 (Mugsy's Revenge) - COMPILATION CONTENT
+0006716 (Mugsy's Revenge) - COMPILATION REFERENCE
+0006716 (Mugsy's Revenge) - REMARKS
+0006759 (One of our Wombats is Missing) - COMPILATION CONTENT
+0006759 (One of our Wombats is Missing) - COMPILATION REFERENCE
+0006759 (One of our Wombats is Missing) - REMARKS
+0006825 (Professional Adventure Writer) - AUTHORING
+0006836 (Puzzled!) - PUBLISHER
+0006836 (Puzzled!) - RELEASES
+0006857 (The Quill Adventure System) - AUTHORING
+0006885 (The Return of the Holy Joystick) - ADDITIONALS
+0006900 (Robin of Sherlock) - COMPILATION CONTENT
+0006900 (Robin of Sherlock) - COMPILATION REFERENCE
+0006900 (Robin of Sherlock) - REMARKS
+0006900 (Robin of Sherlock) - KNOWN ERRORS
+0006906 (Ronnie Goes to Hollywood) - ADDITIONALS
+0006949 (The Secret of Little Hodcome) - AUTHORS
+0006949 (The Secret of Little Hodcome) - PUBLISHER
+0006949 (The Secret of Little Hodcome) - RELEASES
+0006949 (The Secret of Little Hodcome) - ORIGINALPUBLICATION [Standard -> As part of a compilation]
+0006962 (The Case of the Beheaded Smuggler) - COMPILATION CONTENT
+0006962 (The Case of the Beheaded Smuggler) - COMPILATION REFERENCE
+0006962 (The Case of the Beheaded Smuggler) - REMARKS
+0007088 (Terrormolinos) - AUTHORS
+0007088 (Terrormolinos) - CONTRIBUTORS
+0007107 (Time of the End) - PUBLISHER
+0007107 (Time of the End) - RELEASES
+0007107 (Time of the End) - SERIES
+0007309 (CD-Player) - COMPILATION REFERENCE
+0007309 (CD-Player) - REMARKS
+0007407 (The Final Countdown) - PUBLISHER
+0007407 (The Final Countdown) - RELEASES
+0007413 (Flame 1) - PUBLISHER
+0007413 (Flame 1) - RELEASES
+0007538 (The Lyra II Megademo) - AUTHORS
+0007561 (Milky Way 1) - FEATURES
+0007731 (Signal Part 3) - MAGREFS
+0007898 (AMX Art) - REMARKS
+0007915 (The Art Studio) - COMPILATION REFERENCE
+0007918 (The Artist) - COMPILATION REFERENCE
+0007918 (The Artist) - MAGREFS
+0008027 (COMAL 1.0) - ADDITIONALS
+0008067 (Currah MicroSpeech) - COMPILATION CONTENT
+0008067 (Currah MicroSpeech) - COMPILATION REFERENCE
+0008067 (Currah MicroSpeech) - REMARKS
+0008113 (Distron) - MODIFIED BY
+0008116 (DLAN) - COMPILATION REFERENCE
+0008144 (Edytor Tekstu) - ADDITIONALS
+0008249 (HiSoft BASIC) - AUTHORING
+0008254 (HiSoft COLT Compiler) - AUTHORING
+0008380 (Macro for Construction and Animation) - MAGREFS
+0008390 (Margot's Magic Colouring Book) - COMPILATION REFERENCE
+0008390 (Margot's Magic Colouring Book) - REMARKS
+0008405 (Matrix Operations) - ADDITIONALS
+0008476 (Multiface Three in One Utility) - PUBLISHER
+0008476 (Multiface Three in One Utility) - RELEASES
+0008489 (Melodian) - COMPILATION REFERENCE
+0008549 (Pianola) - ADDITIONALS
+0008549 (Pianola) - RELEASES
+0008672 (Shade Copy) - ADDITIONALS
+0008672 (Shade Copy) - RELEASES
+0008763 (Speed Office) - REMARKS
+0008808 (Supercode 3) - COMPILATION REFERENCE
+0008808 (Supercode 3) - RELEASES
+0009019 (77 Programmi per Spectrum) - REMARKS
+0009025 (ZXED Spectrum Toolkit) - COMPILATION REFERENCE
+0009054 (Clever Clogs - Jungle Jumble) - ADDITIONALS
+0009124 (Learn to Read 2) - SERIES
+0009126 (Learn to Read 4) - SERIES
+0009132 (MacMan's Magic Mirror) - SERIES
+0009159 (Study Physics - 13 years+) - ADDITIONALS
+0009207 (Young Learners 1) - ADDITIONALS
+0009217 (Beethoven's Arrangement) - REMARKS
+0009219 (Computer Christmas Card) - COMPILATION CONTENT
+0009219 (Computer Christmas Card) - COMPILATION REFERENCE
+0009219 (Computer Christmas Card) - REMARKS
+0009226 (Guide to Greater London) - COMPILATION REFERENCE
+0009226 (Guide to Greater London) - REMARKS
+0009260 (Sceptical) - COMPILATION REFERENCE
+0009260 (Sceptical) - REMARKS
+0009261 (Sceptical 2) - COMPILATION REFERENCE
+0009261 (Sceptical 2) - REMARKS
+0009262 (Sceptical 3) - COMPILATION REFERENCE
+0009262 (Sceptical 3) - REMARKS
+0009283 (DigiTape - Your Sinclair issue 09) - MONTH OF RELEASE
+0009298 (1943) - COMPILATION REFERENCE
+0009344 (Final Fight) - FEATURES
+0009361 (Jet Bike Simulator) - COMPILATION REFERENCE
+0009368 (Last Duel) - COMPILATION REFERENCE
+0009370 (Lemmings) - RELEASES
+0009400 (Professional Snooker Simulator) - COMPILATION REFERENCE
+0009401 (Pssst) - COMPILATION REFERENCE
+0009425 (Street Fighter) - COMPILATION REFERENCE
+0009439 (Tiger Road) - COMPILATION REFERENCE
+0009603 (Circus Circus) - COMPILATION REFERENCE
+0009619 (Computer Challenge) - AUTHORS
+0009634 (Creatures) - FEATURES
+0009678 (Dodge City 2) - FEATURES
+0009785 (Gold Blast) - AUTHORS
+0009787 (The Golden Key Racing Formula) - ADDITIONALS
+0009889 (Ku-Ku) - KNOWN ERRORS
+0009892 (Comando Tracer) - COMPILATION REFERENCE
+0010036 (Patience) - ADDITIONALS
+0010156 (Samurai Dawn) - REMARKS
+0010232 (Spectrum Zap) - COMPILATION REFERENCE
+0010425 (ZX Reactor) - COMPILATION REFERENCE
+0010434 (A-Maze) - COMPILATION REFERENCE
+0010434 (A-Maze) - REMARKS
+0010564 (Jigsaw) - COMPILATION REFERENCE
+0010663 (Sporting Triangles) - FEATURES
+0010844 (Just One of Those Days) - COMPILATION REFERENCE
+0010844 (Just One of Those Days) - REMARKS
+0010961 (Yuppie) - COMPILATION REFERENCE
+0010961 (Yuppie) - REMARKS
+0010985 (First Steps with the Mr. Men) - ADDITIONALS
+0011001 (Learn to Read 5) - SERIES
+0011010 (Note Invaders) - ADDITIONALS
+0011089 (Kopy Kat) - COMPILATION CONTENT
+0011089 (Kopy Kat) - COMPILATION REFERENCE
+0011089 (Kopy Kat) - REMARKS
+0011158 (ZX Spectrum+ Graphics Pack) - REMARKS
+0011214 (Best of the Indies Vol 1) - COMPILATION CONTENT
+0011242 (Defender Light Gun) - REMARKS
+0011340 (Quattro Power) - RELEASES
+0011388 (Tus Juegos 2) - COMPILATION CONTENT
+0011410 (Dungeons) - RELATED LINKS
+0011410 (Dungeons) - YOUTUBE LINKS
+0011410 (Dungeons) - WEB LINKS
+0011437 (Crash Tech Tape) - COMPILATION CONTENT
+0011455 (4th Dimension) - MAGREFS
+0011555 (Cartoon Collection) - RELEASES
+0011561 (Castle) - ADDITIONALS
+0011573 (Character Generator) - AUTHORS
+0011617 (Cortes) - ADDITIONALS
+0011635 (Dam and Blast) - ADDITIONALS
+0011641 (Learn German Words with Das Schloss) - ADDITIONALS
+0011808 (Into the Abyss) - PUBLISHER
+0011808 (Into the Abyss) - RELEASES
+0011808 (Into the Abyss) - SERIES
+0011855 (Lin-O-Type) - ADDITIONALS
+0011860 (Logo: Part I) - AUTHORS
+0011864 (MacMan and the Caber Eater) - SERIES
+0011865 (MacMan and the Great Escape) - SERIES
+0011906 (Millypede) - LICENSED
+0011907 (The Minister for Alien Affairs) - PUBLISHER
+0011907 (The Minister for Alien Affairs) - RELEASES
+0011907 (The Minister for Alien Affairs) - SERIES
+0011942 (Music Maker) - AUTHORS
+0012252 (Zoo) - ADDITIONALS
+0012257 (ZX Spectrum Assembler) - ADDITIONALS
+0012258 (ZX Spectrum Games) - ADDITIONALS
+0012259 (ZX Tool Kit) - MAGREFS
+0012285 (Rockford's Riot + Boulder Dash) - COMPILATION CONTENT
+0012286 (Specbug) - ADDITIONALS
+0012286 (Specbug) - RELEASES
+0012286 (Specbug) - AVAILABILITY [MIA -> Available]
+0012313 (Tu Micro issue 01) - COMPILATION CONTENT
+0012434 (Blockbusters) - COMPILATION CONTENT
+0012434 (Blockbusters) - COMPILATION REFERENCE
+0012434 (Blockbusters) - REMARKS
+0012537 (Z80 Dissembler) - COMPILATION REFERENCE
+0012621 (Chemal) - ADDITIONALS
+0012723 (Timothy Follin 2) - AUTHORS
+0012723 (Timothy Follin 2) - PUBLISHER
+0012723 (Timothy Follin 2) - RELEASES
+0012777 (Cobble 2) - FEATURES
+0012777 (Cobble 2) - PUBLISHER
+0012777 (Cobble 2) - RELEASES
+0012990 (Pasyance) - FEATURES
+0012990 (Pasyance) - PUBLISHER
+0012990 (Pasyance) - RELEASES
+0013199 (Letta-Head Plus) - ADDITIONALS
+0013201 (Pools Predictor) - ADDITIONALS
+0013352 (Manager) - ADDITIONALS
+0013418 (Colour Mixer) - COMPILATION REFERENCE
+0013510 (Crash issue 45: Sampler) - MONTH OF RELEASE
+0013511 (Crash issue 54: Sneak Preview 1) - MONTH OF RELEASE
+0013512 (Crash issue 58: Sneak Preview 2) - MONTH OF RELEASE
+0013513 (Crash issue 59: Sneak Preview 3) - MONTH OF RELEASE
+0013514 (Crash issue 60: Sneak Preview 4) - MONTH OF RELEASE
+0013515 (Crash issue 63: Crucial) - MONTH OF RELEASE
+0013516 (Crash issue 65: Presents 1) - MONTH OF RELEASE
+0013518 (Crash issue 66: Presents 2) - MONTH OF RELEASE
+0013519 (Crash issue 67: Presents 3) - MONTH OF RELEASE
+0013520 (Crash issue 68: Presents 4) - MONTH OF RELEASE
+0013521 (Crash issue 69: Presents 5) - MONTH OF RELEASE
+0013522 (Crash issue 70: Presents 6) - MONTH OF RELEASE
+0013523 (Crash issue 71: Presents 7) - MONTH OF RELEASE
+0013524 (Crash issue 72: Presents 8) - MONTH OF RELEASE
+0013525 (Crash issue 73: Presents 9) - MONTH OF RELEASE
+0013526 (Crash issue 74: Presents 10) - MONTH OF RELEASE
+0013527 (Crash issue 75: Presents 11) - MONTH OF RELEASE
+0013528 (Crash issue 76: Presents 12) - MONTH OF RELEASE
+0013529 (Crash issue 77: Presents 13) - MONTH OF RELEASE
+0013530 (Crash issue 78: Presents 14) - MONTH OF RELEASE
+0013531 (Crash issue 79: Presents 15) - MONTH OF RELEASE
+0013532 (Crash issue 80: Presents 16) - MONTH OF RELEASE
+0013533 (Crash issue 81: Presents 17) - MONTH OF RELEASE
+0013534 (Crash issue 82: Presents 18) - MONTH OF RELEASE
+0013535 (Crash issue 83: Presents 19) - MONTH OF RELEASE
+0013536 (Crash issue 84: Presents 20) - MONTH OF RELEASE
+0013538 (Crash issue 85: Presents 21) - MONTH OF RELEASE
+0013539 (Crash issue 86: Presents 22) - MONTH OF RELEASE
+0013540 (Crash issue 87: Presents 23) - MONTH OF RELEASE
+0013541 (Crash issue 88: Presents 24) - MONTH OF RELEASE
+0013542 (Crash issue 89: Presents 25) - MONTH OF RELEASE
+0013544 (Crash issue 90: Presents 26) - MONTH OF RELEASE
+0013546 (Crash issue 91: Presents 27) - MONTH OF RELEASE
+0013547 (Crash issue 92: Presents 28) - MONTH OF RELEASE
+0013548 (Crash issue 93: Presents 29) - MONTH OF RELEASE
+0013549 (Crash issue 94: Presents 30) - MONTH OF RELEASE
+0013550 (Crash issue 95: Presents 31) - MONTH OF RELEASE
+0013551 (Crash issue 96: Presents 32) - MONTH OF RELEASE
+0013552 (Crash issue 97: Presents 33) - MONTH OF RELEASE
+0013553 (Crash issue 98: Presents 34) - MONTH OF RELEASE
+0013567 (MicroHobby issue 182: Tape 1) - MONTH OF RELEASE
+0013568 (MicroHobby issue 183: Tape 2) - MONTH OF RELEASE
+0013569 (MicroHobby issue 184: Tape 3) - MONTH OF RELEASE
+0013570 (MicroHobby issue 185: Tape 4) - MONTH OF RELEASE
+0013571 (MicroHobby issue 186: Tape 5) - MONTH OF RELEASE
+0013572 (MicroHobby issue 187: Tape 6) - MONTH OF RELEASE
+0013573 (MicroHobby issue 188: Tape 7) - MONTH OF RELEASE
+0013574 (MicroHobby issue 189: Tape 8) - MONTH OF RELEASE
+0013575 (MicroHobby issue 190: Tape 9) - MONTH OF RELEASE
+0013576 (MicroHobby issue 190: Tape 10) - MONTH OF RELEASE
+0013577 (MicroHobby issue 191: Tape 11) - MONTH OF RELEASE
+0013578 (MicroHobby issue 192: Tape 12) - MONTH OF RELEASE
+0013579 (MicroHobby issue 192: Tape 13) - MONTH OF RELEASE
+0013580 (MicroHobby issue 193: Tape 14) - MONTH OF RELEASE
+0013581 (MicroHobby issue 194: Tape 15) - MONTH OF RELEASE
+0013582 (MicroHobby issue 194: Tape 16) - MONTH OF RELEASE
+0013583 (MicroHobby issue 195: Tape 17) - MONTH OF RELEASE
+0013584 (MicroHobby issue 195: Tape 18) - MONTH OF RELEASE
+0013585 (MicroHobby issue 196: Tape 19) - MONTH OF RELEASE
+0013586 (MicroHobby issue 197: Tape 20) - MONTH OF RELEASE
+0013587 (MicroHobby issue 198: Tape 21) - MONTH OF RELEASE
+0013588 (MicroHobby issue 199: Tape 22) - MONTH OF RELEASE
+0013589 (MicroHobby issue 200: Tape 23) - MONTH OF RELEASE
+0013590 (MicroHobby issue 200: Tape 24) - MONTH OF RELEASE
+0013591 (MicroHobby issue 201: Tape 25) - MONTH OF RELEASE
+0013592 (MicroHobby issue 201: Tape 26) - MONTH OF RELEASE
+0013593 (MicroHobby issue 202: Tape 27) - MONTH OF RELEASE
+0013594 (MicroHobby issue 203: Tape 28) - MONTH OF RELEASE
+0013595 (MicroHobby issue 204: Tape 29) - MONTH OF RELEASE
+0013596 (MicroHobby issue 204: Tape 30) - MONTH OF RELEASE
+0013597 (MicroHobby issue 205: Tape 31) - MONTH OF RELEASE
+0013598 (MicroHobby issue 205: Tape 32) - MONTH OF RELEASE
+0013599 (MicroHobby issue 206: Tape 33) - MONTH OF RELEASE
+0013600 (MicroHobby issue 207: Tape 34) - MONTH OF RELEASE
+0013601 (MicroHobby issue 208: Tape 35) - MONTH OF RELEASE
+0013602 (MicroHobby issue 209: Tape 36) - MONTH OF RELEASE
+0013603 (MicroHobby issue 210: Tape 37) - MONTH OF RELEASE
+0013604 (MicroHobby issue 211: Tape 38) - MONTH OF RELEASE
+0013605 (MicroHobby issue 211: Tape 39) - MONTH OF RELEASE
+0013606 (MicroHobby issue 212: Tape 40) - MONTH OF RELEASE
+0013607 (MicroHobby issue 212: Tape 41) - MONTH OF RELEASE
+0013608 (MicroHobby issue 213: Tape 42) - MONTH OF RELEASE
+0013609 (MicroHobby issue 214: Tape 43) - MONTH OF RELEASE
+0013610 (MicroHobby issue 215: Tape 44) - MONTH OF RELEASE
+0013611 (MicroHobby issue 215: Tape 45) - MONTH OF RELEASE
+0013612 (MicroHobby issue 216: Tape 46) - MONTH OF RELEASE
+0013613 (MicroHobby issue 216: Tape 47) - MONTH OF RELEASE
+0013614 (MicroHobby issue 217: Tape 48) - MONTH OF RELEASE
+0013692 (Sinclair User issue 72: Megatape 1) - MONTH OF RELEASE
+0013693 (Sinclair User issue 73: Megatape 2) - MONTH OF RELEASE
+0013694 (Sinclair User issue 74: Megatape 3) - COMPILATION CONTENT
+0013694 (Sinclair User issue 74: Megatape 3) - MONTH OF RELEASE
+0013695 (Sinclair User issue 75: Megatape 4) - MONTH OF RELEASE
+0013696 (Sinclair User issue 76: Megatape 5) - MONTH OF RELEASE
+0013697 (Sinclair User issue 77: Megatape 6) - MONTH OF RELEASE
+0013698 (Sinclair User issue 78: Megatape 7) - MONTH OF RELEASE
+0013699 (Sinclair User issue 79: Megatape 8) - MONTH OF RELEASE
+0013700 (Sinclair User issue 80: Megatape 9) - MONTH OF RELEASE
+0013701 (Sinclair User issue 81: Megatape 10) - MONTH OF RELEASE
+0013702 (Sinclair User issue 82: Megatape 11) - MONTH OF RELEASE
+0013703 (Sinclair User issue 83: Megatape 12) - MONTH OF RELEASE
+0013704 (Sinclair User issue 84: Megatape 13) - MONTH OF RELEASE
+0013705 (Sinclair User issue 85: Megatape 14) - MONTH OF RELEASE
+0013706 (Sinclair User issue 86: Megatape 15) - MONTH OF RELEASE
+0013707 (Sinclair User issue 87: Megatape 16) - MONTH OF RELEASE
+0013708 (Sinclair User issue 88: Megatape 17) - MONTH OF RELEASE
+0013709 (Sinclair User issue 89: Megatape 18) - MONTH OF RELEASE
+0013710 (Sinclair User issue 90: Megatape 19) - MONTH OF RELEASE
+0013711 (Sinclair User issue 91: Megatape 20) - MONTH OF RELEASE
+0013712 (Sinclair User issue 92: Megatape 21) - MONTH OF RELEASE
+0013713 (Sinclair User issue 92: 6 Amazing Coin-Op Tracks) - MONTH OF RELEASE
+0013714 (Sinclair User issue 93: Megatape 22) - MONTH OF RELEASE
+0013715 (Sinclair User issue 94: Megatape 23) - MONTH OF RELEASE
+0013716 (Sinclair User issue 95: Megatape 24) - MONTH OF RELEASE
+0013717 (Sinclair User issue 96: Megatape 25) - MONTH OF RELEASE
+0013718 (Sinclair User issue 98: Megatape 26) - MONTH OF RELEASE
+0013719 (Sinclair User issue 99: Megatape 27) - MONTH OF RELEASE
+0013720 (Sinclair User issue 100: Double Hits 1) - MONTH OF RELEASE
+0013721 (Sinclair User issue 101: Double Hits 2) - MONTH OF RELEASE
+0013722 (Sinclair User issue 102: Double Hits 3) - MONTH OF RELEASE
+0013723 (Sinclair User issue 103: Double Hits 4) - MONTH OF RELEASE
+0013724 (Sinclair User issue 104: Double Hits 5) - MONTH OF RELEASE
+0013725 (Sinclair User issue 105: Six of the Best 1) - MONTH OF RELEASE
+0013726 (Sinclair User issue 106: Six of the Best 2) - MONTH OF RELEASE
+0013727 (Sinclair User issue 107: Six of the Best 3) - MONTH OF RELEASE
+0013728 (Sinclair User issue 108: Six of the Best 4) - MONTH OF RELEASE
+0013729 (Sinclair User issue 109: Great Eight 1) - MONTH OF RELEASE
+0013730 (Sinclair User issue 110: Great Eight 2) - MONTH OF RELEASE
+0013731 (Sinclair User issue 111: Ten Pack) - MONTH OF RELEASE
+0013732 (Sinclair User issue 112: Twelve Pack 1) - MONTH OF RELEASE
+0013733 (Sinclair User issue 113: Great Eight 3) - MONTH OF RELEASE
+0013734 (Sinclair User issue 114: Great Eight 4) - MONTH OF RELEASE
+0013735 (Sinclair User issue 115: Fab Four) - MONTH OF RELEASE
+0013736 (Sinclair User issue 116: Great Eight 5) - MONTH OF RELEASE
+0013737 (Sinclair User issue 117: Great Eight 6) - MONTH OF RELEASE
+0013738 (Sinclair User issue 118: Great Eight 7) - MONTH OF RELEASE
+0013739 (Sinclair User issue 119: Great Eight 8) - MONTH OF RELEASE
+0013740 (Sinclair User issue 120: Great Eight 9) - MONTH OF RELEASE
+0013741 (Sinclair User issue 121: Great Eight 10) - MONTH OF RELEASE
+0013742 (Sinclair User issue 122: Great Eight 11) - MONTH OF RELEASE
+0013743 (Sinclair User issue 123: Great Eight 12) - MONTH OF RELEASE
+0013744 (Sinclair User issue 124: Great Eight 13) - MONTH OF RELEASE
+0013745 (Sinclair User issue 125: Great Eight 14) - MONTH OF RELEASE
+0013746 (Sinclair User issue 126: Great Eight 15) - MONTH OF RELEASE
+0013747 (Sinclair User issue 127: Great Eight 16) - MONTH OF RELEASE
+0013748 (Sinclair User issue 128: Great Eight 17) - MONTH OF RELEASE
+0013749 (Sinclair User issue 129: Great Eight 18) - MONTH OF RELEASE
+0013750 (Sinclair User issue 130: Great Eight 19) - MONTH OF RELEASE
+0013751 (Sinclair User issue 131: Fun Four 1) - MONTH OF RELEASE
+0013752 (Sinclair User issue 132: Fun Four 2) - MONTH OF RELEASE
+0013753 (Sinclair User issue 133: Fun Four 3) - MONTH OF RELEASE
+0013754 (Sinclair User issue 134: Fun Four 4) - MONTH OF RELEASE
+0013755 (Your Sinclair issue 1: Smash Tape 1) - MONTH OF RELEASE
+0013756 (Your Sinclair issue 17: Smash Tape 2) - MONTH OF RELEASE
+0013757 (Your Sinclair issue 22: Smash Tape 3) - MONTH OF RELEASE
+0013758 (Your Sinclair issue 24: Smash Tape 4) - MONTH OF RELEASE
+0013759 (Your Sinclair issue 25: Smash Tape 5) - MONTH OF RELEASE
+0013760 (Your Sinclair issue 29: Smash Tape 6) - MONTH OF RELEASE
+0013761 (Your Sinclair issue 30: Smash Tape 7) - MONTH OF RELEASE
+0013762 (Your Sinclair issue 31: Smash Tape 8) - MONTH OF RELEASE
+0013763 (Your Sinclair issue 34: Smash Tape 9) - MONTH OF RELEASE
+0013764 (Your Sinclair issue 35: Smash Tape 10) - MONTH OF RELEASE
+0013765 (Your Sinclair issue 36: Smash Tape 11) - MONTH OF RELEASE
+0013766 (Your Sinclair issue 36: Smash Tape 12) - MONTH OF RELEASE
+0013767 (Your Sinclair issue 37: Smash Tape 13) - MONTH OF RELEASE
+0013768 (Your Sinclair issue 38: Smash Tape 14) - MONTH OF RELEASE
+0013769 (Your Sinclair issue 39: Smash Tape 15) - MONTH OF RELEASE
+0013770 (Your Sinclair issue 40: Smash Tape 16) - MONTH OF RELEASE
+0013771 (Your Sinclair issue 41: Smash Tape 17) - MONTH OF RELEASE
+0013772 (Your Sinclair issue 42: Smash Tape 18) - MONTH OF RELEASE
+0013773 (Your Sinclair issue 43: Smash Tape 19) - MONTH OF RELEASE
+0013774 (Your Sinclair issue 44: Smash Tape 20) - MONTH OF RELEASE
+0013775 (Your Sinclair issue 45: Smash Tape 21) - MONTH OF RELEASE
+0013776 (Your Sinclair issue 46: Smash Tape 22) - MONTH OF RELEASE
+0013777 (Your Sinclair issue 47: Smash Tape 23) - MONTH OF RELEASE
+0013778 (Your Sinclair issue 48: Smash Tape 24) - MONTH OF RELEASE
+0013779 (Your Sinclair issue 48: Smash Tape 25) - MONTH OF RELEASE
+0013780 (Your Sinclair issue 49: Smash Tape 26) - MONTH OF RELEASE
+0013781 (Your Sinclair issue 50: Smash Tape 27) - MONTH OF RELEASE
+0013782 (Your Sinclair issue 51: Smash Tape 28) - MONTH OF RELEASE
+0013783 (Your Sinclair issue 52: Smash Tape 29) - MONTH OF RELEASE
+0013784 (Your Sinclair issue 53: Smash Tape 30) - MONTH OF RELEASE
+0013785 (Your Sinclair issue 54: Smash Tape 31) - MONTH OF RELEASE
+0013786 (Your Sinclair issue 55: Smash Tape 32) - MONTH OF RELEASE
+0013787 (Your Sinclair issue 56: Smash Tape 33) - MONTH OF RELEASE
+0013788 (Your Sinclair issue 57: Smash Tape 34) - MONTH OF RELEASE
+0013789 (Your Sinclair issue 58: Four Pack 1) - MONTH OF RELEASE
+0013790 (Your Sinclair issue 59: Four Pack 2) - MONTH OF RELEASE
+0013791 (Your Sinclair issue 60: Four Pack 3) - MONTH OF RELEASE
+0013792 (Your Sinclair issue 61: Christmas Collection 1) - MONTH OF RELEASE
+0013793 (Your Sinclair issue 62: Four Pack 4) - MONTH OF RELEASE
+0013794 (Your Sinclair issue 63: Six Pack) - MONTH OF RELEASE
+0013795 (Your Sinclair issue 64: Magnificent Seven 1) - MONTH OF RELEASE
+0013796 (Your Sinclair issue 65: Magnificent Seven 2) - MONTH OF RELEASE
+0013797 (Your Sinclair issue 66: Magnificent Seven 3) - MONTH OF RELEASE
+0013798 (Your Sinclair issue 67: Magnificent Seven 4) - MONTH OF RELEASE
+0013799 (Your Sinclair issue 68: Magnificent Seven 5) - MONTH OF RELEASE
+0013800 (Your Sinclair issue 69: Magnificent Seven 6) - MONTH OF RELEASE
+0013801 (Your Sinclair issue 70: Magnificent Seven 7) - MONTH OF RELEASE
+0013802 (Your Sinclair issue 71: Magnificent Seven 8) - MONTH OF RELEASE
+0013803 (Your Sinclair issue 72: Magnificent Seven 9) - MONTH OF RELEASE
+0013804 (Your Sinclair issue 73: Magnificent Seven) - MONTH OF RELEASE
+0013805 (Your Sinclair issue 74: Magnificent Seven) - MONTH OF RELEASE
+0013806 (Your Sinclair issue 75: Magnificent Seven) - MONTH OF RELEASE
+0013807 (Your Sinclair issue 76: Magnificent Seven) - MONTH OF RELEASE
+0013808 (Your Sinclair issue 77: Magnificent Seven) - MONTH OF RELEASE
+0013809 (Your Sinclair issue 78: Magnificent Seven) - MONTH OF RELEASE
+0013810 (Your Sinclair issue 79: Magnificent Seven) - MONTH OF RELEASE
+0013811 (Your Sinclair issue 80: Magnificent Seven) - MONTH OF RELEASE
+0013812 (Your Sinclair issue 81: Magnificent Seven) - MONTH OF RELEASE
+0013813 (Your Sinclair issue 82: Magnificent Seven) - MONTH OF RELEASE
+0013814 (Your Sinclair issue 83: Magnificent Seven) - MONTH OF RELEASE
+0013815 (Your Sinclair issue 84: Magnificent Seven) - MONTH OF RELEASE
+0013816 (Your Sinclair issue 85: Christmas Collection 2) - MONTH OF RELEASE
+0013817 (Your Sinclair issue 86: Beaut Box 1) - MONTH OF RELEASE
+0013818 (Your Sinclair issue 87: Beaut Box 2) - MONTH OF RELEASE
+0013819 (Your Sinclair issue 88: Beaut Box 3) - MONTH OF RELEASE
+0013820 (Your Sinclair issue 89: Beaut Box 4) - MONTH OF RELEASE
+0013821 (Your Sinclair issue 90: Beaut Box 5) - MONTH OF RELEASE
+0013822 (Your Sinclair issue 91: Beaut Box 6) - MONTH OF RELEASE
+0013823 (Your Sinclair issue 92: Beaut Box 7) - MONTH OF RELEASE
+0013824 (Mega-Bert) - FEATURES
+0013922 (Feudal Overlord) - RELEASES
+0014001 (Cup and Bowl) - ADDITIONALS
+0014007 (Puncman 1 + 2) - ADDITIONALS
+0014196 (Outlet issue 109) - COMPILATION CONTENT
+0014426 (Taxi Driver) - ADDITIONALS
+0014504 (Alo Bao) - REMARKS
+0014506 (Battleground) - RELEASES
+0014636 (ZX Spectrum+ Starter Pack) - REMARKS
+0014685 (Games Compendium) - COMPILATION CONTENT
+0014699 (Language Development Series) - ADDITIONALS
+0014822 (Lunaris) - RELATED LINKS
+0014822 (Lunaris) - WEB LINKS
+0014928 (Explorer XXXI) - FEATURES
+0014942 (Stranded) - RELATED LINKS
+0014942 (Stranded) - WEB LINKS
+0015138 (The Semi-Detached at the End of the Street) - REMARKS
+0015407 (RUN Casete N. 04) - COMPILATION CONTENT
+0015427 (Arnold the Adventurer II) - COMPILATION CONTENT
+0015427 (Arnold the Adventurer II) - COMPILATION REFERENCE
+0015427 (Arnold the Adventurer II) - REMARKS
+0015440 (Balrog's Big Four) - COMPILATION CONTENT
+0015554 (Using Your Computer III) - PUBLISHER
+0015554 (Using Your Computer III) - RELEASES
+0015567 (Minicalc) - ADDITIONALS
+0015624 (Dominetris) - RELATED LINKS
+0015624 (Dominetris) - WEB LINKS
+0015792 (Personal Computer Games issue 03) - MONTH OF RELEASE
+0015793 (Personal Computer Games issue 13) - ADDITIONALS
+0015793 (Personal Computer Games issue 13) - MONTH OF RELEASE
+0015958 (Money) - ADDITIONALS
+0015960 (Turbo Cassette LOAD/SAVE Creator) - PUBLISHER
+0015960 (Turbo Cassette LOAD/SAVE Creator) - RELEASES
+0015961 (48K/128K BREAK and ERROR Trapper) - PUBLISHER
+0015961 (48K/128K BREAK and ERROR Trapper) - RELEASES
+0015962 (Serial 8056 Screen Copy Routine) - PUBLISHER
+0015962 (Serial 8056 Screen Copy Routine) - RELEASES
+0015963 (Improved Spectrum Character Set) - PUBLISHER
+0015963 (Improved Spectrum Character Set) - RELEASES
+0015964 (ZX-FX) - PUBLISHER
+0015964 (ZX-FX) - RELEASES
+0015965 (SpecDrum>Music Machine Convertor) - AUTHORS
+0015965 (SpecDrum>Music Machine Convertor) - PUBLISHER
+0015965 (SpecDrum>Music Machine Convertor) - RELEASES
+0016630 (Dark Forest) - RELEASES
+0016654 (Droga do Duplandu) - AUTHORS
+0016687 (Football Follower) - ADDITIONALS
+0016776 (The 16/48 Machine Code Tutor) - AVAILABILITY [MIA -> Available]
+0016793 (Farmer Jack in Harvest Havoc!) - RELATED LINKS
+0016793 (Farmer Jack in Harvest Havoc!) - WEB LINKS
+0016989 (Millipede) - LICENSED
+0017288 (Klokkijken Analoog + Klokkijken Digitaal) - ADDITIONALS
+0017299 (Moonraker) - ADDITIONALS
+0017299 (Moonraker) - AUTHORS
+0017299 (Moonraker) - RELEASES
+0017299 (Moonraker) - AVAILABILITY [MIA -> Available]
+0017309 (Phantomasa) - AUTHORED
+0017361 (User-1) - ADDITIONALS
+0017410 (Adventure Holiday) - ADDITIONALS
+0017731 (Stranded 2.5) - RELATED LINKS
+0017731 (Stranded 2.5) - WEB LINKS
+0017769 (Biorhythms) - COMPILATION REFERENCE
+0017951 (Control de Stocks) - RELEASES
+0018222 (Las Cuatro en Raya) - ORIGINALPUBLICATION [On magazine covertape -> Type-in]
+0018223 (El Bodeguero) - ORIGINALPUBLICATION [On magazine covertape -> Type-in]
+0018224 (Reubicador Z-80) - ORIGINALPUBLICATION [On magazine covertape -> Type-in]
+0018350 (Blue Hellfire) - RELATED LINKS
+0018350 (Blue Hellfire) - WEB LINKS
+0018357 (G.I. Tech) - RELATED LINKS
+0018357 (G.I. Tech) - WEB LINKS
+0018540 (Isotopia) - AUTHORED
+0018778 (Bug Zum) - REMARKS
+0018870 (Header Reader) - COMPILATION REFERENCE
+0018870 (Header Reader) - REMARKS
+0018873 (Farmer Jack and the Hedge Monkeys!) - RELATED LINKS
+0018873 (Farmer Jack and the Hedge Monkeys!) - WEB LINKS
+0018878 (Laser Shoot) - COMPILATION REFERENCE
+0018878 (Laser Shoot) - REMARKS
+0018901 (How to Play Adventures) - COMPILATION REFERENCE
+0018901 (How to Play Adventures) - REMARKS
+0018996 (Steeplejack) - ADDITIONALS
+0019081 (Ucieczka ze Spejs-Szipu) - AUTHORS
+0019184 (Your Computer issue 8212) - MONTH OF RELEASE
+0019191 (splATTR) - RELATED LINKS
+0019191 (splATTR) - WEB LINKS
+0019231 (Your Sinclair issue 48: Smash Tape 25 - Special Edition) - REMARKS
+0019231 (Your Sinclair issue 48: Smash Tape 25 - Special Edition) - MONTH OF RELEASE
+0019249 (Games Aid) - ADDITIONALS
+0019252 (Interrupt Sound Effects) - ADDITIONALS
+0019378 (Millipede) - LICENSED
+0019386 (Vec-Man) - ADDITIONALS
+0019451 (Mindbender + Stretcher) - ADDITIONALS
+0019453 (Purchase Day Book) - ADDITIONALS
+0019480 (Wrath of Kong) - ADDITIONALS
+0019896 (Whirlwind) - ADDITIONALS
+0020176 (Arcade Game Designer) - AUTHORING
+0020177 (Mariano the Dragon in Capers in Cityland) - AUTHORED
+0020291 (Jega Tape 2) - ADDITIONALS
+0020317 (Letcher) - ADDITIONALS
+0020367 (Mix 'n' Match + Mistermind) - ADDITIONALS
+0020396 (On the Run) - ADDITIONALS
+0020402 (Out of the Blue) - ADDITIONALS
+0020444 (Prisoner) - ADDITIONALS
+0020455 (Quarterback) - ADDITIONALS
+0020695 (MicroHobby issue 37) - MONTH OF RELEASE
+0020722 (Ini-Rip) - REMARKS
+0020723 (Red Cap) - REMARKS
+0020724 (Zap-Lap) - REMARKS
+0020725 (Hal Ant) - REMARKS
+0020745 (Yurec Quest) - PUBLISHER
+0020745 (Yurec Quest) - RELEASES
+0020784 (A Double Balrog) - COMPILATION CONTENT
+0020787 (DigiTape - Your Sinclair issue 01) - MONTH OF RELEASE
+0020788 (DigiTape - Your Sinclair issue 02) - MONTH OF RELEASE
+0020789 (DigiTape - Your Sinclair issue 03) - MONTH OF RELEASE
+0020790 (DigiTape - Your Sinclair issue 04) - MONTH OF RELEASE
+0020791 (DigiTape - Your Sinclair issue 05) - MONTH OF RELEASE
+0020792 (DigiTape - Your Sinclair issue 06) - MONTH OF RELEASE
+0020793 (DigiTape - Your Sinclair issue 07) - COMPILATION CONTENT
+0020793 (DigiTape - Your Sinclair issue 07) - MONTH OF RELEASE
+0020794 (DigiTape - Your Sinclair issue 08) - MONTH OF RELEASE
+0020795 (DigiTape - Your Sinclair issue 10) - MONTH OF RELEASE
+0020796 (DigiTape - Your Sinclair issue 11) - MONTH OF RELEASE
+0020797 (DigiTape - Your Sinclair issue 12) - MONTH OF RELEASE
+0020798 (DigiTape - Your Sinclair issue 13) - MONTH OF RELEASE
+0020799 (DigiTape - Your Sinclair issue 14) - MONTH OF RELEASE
+0020800 (DigiTape - Your Sinclair issue 15) - MONTH OF RELEASE
+0020801 (DigiTape - Your Sinclair issue 16) - MONTH OF RELEASE
+0020802 (DigiTape - Your Sinclair issue 17) - MONTH OF RELEASE
+0020803 (DigiTape #1 - Your Spectrum issue 16) - MONTH OF RELEASE
+0020804 (DigiTape #2 - Your Spectrum issue 17) - MONTH OF RELEASE
+0020805 (DigiTape #3 - Your Spectrum issue 18) - MONTH OF RELEASE
+0020894 (ZX Big-Shot Typeface Machine Codes) - AUTHORED
+0020984 (The Hideous) - AUTHORED
+0021120 (Business War) - PUBLISHER
+0021120 (Business War) - RELEASES
+0021186 (Kill PC) - AUTHORS
+0021511 (Nuclear City Bomber) - COMPILATION REFERENCE
+0021511 (Nuclear City Bomber) - REMARKS
+0021511 (Nuclear City Bomber) - ORIGINALPUBLICATION [Standard -> As part of a compilation]
+0021515 (Your Attention Please) - COMPILATION CONTENT
+0021515 (Your Attention Please) - COMPILATION REFERENCE
+0021539 (Gwiezdne Imperium) - ADDITIONALS
+0021547 (Psychiatric Hospital 2000) - AUTHORS
+0021583 (Farmer Jack - Treasure Trove) - RELATED LINKS
+0021583 (Farmer Jack - Treasure Trove) - WEB LINKS
+0021590 (Enigma Tape Magazine issue 7) - ADDITIONALS
+0021593 (Joystick issue 8612) - MONTH OF RELEASE
+0021594 (Joystick issue 8702) - MONTH OF RELEASE
+0021595 (Joystick issue 8704) - MONTH OF RELEASE
+0021599 (Joystick issue 8703) - MONTH OF RELEASE
+0021623 (Nipik 2) - COMPILATION REFERENCE
+0021623 (Nipik 2) - REMARKS
+0022511 (TrueFONT) - AUTHORED
+0023389 (Rubber Forever!!) - AUTHORS
+0023438 (Game) - PUBLISHER
+0023438 (Game) - RELEASES
+0023478 (W*H*B) - RELATED LINKS
+0023478 (W*H*B) - WEB LINKS
+0023512 (DigiTape #4 - Your Spectrum issue 19) - MONTH OF RELEASE
+0023513 (DigiTape #5 - Your Spectrum issue 20) - MONTH OF RELEASE
+0023514 (DigiTape #6 - Your Spectrum issue 21) - MONTH OF RELEASE
+0023538 (Your Sinclair issue 94) - MONTH OF RELEASE
+0023674 (The Graphics Creator) - COMPILATION CONTENT
+0023674 (The Graphics Creator) - COMPILATION REFERENCE
+0023674 (The Graphics Creator) - REMARKS
+0023678 (Factory Daze) - RELATED LINKS
+0023678 (Factory Daze) - WEB LINKS
+0023711 (Adelboden Ski-Weltcup 1986) - REMARKS
+0023733 (Number Eater) - ADDITIONALS
+0023742 (Power House) - ADDITIONALS
+0023753 (Santa) - COMPILATION CONTENT
+0023807 (Bipboi) - COMPILATION CONTENT
+0023807 (Bipboi) - COMPILATION REFERENCE
+0023807 (Bipboi) - REMARKS
+0023859 (Kurashiku Nihongo Monsuta Shiro 3) - AUTHORED
+0024034 (All Present and Correct) - RELATED LINKS
+0024034 (All Present and Correct) - WEB LINKS
+0024337 (Dix Jeux Fantastiques) - ADDITIONALS
+0024376 (Dungeons) - PUBLISHER
+0024376 (Dungeons) - RELATED LINKS
+0024376 (Dungeons) - RELEASES
+0024376 (Dungeons) - YOUTUBE LINKS
+0024376 (Dungeons) - WEB LINKS
+0024435 (Assembler) - ADDITIONALS
+0024463 (Spectrum Zap + ZX Reactor) - COMPILATION CONTENT
+0024821 (C&VG issue 088) - MONTH OF RELEASE
+0024822 (C&VG issue 073) - MONTH OF RELEASE
+0024823 (C&VG issue 036) - MONTH OF RELEASE
+0024842 (French Verbs) - ADDITIONALS
+0024893 (Absolution) - COMPILATION REFERENCE
+0024893 (Absolution) - REMARKS
+0024955 (The Open - Troon) - ADDITIONALS
+0024958 (The Open - Royal St. George) - ADDITIONALS
+0024959 (The Open - Pebble Beach) - ADDITIONALS
+0024961 (The Open - Pinehurst) - ADDITIONALS
+0024966 (The Clone Ranger) - COMPILATION CONTENT
+0024966 (The Clone Ranger) - COMPILATION REFERENCE
+0024966 (The Clone Ranger) - REMARKS
+0025029 (Demon's Dream) - REMARKS
+0025136 (Horace in the Mystic Woods) - RELATED LINKS
+0025136 (Horace in the Mystic Woods) - WEB LINKS
+0025245 (ZX-ALFA) - AUTHORING
+0025340 (ACE issue 01) - MONTH OF RELEASE
+0025341 (ACE issue 02) - MONTH OF RELEASE
+0025342 (ACE issue 03) - MONTH OF RELEASE
+0025343 (ACE issue 04) - RELEASES
+0025343 (ACE issue 04) - MONTH OF RELEASE
+0025344 (ACE issue 05) - RELEASES
+0025344 (ACE issue 05) - MONTH OF RELEASE
+0025345 (ACE issue 06) - RELEASES
+0025345 (ACE issue 06) - MONTH OF RELEASE
+0025346 (ACE issue 07) - RELEASES
+0025346 (ACE issue 07) - MONTH OF RELEASE
+0025347 (ACE issue 08) - RELEASES
+0025347 (ACE issue 08) - MONTH OF RELEASE
+0025348 (ACE issue 09) - RELEASES
+0025348 (ACE issue 09) - MONTH OF RELEASE
+0025349 (ACE issue 10) - MONTH OF RELEASE
+0025350 (ACE issue 11) - MONTH OF RELEASE
+0025351 (ACE issue 12) - MONTH OF RELEASE
+0025352 (ACE issue 13) - MONTH OF RELEASE
+0025353 (ACE issue 14) - MONTH OF RELEASE
+0025354 (ACE issue 15) - MONTH OF RELEASE
+0025355 (ACE issue 16) - RELEASES
+0025355 (ACE issue 16) - MONTH OF RELEASE
+0025356 (ACE issue 17) - MONTH OF RELEASE
+0025470 (In the Loft) - ADDITIONALS
+0025490 (Golf) - MAGREFS
+0025517 (The Magic Land of Landlords) - REMARKS
+0025526 (Spanish Verbs) - ADDITIONALS
+0025528 (Hadrian's Wall) - ADDITIONALS
+0025654 (Computer Gamer issue 09) - MONTH OF RELEASE
+0026050 (Radiopower) - AUTHORS
+0026051 (Scuba) - AUTHORS
+0026054 (Paypackets) - AUTHORS
+0026089 (Swordsman) - AUTHORS
+0026210 (Big K issue 02) - MONTH OF RELEASE
+0026214 (Factfile) - ADDITIONALS
+0026272 (La Perla) - REMARKS
+0026273 (Libellula) - REMARKS
+0026274 (Paganini) - REMARKS
+0026275 (Supertitol) - REMARKS
+0026276 (Clive ad Hollywood) - REMARKS
+0026278 (Grafica) - REMARKS
+0026280 (Galileo Lander) - REMARKS
+0026281 (Chimica [2]) - REMARKS
+0026282 (Tennis 3D) - REMARKS
+0026283 (Rocky IV) - REMARKS
+0026284 (Castelbasic) - REMARKS
+0026285 (Turbo BASIC) - REMARKS
+0026287 (Sprite Editor) - REMARKS
+0026288 (Moonbase) - ADDITIONALS
+0026288 (Moonbase) - PUBLISHER
+0026288 (Moonbase) - RELEASES
+0026288 (Moonbase) - REMARKS
+0026288 (Moonbase) - ORIGINALPUBLICATION [On magazine covertape -> Standard]
+0026288 (Moonbase) - AVAILABILITY [Available -> ** DUPLICATED **]
+0026289 (Satellite Killer) - REMARKS
+0026291 (Play'N Learn Codice della Strada) - REMARKS
+0026292 (Italia) - REMARKS
+0026293 (ZX Silvan) - REMARKS
+0026294 (Delitto Alla Villa) - REMARKS
+0026295 (Studio di Accordi) - REMARKS
+0026296 (Subroutine) - REMARKS
+0026297 (Mario il Temerario) - REMARKS
+0026298 (Cinque Doni Sotto L'Albero) - REMARKS
+0026299 (Caricature [1]) - REMARKS
+0026300 (Buon Natale) - REMARKS
+0026301 (Super BASIC Instruzioni) - REMARKS
+0026302 (Concorso Ippico) - REMARKS
+0026303 (Tombola [2]) - REMARKS
+0026304 (The Way) - REMARKS
+0026305 (Play'n Learn: Segnali di pericolo) - REMARKS
+0026306 (Excercises of English Grammar [1]) - REMARKS
+0026307 (Little Akiko of the August Moon) - REMARKS
+0026308 (The Strong Box) - REMARKS
+0026309 (Ostar) - REMARKS
+0026310 (Morse Code) - REMARKS
+0026311 (Generatore di Sprite) - REMARKS
+0026312 (Mundial Caricature) - REMARKS
+0026313 (Musica) - REMARKS
+0026314 (La Statuetta Maya) - REMARKS
+0026315 (Calciomania) - REMARKS
+0026316 (Merge Screen) - REMARKS
+0026317 (Tennis) - REMARKS
+0026318 (Slot-Machine) - REMARKS
+0026319 (Excercises of English Grammar [2]) - REMARKS
+0026320 (Tototoolkit) - REMARKS
+0026321 (Riforma Sanitaria) - REMARKS
+0026322 (Barman) - REMARKS
+0026323 (Punchball) - REMARKS
+0026324 (L'Occhio del Diavolo) - REMARKS
+0026325 (Diaisto) - REMARKS
+0026326 (The King and the Castle) - REMARKS
+0026327 (Ping-Pong) - REMARKS
+0026328 (Il Castello Incantato) - REMARKS
+0026329 (Corso di Chitarra) - REMARKS
+0026330 (Matematica) - REMARKS
+0026331 (Space Flight) - REMARKS
+0026332 (Le Voleur) - REMARKS
+0026333 (Il Giro-Mondo) - REMARKS
+0026334 (Simona) - REMARKS
+0026335 (Pianola) - ADDITIONALS
+0026335 (Pianola) - PUBLISHER
+0026335 (Pianola) - RELEASES
+0026335 (Pianola) - REMARKS
+0026335 (Pianola) - ORIGINALPUBLICATION [On magazine covertape -> Standard]
+0026335 (Pianola) - AVAILABILITY [Available -> ** DUPLICATED **]
+0026336 (Il Sistema Solare) - REMARKS
+0026337 (Arredare) - REMARKS
+0026338 (Ski) - REMARKS
+0026339 (Party's Games) - REMARKS
+0026340 (Borsa) - REMARKS
+0026342 (Finestre) - REMARKS
+0026343 (The Fill) - REMARKS
+0026344 (Capitan Eagle nel Tempio Sconosciuto) - REMARKS
+0026345 (Alien [1]) - REMARKS
+0026346 (The War) - REMARKS
+0026347 (Monopoli) - REMARKS
+0026348 (Caricature [2]) - REMARKS
+0026349 (Ritorno dallo Spazio) - REMARKS
+0026350 (Lo Zoom) - REMARKS
+0026350 (Lo Zoom) - MOD OF
+0026353 (Roadstar) - REMARKS
+0026354 (Ascot) - REMARKS
+0026355 (Motor!) - REMARKS
+0026356 (La Spia) - REMARKS
+0026357 (Domino) - REMARKS
+0026358 (Save the Princess) - REMARKS
+0026359 (Screen Tool) - REMARKS
+0026360 (2 Voci) - REMARKS
+0026361 (Spectrum Sprites!) - REMARKS
+0026362 (Dichiarazione delle Persone Fisiche) - REMARKS
+0026363 (Le Voleur Strikes Back) - REMARKS
+0026364 (Fermate la Capetan Kid) - REMARKS
+0026365 (Messico) - REMARKS
+0026366 (Meteo2) - REMARKS
+0026367 (Discolight) - REMARKS
+0026368 (Harry L'Hippy) - REMARKS
+0026369 (LNR Odissey) - REMARKS
+0026370 (Dadi) - REMARKS
+0026371 (Murder) - REMARKS
+0026372 (Cosmos the Adventure!) - REMARKS
+0026373 (Finali) - REMARKS
+0026374 (Api) - REMARKS
+0026375 (Apaches) - REMARKS
+0026376 (Caccia al Tesoro nella Citta di Braio) - REMARKS
+0026377 (Synth) - REMARKS
+0026378 (IQ Test) - REMARKS
+0026379 (Compact Screen) - REMARKS
+0026380 (Surf) - REMARKS
+0026381 (Jimmy) - COMPILATION REFERENCE
+0026381 (Jimmy) - REMARKS
+0026382 (Alla Conquista del West) - REMARKS
+0026384 (Maxi Puzzle) - REMARKS
+0026385 (Piatto) - REMARKS
+0026386 (Flippout) - REMARKS
+0026387 (Ghosty) - REMARKS
+0026388 (Microdoc) - REMARKS
+0026389 (Operazione Ladro) - REMARKS
+0026390 (Guitar) - REMARKS
+0026391 (Stars Sistem) - REMARKS
+0026392 (Superscacchi) - ADDITIONALS
+0026392 (Superscacchi) - PUBLISHER
+0026392 (Superscacchi) - RELEASES
+0026392 (Superscacchi) - REMARKS
+0026392 (Superscacchi) - ORIGINALPUBLICATION [On magazine covertape -> Standard]
+0026392 (Superscacchi) - AVAILABILITY [Available -> ** DUPLICATED **]
+0026393 (Krull the Adventure) - REMARKS
+0026394 (The Hacker) - REMARKS
+0026395 (Pixel to Pixel) - REMARKS
+0026396 (Sorcerers' Land) - REMARKS
+0026397 (Manager) - REMARKS
+0026398 (Speccy Draw) - REMARKS
+0026399 (Nazca) - REMARKS
+0026400 (La Casa Stregata) - REMARKS
+0026401 (Fantasmi) - REMARKS
+0026402 (L'Aiutauto) - REMARKS
+0026403 (Funzioni) - REMARKS
+0026404 (Mani Mosca) - REMARKS
+0026405 (Oriental) - REMARKS
+0026406 (Ugh!) - REMARKS
+0026407 (MasterBASIC) - REMARKS
+0026408 (Minas Morgul) - REMARKS
+0026409 (ZX Cruciverber) - REMARKS
+0026410 (Merry Christmas) - REMARKS
+0026411 (Mosaico) - REMARKS
+0026412 (Roulette Russa) - REMARKS
+0026413 (Diamond Toolkit) - REMARKS
+0026414 (Pirata Kid) - REMARKS
+0026415 (Tombola Napoletana) - REMARKS
+0026416 (Proporzional) - REMARKS
+0026417 (Copy Video SCREEN$) - REMARKS
+0026419 (Missione Sabotage) - REMARKS
+0026420 (Azzurra) - REMARKS
+0026421 (Colormania) - REMARKS
+0026422 (Strip-tease Casino) - REMARKS
+0026423 (Confuze) - REMARKS
+0026424 (La Foresta) - REMARKS
+0026425 (Char Bank) - REMARKS
+0026426 (Supercalendario) - REMARKS
+0026427 (Min Ciam Pai) - REMARKS
+0026428 (Morg) - REMARKS
+0026429 (The Arrow) - REMARKS
+0026430 (Demoni) - REMARKS
+0026431 (Kronos) - REMARKS
+0026432 (Il Tesoro di Malpetra) - REMARKS
+0026433 (Joe Sgraffigna) - REMARKS
+0026434 (Il Tesoro del Dragone) - REMARKS
+0026435 (Sire Fire) - REMARKS
+0026436 (The Finder) - REMARKS
+0026437 (Ugo il Ladro) - REMARKS
+0026438 (Il Sonnambulo) - REMARKS
+0026439 (Dark Dimension) - REMARKS
+0026440 (Dieta) - REMARKS
+0026441 (Turbo-Tape) - REMARKS
+0026442 (Circus) - REMARKS
+0026443 (Stella d'Argento) - REMARKS
+0026444 (Guardie e Ladri) - REMARKS
+0026446 (Dimensione Sconosciuta) - REMARKS
+0026447 (Quark) - REMARKS
+0026448 (Investigator) - REMARKS
+0026449 (Jumper) - REMARKS
+0026450 (Spectrum's Doctor) - REMARKS
+0026451 (Marine) - REMARKS
+0026452 (Crunch) - REMARKS
+0026453 (Archivio Telefonico) - REMARKS
+0026454 (Sire Fire 2) - REMARKS
+0026455 (Mountain Stream) - REMARKS
+0026456 (Crono) - REMARKS
+0026457 (Aliens) - REMARKS
+0026458 (Killers) - REMARKS
+0026459 (Message from Pulsatron) - REMARKS
+0026460 (Reti Combinatorie a Due Livelli) - REMARKS
+0026461 (Investigator II) - REMARKS
+0026462 (Roulette [2]) - REMARKS
+0026463 (Paladini [1]) - REMARKS
+0026464 (Tiro Rapido) - REMARKS
+0026465 (Il Trentuno) - REMARKS
+0026466 (Opener) - REMARKS
+0026467 (Totoredox) - REMARKS
+0026468 (C.D.U.) - REMARKS
+0026469 (Ghost&Booster) - REMARKS
+0026470 (Microcode) - REMARKS
+0026471 (The Parser) - REMARKS
+0026472 (Thunderland) - REMARKS
+0026473 (Gigino&Gigetta) - REMARKS
+0026474 (Chemin de Fer) - REMARKS
+0026475 (Arrowmac) - REMARKS
+0026476 (Lancelot) - REMARKS
+0026477 (Balaclava) - REMARKS
+0026478 (Thunderland II) - REMARKS
+0026479 (Window Storer) - REMARKS
+0026480 (Super Puzzle) - REMARKS
+0026481 (Billy the Kid) - REMARKS
+0026482 (Multitasking) - REMARKS
+0026483 (Joystick Control) - REMARKS
+0026484 (Excalibur) - REMARKS
+0026485 (Ultima Chance) - REMARKS
+0026486 (La Foresta Dimenticata dal Tempo) - REMARKS
+0026487 (Totocalcio) - REMARKS
+0026488 (Spacelord) - REMARKS
+0026489 (Tempi Moderni '87) - REMARKS
+0026490 (Beta Base) - REMARKS
+0026491 (Down Up) - REMARKS
+0026492 (Inferi) - REMARKS
+0026493 (The Damned Castle) - REMARKS
+0026494 (La Voce) - REMARKS
+0026495 (Superbase) - REMARKS
+0026496 (Tristar) - REMARKS
+0026497 (Goblins) - REMARKS
+0026498 (3D Plus) - REMARKS
+0026499 (Terminal Modem) - REMARKS
+0026501 (Hic Game) - REMARKS
+0026502 (Deus) - REMARKS
+0026503 (Caterpillar) - REMARKS
+0026504 (Arrowmac 2) - REMARKS
+0026505 (Pop Corn) - REMARKS
+0026506 (Bronx) - REMARKS
+0026507 (Mac Art) - REMARKS
+0026508 (Major BASIC + 64 Print) - REMARKS
+0026509 (Explorer) - REMARKS
+0026510 (Middle Age) - REMARKS
+0026511 (Othello 3D) - REMARKS
+0026512 (Colorload) - REMARKS
+0026513 (Micronauts) - REMARKS
+0026514 (Luna Park) - REMARKS
+0026515 (3D Movie) - REMARKS
+0026516 (Master Copy) - REMARKS
+0026517 (Paladini [2]) - REMARKS
+0026536 (Elite 3) - PUBLISHER
+0026536 (Elite 3) - RELEASES
+0026748 (Slop-Slap) - RELEASES
+0026846 (Byte Transfer) - ADDITIONALS
+0026846 (Byte Transfer) - RELEASES
+0026846 (Byte Transfer) - AVAILABILITY [MIA -> Available]
+0026855 (Colour Change) - ADDITIONALS
+0026855 (Colour Change) - RELEASES
+0026857 (Compactor [1]) - RELEASES
+0026857 (Compactor [1]) - AVAILABILITY [MIA -> Available]
+0026884 (Goblet) - ADDITIONALS
+0026884 (Goblet) - RELEASES
+0026884 (Goblet) - AVAILABILITY [MIA -> Available]
+0026911 (Maze [2]) - ADDITIONALS
+0026911 (Maze [2]) - RELEASES
+0027009 (Ultralist) - ADDITIONALS
+0027009 (Ultralist) - RELEASES
+0027009 (Ultralist) - AVAILABILITY [MIA -> Available]
+0027035 (The Junior Ranger's Handbook) - COMPILATION REFERENCE
+0027035 (The Junior Ranger's Handbook) - REMARKS
+0027306 (Herbert the Turbot) - RELATED LINKS
+0027306 (Herbert the Turbot) - WEB LINKS
+0027404 (Computer Cargo Conquest) - ADDITIONALS
+0027414 (Computer Bomber Game) - ADDITIONALS
+0027415 (Computer Tennis Game) - ADDITIONALS
+0027416 (Computer Truckman Game) - ADDITIONALS
+0027423 (Detective) - REMARKS
+0027487 (Battaglia Navale) - REMARKS
+0027488 (Scopa) - REMARKS
+0027489 (Personal Quiz [3]) - REMARKS
+0027490 (Rotate 3D) - REMARKS
+0027491 (Sommergibile) - REMARKS
+0027492 (Wormywave) - REMARKS
+0027508 (Camel Trophy '86) - AUTHORS
+0027508 (Camel Trophy '86) - ORIGINALPUBLICATION [On magazine covertape -> Standard]
+0027587 (The Lost Tapes of Albion) - MODIFIED BY
+0027694 (Editeur Musical) - ADDITIONALS
+0027703 (Dossier G.) - ADDITIONALS
+0027723 (Computing Videoteca 3) - ADDITIONALS
+0027831 (Poker Strip) - REMARKS
+0027832 (Bis) - REMARKS
+0027833 (Sole) - REMARKS
+0027834 (Dama Cinese) - REMARKS
+0027835 (Furto Col Computer) - REMARKS
+0027836 (Avventura in Spectralia) - REMARKS
+0027837 (Briscola) - REMARKS
+0027838 (Dardi) - REMARKS
+0027839 (Yahtzee) - REMARKS
+0027840 (Copy) - REMARKS
+0027841 (Panico Allo Stadio) - REMARKS
+0027842 (Un Delitto) - REMARKS
+0027843 (The Day Before) - REMARKS
+0027844 (Segnali) - REMARKS
+0027845 (Spectrum Parlante) - REMARKS
+0027846 (Bioritmi) - REMARKS
+0027847 (Toolkit) - REMARKS
+0027849 (Inviato Speciale) - REMARKS
+0027850 (LM Collection) - REMARKS
+0027851 (Star Trek 5) - REMARKS
+0027852 (Elettrokit) - REMARKS
+0027853 (La Casa) - REMARKS
+0027854 (Tic Tac) - REMARKS
+0027855 (Compactor) - REMARKS
+0027856 (Casino Monique) - REMARKS
+0027858 (Archivio Programmi) - REMARKS
+0027859 (Lista Software) - REMARKS
+0027860 (New Beep) - REMARKS
+0027861 (Mike's Strike) - REMARKS
+0027862 (Exodus 2001) - REMARKS
+0027863 (Alien [2]) - REMARKS
+0027864 (New Commands) - REMARKS
+0027865 (The Lost Sword) - REMARKS
+0027866 (Disas 80) - REMARKS
+0027867 (Il Tempio Maledetto) - REMARKS
+0027868 (Mega Assembler) - REMARKS
+0027869 (2D Plus) - REMARKS
+0027870 (Proxima) - COMPILATION REFERENCE
+0027870 (Proxima) - REMARKS
+0027871 (Monitor) - COMPILATION REFERENCE
+0027871 (Monitor) - REMARKS
+0027897 (Road Education) - REMARKS
+0027898 (Chimica [1]) - REMARKS
+0027899 (Tombola [1]) - REMARKS
+0027900 (Alberoto) - REMARKS
+0027901 (Effetti Sonori) - REMARKS
+0027902 (Personal Quiz [1]) - REMARKS
+0027903 (Spectroca) - REMARKS
+0027904 (Fumetto: Generale Custer [1]) - REMARKS
+0027905 (Italia Tour) - REMARKS
+0027906 (Calendario) - REMARKS
+0027907 (Spia Copy) - REMARKS
+0027908 (Personal Quiz [2]) - REMARKS
+0027910 (Mega Draw) - REMARKS
+0027911 (ZX Calc) - REMARKS
+0027912 (Fumetto: Generale Custer [2]) - REMARKS
+0027913 (Personal Quiz [4]) - REMARKS
+0027914 (Le Casse Acustiche) - REMARKS
+0027915 (Errori Italiani) - REMARKS
+0027916 (Roulette [1]) - REMARKS
+0027917 (Personal Quiz [5]) - REMARKS
+0027943 (Zbylut Owrzodzien w Kamiennym, Kurwa, Zajebanym Czarcim Kregu) - AUTHORS
+0027965 (LumASCII) - RELATED LINKS
+0027965 (LumASCII) - WEB LINKS
+0028008 (Back to the Graphics) - COMPILATION REFERENCE
+0028008 (Back to the Graphics) - REMARKS
+0028019 (SpecTec Demo) - COMPILATION CONTENT
+0028019 (SpecTec Demo) - COMPILATION REFERENCE
+0028019 (SpecTec Demo) - REMARKS
+0028020 (Snake) - COMPILATION REFERENCE
+0028020 (Snake) - REMARKS
+0028028 (Intergalactic Space Rescue) - RELATED LINKS
+0028028 (Intergalactic Space Rescue) - WEB LINKS
+0028037 (Micro Primer - Software Pack 3) - ADDITIONALS
+0028054 (Knights & Demons) - AUTHORED
+0028068 (Magazzino) - FULLTITLE [Magazino -> Magazzino]
+0028072 (Geometria II) - REMARKS
+0028073 (Confusion) - REMARKS
+0028119 (Hunt the Wumpus) - ADDITIONALS
+0028157 (Gem Chaser) - RELATED LINKS
+0028157 (Gem Chaser) - WEB LINKS
+0028171 (FZX) - AUTHORS
+0028180 (IZX) - AUTHORS
+0028421 (Zork 2 - The Wizard of Frobozz (ZxZvm)) - SERIES
+0028422 (Zork 3 - The Dungeon Master (ZxZvm)) - SERIES
+0028454 (CSSCGC Crap Games Competition 1996) - PUBLISHER
+0028454 (CSSCGC Crap Games Competition 1996) - RELEASES
+0028454 (CSSCGC Crap Games Competition 1996) - SERIES
+0028455 (CSSCGC Crap Games Competition 1997) - PUBLISHER
+0028455 (CSSCGC Crap Games Competition 1997) - RELEASES
+0028455 (CSSCGC Crap Games Competition 1997) - SERIES
+0028456 (CSSCGC Crap Games Competition 1998) - PUBLISHER
+0028456 (CSSCGC Crap Games Competition 1998) - RELEASES
+0028456 (CSSCGC Crap Games Competition 1998) - SERIES
+0028457 (CSSCGC Crap Games Competition 1999) - SERIES
+0028458 (CSSCGC Crap Games Competition 2000) - SERIES
+0028459 (CSSCGC Crap Games Competition 2001) - SERIES
+0028460 (CSSCGC Crap Games Competition 2002) - SERIES
+0028461 (CSSCGC Crap Games Competition 2003) - SERIES
+0028462 (CSSCGC Crap Games Competition 2004) - SERIES
+0028463 (CSSCGC Crap Games Competition 2005) - SERIES
+0028464 (CSSCGC Crap Games Competition 2006) - SERIES
+0028465 (CSSCGC Crap Games Competition 2007) - SERIES
+0028466 (CSSCGC Crap Games Competition 2008) - SERIES
+0028467 (CSSCGC Crap Games Competition 2009) - SERIES
+0028468 (CSSCGC Crap Games Competition 2010) - SERIES
+0028469 (CSSCGC Crap Games Competition 2011) - SERIES
+0028470 (CSSCGC Crap Games Competition 2012) - SERIES
+0028471 (CSSCGC Crap Games Competition 2013) - COMPILATION CONTENT
+0028471 (CSSCGC Crap Games Competition 2013) - SERIES
+0028472 (CSSCGC Crap Games Competition 2014) - COMPILATION CONTENT
+0028472 (CSSCGC Crap Games Competition 2014) - SERIES
+0028473 (CSSCGC Crap Games Competition 2015) - SERIES
+0028474 (CSSCGC Crap Games Competition 2016) - SERIES
+0028475 (CSSCGC Crap Games Competition 2017) - SERIES
+0028476 (CSSCGC Crap Games Competition 2018) - SERIES
+0028748 (Catacombs) - RELEASES
+0029655 (Starship Nova) - AUTHORS
+0030001 (NIRVANA ENGINE) - AUTHORING
+0030008 (MT Engine MK1 - La Churrera) - AUTHORING
+0030023 (Gem Chaser 2) - RELATED LINKS
+0030023 (Gem Chaser 2) - WEB LINKS
+0030139 (X=Y=Z) - RELATED LINKS
+0030139 (X=Y=Z) - WEB LINKS
+0030187 (Simple Silent Snake) - AUTHORS
+0030231 (Red Planet) - RELATED LINKS
+0030231 (Red Planet) - WEB LINKS
+0030267 (Wake Me Up!) - FEATURES
+0030277 (ELF, La Aventura - Parte 1) - RELATED LINKS
+0030277 (ELF, La Aventura - Parte 1) - WEB LINKS
+0030306 (Sam Mallard: The Case of the Missing Swan) - RELATED LINKS
+0030306 (Sam Mallard: The Case of the Missing Swan) - WEB LINKS
+0030312 (Mysterious Dimensions) - AUTHORS
+0030342 (WOOT! Tape Magazine issue #0 - ZXMAS 2016 Edition) - COMPILATION CONTENT
+0030342 (WOOT! Tape Magazine issue #0 - ZXMAS 2016 Edition) - MONTH OF RELEASE
+0030347 (Pietro Bros) - RELATED LINKS
+0030347 (Pietro Bros) - WEB LINKS
+0030350 (Rock, Paper, Scissors, Pudding, Drop!) - PUBLISHER
+0030350 (Rock, Paper, Scissors, Pudding, Drop!) - RELEASES
+0030362 (Heroes Rescue) - RELATED LINKS
+0030362 (Heroes Rescue) - WEB LINKS
+0030408 (Robot 1 in... The Ship of Doom) - ADDITIONALS
+0030409 (Quill Thrill Vol 3) - COMPILATION CONTENT
+0030410 (Break/Space) - RELATED LINKS
+0030410 (Break/Space) - WEB LINKS
+0030415 (That Sinking Feeling) - RELATED LINKS
+0030415 (That Sinking Feeling) - WEB LINKS
+0030430 (Terrapins) - RELATED LINKS
+0030430 (Terrapins) - WEB LINKS
+0030444 (Blimpgeddon) - RELATED LINKS
+0030444 (Blimpgeddon) - WEB LINKS
+0030450 (2D Minimaze) - COMPILATION REFERENCE
+0030451 (3D Maze) - COMPILATION REFERENCE
+0030452 (Adventure in Bristol) - COMPILATION REFERENCE
+0030453 (Anagrams 2) - COMPILATION REFERENCE
+0030454 (Anthea Turner's National Lottery Simulator) - COMPILATION REFERENCE
+0030455 (Build That Tower) - COMPILATION REFERENCE
+0030456 (Burp Man) - COMPILATION REFERENCE
+0030457 (Cantona Football) - COMPILATION REFERENCE
+0030458 (Car) - COMPILATION REFERENCE
+0030459 (Castle) - COMPILATION REFERENCE
+0030460 (Cat + Mouse) - COMPILATION REFERENCE
+0030461 (Chess) - COMPILATION REFERENCE
+0030462 (Credit Calculator) - COMPILATION REFERENCE
+0030463 (Dark Room Simulator) - COMPILATION REFERENCE
+0030464 (Dyke) - COMPILATION REFERENCE
+0030465 (Einstein) - COMPILATION REFERENCE
+0030466 (Filler) - COMPILATION REFERENCE
+0030467 (Hangman) - COMPILATION REFERENCE
+0030468 (Keys) - COMPILATION REFERENCE
+0030469 (Kingdom) - COMPILATION REFERENCE
+0030470 (Lego Simulator) - COMPILATION REFERENCE
+0030471 (Maths Invaders) - COMPILATION REFERENCE
+0030472 (Maze) - COMPILATION REFERENCE
+0030473 (Maze 2) - COMPILATION REFERENCE
+0030474 (The Mighty Sword of the Dark) - COMPILATION REFERENCE
+0030475 (Mr Blobby Goes Down The Newsagents) - COMPILATION REFERENCE
+0030476 (Naughts and Crosses) - COMPILATION REFERENCE
+0030477 (New Age Warper) - COMPILATION REFERENCE
+0030478 (Nim) - COMPILATION REFERENCE
+0030479 (Orbit) - COMPILATION REFERENCE
+0030480 (Overboard) - COMPILATION REFERENCE
+0030481 (Patterns) - COMPILATION REFERENCE
+0030482 (Plus 3 Tennis II) - COMPILATION REFERENCE
+0030483 (Poker) - COMPILATION REFERENCE
+0030484 (Purple Demon) - COMPILATION REFERENCE
+0030485 (Reaction Time) - COMPILATION REFERENCE
+0030486 (Shoot That Tank) - COMPILATION REFERENCE
+0030487 (Skiing) - COMPILATION REFERENCE
+0030488 (Snake) - COMPILATION REFERENCE
+0030489 (Snake 2) - COMPILATION REFERENCE
+0030490 (Sokoban) - COMPILATION REFERENCE
+0030491 (SpecDaleks) - COMPILATION REFERENCE
+0030492 (Spectrum Landers) - COMPILATION REFERENCE
+0030493 (Stars 2) - COMPILATION REFERENCE
+0030494 (Stars 3) - COMPILATION REFERENCE
+0030495 (Stuntman) - COMPILATION REFERENCE
+0030496 (Super Bomber) - COMPILATION REFERENCE
+0030497 (Surround) - COMPILATION REFERENCE
+0030498 (Tennis) - COMPILATION REFERENCE
+0030499 (Tetris) - COMPILATION REFERENCE
+0030500 (Tetris - The Text Adventure) - COMPILATION REFERENCE
+0030501 (TEWShips) - COMPILATION REFERENCE
+0030502 (Turbo Racers) - COMPILATION REFERENCE
+0030503 (Valley Racer 3D) - COMPILATION REFERENCE
+0030504 (Wacky Zany Painter Guy) - COMPILATION REFERENCE
+0030505 (Wari) - COMPILATION REFERENCE
+0030506 (Washing Day) - COMPILATION REFERENCE
+0030507 (Whale Hunt) - COMPILATION REFERENCE
+0030508 (Advanced Advocacy Simulator) - COMPILATION REFERENCE
+0030509 (Advanced Road Rage Simulator - M4 Joyrider Edition) - COMPILATION REFERENCE
+0030510 (Alien Death Mine Massacre XII) - COMPILATION REFERENCE
+0030511 (Andrew's) - COMPILATION REFERENCE
+0030512 (Balloon) - COMPILATION REFERENCE
+0030513 (Bash N' Grab) - COMPILATION REFERENCE
+0030514 (Blitz) - COMPILATION REFERENCE
+0030515 (Bludisko) - COMPILATION REFERENCE
+0030516 (Boing... Plop) - COMPILATION REFERENCE
+0030517 (Breakout) - COMPILATION REFERENCE
+0030518 (Bullseye) - COMPILATION REFERENCE
+0030519 (Caves Of Mondonia) - COMPILATION REFERENCE
+0030520 (Countdown) - COMPILATION REFERENCE
+0030521 (CPEL) - COMPILATION REFERENCE
+0030522 (Daleks) - COMPILATION REFERENCE
+0030523 (Ego) - COMPILATION REFERENCE
+0030524 (Escape!) - COMPILATION REFERENCE
+0030525 (Fruit) - COMPILATION REFERENCE
+0030526 (Get That Emulator) - COMPILATION REFERENCE
+0030527 (Ghosts) - COMPILATION REFERENCE
+0030528 (Ground Strike) - COMPILATION REFERENCE
+0030529 (Hockey) - COMPILATION REFERENCE
+0030530 (Horace Goes Seal Culling) - COMPILATION REFERENCE
+0030531 (Invaders) - COMPILATION REFERENCE
+0030532 (Maze Change) - COMPILATION REFERENCE
+0030533 (Maze Chase) - COMPILATION REFERENCE
+0030534 (Metal Detector '79) - COMPILATION REFERENCE
+0030535 (Minefield) - COMPILATION REFERENCE
+0030536 (Minesweeper) - COMPILATION REFERENCE
+0030537 (Moggy Murder) - COMPILATION REFERENCE
+0030538 (Naughts and Crosses) - COMPILATION REFERENCE
+0030539 (Number) - COMPILATION REFERENCE
+0030540 (Pi Week The Quest) - COMPILATION REFERENCE
+0030541 (Practice) - COMPILATION REFERENCE
+0030542 (Purple Demon II) - COMPILATION REFERENCE
+0030543 (Sink The Belgrano) - COMPILATION REFERENCE
+0030544 (Slalom) - COMPILATION REFERENCE
+0030545 (Snakes and Adders) - COMPILATION REFERENCE
+0030546 (Space) - COMPILATION REFERENCE
+0030547 (Squash) - COMPILATION REFERENCE
+0030548 (Super Amazing Filler) - COMPILATION REFERENCE
+0030549 (Super Amazing Filler II Turbo - Attack of the Graffiti Monsters) - COMPILATION REFERENCE
+0030550 (Tank Sums) - COMPILATION REFERENCE
+0030551 (Target) - COMPILATION REFERENCE
+0030552 (Tennis) - COMPILATION REFERENCE
+0030553 (Tour of the Knight) - COMPILATION REFERENCE
+0030554 (Wheelchair) - COMPILATION REFERENCE
+0030555 (Wimbledon '97) - COMPILATION REFERENCE
+0030556 (The Worm) - COMPILATION REFERENCE
+0030557 (Zen and the Art of Paint Drying) - COMPILATION REFERENCE
+0030558 (1D Tetris) - COMPILATION REFERENCE
+0030559 (3D Advanced Marathon Simulator) - COMPILATION REFERENCE
+0030560 (Advanced Binary Simulator) - COMPILATION REFERENCE
+0030561 (Advanced Death Simulator) - COMPILATION REFERENCE
+0030562 (Advanced Illegal Parking Simulator) - COMPILATION REFERENCE
+0030563 (Advanced Shoplifting Simulator) - COMPILATION REFERENCE
+0030564 (Advanced Wallpaper Simulator) - COMPILATION REFERENCE
+0030565 (Advanced Windows 95 Simulator) - COMPILATION REFERENCE
+0030566 (Advanced Wnking Simulator) - COMPILATION REFERENCE
+0030567 (Alien Abduction Simulator) - COMPILATION REFERENCE
+0030568 (Back Of The Grid - The Sinclair C5 Simulator) - COMPILATION REFERENCE
+0030569 (Back Of The Grid II - Advanced C5 Simulator) - COMPILATION REFERENCE
+0030570 (Back Of The Grid III - Professional C5 Simulator) - COMPILATION REFERENCE
+0030571 (The Best Thing Since Sliced Bread) - COMPILATION REFERENCE
+0030572 (Cheese Magnate) - COMPILATION REFERENCE
+0030573 (Coin Toss Simulator) - COMPILATION REFERENCE
+0030574 (comp.sys.sinclair Crap Games Comp) - COMPILATION REFERENCE
+0030575 (Conway's Death) - COMPILATION REFERENCE
+0030576 (Crap Piano Sim) - COMPILATION REFERENCE
+0030577 (Emulator) - COMPILATION REFERENCE
+0030578 (Escape From The... men in White Coats) - COMPILATION REFERENCE
+0030579 (Horace Goes Snowboarding) - COMPILATION REFERENCE
+0030580 (IBM PC Emulator) - COMPILATION REFERENCE
+0030581 (Jet Fighters) - COMPILATION REFERENCE
+0030582 (Magic Square) - COMPILATION REFERENCE
+0030583 (MF2) - COMPILATION REFERENCE
+0030584 (Mind Games) - COMPILATION REFERENCE
+0030585 (MYST Demo) - COMPILATION REFERENCE
+0030586 (Off My Ed) - COMPILATION REFERENCE
+0030587 (Official Hearing Test) - COMPILATION REFERENCE
+0030588 (Poke Alex In The Eye - The Game) - COMPILATION REFERENCE
+0030589 (Poke Alex In The Eye II) - COMPILATION REFERENCE
+0030590 (Purple Demon III) - COMPILATION REFERENCE
+0030591 (Quake) - COMPILATION REFERENCE
+0030592 (Reaction!!) - COMPILATION REFERENCE
+0030593 (RM380Z Emulator) - COMPILATION REFERENCE
+0030594 (Sir Clive Sinclair - Entrepreneur Extrordinaire) - COMPILATION REFERENCE
+0030595 (Skinhead) - COMPILATION REFERENCE
+0030596 (Snake 2) - COMPILATION REFERENCE
+0030597 (Software Piracy Simulator) - COMPILATION REFERENCE
+0030598 (Spice Girls Manager) - COMPILATION REFERENCE
+0030599 (Super Beam Riders) - COMPILATION REFERENCE
+0030600 (That Pythonesque Foot) - COMPILATION REFERENCE
+0030601 (The Retuners - The Game) - COMPILATION REFERENCE
+0030602 (Trebuchet) - COMPILATION REFERENCE
+0030603 (Ultimate IRC) - COMPILATION REFERENCE
+0030604 (World Cup) - COMPILATION REFERENCE
+0030605 (World Cup Final) - COMPILATION REFERENCE
+0030606 (World War 2.5 - Hitler's Revenge) - COMPILATION REFERENCE
+0030607 (Wurmer) - COMPILATION REFERENCE
+0030608 (Yahtzee) - COMPILATION REFERENCE
+0031086 (Text-Only Grand Prix 2009) - RELATED LINKS
+0031086 (Text-Only Grand Prix 2009) - WEB LINKS
+0031254 (Alan Whicker Simulator) - AUTHORS
+0031254 (Alan Whicker Simulator) - PUBLISHER
+0031254 (Alan Whicker Simulator) - RELEASES
+0031317 (Samantha Fox Strip Snap) - AUTHORS
+0031317 (Samantha Fox Strip Snap) - PUBLISHER
+0031317 (Samantha Fox Strip Snap) - RELEASES
+0031339 (Advanced Cricket Simulator) - AUTHORS
+0031339 (Advanced Cricket Simulator) - PUBLISHER
+0031339 (Advanced Cricket Simulator) - RELEASES
+0031360 (Good Nights Sleep Simulator) - AUTHORS
+0031360 (Good Nights Sleep Simulator) - PUBLISHER
+0031360 (Good Nights Sleep Simulator) - RELEASES
+0031362 (Hangman for Idiots) - AUTHORS
+0031362 (Hangman for Idiots) - PUBLISHER
+0031362 (Hangman for Idiots) - RELEASES
+0031363 (Harry the Baby Saves the World With His Amazing Water Pistol) - AUTHORS
+0031363 (Harry the Baby Saves the World With His Amazing Water Pistol) - PUBLISHER
+0031363 (Harry the Baby Saves the World With His Amazing Water Pistol) - RELEASES
+0031388 (Ultimate ZX Spectrum Games Designer) - AUTHORS
+0031388 (Ultimate ZX Spectrum Games Designer) - PUBLISHER
+0031388 (Ultimate ZX Spectrum Games Designer) - RELEASES
+0031389 (Ultimate Horse Racing Simulator) - AUTHORS
+0031389 (Ultimate Horse Racing Simulator) - PUBLISHER
+0031389 (Ultimate Horse Racing Simulator) - RELEASES
+0031463 (Verify The Pie or Not!) - AUTHORED
+0031463 (Verify The Pie or Not!) - AUTHORS
+0031496 (Knockabout) - RELEASES
+0031506 (5-2K Family Pak) - ORIGINALPUBLICATION (Deleted)
+0031911 (Ant Attack) - RELATED LINKS
+0031911 (Ant Attack) - WEB LINKS
+0031914 (Avalanche) - ADDITIONALS
+0031917 (Boulder Logic) - RELATED LINKS
+0031917 (Boulder Logic) - WEB LINKS
+0031919 (Boxing Champ) - ADDITIONALS
+0031926 (CroZXy Road) - RELATED LINKS
+0031926 (CroZXy Road) - WEB LINKS
+0031927 (Domin8tr1s) - RELATED LINKS
+0031927 (Domin8tr1s) - WEB LINKS
+0031928 (Down!) - ADDITIONALS
+0031937 (Impact!) - RELATED LINKS
+0031937 (Impact!) - WEB LINKS
+0031948 (Mayhem) - ADDITIONALS
+0031952 (Miner Man) - RELATED LINKS
+0031952 (Miner Man) - WEB LINKS
+0031954 (Noir Shapes) - RELATED LINKS
+0031954 (Noir Shapes) - WEB LINKS
+0031956 (One Little Ghost) - RELATED LINKS
+0031956 (One Little Ghost) - WEB LINKS
+0031959 (Pandemic) - RELATED LINKS
+0031959 (Pandemic) - WEB LINKS
+0031962 (Quack!) - RELATED LINKS
+0031962 (Quack!) - WEB LINKS
+0031965 (Rebound) - RELATED LINKS
+0031965 (Rebound) - WEB LINKS
+0031968 (Rush) - ADDITIONALS
+0031970 (Shifted) - ADDITIONALS
+0031975 (Stairrunner) - ADDITIONALS
+0031980 (U-Bend) - RELATED LINKS
+0031980 (U-Bend) - WEB LINKS
+0031982 (Virus) - RELATED LINKS
+0031982 (Virus) - WEB LINKS
+0031986 (ZXagon) - RELATED LINKS
+0031986 (ZXagon) - WEB LINKS
+0032083 (Valkirie + Guerrilha Cosmica + Zor) - ADDITIONALS
+0032152 (Minesweeper 16/48) - RELATED LINKS
+0032152 (Minesweeper 16/48) - WEB LINKS
+0032157 (Vallation 128K) - RELATED LINKS
+0032157 (Vallation 128K) - WEB LINKS
+0032177 (WOOT! Tape Magazine issue #1 - ZXMAS 2017 Edition) - MONTH OF RELEASE
+0032200 (Jilly's Farm Volume 1 - SokoBAArn!) - RELATED LINKS
+0032200 (Jilly's Farm Volume 1 - SokoBAArn!) - WEB LINKS
+0032209 (In Nihilum Reverteris) - AUTHORS
+0032220 (Roust) - RELATED LINKS
+0032220 (Roust) - WEB LINKS
+0032231 (Gandalf) - RELATED LINKS
+0032231 (Gandalf) - WEB LINKS
+0032245 (Impossabubble) - RELATED LINKS
+0032245 (Impossabubble) - WEB LINKS
+0032248 (The Royal Game of UR) - RELATED LINKS
+0032248 (The Royal Game of UR) - WEB LINKS
+0032297 (Seto Taisho to Kazan) - ADDITIONALS
+0033381 (The Dungeon of Bhalgora) - RELATED LINKS
+0033381 (The Dungeon of Bhalgora) - WEB LINKS
+0033387 (baSnake) - RELATED LINKS
+0033387 (baSnake) - WEB LINKS
+0034312 (Hibernated 1: This Place is Death) - RELATED LINKS
+0034312 (Hibernated 1: This Place is Death) - WEB LINKS
+0034334 (Lost in Worlds) - RELATED LINKS
+0034334 (Lost in Worlds) - WEB LINKS
+0034337 (BLAM) - ADDITIONALS
+0034339 (Line) - RELATED LINKS
+0034339 (Line) - WEB LINKS
+0034424 (Robots Rumble) - RELATED LINKS
+0034424 (Robots Rumble) - WEB LINKS
+0034447 (Unhallowed) - RELATED LINKS
+0034447 (Unhallowed) - WEB LINKS
+0034528 (Mage - The Enchanted Crystals) - ADDITIONALS
+0034528 (Mage - The Enchanted Crystals) - YOUTUBE LINKS
+0034622 (Quadron) - RELATED LINKS
+0034622 (Quadron) - WEB LINKS
+0034630 (Clickety Click's Dungeon) - RELATED LINKS
+0034630 (Clickety Click's Dungeon) - WEB LINKS
+0034636 (Octukitty) - RELATED LINKS
+0034636 (Octukitty) - WEB LINKS
+0034650 (The Malignant Gore) - RELATED LINKS
+0034650 (The Malignant Gore) - WEB LINKS
+0034668 (Eight Feet Under) - RELATED LINKS
+0034668 (Eight Feet Under) - WEB LINKS
+0034680 (Moritz Strikes Back) - RELATED LINKS
+0034680 (Moritz Strikes Back) - WEB LINKS
+0034687 (Manic Pietro) - RELATED LINKS
+0034687 (Manic Pietro) - WEB LINKS
+0034714 (Redshift) - RELATED LINKS
+0034714 (Redshift) - WEB LINKS
+0034716 (Ninja Gardening Simulator) - RELATED LINKS
+0034716 (Ninja Gardening Simulator) - WEB LINKS
+0034718 (Ninjakul 2: The Last Ninja) - RELATED LINKS
+0034718 (Ninjakul 2: The Last Ninja) - WEB LINKS
+0034723 (Dead Zone) - RELATED LINKS
+0034723 (Dead Zone) - WEB LINKS
+0034730 (Misifu la Gatita) - RELATED LINKS
+0034730 (Misifu la Gatita) - WEB LINKS
+0034732 (Artillery) - RELATED LINKS
+0034732 (Artillery) - WEB LINKS
+0034736 (Lost Party Invitation) - AUTHORS
+0034736 (Lost Party Invitation) - PUBLISHER
+0034736 (Lost Party Invitation) - RELEASES
+0034770 (The Rubber Maze) - REMARKS
+0034800 (Sc0tb0t) - RELATED LINKS
+0034800 (Sc0tb0t) - WEB LINKS
+0034801 (Invasion Of The Cloud People) - RELATED LINKS
+0034801 (Invasion Of The Cloud People) - WEB LINKS
+0034810 (Krap Park) - AUTHORS
+0034813 (Percy Penguin in The Present Palaver) - AUTHORS
+0034813 (Percy Penguin in The Present Palaver) - RELATED LINKS
+0034813 (Percy Penguin in The Present Palaver) - WEB LINKS
+0034845 (Cosmito en Imperio Cobra) - RELATED LINKS
+0034845 (Cosmito en Imperio Cobra) - WEB LINKS
+0034857 (GLAZX) - RELATED LINKS
+0034857 (GLAZX) - WEB LINKS
+0034858 (F'n Balls) - AUTHORS
+0034994 (The Golden Sword of Bhakhor) - FULLTITLE [The Golden Sword of Bhakor -> The Golden Sword of Bhakhor]
+0034995 (The Lost Disks of SAM) - MOD OF
+0035102 (Knights and Demons 2) - AUTHORED
+0035107 (Mage Rage) - AUTHORS
+0035107 (Mage Rage) - RELATED LINKS
+0035107 (Mage Rage) - WEB LINKS
+0035110 (Una Bruma en Stratford) - RELATED LINKS
+0035110 (Una Bruma en Stratford) - WEB LINKS
+0035112 (The Curse of Trasmoz) - RELATED LINKS
+0035112 (The Curse of Trasmoz) - WEB LINKS
+0035113 (Nixy and the Seeds of Doom) - AUTHORS
+0035115 (Paintball 2048) - RELATED LINKS
+0035115 (Paintball 2048) - WEB LINKS
+0035117 (Rescate en Marte) - RELATED LINKS
+0035117 (Rescate en Marte) - WEB LINKS
+0035121 (Black and White) - RELATED LINKS
+0035121 (Black and White) - WEB LINKS
+0035128 (Bubblegum Bros.) - RELATED LINKS
+0035128 (Bubblegum Bros.) - WEB LINKS
+0035129 (DeltaStar - Earth Defense) - RELATED LINKS
+0035129 (DeltaStar - Earth Defense) - WEB LINKS
+0035130 (Dungeonette) - RELATED LINKS
+0035130 (Dungeonette) - WEB LINKS
+0035135 (Montana Mike) - RELATED LINKS
+0035135 (Montana Mike) - WEB LINKS
+0035159 (Hunt Buck: Nuclear Defence) - RELATED LINKS
+0035159 (Hunt Buck: Nuclear Defence) - WEB LINKS
+0035165 (Quest for Elements) - PUBLISHER
+0035165 (Quest for Elements) - RELEASES
+0035166 (Pre-ZU) - AUTHORS
+0035166 (Pre-ZU) - PUBLISHER
+0035166 (Pre-ZU) - RELEASES
+0035209 (LAFIX 2) - RELATED LINKS
+0035209 (LAFIX 2) - WEB LINKS
+0035232 (El Mosquetero de la Reina (Capítulo 1: El mensajero)) - RELATED LINKS
+0035232 (El Mosquetero de la Reina (Capítulo 1: El mensajero)) - WEB LINKS
+0035240 (Una Luz en la Nieve) - RELATED LINKS
+0035240 (Una Luz en la Nieve) - WEB LINKS
+0035256 (Load 'n' Run issue 01) - RELEASES
+0035256 (Load 'n' Run issue 01) - MONTH OF RELEASE
+0035257 (Load 'n' Run issue 02) - RELEASES
+0035257 (Load 'n' Run issue 02) - MONTH OF RELEASE
+0035258 (Load 'n' Run issue 03) - RELEASES
+0035258 (Load 'n' Run issue 03) - MONTH OF RELEASE
+0035259 (Load 'n' Run issue 04) - RELEASES
+0035259 (Load 'n' Run issue 04) - MONTH OF RELEASE
+0035260 (Load 'n' Run issue 05) - RELEASES
+0035260 (Load 'n' Run issue 05) - MONTH OF RELEASE
+0035261 (Load 'n' Run issue 06) - RELEASES
+0035261 (Load 'n' Run issue 06) - MONTH OF RELEASE
+0035262 (Load 'n' Run issue 07) - RELEASES
+0035262 (Load 'n' Run issue 07) - MONTH OF RELEASE
+0035263 (Load 'n' Run issue 08) - RELEASES
+0035263 (Load 'n' Run issue 08) - MONTH OF RELEASE
+0035264 (Load 'n' Run issue 09) - RELEASES
+0035264 (Load 'n' Run issue 09) - MONTH OF RELEASE
+0035265 (Load 'n' Run issue 10) - RELEASES
+0035265 (Load 'n' Run issue 10) - MONTH OF RELEASE
+0035266 (Load 'n' Run issue 11) - RELEASES
+0035266 (Load 'n' Run issue 11) - MONTH OF RELEASE
+0035267 (Load 'n' Run issue 12) - RELEASES
+0035267 (Load 'n' Run issue 12) - MONTH OF RELEASE
+0035268 (Load 'n' Run issue 13) - RELEASES
+0035268 (Load 'n' Run issue 13) - MONTH OF RELEASE
+0035269 (Load 'n' Run issue 14) - RELEASES
+0035269 (Load 'n' Run issue 14) - MONTH OF RELEASE
+0035270 (Load 'n' Run issue 15) - RELEASES
+0035270 (Load 'n' Run issue 15) - MONTH OF RELEASE
+0035271 (Load 'n' Run issue 16) - RELEASES
+0035271 (Load 'n' Run issue 16) - MONTH OF RELEASE
+0035272 (Load 'n' Run issue 17) - RELEASES
+0035272 (Load 'n' Run issue 17) - MONTH OF RELEASE
+0035273 (Load 'n' Run issue 18) - RELEASES
+0035273 (Load 'n' Run issue 18) - MONTH OF RELEASE
+0035274 (Load 'n' Run issue 19) - RELEASES
+0035274 (Load 'n' Run issue 19) - MONTH OF RELEASE
+0035275 (Load 'n' Run issue 20) - RELEASES
+0035275 (Load 'n' Run issue 20) - MONTH OF RELEASE
+0035276 (Load 'n' Run issue 21) - RELEASES
+0035276 (Load 'n' Run issue 21) - MONTH OF RELEASE
+0035277 (Load 'n' Run issue 22) - RELEASES
+0035277 (Load 'n' Run issue 22) - MONTH OF RELEASE
+0035278 (Load 'n' Run issue 23) - RELEASES
+0035278 (Load 'n' Run issue 23) - MONTH OF RELEASE
+0035279 (Load 'n' Run issue 24) - RELEASES
+0035279 (Load 'n' Run issue 24) - MONTH OF RELEASE
+0035280 (Load 'n' Run issue 25) - RELEASES
+0035280 (Load 'n' Run issue 25) - MONTH OF RELEASE
+0035281 (Load 'n' Run issue 26) - RELEASES
+0035281 (Load 'n' Run issue 26) - MONTH OF RELEASE
+0035282 (Load 'n' Run issue 27) - RELEASES
+0035282 (Load 'n' Run issue 27) - MONTH OF RELEASE
+0035283 (Load 'n' Run issue 28) - RELEASES
+0035283 (Load 'n' Run issue 28) - MONTH OF RELEASE
+0035284 (Load 'n' Run issue 29) - RELEASES
+0035284 (Load 'n' Run issue 29) - MONTH OF RELEASE
+0035285 (Load 'n' Run issue 30) - RELEASES
+0035285 (Load 'n' Run issue 30) - MONTH OF RELEASE
+0035286 (Load 'n' Run issue 31) - RELEASES
+0035286 (Load 'n' Run issue 31) - MONTH OF RELEASE
+0035287 (Load 'n' Run issue 32) - RELEASES
+0035287 (Load 'n' Run issue 32) - MONTH OF RELEASE
+0035288 (Load 'n' Run issue 33) - RELEASES
+0035288 (Load 'n' Run issue 33) - MONTH OF RELEASE
+0035289 (Load 'n' Run issue 34) - RELEASES
+0035289 (Load 'n' Run issue 34) - MONTH OF RELEASE
+0035290 (Load 'n' Run issue 35) - RELEASES
+0035290 (Load 'n' Run issue 35) - MONTH OF RELEASE
+0035291 (Load 'n' Run issue 36) - RELEASES
+0035291 (Load 'n' Run issue 36) - MONTH OF RELEASE
+0035292 (Load 'n' Run issue 37) - RELEASES
+0035292 (Load 'n' Run issue 37) - MONTH OF RELEASE
+0035293 (Load 'n' Run issue 38) - RELEASES
+0035293 (Load 'n' Run issue 38) - MONTH OF RELEASE
+0035294 (Load 'n' Run issue 39) - RELEASES
+0035294 (Load 'n' Run issue 39) - MONTH OF RELEASE
+0035295 (Load 'n' Run issue 40) - COMPILATION CONTENT
+0035295 (Load 'n' Run issue 40) - RELEASES
+0035295 (Load 'n' Run issue 40) - MONTH OF RELEASE
+0035296 (Load 'n' Run issue 41) - RELEASES
+0035296 (Load 'n' Run issue 41) - MONTH OF RELEASE
+0035297 (Load 'n' Run issue 42) - RELEASES
+0035297 (Load 'n' Run issue 42) - MONTH OF RELEASE
+0035298 (Load 'n' Run issue 43) - RELEASES
+0035298 (Load 'n' Run issue 43) - MONTH OF RELEASE
+0035299 (Load 'n' Run issue 44) - RELEASES
+0035299 (Load 'n' Run issue 44) - MONTH OF RELEASE
+0035300 (Load 'n' Run issue 45) - RELEASES
+0035300 (Load 'n' Run issue 45) - MONTH OF RELEASE
+0035301 (Load 'n' Run issue 46) - RELEASES
+0035301 (Load 'n' Run issue 46) - MONTH OF RELEASE
+0035302 (Load 'n' Run issue 47) - RELEASES
+0035302 (Load 'n' Run issue 47) - MONTH OF RELEASE
+0035303 (Load 'n' Run issue 48) - RELEASES
+0035303 (Load 'n' Run issue 48) - MONTH OF RELEASE
+0035304 (Load 'n' Run issue 49) - RELEASES
+0035304 (Load 'n' Run issue 49) - MONTH OF RELEASE
+0035305 (Load 'n' Run issue 50) - RELEASES
+0035305 (Load 'n' Run issue 50) - MONTH OF RELEASE
+0035306 (Load 'n' Run issue 51) - COMPILATION CONTENT
+0035306 (Load 'n' Run issue 51) - RELEASES
+0035306 (Load 'n' Run issue 51) - MONTH OF RELEASE
+0035307 (Load 'n' Run issue 52) - COMPILATION CONTENT
+0035307 (Load 'n' Run issue 52) - RELEASES
+0035307 (Load 'n' Run issue 52) - MONTH OF RELEASE
+0035308 (Load 'n' Run issue 53) - COMPILATION CONTENT
+0035308 (Load 'n' Run issue 53) - RELEASES
+0035308 (Load 'n' Run issue 53) - MONTH OF RELEASE
+0035309 (Load 'n' Run issue 54) - COMPILATION CONTENT
+0035309 (Load 'n' Run issue 54) - RELEASES
+0035309 (Load 'n' Run issue 54) - MONTH OF RELEASE
+0035310 (Load 'n' Run issue 55) - COMPILATION CONTENT
+0035310 (Load 'n' Run issue 55) - RELEASES
+0035310 (Load 'n' Run issue 55) - MONTH OF RELEASE
+0035311 (Load 'n' Run issue 56) - COMPILATION CONTENT
+0035311 (Load 'n' Run issue 56) - RELEASES
+0035311 (Load 'n' Run issue 56) - MONTH OF RELEASE
+0035312 (Load 'n' Run issue 57) - COMPILATION CONTENT
+0035312 (Load 'n' Run issue 57) - RELEASES
+0035312 (Load 'n' Run issue 57) - MONTH OF RELEASE
+0035313 (Load 'n' Run issue 58) - COMPILATION CONTENT
+0035313 (Load 'n' Run issue 58) - RELEASES
+0035313 (Load 'n' Run issue 58) - MONTH OF RELEASE
+0035314 (Load 'n' Run issue 59) - COMPILATION CONTENT
+0035314 (Load 'n' Run issue 59) - RELEASES
+0035314 (Load 'n' Run issue 59) - MONTH OF RELEASE
+0035315 (Load 'n' Run issue 60) - COMPILATION CONTENT
+0035315 (Load 'n' Run issue 60) - RELEASES
+0035315 (Load 'n' Run issue 60) - MONTH OF RELEASE
+0035316 (Load 'n' Run issue 61) - COMPILATION CONTENT
+0035316 (Load 'n' Run issue 61) - RELEASES
+0035316 (Load 'n' Run issue 61) - MONTH OF RELEASE
+0035317 (Load 'n' Run issue 62) - COMPILATION CONTENT
+0035317 (Load 'n' Run issue 62) - RELEASES
+0035317 (Load 'n' Run issue 62) - MONTH OF RELEASE
+0035318 (Load 'n' Run issue 63) - COMPILATION CONTENT
+0035318 (Load 'n' Run issue 63) - RELEASES
+0035318 (Load 'n' Run issue 63) - MONTH OF RELEASE
+0035319 (Load 'n' Run issue 64) - COMPILATION CONTENT
+0035319 (Load 'n' Run issue 64) - RELEASES
+0035319 (Load 'n' Run issue 64) - MONTH OF RELEASE
+0035321 (The Curse of Rabenstein) - RELATED LINKS
+0035321 (The Curse of Rabenstein) - WEB LINKS
+0035323 (Papyrus) - RELATED LINKS
+0035323 (Papyrus) - WEB LINKS
+0035324 (UFO) - RELATED LINKS
+0035324 (UFO) - WEB LINKS
+0035325 (Sliding Blocks) - AUTHORS
+0035325 (Sliding Blocks) - PUBLISHER
+0035325 (Sliding Blocks) - RELEASES
+0035326 (Springbot) - RELATED LINKS
+0035326 (Springbot) - WEB LINKS
+0035327 (The Perils of Willy) - RELATED LINKS
+0035327 (The Perils of Willy) - WEB LINKS
+0035331 (Peplum) - RELATED LINKS
+0035331 (Peplum) - WEB LINKS
+0035333 (Huellas) - RELATED LINKS
+0035333 (Huellas) - WEB LINKS
+0035337 (File Compressor Plus) - MACHINETYPE [ZX-Spectrum 128 +3 -> ZX-Spectrum 48K]
+0035338 (Colonos ZX) - RELATED LINKS
+0035338 (Colonos ZX) - WEB LINKS
+0035340 (Devil's Quest) - AUTHORED
+0035346 (ZX Connection) - RELATED LINKS
+0035346 (ZX Connection) - WEB LINKS
+0035680 (Jumpin' Jupiter) - RELATED LINKS
+0035680 (Jumpin' Jupiter) - WEB LINKS
+0035684 (Magenta Jim) - RELATED LINKS
+0035684 (Magenta Jim) - WEB LINKS
+0035688 (Vampire Vengeance) - RELATED LINKS
+0035688 (Vampire Vengeance) - WEB LINKS
+0035689 (Danterrifik) - SERIES
+0035808 (Revision) - ADDITIONALS
+0035813 (MagicAble) - RELATED LINKS
+0035813 (MagicAble) - WEB LINKS
+0035814 (Arisa - 8 bit android) - RELATED LINKS
+0035814 (Arisa - 8 bit android) - WEB LINKS
+0035815 (BlockZ) - RELATED LINKS
+0035815 (BlockZ) - WEB LINKS
+0035816 (Corey Coolbrew) - RELATED LINKS
+0035816 (Corey Coolbrew) - WEB LINKS
+0035971 (Timeworks memoboard) - COMPILATION REFERENCE
+0035972 (Check book balancer) - COMPILATION REFERENCE
+0035973 (Recipe recorder) - COMPILATION REFERENCE
+0035974 (Mini money manager) - COMPILATION REFERENCE
+0035975 (Homework Helper) - COMPILATION REFERENCE
+0036061 (Rat-A-Tat) - RELATED LINKS
+0036061 (Rat-A-Tat) - WEB LINKS
+0036064 (H7N9) - RELATED LINKS
+0036064 (H7N9) - WEB LINKS
+0036066 (Cocoa and the Time Machine) - RELATED LINKS
+0036066 (Cocoa and the Time Machine) - WEB LINKS
+0036121 (Morse Tutor) - ADDITIONALS
+0036137 (ACNews issue 73) - AVAILABILITY (Added)
+0036139 (Jetpack Jock) - RELATED LINKS
+0036139 (Jetpack Jock) - WEB LINKS
+0036141 (Last Night in the Office) - ADDITIONALS
+0036142 (Rite of the Druid) - RELATED LINKS
+0036142 (Rite of the Druid) - WEB LINKS
+0036146 (One Last Thing) - ADDITIONALS
+0036251 (Patrick Paddle) - RELATED LINKS
+0036251 (Patrick Paddle) - WEB LINKS
+0036252 (Road Trippin') - RELATED LINKS
+0036252 (Road Trippin') - WEB LINKS
+0036255 (Totip) - COMPILATION CONTENT
+0036376 (Last Train to Tranz-Central) - RELATED LINKS
+0036376 (Last Train to Tranz-Central) - WEB LINKS
+0036381 (Alien Girl) - RELATED LINKS
+0036381 (Alien Girl) - WEB LINKS
+0036389 (AtomiCat) - RELATED LINKS
+0036389 (AtomiCat) - WEB LINKS
+0036391 (El Mandarino) - RELATED LINKS
+0036391 (El Mandarino) - WEB LINKS
+0036412 (Corso di L/M parte 6) - AUTHORS
+0036416 (Jerry's Endless Travels: Save Erick) - RELATED LINKS
+0036416 (Jerry's Endless Travels: Save Erick) - WEB LINKS
+0036417 (LASERBIRDS) - RELATED LINKS
+0036417 (LASERBIRDS) - WEB LINKS
+0036418 (A Cursed Skull) - RELATED LINKS
+0036418 (A Cursed Skull) - WEB LINKS
+0036419 (Crap Dice 3) - RELATED LINKS
+0036419 (Crap Dice 3) - WEB LINKS
+0036420 (Por 1000 Dólares) - RELATED LINKS
+0036420 (Por 1000 Dólares) - WEB LINKS
+0036426 (Flappy Clive) - ADDITIONALS
+0036438 (Spikie Goes Skiing) - RELATED LINKS
+0036438 (Spikie Goes Skiing) - WEB LINKS
+0036440 (Galaxy of Error) - ADDITIONALS
+0036441 (The Hollow Earth Hypothesis) - ADDITIONALS
+0036441 (The Hollow Earth Hypothesis) - RELATED LINKS
+0036441 (The Hollow Earth Hypothesis) - WEB LINKS
+0036442 (BaSoko) - RELATED LINKS
+0036442 (BaSoko) - WEB LINKS
+0036443 (Next Shift) - ADDITIONALS
+1000014 (AMX Mouse) - REMARKS
+1000063 (Cheetah Sweet Talker) - REMARKS
+1000093 (Datel Inter Printer) - REMARKS
+1000110 (Defender Light Gun) - HARDWARE BLURB
+1000124 (DK'Tronics Light Pen) - REMARKS
+1000124 (DK'Tronics Light Pen) - HARDWARE BLURB
+1000125 (DK'Tronics Parallel Centronics Interface) - REMARKS
+1000126 (DK'Tronics Programmable Joystick Interface) - REMARKS
+1000174 (Grafpad) - REMARKS
+1000180 (Hilderbay Interface) - REMARKS
+1000233 (Logitek Floppy/Printer Interface) - HARDWARE BLURB
+1000237 (Magnum Light Phaser) - RELEASES
+1000333 (RD Digital Tracer) - HARDWARE BLURB
+1000344 (Ricoll RISG Sound Generator) - HARDWARE BLURB
+1000394 (Spirit Steering Wheel) - HARDWARE BLURB
+1000954 (JoyTape Player) - REMARKS
+1001062 (ZX-Spectrum Vega) - COMPILATION CONTENT
+2000172 (The Fourth Protocol: Playing the Game) - FULLTITLE [A Guide to Playing the Fourth Protocol -> The Fourth Protocol: Playing the Game]
+2000172 (The Fourth Protocol: Playing the Game) - RELEASES
+2000172 (The Fourth Protocol: Playing the Game) - AVAILABILITY (Added)
+2000371 (Spectrum Shadow ROM Disassembly) - REMARKS
+2000442 (Microdrive and Interface 1 Manual) - REMARKS
+2000473 (Spectrum Game Writers' Pack) - REMARKS
+2000533 (Computer Gamesmanship) - REMARKS
+2000804 (Namesakes) - REMARKS
+2000844 (SP7 Companion Book Volume 1) - REMARKS
+2001354 (PCW Games Collection for the Spectrum) - REMARKS
+2001371 (RUN: Enciclopedia Practica del Spectrum) - REMARKS
+2001415 (The Book of Shadows) - REMARKS
+2001504 (Code, mixing: A corpus-based investigation of ELF and netspeak features in European demoscene texts) - ORIGINALPUBLICATION (Deleted)
+2001509 (Spectrum Jatekok) - ADDITIONALS
+4000010 (Byte Power issue 1988-02) - MONTH OF RELEASE
+4000117 (ColorTILE) - AUTHORED
+
+---------------------------------------------------------------
+CHANGE SUMMARY - total entries updated: 1608
+---------------------------------------------------------------
+
+Updated entries:
+
+[ '0000004', 'Live and Let Die' ]
+[ '0000010', '100 Kilometri' ]
+[ '0000040', '7 Card Stud' ]
+[ '0000056', 'ACE' ]
+[ '0000077', 'Action Force II' ]
+[ '0000101', 'After the War' ]
+[ '0000105', 'Afteroids' ]
+[ '0000127', 'Airwolf' ]
+[ '0000149', 'Alien Evolution' ]
+[ '0000157', 'Alien Syndrome' ]
+[ '0000237', 'Arcadia' ]
+[ '0000248', 'Arena' ]
+[ '0000258', 'Arkanoid - Revenge of Doh' ]
+[ '0000263', 'Arkos' ]
+[ '0000282', 'Artura' ]
+[ '0000295', 'Astro Marine Corps' ]
+[ '0000312', 'Atom Ant' ]
+[ '0000370', 'Backgammon' ]
+[ '0000385', 'Ballbreaker II' ]
+[ '0000426', 'Barry McGuigan World Championship Boxing' ]
+[ '0000429', 'Baseball' ]
+[ '0000458', 'Battle of the Planets' ]
+[ '0000479', 'Beach Buggy Simulator' ]
+[ '0000481', 'Beach-Head' ]
+[ '0000483', 'Beach-Head II' ]
+[ '0000490', 'Bear a Grudge' ]
+[ '0000510', 'Bestial Warrior' ]
+[ '0000512', 'Beyond the Ice Palace' ]
+[ '0000534', 'Bingo' ]
+[ '0000555', 'Black Beard' ]
+[ '0000560', 'Blade Alley' ]
+[ '0000572', 'Blob the Cop' ]
+[ '0000632', 'Bonkers' ]
+[ '0000639', 'Boulder Dash' ]
+[ '0000642', "Boulder Dash II: Rockford's Riot" ]
+[ '0000644', 'Boulder Dash III' ]
+[ '0000650', 'Boulder Dash Construction Kit' ]
+[ '0000676', 'Brainstorm' ]
+[ '0000677', 'Brainstorm' ]
+[ '0000682', 'Brat Attack' ]
+[ '0000685', 'Braxx Bluff' ]
+[ '0000739', 'Bugaboo the Flea' ]
+[ '0000746', 'Buggy Boy' ]
+[ '0000776', 'By Fair Means...or Foul' ]
+[ '0000831', 'Casey Jones' ]
+[ '0000850', 'Cauldron' ]
+[ '0000876', 'Chain Reaction' ]
+[ '0000884', 'Championship Baseball' ]
+[ '0000889', 'Championship Soccer' ]
+[ '0000890', 'Championship Sprint' ]
+[ '0000922', 'The Chessmaster 2000' ]
+[ '0000926', "Chicago's 30" ]
+[ '0000947', 'Chopper Mission' ]
+[ '0000954', 'Chubby Gristle' ]
+[ '0000982', 'Classic Muncher' ]
+[ '0001013', 'Colony' ]
+[ '0001048', 'Confuzion' ]
+[ '0001053', 'Con-Quest' ]
+[ '0001059', 'Contract Bridge' ]
+[ '0001067', 'CORE' ]
+[ '0001121', 'Crazy Cars' ]
+[ '0001139', 'Crete 1941' ]
+[ '0001155', 'Crime Busters' ]
+[ '0001168', 'Crosswize' ]
+[ '0001188', 'Curro Jimenez' ]
+[ '0001199', 'Cybernoid II: The Revenge' ]
+[ '0001206', 'Cyclone' ]
+[ '0001220', "Daley Thompson's Olympic Challenge" ]
+[ '0001227', 'Dallas' ]
+[ '0001229', 'The Dam Busters' ]
+[ '0001235', 'Dan Dare: Pilot of the Future' ]
+[ '0001238', "Dan Dare II: Mekon's Revenge" ]
+[ '0001241', 'Dan Dare III: The Escape' ]
+[ '0001273', 'A Day in the Life of Arnold' ]
+[ '0001283', 'Dead or Alive' ]
+[ '0001287', 'Death Before Dishonour' ]
+[ '0001346', "Demon's Revenge" ]
+[ '0001355', 'Desert Hawk' ]
+[ '0001383', 'Devils of the Deep' ]
+[ '0001403', 'Disposable Heroes' ]
+[ '0001406', 'Dizzy Dice' ]
+[ '0001410', 'D.N.A. Warrior' ]
+[ '0001412', 'Do Not Pass Go' ]
+[ '0001425', 'Dominator' ]
+[ '0001484', 'Draconus' ]
+[ '0001518', 'Dream Warrior' ]
+[ '0001565', 'Earthlight' ]
+[ '0001641', 'Erik: Phantom of the Opera' ]
+[ '0001694', 'Express Raider' ]
+[ '0001722', 'Fall Guy' ]
+[ '0001723', 'The Fall of Rome' ]
+[ '0001732', 'Farmer Horace' ]
+[ '0001739', 'Fernandez Must Die' ]
+[ '0001749', 'The Fifth Quadrant' ]
+[ '0001765', 'Fire and Forget' ]
+[ '0001770', 'Firebirds' ]
+[ '0001772', 'Firefly' ]
+[ '0001787', "Fisherman's Friend" ]
+[ '0001796', 'Flight Path 737' ]
+[ '0001827', 'Football Manager 2' ]
+[ '0001870', "Freez'Bees" ]
+[ '0001877', 'Frightmare' ]
+[ '0001892', 'Frontline' ]
+[ '0001908', 'Full Throttle' ]
+[ '0001969', 'The Games - Winter Edition' ]
+[ '0001998', 'GBA Championship Basketball' ]
+[ '0002016', 'Gerry the Germ' ]
+[ '0002018', 'GFL Championship Football' ]
+[ '0002038', 'G.I. Hero' ]
+[ '0002099', 'Goody' ]
+[ '0002196', 'Gyroscope' ]
+[ '0002206', 'Halaga' ]
+[ '0002223', 'Hamte Damte' ]
+[ '0002273', 'Heavy Metal' ]
+[ '0002295', "Herbert's Dummy Run" ]
+[ '0002339', 'Holiday in Sumaria' ]
+[ '0002349', 'Hopping Mad' ]
+[ '0002357', 'Hotshot' ]
+[ '0002382', 'Humpty Dumpty' ]
+[ '0002383', 'Hunchback' ]
+[ '0002388', 'Hundra' ]
+[ '0002399', 'Hustler' ]
+[ '0002413', 'Hyper Active' ]
+[ '0002431', 'I Ball II' ]
+[ '0002440', 'The Ice Temple' ]
+[ '0002464', 'Impossible Mission II' ]
+[ '0002477', 'Indoor Soccer' ]
+[ '0002566', 'Jack the Nipper II: In Coconut Capers' ]
+[ '0002583', 'Jawz' ]
+[ '0002585', 'Jerico 2' ]
+[ '0002623', 'Joe Blade II' ]
+[ '0002633', 'Jogger' ]
+[ '0002658', 'Jumping Jack' ]
+[ '0002665', 'Just Imagine' ]
+[ '0002678', 'Kat Trap' ]
+[ '0002768', 'Krakout' ]
+[ '0002827', 'Last Ninja 2' ]
+[ '0002833', 'Lazer Tag' ]
+[ '0002844', 'Learn Chess' ]
+[ '0002847', 'Lee Enfield Space Ace' ]
+[ '0002858', 'King Leonard' ]
+[ '0002882', 'Lightforce' ]
+[ '0002965', 'Mad Mix Game' ]
+[ '0002997', 'De Malle Muur' ]
+[ '0003030', 'Marauder' ]
+[ '0003045', 'MASK III: VENOM Strikes Back' ]
+[ '0003131', 'Merlin' ]
+[ '0003141', 'Metal Army' ]
+[ '0003156', 'Metropolis' ]
+[ '0003166', 'Michel Futbol Master' ]
+[ '0003168', 'Michel Super Skills' ]
+[ '0003170', 'Mickey Mouse' ]
+[ '0003203', 'Millimon' ]
+[ '0003206', 'Millipede' ]
+[ '0003277', 'Moonlight Madness' ]
+[ '0003299', "Mountie Mick's Death Ride" ]
+[ '0003300', 'Movie' ]
+[ '0003316', 'Ms. Pac-Man' ]
+[ '0003351', 'Mystic Tower' ]
+[ '0003391', 'Nether Earth' ]
+[ '0003393', 'Netherworld' ]
+[ '0003415', 'Night Breed' ]
+[ '0003420', 'Night Gunner' ]
+[ '0003423', 'Night Raider' ]
+[ '0003428', 'Nightmare Rally' ]
+[ '0003430', 'Nihilist' ]
+[ '0003439', 'Ninja Scooter Simulator' ]
+[ '0003447', 'Nodes of Yesod' ]
+[ '0003485', 'Octan' ]
+[ '0003530', 'Operation Hormuz' ]
+[ '0003534', 'Operation Wolf' ]
+[ '0003567', 'Out Run Europa' ]
+[ '0003569', 'Overlander' ]
+[ '0003577', 'Pac-Land' ]
+[ '0003583', 'Pac-Mania' ]
+[ '0003600', 'Panzadrome' ]
+[ '0003667', "Peter Beardsley's International Football" ]
+[ '0003676', 'Phantis' ]
+[ '0003725', 'Pink Panther' ]
+[ '0003740', 'Piso Zero' ]
+[ '0003759', 'Platoon' ]
+[ '0003780', 'Pocker' ]
+[ '0003784', 'El Poder Oscuro' ]
+[ '0003824', 'Pool' ]
+[ '0003855', 'Power Pyramids' ]
+[ '0003920', 'Psycho Pigs U.X.B.' ]
+[ '0003925', 'Psytron' ]
+[ '0003946', 'Puzzler' ]
+[ '0004017', 'Rampage' ]
+[ '0004051', 'Realm of Impossibility' ]
+[ '0004076', 'Red Scorpion' ]
+[ '0004087', 'Target: Renegade' ]
+[ '0004090', 'Renegade III' ]
+[ '0004100', 'Rescate Atlantida' ]
+[ '0004122', 'Reversi' ]
+[ '0004125', 'Revolution' ]
+[ '0004157', 'Road Blasters' ]
+[ '0004177', 'Robin of the Wood' ]
+[ '0004179', 'RoboCop' ]
+[ '0004190', 'Robot Messiah' ]
+[ '0004214', 'Rockford' ]
+[ '0004215', 'Rockman' ]
+[ '0004222', 'Rod-Land' ]
+[ '0004234', 'Rolling Thunder' ]
+[ '0004256', 'R-Type' ]
+[ '0004269', 'Run Baby Run' ]
+[ '0004313', 'Salamander' ]
+[ '0004320', 'Samantha Fox Strip Poker' ]
+[ '0004326', 'Samurai Warrior' ]
+[ '0004329', 'Santa' ]
+[ '0004333', 'Sanxion' ]
+[ '0004357', 'Scalextric' ]
+[ '0004384', 'S.D.I.' ]
+[ '0004415', 'Sexy Black Jack' ]
+[ '0004463', 'The Shoe People' ]
+[ '0004497', 'Settemmezzo' ]
+[ '0004524', 'Sirwood' ]
+[ '0004530', 'Skate Crazy' ]
+[ '0004541', 'Skateboard Kidz' ]
+[ '0004557', 'Sky Ranger' ]
+[ '0004560', 'Skyfox' ]
+[ '0004609', 'The Snowman' ]
+[ '0004634', 'Soldier of Light' ]
+[ '0004659', 'Space Command' ]
+[ '0004699', 'Speccy Simon' ]
+[ '0004758', 'Lo Spione' ]
+[ '0004784', 'Spy Hunter' ]
+[ '0004792', 'Spyship SOS' ]
+[ '0004810', 'Star Base' ]
+[ '0004858', 'Starfighters' ]
+[ '0004873', 'Starquake' ]
+[ '0004922', 'Stormlord' ]
+[ '0004954', 'Strip Black-Jack' ]
+[ '0004960', 'Strip Poker II Plus' ]
+[ '0004961', 'Strip-Dice' ]
+[ '0005007', 'Superchess 3' ]
+[ '0005031', 'Super Tot 13' ]
+[ '0005044', 'Supersports' ]
+[ '0005128', 'Tanium' ]
+[ '0005152', 'Task Force' ]
+[ '0005160', 'Technician Ted' ]
+[ '0005179', 'Tempest' ]
+[ '0005185', 'Ten Pin Challenge' ]
+[ '0005195', 'Terramex' ]
+[ '0005202', 'Terrorpods' ]
+[ '0005226', 'Them' ]
+[ '0005259', 'Thundercats' ]
+[ '0005322', 'Tomcat' ]
+[ '0005348', 'Tour de Force' ]
+[ '0005384', 'Transylvanian Tower' ]
+[ '0005440', 'Tubaruba' ]
+[ '0005448', 'Tujad' ]
+[ '0005472', 'Turrican' ]
+[ '0005476', 'Turrican II' ]
+[ '0005507', 'Ulises' ]
+[ '0005560', 'Vice Versa' ]
+[ '0005587', 'Virus' ]
+[ '0005595', 'Viz - The Computer Game' ]
+[ '0005599', 'Spectrum Voice Chess' ]
+[ '0005602', 'Volcano' ]
+[ '0005632', 'War Zone' ]
+[ '0005640', 'Waterloo' ]
+[ '0005644', 'Fist II: The Legend Continues' ]
+[ '0005648', 'WEC Le Mans' ]
+[ '0005653', 'Thing!' ]
+[ '0005664', 'West Bank' ]
+[ '0005667', 'Western Girl' ]
+[ '0005671', 'Where Time Stood Still' ]
+[ '0005675', 'Who Killed Cock Robin?' ]
+[ '0005687', 'William Wobbler' ]
+[ '0005709', "Wizard's Lair" ]
+[ '0005719', 'Wonder Boy' ]
+[ '0005727', 'World Class Darts' ]
+[ '0005783', 'Xecutor' ]
+[ '0005790', 'Xenon' ]
+[ '0005798', 'X-Maze' ]
+[ '0005804', 'X-Out' ]
+[ '0005813', 'Yakzee' ]
+[ '0005846', 'Zaxxon' ]
+[ '0005963', 'Arnold the Adventurer' ]
+[ '0005989', 'The Balrog and the Cat' ]
+[ '0005998', 'Behind Closed Doors' ]
+[ '0005999', 'Behind Closed Doors 2: The Sequel' ]
+[ '0006008', 'The Big Sleaze' ]
+[ '0006012', 'The Black Tower' ]
+[ '0006023', 'The Boggit' ]
+[ '0006036', 'Bored of the Rings' ]
+[ '0006138', 'The Damned Forest' ]
+[ '0006189', 'Dodgy Geezers' ]
+[ '0006239', 'Earthshock' ]
+[ '0006327', 'The Fourth Protocol' ]
+[ '0006337', 'From Out of a Dark Night Sky' ]
+[ '0006344', 'Galaxias' ]
+[ '0006361', 'Goblin Gazette issue 1' ]
+[ '0006362', 'Goblin Gazette issue 2' ]
+[ '0006440', 'The Hobbit' ]
+[ '0006459', 'I Dare You' ]
+[ '0006460', 'Ice Station Zero' ]
+[ '0006575', 'Legend' ]
+[ '0006604', 'The Lords of Midnight' ]
+[ '0006635', 'Das Magische' ]
+[ '0006715', 'Mugsy' ]
+[ '0006716', "Mugsy's Revenge" ]
+[ '0006759', 'One of our Wombats is Missing' ]
+[ '0006825', 'Professional Adventure Writer' ]
+[ '0006836', 'Puzzled!' ]
+[ '0006857', 'The Quill Adventure System' ]
+[ '0006885', 'The Return of the Holy Joystick' ]
+[ '0006900', 'Robin of Sherlock' ]
+[ '0006906', 'Ronnie Goes to Hollywood' ]
+[ '0006949', 'The Secret of Little Hodcome' ]
+[ '0006962', 'The Case of the Beheaded Smuggler' ]
+[ '0007088', 'Terrormolinos' ]
+[ '0007107', 'Time of the End' ]
+[ '0007309', 'CD-Player' ]
+[ '0007407', 'The Final Countdown' ]
+[ '0007413', 'Flame 1' ]
+[ '0007538', 'The Lyra II Megademo' ]
+[ '0007561', 'Milky Way 1' ]
+[ '0007731', 'Signal Part 3' ]
+[ '0007898', 'AMX Art' ]
+[ '0007915', 'The Art Studio' ]
+[ '0007918', 'The Artist' ]
+[ '0008027', 'COMAL 1.0' ]
+[ '0008067', 'Currah MicroSpeech' ]
+[ '0008113', 'Distron' ]
+[ '0008116', 'DLAN' ]
+[ '0008144', 'Edytor Tekstu' ]
+[ '0008249', 'HiSoft BASIC' ]
+[ '0008254', 'HiSoft COLT Compiler' ]
+[ '0008380', 'Macro for Construction and Animation' ]
+[ '0008390', "Margot's Magic Colouring Book" ]
+[ '0008405', 'Matrix Operations' ]
+[ '0008476', 'Multiface Three in One Utility' ]
+[ '0008489', 'Melodian' ]
+[ '0008549', 'Pianola' ]
+[ '0008672', 'Shade Copy' ]
+[ '0008763', 'Speed Office' ]
+[ '0008808', 'Supercode 3' ]
+[ '0009019', '77 Programmi per Spectrum' ]
+[ '0009025', 'ZXED Spectrum Toolkit' ]
+[ '0009054', 'Clever Clogs - Jungle Jumble' ]
+[ '0009124', 'Learn to Read 2' ]
+[ '0009126', 'Learn to Read 4' ]
+[ '0009132', "MacMan's Magic Mirror" ]
+[ '0009159', 'Study Physics - 13 years+' ]
+[ '0009207', 'Young Learners 1' ]
+[ '0009217', "Beethoven's Arrangement" ]
+[ '0009219', 'Computer Christmas Card' ]
+[ '0009226', 'Guide to Greater London' ]
+[ '0009260', 'Sceptical' ]
+[ '0009261', 'Sceptical 2' ]
+[ '0009262', 'Sceptical 3' ]
+[ '0009283', 'DigiTape - Your Sinclair issue 09' ]
+[ '0009298', '1943' ]
+[ '0009344', 'Final Fight' ]
+[ '0009361', 'Jet Bike Simulator' ]
+[ '0009368', 'Last Duel' ]
+[ '0009370', 'Lemmings' ]
+[ '0009400', 'Professional Snooker Simulator' ]
+[ '0009401', 'Pssst' ]
+[ '0009425', 'Street Fighter' ]
+[ '0009439', 'Tiger Road' ]
+[ '0009603', 'Circus Circus' ]
+[ '0009619', 'Computer Challenge' ]
+[ '0009634', 'Creatures' ]
+[ '0009678', 'Dodge City 2' ]
+[ '0009785', 'Gold Blast' ]
+[ '0009787', 'The Golden Key Racing Formula' ]
+[ '0009889', 'Ku-Ku' ]
+[ '0009892', 'Comando Tracer' ]
+[ '0010036', 'Patience' ]
+[ '0010156', 'Samurai Dawn' ]
+[ '0010232', 'Spectrum Zap' ]
+[ '0010425', 'ZX Reactor' ]
+[ '0010434', 'A-Maze' ]
+[ '0010564', 'Jigsaw' ]
+[ '0010663', 'Sporting Triangles' ]
+[ '0010844', 'Just One of Those Days' ]
+[ '0010961', 'Yuppie' ]
+[ '0010985', 'First Steps with the Mr. Men' ]
+[ '0011001', 'Learn to Read 5' ]
+[ '0011010', 'Note Invaders' ]
+[ '0011089', 'Kopy Kat' ]
+[ '0011158', 'ZX Spectrum+ Graphics Pack' ]
+[ '0011214', 'Best of the Indies Vol 1' ]
+[ '0011242', 'Defender Light Gun' ]
+[ '0011340', 'Quattro Power' ]
+[ '0011388', 'Tus Juegos 2' ]
+[ '0011410', 'Dungeons' ]
+[ '0011437', 'Crash Tech Tape' ]
+[ '0011455', '4th Dimension' ]
+[ '0011555', 'Cartoon Collection' ]
+[ '0011561', 'Castle' ]
+[ '0011573', 'Character Generator' ]
+[ '0011617', 'Cortes' ]
+[ '0011635', 'Dam and Blast' ]
+[ '0011641', 'Learn German Words with Das Schloss' ]
+[ '0011808', 'Into the Abyss' ]
+[ '0011855', 'Lin-O-Type' ]
+[ '0011860', 'Logo: Part I' ]
+[ '0011864', 'MacMan and the Caber Eater' ]
+[ '0011865', 'MacMan and the Great Escape' ]
+[ '0011906', 'Millypede' ]
+[ '0011907', 'The Minister for Alien Affairs' ]
+[ '0011942', 'Music Maker' ]
+[ '0012252', 'Zoo' ]
+[ '0012257', 'ZX Spectrum Assembler' ]
+[ '0012258', 'ZX Spectrum Games' ]
+[ '0012259', 'ZX Tool Kit' ]
+[ '0012285', "Rockford's Riot + Boulder Dash" ]
+[ '0012286', 'Specbug' ]
+[ '0012313', 'Tu Micro issue 01' ]
+[ '0012434', 'Blockbusters' ]
+[ '0012537', 'Z80 Dissembler' ]
+[ '0012621', 'Chemal' ]
+[ '0012723', 'Timothy Follin 2' ]
+[ '0012777', 'Cobble 2' ]
+[ '0012990', 'Pasyance' ]
+[ '0013199', 'Letta-Head Plus' ]
+[ '0013201', 'Pools Predictor' ]
+[ '0013352', 'Manager' ]
+[ '0013418', 'Colour Mixer' ]
+[ '0013510', 'Crash issue 45: Sampler' ]
+[ '0013511', 'Crash issue 54: Sneak Preview 1' ]
+[ '0013512', 'Crash issue 58: Sneak Preview 2' ]
+[ '0013513', 'Crash issue 59: Sneak Preview 3' ]
+[ '0013514', 'Crash issue 60: Sneak Preview 4' ]
+[ '0013515', 'Crash issue 63: Crucial' ]
+[ '0013516', 'Crash issue 65: Presents 1' ]
+[ '0013518', 'Crash issue 66: Presents 2' ]
+[ '0013519', 'Crash issue 67: Presents 3' ]
+[ '0013520', 'Crash issue 68: Presents 4' ]
+[ '0013521', 'Crash issue 69: Presents 5' ]
+[ '0013522', 'Crash issue 70: Presents 6' ]
+[ '0013523', 'Crash issue 71: Presents 7' ]
+[ '0013524', 'Crash issue 72: Presents 8' ]
+[ '0013525', 'Crash issue 73: Presents 9' ]
+[ '0013526', 'Crash issue 74: Presents 10' ]
+[ '0013527', 'Crash issue 75: Presents 11' ]
+[ '0013528', 'Crash issue 76: Presents 12' ]
+[ '0013529', 'Crash issue 77: Presents 13' ]
+[ '0013530', 'Crash issue 78: Presents 14' ]
+[ '0013531', 'Crash issue 79: Presents 15' ]
+[ '0013532', 'Crash issue 80: Presents 16' ]
+[ '0013533', 'Crash issue 81: Presents 17' ]
+[ '0013534', 'Crash issue 82: Presents 18' ]
+[ '0013535', 'Crash issue 83: Presents 19' ]
+[ '0013536', 'Crash issue 84: Presents 20' ]
+[ '0013538', 'Crash issue 85: Presents 21' ]
+[ '0013539', 'Crash issue 86: Presents 22' ]
+[ '0013540', 'Crash issue 87: Presents 23' ]
+[ '0013541', 'Crash issue 88: Presents 24' ]
+[ '0013542', 'Crash issue 89: Presents 25' ]
+[ '0013544', 'Crash issue 90: Presents 26' ]
+[ '0013546', 'Crash issue 91: Presents 27' ]
+[ '0013547', 'Crash issue 92: Presents 28' ]
+[ '0013548', 'Crash issue 93: Presents 29' ]
+[ '0013549', 'Crash issue 94: Presents 30' ]
+[ '0013550', 'Crash issue 95: Presents 31' ]
+[ '0013551', 'Crash issue 96: Presents 32' ]
+[ '0013552', 'Crash issue 97: Presents 33' ]
+[ '0013553', 'Crash issue 98: Presents 34' ]
+[ '0013567', 'MicroHobby issue 182: Tape 1' ]
+[ '0013568', 'MicroHobby issue 183: Tape 2' ]
+[ '0013569', 'MicroHobby issue 184: Tape 3' ]
+[ '0013570', 'MicroHobby issue 185: Tape 4' ]
+[ '0013571', 'MicroHobby issue 186: Tape 5' ]
+[ '0013572', 'MicroHobby issue 187: Tape 6' ]
+[ '0013573', 'MicroHobby issue 188: Tape 7' ]
+[ '0013574', 'MicroHobby issue 189: Tape 8' ]
+[ '0013575', 'MicroHobby issue 190: Tape 9' ]
+[ '0013576', 'MicroHobby issue 190: Tape 10' ]
+[ '0013577', 'MicroHobby issue 191: Tape 11' ]
+[ '0013578', 'MicroHobby issue 192: Tape 12' ]
+[ '0013579', 'MicroHobby issue 192: Tape 13' ]
+[ '0013580', 'MicroHobby issue 193: Tape 14' ]
+[ '0013581', 'MicroHobby issue 194: Tape 15' ]
+[ '0013582', 'MicroHobby issue 194: Tape 16' ]
+[ '0013583', 'MicroHobby issue 195: Tape 17' ]
+[ '0013584', 'MicroHobby issue 195: Tape 18' ]
+[ '0013585', 'MicroHobby issue 196: Tape 19' ]
+[ '0013586', 'MicroHobby issue 197: Tape 20' ]
+[ '0013587', 'MicroHobby issue 198: Tape 21' ]
+[ '0013588', 'MicroHobby issue 199: Tape 22' ]
+[ '0013589', 'MicroHobby issue 200: Tape 23' ]
+[ '0013590', 'MicroHobby issue 200: Tape 24' ]
+[ '0013591', 'MicroHobby issue 201: Tape 25' ]
+[ '0013592', 'MicroHobby issue 201: Tape 26' ]
+[ '0013593', 'MicroHobby issue 202: Tape 27' ]
+[ '0013594', 'MicroHobby issue 203: Tape 28' ]
+[ '0013595', 'MicroHobby issue 204: Tape 29' ]
+[ '0013596', 'MicroHobby issue 204: Tape 30' ]
+[ '0013597', 'MicroHobby issue 205: Tape 31' ]
+[ '0013598', 'MicroHobby issue 205: Tape 32' ]
+[ '0013599', 'MicroHobby issue 206: Tape 33' ]
+[ '0013600', 'MicroHobby issue 207: Tape 34' ]
+[ '0013601', 'MicroHobby issue 208: Tape 35' ]
+[ '0013602', 'MicroHobby issue 209: Tape 36' ]
+[ '0013603', 'MicroHobby issue 210: Tape 37' ]
+[ '0013604', 'MicroHobby issue 211: Tape 38' ]
+[ '0013605', 'MicroHobby issue 211: Tape 39' ]
+[ '0013606', 'MicroHobby issue 212: Tape 40' ]
+[ '0013607', 'MicroHobby issue 212: Tape 41' ]
+[ '0013608', 'MicroHobby issue 213: Tape 42' ]
+[ '0013609', 'MicroHobby issue 214: Tape 43' ]
+[ '0013610', 'MicroHobby issue 215: Tape 44' ]
+[ '0013611', 'MicroHobby issue 215: Tape 45' ]
+[ '0013612', 'MicroHobby issue 216: Tape 46' ]
+[ '0013613', 'MicroHobby issue 216: Tape 47' ]
+[ '0013614', 'MicroHobby issue 217: Tape 48' ]
+[ '0013692', 'Sinclair User issue 72: Megatape 1' ]
+[ '0013693', 'Sinclair User issue 73: Megatape 2' ]
+[ '0013694', 'Sinclair User issue 74: Megatape 3' ]
+[ '0013695', 'Sinclair User issue 75: Megatape 4' ]
+[ '0013696', 'Sinclair User issue 76: Megatape 5' ]
+[ '0013697', 'Sinclair User issue 77: Megatape 6' ]
+[ '0013698', 'Sinclair User issue 78: Megatape 7' ]
+[ '0013699', 'Sinclair User issue 79: Megatape 8' ]
+[ '0013700', 'Sinclair User issue 80: Megatape 9' ]
+[ '0013701', 'Sinclair User issue 81: Megatape 10' ]
+[ '0013702', 'Sinclair User issue 82: Megatape 11' ]
+[ '0013703', 'Sinclair User issue 83: Megatape 12' ]
+[ '0013704', 'Sinclair User issue 84: Megatape 13' ]
+[ '0013705', 'Sinclair User issue 85: Megatape 14' ]
+[ '0013706', 'Sinclair User issue 86: Megatape 15' ]
+[ '0013707', 'Sinclair User issue 87: Megatape 16' ]
+[ '0013708', 'Sinclair User issue 88: Megatape 17' ]
+[ '0013709', 'Sinclair User issue 89: Megatape 18' ]
+[ '0013710', 'Sinclair User issue 90: Megatape 19' ]
+[ '0013711', 'Sinclair User issue 91: Megatape 20' ]
+[ '0013712', 'Sinclair User issue 92: Megatape 21' ]
+[ '0013713', 'Sinclair User issue 92: 6 Amazing Coin-Op Tracks' ]
+[ '0013714', 'Sinclair User issue 93: Megatape 22' ]
+[ '0013715', 'Sinclair User issue 94: Megatape 23' ]
+[ '0013716', 'Sinclair User issue 95: Megatape 24' ]
+[ '0013717', 'Sinclair User issue 96: Megatape 25' ]
+[ '0013718', 'Sinclair User issue 98: Megatape 26' ]
+[ '0013719', 'Sinclair User issue 99: Megatape 27' ]
+[ '0013720', 'Sinclair User issue 100: Double Hits 1' ]
+[ '0013721', 'Sinclair User issue 101: Double Hits 2' ]
+[ '0013722', 'Sinclair User issue 102: Double Hits 3' ]
+[ '0013723', 'Sinclair User issue 103: Double Hits 4' ]
+[ '0013724', 'Sinclair User issue 104: Double Hits 5' ]
+[ '0013725', 'Sinclair User issue 105: Six of the Best 1' ]
+[ '0013726', 'Sinclair User issue 106: Six of the Best 2' ]
+[ '0013727', 'Sinclair User issue 107: Six of the Best 3' ]
+[ '0013728', 'Sinclair User issue 108: Six of the Best 4' ]
+[ '0013729', 'Sinclair User issue 109: Great Eight 1' ]
+[ '0013730', 'Sinclair User issue 110: Great Eight 2' ]
+[ '0013731', 'Sinclair User issue 111: Ten Pack' ]
+[ '0013732', 'Sinclair User issue 112: Twelve Pack 1' ]
+[ '0013733', 'Sinclair User issue 113: Great Eight 3' ]
+[ '0013734', 'Sinclair User issue 114: Great Eight 4' ]
+[ '0013735', 'Sinclair User issue 115: Fab Four' ]
+[ '0013736', 'Sinclair User issue 116: Great Eight 5' ]
+[ '0013737', 'Sinclair User issue 117: Great Eight 6' ]
+[ '0013738', 'Sinclair User issue 118: Great Eight 7' ]
+[ '0013739', 'Sinclair User issue 119: Great Eight 8' ]
+[ '0013740', 'Sinclair User issue 120: Great Eight 9' ]
+[ '0013741', 'Sinclair User issue 121: Great Eight 10' ]
+[ '0013742', 'Sinclair User issue 122: Great Eight 11' ]
+[ '0013743', 'Sinclair User issue 123: Great Eight 12' ]
+[ '0013744', 'Sinclair User issue 124: Great Eight 13' ]
+[ '0013745', 'Sinclair User issue 125: Great Eight 14' ]
+[ '0013746', 'Sinclair User issue 126: Great Eight 15' ]
+[ '0013747', 'Sinclair User issue 127: Great Eight 16' ]
+[ '0013748', 'Sinclair User issue 128: Great Eight 17' ]
+[ '0013749', 'Sinclair User issue 129: Great Eight 18' ]
+[ '0013750', 'Sinclair User issue 130: Great Eight 19' ]
+[ '0013751', 'Sinclair User issue 131: Fun Four 1' ]
+[ '0013752', 'Sinclair User issue 132: Fun Four 2' ]
+[ '0013753', 'Sinclair User issue 133: Fun Four 3' ]
+[ '0013754', 'Sinclair User issue 134: Fun Four 4' ]
+[ '0013755', 'Your Sinclair issue 1: Smash Tape 1' ]
+[ '0013756', 'Your Sinclair issue 17: Smash Tape 2' ]
+[ '0013757', 'Your Sinclair issue 22: Smash Tape 3' ]
+[ '0013758', 'Your Sinclair issue 24: Smash Tape 4' ]
+[ '0013759', 'Your Sinclair issue 25: Smash Tape 5' ]
+[ '0013760', 'Your Sinclair issue 29: Smash Tape 6' ]
+[ '0013761', 'Your Sinclair issue 30: Smash Tape 7' ]
+[ '0013762', 'Your Sinclair issue 31: Smash Tape 8' ]
+[ '0013763', 'Your Sinclair issue 34: Smash Tape 9' ]
+[ '0013764', 'Your Sinclair issue 35: Smash Tape 10' ]
+[ '0013765', 'Your Sinclair issue 36: Smash Tape 11' ]
+[ '0013766', 'Your Sinclair issue 36: Smash Tape 12' ]
+[ '0013767', 'Your Sinclair issue 37: Smash Tape 13' ]
+[ '0013768', 'Your Sinclair issue 38: Smash Tape 14' ]
+[ '0013769', 'Your Sinclair issue 39: Smash Tape 15' ]
+[ '0013770', 'Your Sinclair issue 40: Smash Tape 16' ]
+[ '0013771', 'Your Sinclair issue 41: Smash Tape 17' ]
+[ '0013772', 'Your Sinclair issue 42: Smash Tape 18' ]
+[ '0013773', 'Your Sinclair issue 43: Smash Tape 19' ]
+[ '0013774', 'Your Sinclair issue 44: Smash Tape 20' ]
+[ '0013775', 'Your Sinclair issue 45: Smash Tape 21' ]
+[ '0013776', 'Your Sinclair issue 46: Smash Tape 22' ]
+[ '0013777', 'Your Sinclair issue 47: Smash Tape 23' ]
+[ '0013778', 'Your Sinclair issue 48: Smash Tape 24' ]
+[ '0013779', 'Your Sinclair issue 48: Smash Tape 25' ]
+[ '0013780', 'Your Sinclair issue 49: Smash Tape 26' ]
+[ '0013781', 'Your Sinclair issue 50: Smash Tape 27' ]
+[ '0013782', 'Your Sinclair issue 51: Smash Tape 28' ]
+[ '0013783', 'Your Sinclair issue 52: Smash Tape 29' ]
+[ '0013784', 'Your Sinclair issue 53: Smash Tape 30' ]
+[ '0013785', 'Your Sinclair issue 54: Smash Tape 31' ]
+[ '0013786', 'Your Sinclair issue 55: Smash Tape 32' ]
+[ '0013787', 'Your Sinclair issue 56: Smash Tape 33' ]
+[ '0013788', 'Your Sinclair issue 57: Smash Tape 34' ]
+[ '0013789', 'Your Sinclair issue 58: Four Pack 1' ]
+[ '0013790', 'Your Sinclair issue 59: Four Pack 2' ]
+[ '0013791', 'Your Sinclair issue 60: Four Pack 3' ]
+[ '0013792', 'Your Sinclair issue 61: Christmas Collection 1' ]
+[ '0013793', 'Your Sinclair issue 62: Four Pack 4' ]
+[ '0013794', 'Your Sinclair issue 63: Six Pack' ]
+[ '0013795', 'Your Sinclair issue 64: Magnificent Seven 1' ]
+[ '0013796', 'Your Sinclair issue 65: Magnificent Seven 2' ]
+[ '0013797', 'Your Sinclair issue 66: Magnificent Seven 3' ]
+[ '0013798', 'Your Sinclair issue 67: Magnificent Seven 4' ]
+[ '0013799', 'Your Sinclair issue 68: Magnificent Seven 5' ]
+[ '0013800', 'Your Sinclair issue 69: Magnificent Seven 6' ]
+[ '0013801', 'Your Sinclair issue 70: Magnificent Seven 7' ]
+[ '0013802', 'Your Sinclair issue 71: Magnificent Seven 8' ]
+[ '0013803', 'Your Sinclair issue 72: Magnificent Seven 9' ]
+[ '0013804', 'Your Sinclair issue 73: Magnificent Seven' ]
+[ '0013805', 'Your Sinclair issue 74: Magnificent Seven' ]
+[ '0013806', 'Your Sinclair issue 75: Magnificent Seven' ]
+[ '0013807', 'Your Sinclair issue 76: Magnificent Seven' ]
+[ '0013808', 'Your Sinclair issue 77: Magnificent Seven' ]
+[ '0013809', 'Your Sinclair issue 78: Magnificent Seven' ]
+[ '0013810', 'Your Sinclair issue 79: Magnificent Seven' ]
+[ '0013811', 'Your Sinclair issue 80: Magnificent Seven' ]
+[ '0013812', 'Your Sinclair issue 81: Magnificent Seven' ]
+[ '0013813', 'Your Sinclair issue 82: Magnificent Seven' ]
+[ '0013814', 'Your Sinclair issue 83: Magnificent Seven' ]
+[ '0013815', 'Your Sinclair issue 84: Magnificent Seven' ]
+[ '0013816', 'Your Sinclair issue 85: Christmas Collection 2' ]
+[ '0013817', 'Your Sinclair issue 86: Beaut Box 1' ]
+[ '0013818', 'Your Sinclair issue 87: Beaut Box 2' ]
+[ '0013819', 'Your Sinclair issue 88: Beaut Box 3' ]
+[ '0013820', 'Your Sinclair issue 89: Beaut Box 4' ]
+[ '0013821', 'Your Sinclair issue 90: Beaut Box 5' ]
+[ '0013822', 'Your Sinclair issue 91: Beaut Box 6' ]
+[ '0013823', 'Your Sinclair issue 92: Beaut Box 7' ]
+[ '0013824', 'Mega-Bert' ]
+[ '0013922', 'Feudal Overlord' ]
+[ '0014001', 'Cup and Bowl' ]
+[ '0014007', 'Puncman 1 + 2' ]
+[ '0014196', 'Outlet issue 109' ]
+[ '0014426', 'Taxi Driver' ]
+[ '0014504', 'Alo Bao' ]
+[ '0014506', 'Battleground' ]
+[ '0014636', 'ZX Spectrum+ Starter Pack' ]
+[ '0014685', 'Games Compendium' ]
+[ '0014699', 'Language Development Series' ]
+[ '0014822', 'Lunaris' ]
+[ '0014928', 'Explorer XXXI' ]
+[ '0014942', 'Stranded' ]
+[ '0015138', 'The Semi-Detached at the End of the Street' ]
+[ '0015407', 'RUN Casete N. 04' ]
+[ '0015427', 'Arnold the Adventurer II' ]
+[ '0015440', "Balrog's Big Four" ]
+[ '0015554', 'Using Your Computer III' ]
+[ '0015567', 'Minicalc' ]
+[ '0015624', 'Dominetris' ]
+[ '0015792', 'Personal Computer Games issue 03' ]
+[ '0015793', 'Personal Computer Games issue 13' ]
+[ '0015958', 'Money' ]
+[ '0015960', 'Turbo Cassette LOAD/SAVE Creator' ]
+[ '0015961', '48K/128K BREAK and ERROR Trapper' ]
+[ '0015962', 'Serial 8056 Screen Copy Routine' ]
+[ '0015963', 'Improved Spectrum Character Set' ]
+[ '0015964', 'ZX-FX' ]
+[ '0015965', 'SpecDrum>Music Machine Convertor' ]
+[ '0016630', 'Dark Forest' ]
+[ '0016654', 'Droga do Duplandu' ]
+[ '0016687', 'Football Follower' ]
+[ '0016776', 'The 16/48 Machine Code Tutor' ]
+[ '0016793', 'Farmer Jack in Harvest Havoc!' ]
+[ '0016989', 'Millipede' ]
+[ '0017288', 'Klokkijken Analoog + Klokkijken Digitaal' ]
+[ '0017299', 'Moonraker' ]
+[ '0017309', 'Phantomasa' ]
+[ '0017361', 'User-1' ]
+[ '0017410', 'Adventure Holiday' ]
+[ '0017731', 'Stranded 2.5' ]
+[ '0017769', 'Biorhythms' ]
+[ '0017951', 'Control de Stocks' ]
+[ '0018222', 'Las Cuatro en Raya' ]
+[ '0018223', 'El Bodeguero' ]
+[ '0018224', 'Reubicador Z-80' ]
+[ '0018350', 'Blue Hellfire' ]
+[ '0018357', 'G.I. Tech' ]
+[ '0018540', 'Isotopia' ]
+[ '0018778', 'Bug Zum' ]
+[ '0018870', 'Header Reader' ]
+[ '0018873', 'Farmer Jack and the Hedge Monkeys!' ]
+[ '0018878', 'Laser Shoot' ]
+[ '0018901', 'How to Play Adventures' ]
+[ '0018996', 'Steeplejack' ]
+[ '0019081', 'Ucieczka ze Spejs-Szipu' ]
+[ '0019184', 'Your Computer issue 8212' ]
+[ '0019191', 'splATTR' ]
+[
+  '0019231',
+  'Your Sinclair issue 48: Smash Tape 25 - Special Edition'
+]
+[ '0019249', 'Games Aid' ]
+[ '0019252', 'Interrupt Sound Effects' ]
+[ '0019378', 'Millipede' ]
+[ '0019386', 'Vec-Man' ]
+[ '0019451', 'Mindbender + Stretcher' ]
+[ '0019453', 'Purchase Day Book' ]
+[ '0019480', 'Wrath of Kong' ]
+[ '0019896', 'Whirlwind' ]
+[ '0020176', 'Arcade Game Designer' ]
+[ '0020177', 'Mariano the Dragon in Capers in Cityland' ]
+[ '0020291', 'Jega Tape 2' ]
+[ '0020317', 'Letcher' ]
+[ '0020367', "Mix 'n' Match + Mistermind" ]
+[ '0020396', 'On the Run' ]
+[ '0020402', 'Out of the Blue' ]
+[ '0020444', 'Prisoner' ]
+[ '0020455', 'Quarterback' ]
+[ '0020695', 'MicroHobby issue 37' ]
+[ '0020722', 'Ini-Rip' ]
+[ '0020723', 'Red Cap' ]
+[ '0020724', 'Zap-Lap' ]
+[ '0020725', 'Hal Ant' ]
+[ '0020745', 'Yurec Quest' ]
+[ '0020784', 'A Double Balrog' ]
+[ '0020787', 'DigiTape - Your Sinclair issue 01' ]
+[ '0020788', 'DigiTape - Your Sinclair issue 02' ]
+[ '0020789', 'DigiTape - Your Sinclair issue 03' ]
+[ '0020790', 'DigiTape - Your Sinclair issue 04' ]
+[ '0020791', 'DigiTape - Your Sinclair issue 05' ]
+[ '0020792', 'DigiTape - Your Sinclair issue 06' ]
+[ '0020793', 'DigiTape - Your Sinclair issue 07' ]
+[ '0020794', 'DigiTape - Your Sinclair issue 08' ]
+[ '0020795', 'DigiTape - Your Sinclair issue 10' ]
+[ '0020796', 'DigiTape - Your Sinclair issue 11' ]
+[ '0020797', 'DigiTape - Your Sinclair issue 12' ]
+[ '0020798', 'DigiTape - Your Sinclair issue 13' ]
+[ '0020799', 'DigiTape - Your Sinclair issue 14' ]
+[ '0020800', 'DigiTape - Your Sinclair issue 15' ]
+[ '0020801', 'DigiTape - Your Sinclair issue 16' ]
+[ '0020802', 'DigiTape - Your Sinclair issue 17' ]
+[ '0020803', 'DigiTape #1 - Your Spectrum issue 16' ]
+[ '0020804', 'DigiTape #2 - Your Spectrum issue 17' ]
+[ '0020805', 'DigiTape #3 - Your Spectrum issue 18' ]
+[ '0020894', 'ZX Big-Shot Typeface Machine Codes' ]
+[ '0020984', 'The Hideous' ]
+[ '0021120', 'Business War' ]
+[ '0021186', 'Kill PC' ]
+[ '0021511', 'Nuclear City Bomber' ]
+[ '0021515', 'Your Attention Please' ]
+[ '0021539', 'Gwiezdne Imperium' ]
+[ '0021547', 'Psychiatric Hospital 2000' ]
+[ '0021583', 'Farmer Jack - Treasure Trove' ]
+[ '0021590', 'Enigma Tape Magazine issue 7' ]
+[ '0021593', 'Joystick issue 8612' ]
+[ '0021594', 'Joystick issue 8702' ]
+[ '0021595', 'Joystick issue 8704' ]
+[ '0021599', 'Joystick issue 8703' ]
+[ '0021623', 'Nipik 2' ]
+[ '0022511', 'TrueFONT' ]
+[ '0023389', 'Rubber Forever!!' ]
+[ '0023438', 'Game' ]
+[ '0023478', 'W*H*B' ]
+[ '0023512', 'DigiTape #4 - Your Spectrum issue 19' ]
+[ '0023513', 'DigiTape #5 - Your Spectrum issue 20' ]
+[ '0023514', 'DigiTape #6 - Your Spectrum issue 21' ]
+[ '0023538', 'Your Sinclair issue 94' ]
+[ '0023674', 'The Graphics Creator' ]
+[ '0023678', 'Factory Daze' ]
+[ '0023711', 'Adelboden Ski-Weltcup 1986' ]
+[ '0023733', 'Number Eater' ]
+[ '0023742', 'Power House' ]
+[ '0023753', 'Santa' ]
+[ '0023807', 'Bipboi' ]
+[ '0023859', 'Kurashiku Nihongo Monsuta Shiro 3' ]
+[ '0024034', 'All Present and Correct' ]
+[ '0024337', 'Dix Jeux Fantastiques' ]
+[ '0024376', 'Dungeons' ]
+[ '0024435', 'Assembler' ]
+[ '0024463', 'Spectrum Zap + ZX Reactor' ]
+[ '0024821', 'C&VG issue 088' ]
+[ '0024822', 'C&VG issue 073' ]
+[ '0024823', 'C&VG issue 036' ]
+[ '0024842', 'French Verbs' ]
+[ '0024893', 'Absolution' ]
+[ '0024955', 'The Open - Troon' ]
+[ '0024958', 'The Open - Royal St. George' ]
+[ '0024959', 'The Open - Pebble Beach' ]
+[ '0024961', 'The Open - Pinehurst' ]
+[ '0024966', 'The Clone Ranger' ]
+[ '0025029', "Demon's Dream" ]
+[ '0025136', 'Horace in the Mystic Woods' ]
+[ '0025245', 'ZX-ALFA' ]
+[ '0025340', 'ACE issue 01' ]
+[ '0025341', 'ACE issue 02' ]
+[ '0025342', 'ACE issue 03' ]
+[ '0025343', 'ACE issue 04' ]
+[ '0025344', 'ACE issue 05' ]
+[ '0025345', 'ACE issue 06' ]
+[ '0025346', 'ACE issue 07' ]
+[ '0025347', 'ACE issue 08' ]
+[ '0025348', 'ACE issue 09' ]
+[ '0025349', 'ACE issue 10' ]
+[ '0025350', 'ACE issue 11' ]
+[ '0025351', 'ACE issue 12' ]
+[ '0025352', 'ACE issue 13' ]
+[ '0025353', 'ACE issue 14' ]
+[ '0025354', 'ACE issue 15' ]
+[ '0025355', 'ACE issue 16' ]
+[ '0025356', 'ACE issue 17' ]
+[ '0025470', 'In the Loft' ]
+[ '0025490', 'Golf' ]
+[ '0025517', 'The Magic Land of Landlords' ]
+[ '0025526', 'Spanish Verbs' ]
+[ '0025528', "Hadrian's Wall" ]
+[ '0025654', 'Computer Gamer issue 09' ]
+[ '0026050', 'Radiopower' ]
+[ '0026051', 'Scuba' ]
+[ '0026054', 'Paypackets' ]
+[ '0026089', 'Swordsman' ]
+[ '0026210', 'Big K issue 02' ]
+[ '0026214', 'Factfile' ]
+[ '0026272', 'La Perla' ]
+[ '0026273', 'Libellula' ]
+[ '0026274', 'Paganini' ]
+[ '0026275', 'Supertitol' ]
+[ '0026276', 'Clive ad Hollywood' ]
+[ '0026278', 'Grafica' ]
+[ '0026280', 'Galileo Lander' ]
+[ '0026281', 'Chimica [2]' ]
+[ '0026282', 'Tennis 3D' ]
+[ '0026283', 'Rocky IV' ]
+[ '0026284', 'Castelbasic' ]
+[ '0026285', 'Turbo BASIC' ]
+[ '0026287', 'Sprite Editor' ]
+[ '0026288', 'Moonbase' ]
+[ '0026289', 'Satellite Killer' ]
+[ '0026291', "Play'N Learn Codice della Strada" ]
+[ '0026292', 'Italia' ]
+[ '0026293', 'ZX Silvan' ]
+[ '0026294', 'Delitto Alla Villa' ]
+[ '0026295', 'Studio di Accordi' ]
+[ '0026296', 'Subroutine' ]
+[ '0026297', 'Mario il Temerario' ]
+[ '0026298', "Cinque Doni Sotto L'Albero" ]
+[ '0026299', 'Caricature [1]' ]
+[ '0026300', 'Buon Natale' ]
+[ '0026301', 'Super BASIC Instruzioni' ]
+[ '0026302', 'Concorso Ippico' ]
+[ '0026303', 'Tombola [2]' ]
+[ '0026304', 'The Way' ]
+[ '0026305', "Play'n Learn: Segnali di pericolo" ]
+[ '0026306', 'Excercises of English Grammar [1]' ]
+[ '0026307', 'Little Akiko of the August Moon' ]
+[ '0026308', 'The Strong Box' ]
+[ '0026309', 'Ostar' ]
+[ '0026310', 'Morse Code' ]
+[ '0026311', 'Generatore di Sprite' ]
+[ '0026312', 'Mundial Caricature' ]
+[ '0026313', 'Musica' ]
+[ '0026314', 'La Statuetta Maya' ]
+[ '0026315', 'Calciomania' ]
+[ '0026316', 'Merge Screen' ]
+[ '0026317', 'Tennis' ]
+[ '0026318', 'Slot-Machine' ]
+[ '0026319', 'Excercises of English Grammar [2]' ]
+[ '0026320', 'Tototoolkit' ]
+[ '0026321', 'Riforma Sanitaria' ]
+[ '0026322', 'Barman' ]
+[ '0026323', 'Punchball' ]
+[ '0026324', "L'Occhio del Diavolo" ]
+[ '0026325', 'Diaisto' ]
+[ '0026326', 'The King and the Castle' ]
+[ '0026327', 'Ping-Pong' ]
+[ '0026328', 'Il Castello Incantato' ]
+[ '0026329', 'Corso di Chitarra' ]
+[ '0026330', 'Matematica' ]
+[ '0026331', 'Space Flight' ]
+[ '0026332', 'Le Voleur' ]
+[ '0026333', 'Il Giro-Mondo' ]
+[ '0026334', 'Simona' ]
+[ '0026335', 'Pianola' ]
+[ '0026336', 'Il Sistema Solare' ]
+[ '0026337', 'Arredare' ]
+[ '0026338', 'Ski' ]
+[ '0026339', "Party's Games" ]
+[ '0026340', 'Borsa' ]
+[ '0026342', 'Finestre' ]
+[ '0026343', 'The Fill' ]
+[ '0026344', 'Capitan Eagle nel Tempio Sconosciuto' ]
+[ '0026345', 'Alien [1]' ]
+[ '0026346', 'The War' ]
+[ '0026347', 'Monopoli' ]
+[ '0026348', 'Caricature [2]' ]
+[ '0026349', 'Ritorno dallo Spazio' ]
+[ '0026350', 'Lo Zoom' ]
+[ '0026353', 'Roadstar' ]
+[ '0026354', 'Ascot' ]
+[ '0026355', 'Motor!' ]
+[ '0026356', 'La Spia' ]
+[ '0026357', 'Domino' ]
+[ '0026358', 'Save the Princess' ]
+[ '0026359', 'Screen Tool' ]
+[ '0026360', '2 Voci' ]
+[ '0026361', 'Spectrum Sprites!' ]
+[ '0026362', 'Dichiarazione delle Persone Fisiche' ]
+[ '0026363', 'Le Voleur Strikes Back' ]
+[ '0026364', 'Fermate la Capetan Kid' ]
+[ '0026365', 'Messico' ]
+[ '0026366', 'Meteo2' ]
+[ '0026367', 'Discolight' ]
+[ '0026368', "Harry L'Hippy" ]
+[ '0026369', 'LNR Odissey' ]
+[ '0026370', 'Dadi' ]
+[ '0026371', 'Murder' ]
+[ '0026372', 'Cosmos the Adventure!' ]
+[ '0026373', 'Finali' ]
+[ '0026374', 'Api' ]
+[ '0026375', 'Apaches' ]
+[ '0026376', 'Caccia al Tesoro nella Citta di Braio' ]
+[ '0026377', 'Synth' ]
+[ '0026378', 'IQ Test' ]
+[ '0026379', 'Compact Screen' ]
+[ '0026380', 'Surf' ]
+[ '0026381', 'Jimmy' ]
+[ '0026382', 'Alla Conquista del West' ]
+[ '0026384', 'Maxi Puzzle' ]
+[ '0026385', 'Piatto' ]
+[ '0026386', 'Flippout' ]
+[ '0026387', 'Ghosty' ]
+[ '0026388', 'Microdoc' ]
+[ '0026389', 'Operazione Ladro' ]
+[ '0026390', 'Guitar' ]
+[ '0026391', 'Stars Sistem' ]
+[ '0026392', 'Superscacchi' ]
+[ '0026393', 'Krull the Adventure' ]
+[ '0026394', 'The Hacker' ]
+[ '0026395', 'Pixel to Pixel' ]
+[ '0026396', "Sorcerers' Land" ]
+[ '0026397', 'Manager' ]
+[ '0026398', 'Speccy Draw' ]
+[ '0026399', 'Nazca' ]
+[ '0026400', 'La Casa Stregata' ]
+[ '0026401', 'Fantasmi' ]
+[ '0026402', "L'Aiutauto" ]
+[ '0026403', 'Funzioni' ]
+[ '0026404', 'Mani Mosca' ]
+[ '0026405', 'Oriental' ]
+[ '0026406', 'Ugh!' ]
+[ '0026407', 'MasterBASIC' ]
+[ '0026408', 'Minas Morgul' ]
+[ '0026409', 'ZX Cruciverber' ]
+[ '0026410', 'Merry Christmas' ]
+[ '0026411', 'Mosaico' ]
+[ '0026412', 'Roulette Russa' ]
+[ '0026413', 'Diamond Toolkit' ]
+[ '0026414', 'Pirata Kid' ]
+[ '0026415', 'Tombola Napoletana' ]
+[ '0026416', 'Proporzional' ]
+[ '0026417', 'Copy Video SCREEN$' ]
+[ '0026419', 'Missione Sabotage' ]
+[ '0026420', 'Azzurra' ]
+[ '0026421', 'Colormania' ]
+[ '0026422', 'Strip-tease Casino' ]
+[ '0026423', 'Confuze' ]
+[ '0026424', 'La Foresta' ]
+[ '0026425', 'Char Bank' ]
+[ '0026426', 'Supercalendario' ]
+[ '0026427', 'Min Ciam Pai' ]
+[ '0026428', 'Morg' ]
+[ '0026429', 'The Arrow' ]
+[ '0026430', 'Demoni' ]
+[ '0026431', 'Kronos' ]
+[ '0026432', 'Il Tesoro di Malpetra' ]
+[ '0026433', 'Joe Sgraffigna' ]
+[ '0026434', 'Il Tesoro del Dragone' ]
+[ '0026435', 'Sire Fire' ]
+[ '0026436', 'The Finder' ]
+[ '0026437', 'Ugo il Ladro' ]
+[ '0026438', 'Il Sonnambulo' ]
+[ '0026439', 'Dark Dimension' ]
+[ '0026440', 'Dieta' ]
+[ '0026441', 'Turbo-Tape' ]
+[ '0026442', 'Circus' ]
+[ '0026443', "Stella d'Argento" ]
+[ '0026444', 'Guardie e Ladri' ]
+[ '0026446', 'Dimensione Sconosciuta' ]
+[ '0026447', 'Quark' ]
+[ '0026448', 'Investigator' ]
+[ '0026449', 'Jumper' ]
+[ '0026450', "Spectrum's Doctor" ]
+[ '0026451', 'Marine' ]
+[ '0026452', 'Crunch' ]
+[ '0026453', 'Archivio Telefonico' ]
+[ '0026454', 'Sire Fire 2' ]
+[ '0026455', 'Mountain Stream' ]
+[ '0026456', 'Crono' ]
+[ '0026457', 'Aliens' ]
+[ '0026458', 'Killers' ]
+[ '0026459', 'Message from Pulsatron' ]
+[ '0026460', 'Reti Combinatorie a Due Livelli' ]
+[ '0026461', 'Investigator II' ]
+[ '0026462', 'Roulette [2]' ]
+[ '0026463', 'Paladini [1]' ]
+[ '0026464', 'Tiro Rapido' ]
+[ '0026465', 'Il Trentuno' ]
+[ '0026466', 'Opener' ]
+[ '0026467', 'Totoredox' ]
+[ '0026468', 'C.D.U.' ]
+[ '0026469', 'Ghost&Booster' ]
+[ '0026470', 'Microcode' ]
+[ '0026471', 'The Parser' ]
+[ '0026472', 'Thunderland' ]
+[ '0026473', 'Gigino&Gigetta' ]
+[ '0026474', 'Chemin de Fer' ]
+[ '0026475', 'Arrowmac' ]
+[ '0026476', 'Lancelot' ]
+[ '0026477', 'Balaclava' ]
+[ '0026478', 'Thunderland II' ]
+[ '0026479', 'Window Storer' ]
+[ '0026480', 'Super Puzzle' ]
+[ '0026481', 'Billy the Kid' ]
+[ '0026482', 'Multitasking' ]
+[ '0026483', 'Joystick Control' ]
+[ '0026484', 'Excalibur' ]
+[ '0026485', 'Ultima Chance' ]
+[ '0026486', 'La Foresta Dimenticata dal Tempo' ]
+[ '0026487', 'Totocalcio' ]
+[ '0026488', 'Spacelord' ]
+[ '0026489', "Tempi Moderni '87" ]
+[ '0026490', 'Beta Base' ]
+[ '0026491', 'Down Up' ]
+[ '0026492', 'Inferi' ]
+[ '0026493', 'The Damned Castle' ]
+[ '0026494', 'La Voce' ]
+[ '0026495', 'Superbase' ]
+[ '0026496', 'Tristar' ]
+[ '0026497', 'Goblins' ]
+[ '0026498', '3D Plus' ]
+[ '0026499', 'Terminal Modem' ]
+[ '0026501', 'Hic Game' ]
+[ '0026502', 'Deus' ]
+[ '0026503', 'Caterpillar' ]
+[ '0026504', 'Arrowmac 2' ]
+[ '0026505', 'Pop Corn' ]
+[ '0026506', 'Bronx' ]
+[ '0026507', 'Mac Art' ]
+[ '0026508', 'Major BASIC + 64 Print' ]
+[ '0026509', 'Explorer' ]
+[ '0026510', 'Middle Age' ]
+[ '0026511', 'Othello 3D' ]
+[ '0026512', 'Colorload' ]
+[ '0026513', 'Micronauts' ]
+[ '0026514', 'Luna Park' ]
+[ '0026515', '3D Movie' ]
+[ '0026516', 'Master Copy' ]
+[ '0026517', 'Paladini [2]' ]
+[ '0026536', 'Elite 3' ]
+[ '0026748', 'Slop-Slap' ]
+[ '0026846', 'Byte Transfer' ]
+[ '0026855', 'Colour Change' ]
+[ '0026857', 'Compactor [1]' ]
+[ '0026884', 'Goblet' ]
+[ '0026911', 'Maze [2]' ]
+[ '0027009', 'Ultralist' ]
+[ '0027035', "The Junior Ranger's Handbook" ]
+[ '0027306', 'Herbert the Turbot' ]
+[ '0027404', 'Computer Cargo Conquest' ]
+[ '0027414', 'Computer Bomber Game' ]
+[ '0027415', 'Computer Tennis Game' ]
+[ '0027416', 'Computer Truckman Game' ]
+[ '0027423', 'Detective' ]
+[ '0027487', 'Battaglia Navale' ]
+[ '0027488', 'Scopa' ]
+[ '0027489', 'Personal Quiz [3]' ]
+[ '0027490', 'Rotate 3D' ]
+[ '0027491', 'Sommergibile' ]
+[ '0027492', 'Wormywave' ]
+[ '0027508', "Camel Trophy '86" ]
+[ '0027587', 'The Lost Tapes of Albion' ]
+[ '0027694', 'Editeur Musical' ]
+[ '0027703', 'Dossier G.' ]
+[ '0027723', 'Computing Videoteca 3' ]
+[ '0027831', 'Poker Strip' ]
+[ '0027832', 'Bis' ]
+[ '0027833', 'Sole' ]
+[ '0027834', 'Dama Cinese' ]
+[ '0027835', 'Furto Col Computer' ]
+[ '0027836', 'Avventura in Spectralia' ]
+[ '0027837', 'Briscola' ]
+[ '0027838', 'Dardi' ]
+[ '0027839', 'Yahtzee' ]
+[ '0027840', 'Copy' ]
+[ '0027841', 'Panico Allo Stadio' ]
+[ '0027842', 'Un Delitto' ]
+[ '0027843', 'The Day Before' ]
+[ '0027844', 'Segnali' ]
+[ '0027845', 'Spectrum Parlante' ]
+[ '0027846', 'Bioritmi' ]
+[ '0027847', 'Toolkit' ]
+[ '0027849', 'Inviato Speciale' ]
+[ '0027850', 'LM Collection' ]
+[ '0027851', 'Star Trek 5' ]
+[ '0027852', 'Elettrokit' ]
+[ '0027853', 'La Casa' ]
+[ '0027854', 'Tic Tac' ]
+[ '0027855', 'Compactor' ]
+[ '0027856', 'Casino Monique' ]
+[ '0027858', 'Archivio Programmi' ]
+[ '0027859', 'Lista Software' ]
+[ '0027860', 'New Beep' ]
+[ '0027861', "Mike's Strike" ]
+[ '0027862', 'Exodus 2001' ]
+[ '0027863', 'Alien [2]' ]
+[ '0027864', 'New Commands' ]
+[ '0027865', 'The Lost Sword' ]
+[ '0027866', 'Disas 80' ]
+[ '0027867', 'Il Tempio Maledetto' ]
+[ '0027868', 'Mega Assembler' ]
+[ '0027869', '2D Plus' ]
+[ '0027870', 'Proxima' ]
+[ '0027871', 'Monitor' ]
+[ '0027897', 'Road Education' ]
+[ '0027898', 'Chimica [1]' ]
+[ '0027899', 'Tombola [1]' ]
+[ '0027900', 'Alberoto' ]
+[ '0027901', 'Effetti Sonori' ]
+[ '0027902', 'Personal Quiz [1]' ]
+[ '0027903', 'Spectroca' ]
+[ '0027904', 'Fumetto: Generale Custer [1]' ]
+[ '0027905', 'Italia Tour' ]
+[ '0027906', 'Calendario' ]
+[ '0027907', 'Spia Copy' ]
+[ '0027908', 'Personal Quiz [2]' ]
+[ '0027910', 'Mega Draw' ]
+[ '0027911', 'ZX Calc' ]
+[ '0027912', 'Fumetto: Generale Custer [2]' ]
+[ '0027913', 'Personal Quiz [4]' ]
+[ '0027914', 'Le Casse Acustiche' ]
+[ '0027915', 'Errori Italiani' ]
+[ '0027916', 'Roulette [1]' ]
+[ '0027917', 'Personal Quiz [5]' ]
+[
+  '0027943',
+  'Zbylut Owrzodzien w Kamiennym, Kurwa, Zajebanym Czarcim Kregu'
+]
+[ '0027965', 'LumASCII' ]
+[ '0028008', 'Back to the Graphics' ]
+[ '0028019', 'SpecTec Demo' ]
+[ '0028020', 'Snake' ]
+[ '0028028', 'Intergalactic Space Rescue' ]
+[ '0028037', 'Micro Primer - Software Pack 3' ]
+[ '0028054', 'Knights & Demons' ]
+[ '0028068', 'Magazzino' ]
+[ '0028072', 'Geometria II' ]
+[ '0028073', 'Confusion' ]
+[ '0028119', 'Hunt the Wumpus' ]
+[ '0028157', 'Gem Chaser' ]
+[ '0028171', 'FZX' ]
+[ '0028180', 'IZX' ]
+[ '0028421', 'Zork 2 - The Wizard of Frobozz (ZxZvm)' ]
+[ '0028422', 'Zork 3 - The Dungeon Master (ZxZvm)' ]
+[ '0028454', 'CSSCGC Crap Games Competition 1996' ]
+[ '0028455', 'CSSCGC Crap Games Competition 1997' ]
+[ '0028456', 'CSSCGC Crap Games Competition 1998' ]
+[ '0028457', 'CSSCGC Crap Games Competition 1999' ]
+[ '0028458', 'CSSCGC Crap Games Competition 2000' ]
+[ '0028459', 'CSSCGC Crap Games Competition 2001' ]
+[ '0028460', 'CSSCGC Crap Games Competition 2002' ]
+[ '0028461', 'CSSCGC Crap Games Competition 2003' ]
+[ '0028462', 'CSSCGC Crap Games Competition 2004' ]
+[ '0028463', 'CSSCGC Crap Games Competition 2005' ]
+[ '0028464', 'CSSCGC Crap Games Competition 2006' ]
+[ '0028465', 'CSSCGC Crap Games Competition 2007' ]
+[ '0028466', 'CSSCGC Crap Games Competition 2008' ]
+[ '0028467', 'CSSCGC Crap Games Competition 2009' ]
+[ '0028468', 'CSSCGC Crap Games Competition 2010' ]
+[ '0028469', 'CSSCGC Crap Games Competition 2011' ]
+[ '0028470', 'CSSCGC Crap Games Competition 2012' ]
+[ '0028471', 'CSSCGC Crap Games Competition 2013' ]
+[ '0028472', 'CSSCGC Crap Games Competition 2014' ]
+[ '0028473', 'CSSCGC Crap Games Competition 2015' ]
+[ '0028474', 'CSSCGC Crap Games Competition 2016' ]
+[ '0028475', 'CSSCGC Crap Games Competition 2017' ]
+[ '0028476', 'CSSCGC Crap Games Competition 2018' ]
+[ '0028748', 'Catacombs' ]
+[ '0029655', 'Starship Nova' ]
+[ '0030001', 'NIRVANA ENGINE' ]
+[ '0030008', 'MT Engine MK1 - La Churrera' ]
+[ '0030023', 'Gem Chaser 2' ]
+[ '0030139', 'X=Y=Z' ]
+[ '0030187', 'Simple Silent Snake' ]
+[ '0030231', 'Red Planet' ]
+[ '0030267', 'Wake Me Up!' ]
+[ '0030277', 'ELF, La Aventura - Parte 1' ]
+[ '0030306', 'Sam Mallard: The Case of the Missing Swan' ]
+[ '0030312', 'Mysterious Dimensions' ]
+[ '0030342', 'WOOT! Tape Magazine issue #0 - ZXMAS 2016 Edition' ]
+[ '0030347', 'Pietro Bros' ]
+[ '0030350', 'Rock, Paper, Scissors, Pudding, Drop!' ]
+[ '0030362', 'Heroes Rescue' ]
+[ '0030408', 'Robot 1 in... The Ship of Doom' ]
+[ '0030409', 'Quill Thrill Vol 3' ]
+[ '0030410', 'Break/Space' ]
+[ '0030415', 'That Sinking Feeling' ]
+[ '0030430', 'Terrapins' ]
+[ '0030444', 'Blimpgeddon' ]
+[ '0030450', '2D Minimaze' ]
+[ '0030451', '3D Maze' ]
+[ '0030452', 'Adventure in Bristol' ]
+[ '0030453', 'Anagrams 2' ]
+[ '0030454', "Anthea Turner's National Lottery Simulator" ]
+[ '0030455', 'Build That Tower' ]
+[ '0030456', 'Burp Man' ]
+[ '0030457', 'Cantona Football' ]
+[ '0030458', 'Car' ]
+[ '0030459', 'Castle' ]
+[ '0030460', 'Cat + Mouse' ]
+[ '0030461', 'Chess' ]
+[ '0030462', 'Credit Calculator' ]
+[ '0030463', 'Dark Room Simulator' ]
+[ '0030464', 'Dyke' ]
+[ '0030465', 'Einstein' ]
+[ '0030466', 'Filler' ]
+[ '0030467', 'Hangman' ]
+[ '0030468', 'Keys' ]
+[ '0030469', 'Kingdom' ]
+[ '0030470', 'Lego Simulator' ]
+[ '0030471', 'Maths Invaders' ]
+[ '0030472', 'Maze' ]
+[ '0030473', 'Maze 2' ]
+[ '0030474', 'The Mighty Sword of the Dark' ]
+[ '0030475', 'Mr Blobby Goes Down The Newsagents' ]
+[ '0030476', 'Naughts and Crosses' ]
+[ '0030477', 'New Age Warper' ]
+[ '0030478', 'Nim' ]
+[ '0030479', 'Orbit' ]
+[ '0030480', 'Overboard' ]
+[ '0030481', 'Patterns' ]
+[ '0030482', 'Plus 3 Tennis II' ]
+[ '0030483', 'Poker' ]
+[ '0030484', 'Purple Demon' ]
+[ '0030485', 'Reaction Time' ]
+[ '0030486', 'Shoot That Tank' ]
+[ '0030487', 'Skiing' ]
+[ '0030488', 'Snake' ]
+[ '0030489', 'Snake 2' ]
+[ '0030490', 'Sokoban' ]
+[ '0030491', 'SpecDaleks' ]
+[ '0030492', 'Spectrum Landers' ]
+[ '0030493', 'Stars 2' ]
+[ '0030494', 'Stars 3' ]
+[ '0030495', 'Stuntman' ]
+[ '0030496', 'Super Bomber' ]
+[ '0030497', 'Surround' ]
+[ '0030498', 'Tennis' ]
+[ '0030499', 'Tetris' ]
+[ '0030500', 'Tetris - The Text Adventure' ]
+[ '0030501', 'TEWShips' ]
+[ '0030502', 'Turbo Racers' ]
+[ '0030503', 'Valley Racer 3D' ]
+[ '0030504', 'Wacky Zany Painter Guy' ]
+[ '0030505', 'Wari' ]
+[ '0030506', 'Washing Day' ]
+[ '0030507', 'Whale Hunt' ]
+[ '0030508', 'Advanced Advocacy Simulator' ]
+[ '0030509', 'Advanced Road Rage Simulator - M4 Joyrider Edition' ]
+[ '0030510', 'Alien Death Mine Massacre XII' ]
+[ '0030511', "Andrew's" ]
+[ '0030512', 'Balloon' ]
+[ '0030513', "Bash N' Grab" ]
+[ '0030514', 'Blitz' ]
+[ '0030515', 'Bludisko' ]
+[ '0030516', 'Boing... Plop' ]
+[ '0030517', 'Breakout' ]
+[ '0030518', 'Bullseye' ]
+[ '0030519', 'Caves Of Mondonia' ]
+[ '0030520', 'Countdown' ]
+[ '0030521', 'CPEL' ]
+[ '0030522', 'Daleks' ]
+[ '0030523', 'Ego' ]
+[ '0030524', 'Escape!' ]
+[ '0030525', 'Fruit' ]
+[ '0030526', 'Get That Emulator' ]
+[ '0030527', 'Ghosts' ]
+[ '0030528', 'Ground Strike' ]
+[ '0030529', 'Hockey' ]
+[ '0030530', 'Horace Goes Seal Culling' ]
+[ '0030531', 'Invaders' ]
+[ '0030532', 'Maze Change' ]
+[ '0030533', 'Maze Chase' ]
+[ '0030534', "Metal Detector '79" ]
+[ '0030535', 'Minefield' ]
+[ '0030536', 'Minesweeper' ]
+[ '0030537', 'Moggy Murder' ]
+[ '0030538', 'Naughts and Crosses' ]
+[ '0030539', 'Number' ]
+[ '0030540', 'Pi Week The Quest' ]
+[ '0030541', 'Practice' ]
+[ '0030542', 'Purple Demon II' ]
+[ '0030543', 'Sink The Belgrano' ]
+[ '0030544', 'Slalom' ]
+[ '0030545', 'Snakes and Adders' ]
+[ '0030546', 'Space' ]
+[ '0030547', 'Squash' ]
+[ '0030548', 'Super Amazing Filler' ]
+[
+  '0030549',
+  'Super Amazing Filler II Turbo - Attack of the Graffiti Monsters'
+]
+[ '0030550', 'Tank Sums' ]
+[ '0030551', 'Target' ]
+[ '0030552', 'Tennis' ]
+[ '0030553', 'Tour of the Knight' ]
+[ '0030554', 'Wheelchair' ]
+[ '0030555', "Wimbledon '97" ]
+[ '0030556', 'The Worm' ]
+[ '0030557', 'Zen and the Art of Paint Drying' ]
+[ '0030558', '1D Tetris' ]
+[ '0030559', '3D Advanced Marathon Simulator' ]
+[ '0030560', 'Advanced Binary Simulator' ]
+[ '0030561', 'Advanced Death Simulator' ]
+[ '0030562', 'Advanced Illegal Parking Simulator' ]
+[ '0030563', 'Advanced Shoplifting Simulator' ]
+[ '0030564', 'Advanced Wallpaper Simulator' ]
+[ '0030565', 'Advanced Windows 95 Simulator' ]
+[ '0030566', 'Advanced Wnking Simulator' ]
+[ '0030567', 'Alien Abduction Simulator' ]
+[ '0030568', 'Back Of The Grid - The Sinclair C5 Simulator' ]
+[ '0030569', 'Back Of The Grid II - Advanced C5 Simulator' ]
+[ '0030570', 'Back Of The Grid III - Professional C5 Simulator' ]
+[ '0030571', 'The Best Thing Since Sliced Bread' ]
+[ '0030572', 'Cheese Magnate' ]
+[ '0030573', 'Coin Toss Simulator' ]
+[ '0030574', 'comp.sys.sinclair Crap Games Comp' ]
+[ '0030575', "Conway's Death" ]
+[ '0030576', 'Crap Piano Sim' ]
+[ '0030577', 'Emulator' ]
+[ '0030578', 'Escape From The... men in White Coats' ]
+[ '0030579', 'Horace Goes Snowboarding' ]
+[ '0030580', 'IBM PC Emulator' ]
+[ '0030581', 'Jet Fighters' ]
+[ '0030582', 'Magic Square' ]
+[ '0030583', 'MF2' ]
+[ '0030584', 'Mind Games' ]
+[ '0030585', 'MYST Demo' ]
+[ '0030586', 'Off My Ed' ]
+[ '0030587', 'Official Hearing Test' ]
+[ '0030588', 'Poke Alex In The Eye - The Game' ]
+[ '0030589', 'Poke Alex In The Eye II' ]
+[ '0030590', 'Purple Demon III' ]
+[ '0030591', 'Quake' ]
+[ '0030592', 'Reaction!!' ]
+[ '0030593', 'RM380Z Emulator' ]
+[ '0030594', 'Sir Clive Sinclair - Entrepreneur Extrordinaire' ]
+[ '0030595', 'Skinhead' ]
+[ '0030596', 'Snake 2' ]
+[ '0030597', 'Software Piracy Simulator' ]
+[ '0030598', 'Spice Girls Manager' ]
+[ '0030599', 'Super Beam Riders' ]
+[ '0030600', 'That Pythonesque Foot' ]
+[ '0030601', 'The Retuners - The Game' ]
+[ '0030602', 'Trebuchet' ]
+[ '0030603', 'Ultimate IRC' ]
+[ '0030604', 'World Cup' ]
+[ '0030605', 'World Cup Final' ]
+[ '0030606', "World War 2.5 - Hitler's Revenge" ]
+[ '0030607', 'Wurmer' ]
+[ '0030608', 'Yahtzee' ]
+[ '0031086', 'Text-Only Grand Prix 2009' ]
+[ '0031254', 'Alan Whicker Simulator' ]
+[ '0031317', 'Samantha Fox Strip Snap' ]
+[ '0031339', 'Advanced Cricket Simulator' ]
+[ '0031360', 'Good Nights Sleep Simulator' ]
+[ '0031362', 'Hangman for Idiots' ]
+[
+  '0031363',
+  'Harry the Baby Saves the World With His Amazing Water Pistol'
+]
+[ '0031388', 'Ultimate ZX Spectrum Games Designer' ]
+[ '0031389', 'Ultimate Horse Racing Simulator' ]
+[ '0031463', 'Verify The Pie or Not!' ]
+[ '0031496', 'Knockabout' ]
+[ '0031506', '5-2K Family Pak' ]
+[ '0031911', 'Ant Attack' ]
+[ '0031914', 'Avalanche' ]
+[ '0031917', 'Boulder Logic' ]
+[ '0031919', 'Boxing Champ' ]
+[ '0031926', 'CroZXy Road' ]
+[ '0031927', 'Domin8tr1s' ]
+[ '0031928', 'Down!' ]
+[ '0031937', 'Impact!' ]
+[ '0031948', 'Mayhem' ]
+[ '0031952', 'Miner Man' ]
+[ '0031954', 'Noir Shapes' ]
+[ '0031956', 'One Little Ghost' ]
+[ '0031959', 'Pandemic' ]
+[ '0031962', 'Quack!' ]
+[ '0031965', 'Rebound' ]
+[ '0031968', 'Rush' ]
+[ '0031970', 'Shifted' ]
+[ '0031975', 'Stairrunner' ]
+[ '0031980', 'U-Bend' ]
+[ '0031982', 'Virus' ]
+[ '0031986', 'ZXagon' ]
+[ '0032083', 'Valkirie + Guerrilha Cosmica + Zor' ]
+[ '0032152', 'Minesweeper 16/48' ]
+[ '0032157', 'Vallation 128K' ]
+[ '0032177', 'WOOT! Tape Magazine issue #1 - ZXMAS 2017 Edition' ]
+[ '0032200', "Jilly's Farm Volume 1 - SokoBAArn!" ]
+[ '0032209', 'In Nihilum Reverteris' ]
+[ '0032220', 'Roust' ]
+[ '0032231', 'Gandalf' ]
+[ '0032245', 'Impossabubble' ]
+[ '0032248', 'The Royal Game of UR' ]
+[ '0032297', 'Seto Taisho to Kazan' ]
+[ '0033381', 'The Dungeon of Bhalgora' ]
+[ '0033387', 'baSnake' ]
+[ '0034312', 'Hibernated 1: This Place is Death' ]
+[ '0034334', 'Lost in Worlds' ]
+[ '0034337', 'BLAM' ]
+[ '0034339', 'Line' ]
+[ '0034424', 'Robots Rumble' ]
+[ '0034447', 'Unhallowed' ]
+[ '0034528', 'Mage - The Enchanted Crystals' ]
+[ '0034622', 'Quadron' ]
+[ '0034630', "Clickety Click's Dungeon" ]
+[ '0034636', 'Octukitty' ]
+[ '0034650', 'The Malignant Gore' ]
+[ '0034668', 'Eight Feet Under' ]
+[ '0034680', 'Moritz Strikes Back' ]
+[ '0034687', 'Manic Pietro' ]
+[ '0034714', 'Redshift' ]
+[ '0034716', 'Ninja Gardening Simulator' ]
+[ '0034718', 'Ninjakul 2: The Last Ninja' ]
+[ '0034723', 'Dead Zone' ]
+[ '0034730', 'Misifu la Gatita' ]
+[ '0034732', 'Artillery' ]
+[ '0034736', 'Lost Party Invitation' ]
+[ '0034770', 'The Rubber Maze' ]
+[ '0034800', 'Sc0tb0t' ]
+[ '0034801', 'Invasion Of The Cloud People' ]
+[ '0034810', 'Krap Park' ]
+[ '0034813', 'Percy Penguin in The Present Palaver' ]
+[ '0034845', 'Cosmito en Imperio Cobra' ]
+[ '0034857', 'GLAZX' ]
+[ '0034858', "F'n Balls" ]
+[ '0034994', 'The Golden Sword of Bhakhor' ]
+[ '0034995', 'The Lost Disks of SAM' ]
+[ '0035102', 'Knights and Demons 2' ]
+[ '0035107', 'Mage Rage' ]
+[ '0035110', 'Una Bruma en Stratford' ]
+[ '0035112', 'The Curse of Trasmoz' ]
+[ '0035113', 'Nixy and the Seeds of Doom' ]
+[ '0035115', 'Paintball 2048' ]
+[ '0035117', 'Rescate en Marte' ]
+[ '0035121', 'Black and White' ]
+[ '0035128', 'Bubblegum Bros.' ]
+[ '0035129', 'DeltaStar - Earth Defense' ]
+[ '0035130', 'Dungeonette' ]
+[ '0035135', 'Montana Mike' ]
+[ '0035159', 'Hunt Buck: Nuclear Defence' ]
+[ '0035165', 'Quest for Elements' ]
+[ '0035166', 'Pre-ZU' ]
+[ '0035209', 'LAFIX 2' ]
+[ '0035232', 'El Mosquetero de la Reina (Capítulo 1: El mensajero)' ]
+[ '0035240', 'Una Luz en la Nieve' ]
+[ '0035256', "Load 'n' Run issue 01" ]
+[ '0035257', "Load 'n' Run issue 02" ]
+[ '0035258', "Load 'n' Run issue 03" ]
+[ '0035259', "Load 'n' Run issue 04" ]
+[ '0035260', "Load 'n' Run issue 05" ]
+[ '0035261', "Load 'n' Run issue 06" ]
+[ '0035262', "Load 'n' Run issue 07" ]
+[ '0035263', "Load 'n' Run issue 08" ]
+[ '0035264', "Load 'n' Run issue 09" ]
+[ '0035265', "Load 'n' Run issue 10" ]
+[ '0035266', "Load 'n' Run issue 11" ]
+[ '0035267', "Load 'n' Run issue 12" ]
+[ '0035268', "Load 'n' Run issue 13" ]
+[ '0035269', "Load 'n' Run issue 14" ]
+[ '0035270', "Load 'n' Run issue 15" ]
+[ '0035271', "Load 'n' Run issue 16" ]
+[ '0035272', "Load 'n' Run issue 17" ]
+[ '0035273', "Load 'n' Run issue 18" ]
+[ '0035274', "Load 'n' Run issue 19" ]
+[ '0035275', "Load 'n' Run issue 20" ]
+[ '0035276', "Load 'n' Run issue 21" ]
+[ '0035277', "Load 'n' Run issue 22" ]
+[ '0035278', "Load 'n' Run issue 23" ]
+[ '0035279', "Load 'n' Run issue 24" ]
+[ '0035280', "Load 'n' Run issue 25" ]
+[ '0035281', "Load 'n' Run issue 26" ]
+[ '0035282', "Load 'n' Run issue 27" ]
+[ '0035283', "Load 'n' Run issue 28" ]
+[ '0035284', "Load 'n' Run issue 29" ]
+[ '0035285', "Load 'n' Run issue 30" ]
+[ '0035286', "Load 'n' Run issue 31" ]
+[ '0035287', "Load 'n' Run issue 32" ]
+[ '0035288', "Load 'n' Run issue 33" ]
+[ '0035289', "Load 'n' Run issue 34" ]
+[ '0035290', "Load 'n' Run issue 35" ]
+[ '0035291', "Load 'n' Run issue 36" ]
+[ '0035292', "Load 'n' Run issue 37" ]
+[ '0035293', "Load 'n' Run issue 38" ]
+[ '0035294', "Load 'n' Run issue 39" ]
+[ '0035295', "Load 'n' Run issue 40" ]
+[ '0035296', "Load 'n' Run issue 41" ]
+[ '0035297', "Load 'n' Run issue 42" ]
+[ '0035298', "Load 'n' Run issue 43" ]
+[ '0035299', "Load 'n' Run issue 44" ]
+[ '0035300', "Load 'n' Run issue 45" ]
+[ '0035301', "Load 'n' Run issue 46" ]
+[ '0035302', "Load 'n' Run issue 47" ]
+[ '0035303', "Load 'n' Run issue 48" ]
+[ '0035304', "Load 'n' Run issue 49" ]
+[ '0035305', "Load 'n' Run issue 50" ]
+[ '0035306', "Load 'n' Run issue 51" ]
+[ '0035307', "Load 'n' Run issue 52" ]
+[ '0035308', "Load 'n' Run issue 53" ]
+[ '0035309', "Load 'n' Run issue 54" ]
+[ '0035310', "Load 'n' Run issue 55" ]
+[ '0035311', "Load 'n' Run issue 56" ]
+[ '0035312', "Load 'n' Run issue 57" ]
+[ '0035313', "Load 'n' Run issue 58" ]
+[ '0035314', "Load 'n' Run issue 59" ]
+[ '0035315', "Load 'n' Run issue 60" ]
+[ '0035316', "Load 'n' Run issue 61" ]
+[ '0035317', "Load 'n' Run issue 62" ]
+[ '0035318', "Load 'n' Run issue 63" ]
+[ '0035319', "Load 'n' Run issue 64" ]
+[ '0035321', 'The Curse of Rabenstein' ]
+[ '0035323', 'Papyrus' ]
+[ '0035324', 'UFO' ]
+[ '0035325', 'Sliding Blocks' ]
+[ '0035326', 'Springbot' ]
+[ '0035327', 'The Perils of Willy' ]
+[ '0035331', 'Peplum' ]
+[ '0035333', 'Huellas' ]
+[ '0035337', 'File Compressor Plus' ]
+[ '0035338', 'Colonos ZX' ]
+[ '0035340', "Devil's Quest" ]
+[ '0035346', 'ZX Connection' ]
+[ '0035680', "Jumpin' Jupiter" ]
+[ '0035684', 'Magenta Jim' ]
+[ '0035688', 'Vampire Vengeance' ]
+[ '0035689', 'Danterrifik' ]
+[ '0035808', 'Revision' ]
+[ '0035813', 'MagicAble' ]
+[ '0035814', 'Arisa - 8 bit android' ]
+[ '0035815', 'BlockZ' ]
+[ '0035816', 'Corey Coolbrew' ]
+[ '0035971', 'Timeworks memoboard' ]
+[ '0035972', 'Check book balancer' ]
+[ '0035973', 'Recipe recorder' ]
+[ '0035974', 'Mini money manager' ]
+[ '0035975', 'Homework Helper' ]
+[ '0036061', 'Rat-A-Tat' ]
+[ '0036064', 'H7N9' ]
+[ '0036066', 'Cocoa and the Time Machine' ]
+[ '0036121', 'Morse Tutor' ]
+[ '0036137', 'ACNews issue 73' ]
+[ '0036139', 'Jetpack Jock' ]
+[ '0036141', 'Last Night in the Office' ]
+[ '0036142', 'Rite of the Druid' ]
+[ '0036146', 'One Last Thing' ]
+[ '0036251', 'Patrick Paddle' ]
+[ '0036252', "Road Trippin'" ]
+[ '0036255', 'Totip' ]
+[ '0036376', 'Last Train to Tranz-Central' ]
+[ '0036381', 'Alien Girl' ]
+[ '0036389', 'AtomiCat' ]
+[ '0036391', 'El Mandarino' ]
+[ '0036412', 'Corso di L/M parte 6' ]
+[ '0036416', "Jerry's Endless Travels: Save Erick" ]
+[ '0036417', 'LASERBIRDS' ]
+[ '0036418', 'A Cursed Skull' ]
+[ '0036419', 'Crap Dice 3' ]
+[ '0036420', 'Por 1000 Dólares' ]
+[ '0036426', 'Flappy Clive' ]
+[ '0036438', 'Spikie Goes Skiing' ]
+[ '0036440', 'Galaxy of Error' ]
+[ '0036441', 'The Hollow Earth Hypothesis' ]
+[ '0036442', 'BaSoko' ]
+[ '0036443', 'Next Shift' ]
+[ '1000014', 'AMX Mouse' ]
+[ '1000063', 'Cheetah Sweet Talker' ]
+[ '1000093', 'Datel Inter Printer' ]
+[ '1000110', 'Defender Light Gun' ]
+[ '1000124', "DK'Tronics Light Pen" ]
+[ '1000125', "DK'Tronics Parallel Centronics Interface" ]
+[ '1000126', "DK'Tronics Programmable Joystick Interface" ]
+[ '1000174', 'Grafpad' ]
+[ '1000180', 'Hilderbay Interface' ]
+[ '1000233', 'Logitek Floppy/Printer Interface' ]
+[ '1000237', 'Magnum Light Phaser' ]
+[ '1000333', 'RD Digital Tracer' ]
+[ '1000344', 'Ricoll RISG Sound Generator' ]
+[ '1000394', 'Spirit Steering Wheel' ]
+[ '1000954', 'JoyTape Player' ]
+[ '1001062', 'ZX-Spectrum Vega' ]
+[ '2000172', 'The Fourth Protocol: Playing the Game' ]
+[ '2000371', 'Spectrum Shadow ROM Disassembly' ]
+[ '2000442', 'Microdrive and Interface 1 Manual' ]
+[ '2000473', "Spectrum Game Writers' Pack" ]
+[ '2000533', 'Computer Gamesmanship' ]
+[ '2000804', 'Namesakes' ]
+[ '2000844', 'SP7 Companion Book Volume 1' ]
+[ '2001354', 'PCW Games Collection for the Spectrum' ]
+[ '2001371', 'RUN: Enciclopedia Practica del Spectrum' ]
+[ '2001415', 'The Book of Shadows' ]
+[
+  '2001504',
+  'Code, mixing: A corpus-based investigation of ELF and netspeak features in European demoscene texts'
+]
+[ '2001509', 'Spectrum Jatekok' ]
+[ '4000010', 'Byte Power issue 1988-02' ]
+[ '4000117', 'ColorTILE' ]
+===============================================================
