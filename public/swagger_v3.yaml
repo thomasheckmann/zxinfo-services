@@ -1,0 +1,87 @@
+swagger: "2.0"
+info:
+  version: "3.0.0"
+  title: ZXInfo API - !!! WIP !!!
+  description: |
+    Welcome to the world's (probaly) greatest Sinclair API!.
+
+    This ZXDB based API is a tool to help developers everywhere create amazing and incredible web sites and apps using data from the 40-plus years area of Sinclair home computers (and clones).
+
+    **Ready** to get started?
+
+    This is the short version of what you need to do:
+    * Be a good API citizen, read and understand how to use the API
+    * Keep in touch: tell us about what you're building and talk to other developers
+    * Build cool stuff
+
+    The ZXInfo API is also the backend for the web site https://zxinfo.dk
+
+    Remember that the ZXInfo API suite and portal is an evolving project, developed by dedicated people in their spare time. To the extent that it is possible, we will try to limit any modifications which cause backwards incompatible changes to applications.
+
+    Most communication will occur on the community forum on https://spectrumcomputing.co.uk/forums/
+
+    **KNOWN CLIENTS using ZXInfo API**
+
+    If you want to check out how the ZXInfo API is being used, please checkout the following:
+
+    * Web site https://zxinfo.dk - a modern full featured web site build using Vue.js and Vuetify.
+    * WoSC https://worldofspectrum.net - WoSC (WOS Classic) is the spiritual successor to the legendary World Of Spectrum site.
+    * Android [Zx App](https://play.google.com/store/apps/details?id=com.bricboys.zxapp) - ZX Spectrum stuff search engine
+    * SpeccyBot https://github.com/druellan/speccybot - an interactive chat bot for Telegram that allows searching online for Spectrum related information.
+    * Emulator [ZEsarUX](https://github.com/chernandezba/zesarux) - ZX Second-Emulator And Released for UniX.
+    * ZXInfoTV [AppleTV](https://github.com/thomasheckmann/zxinfo-tv) - a video focused experiece for your AppleTV
+
+    **ZXDB update 15.10.2020**
+
+    changelog:
+
+  contact:
+    name: ZXInfo API development
+    email: zxinfo_dev@kolbeck.dk
+host: api.zxinfo.dk
+basePath: /v3/api/zxinfo
+tags:
+  - name: "zxinfo"
+    description: "(Almost) Everything about Sinclair-related material including software, hardware, books, magazines, etc."
+    externalDocs:
+      description: "Find out more"
+      url: "https://zxinfo.dk/v3/"
+schemes:
+  - https
+consumes:
+  - application/json
+produces:
+  - application/json
+paths:
+  /games/{game-id}:
+    get:
+      tags:
+        - "zxinfo"
+      summary: "Fetches a single entry by id"
+      description: |
+        This method fetches a single entry resource. It is the canonical URI for any entry resource provided by the API. Can be shared on e.g. facebook for a direct link to an entry
+
+      operationId: "getGameById"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "game-id"
+          in: path
+          description: An entry id (WoS compatible, e.g. 0002259), left padded with 0's if less than 7 digits.
+          type: string
+          required: true
+        - name: mode
+          in: query
+          description: Specifies if returned JSON should be 'tiny', 'compact' or 'full'
+          required: false
+          default: "compact"
+          type: string
+      responses:
+        # Response code
+        200:
+          description: OK
+        400:
+          description: Bad request. Entry id must be an integer. larger than 0 and max 7 digits.
+        404:
+          description: An entry with the specified ID was not found.
+
