@@ -39,7 +39,7 @@ info:
     name: ZXInfo API development
     email: zxinfo_dev@kolbeck.dk
 host: api.zxinfo.dk
-basePath: /v3/api/zxinfo
+basePath: /v3
 tags:
   - name: "zxinfo"
     description: "(Almost) Everything about Sinclair-related material including software, hardware, books, magazines, etc."
@@ -67,7 +67,7 @@ paths:
       parameters:
         - name: "game-id"
           in: path
-          description: An entry id (WoS compatible, e.g. 0002259), left padded with 0's if less than 7 digits.
+          description: ZXDB entry id. For WoS compatibility, e.g. 0002259, left padded with 0's if less than 7 digits.
           type: string
           required: true
         - name: mode
@@ -81,7 +81,9 @@ paths:
         200:
           description: OK
         400:
-          description: Bad request. Entry id must be an integer. larger than 0 and max 7 digits.
+          description: Bad request. Entry id must be an integer. Number of digits between 1 and 7.
         404:
           description: An entry with the specified ID was not found.
+        500:
+          description: Something went wrong.
 
