@@ -43,7 +43,7 @@
     "serve-favicon": "^2.5.0"
   },
   "devDependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "debug": "^4.1.1",
     "elasticsearch": "^15.5.0",
     "nodemon": "^2.0.4"
