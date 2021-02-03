@@ -1,5 +1,5 @@
-# NO LONGER MAINTAINED - REPLACED BY NEW API - see zxinfo-api-v3 repository
-#
+# NO LONGER MAINTAINED - REPLACED BY NEW API
+## see zxinfo-api-v3 repository- https://github.com/thomasheckmann/zxinfo-api-v3
 # zxinfo-services
 This is the backend part for the web app zxinfo-app.
 
